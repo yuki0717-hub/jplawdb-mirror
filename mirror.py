@@ -28,6 +28,7 @@ import yaml
 
 SOURCE_PREFIX = "https://jplawdb.github.io/html-preview"
 TEXT_EXTENSIONS = {".txt", ".json", ".html", ".tsv"}
+ARTICLE_ID_PATTERN = re.compile(r"^\d+(?:-\d+)*$")
 
 
 @dataclass(slots=True)
@@ -114,13 +115,15 @@ async def fetch_bytes(
     for attempt in range(config.max_retries + 1):
         try:
             await scheduler.wait_turn()
-            async with session.get(url, timeout=config.timeout_sec) as resp:
+            async with session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as resp:
                 status = resp.status
                 if status == 404 and allow_404:
+                    logging.warning("HTTP 404 (skip): %s", url)
                     return status, None
                 if 200 <= status < 300:
                     return status, await resp.read()
                 if status == 404:
+                    logging.warning("HTTP 404 (skip): %s", url)
                     return status, None
                 if status < 500 or attempt == config.max_retries:
                     logging.error("HTTP %s for %s", status, url)
@@ -188,6 +191,48 @@ def extract_item_ids(items: Any) -> list[str]:
     return ids
 
 
+def _append_candidate_id(ids: set[str], value: Any) -> None:
+    if isinstance(value, (int, float)):
+        value = str(value)
+    if isinstance(value, str):
+        candidate = value.strip()
+        if candidate and ARTICLE_ID_PATTERN.match(candidate):
+            ids.add(candidate)
+
+
+def extract_article_ids(bucket_obj: Any) -> list[str]:
+    """Extract article-like IDs from various bucket JSON layouts."""
+    ids: set[str] = set()
+
+    def visit(node: Any) -> None:
+        if isinstance(node, list):
+            for child in node:
+                visit(child)
+            return
+
+        if not isinstance(node, dict):
+            return
+
+        for key, value in node.items():
+            _append_candidate_id(ids, key)
+            if isinstance(value, dict):
+                for article_key in ("article", "article_id", "id", "no", "item_id", "item"):
+                    _append_candidate_id(ids, value.get(article_key))
+            elif isinstance(value, list):
+                for item in value:
+                    if isinstance(item, dict):
+                        for article_key in ("article", "article_id", "id", "no", "item_id", "item"):
+                            _append_candidate_id(ids, item.get(article_key))
+                    else:
+                        _append_candidate_id(ids, item)
+            else:
+                _append_candidate_id(ids, value)
+            visit(value)
+
+    visit(bucket_obj)
+    return sorted(ids)
+
+
 async def phase_a_collect(ctx: MirrorContext, session: aiohttp.ClientSession, scheduler: RequestScheduler) -> None:
     """Phase A: gather all target URLs from metadata APIs/files."""
     await collect_a1_ai_law_db(ctx, session, scheduler)
@@ -215,27 +260,23 @@ async def collect_a1_ai_law_db(ctx: MirrorContext, session: aiohttp.ClientSessio
     if not isinstance(laws, dict):
         return
 
-    for law_code, bucket_url_val in laws.items():
-        if not isinstance(law_code, str) or not isinstance(bucket_url_val, str):
+    for law_code, law_info in laws.items():
+        if not isinstance(law_code, str):
+            continue
+        bucket_url_val = None
+        if isinstance(law_info, str):
+            bucket_url_val = law_info
+        elif isinstance(law_info, dict):
+            for key in ("bucket_index_url", "bucket_url", "url"):
+                if isinstance(law_info.get(key), str):
+                    bucket_url_val = law_info[key]
+                    break
+        if not isinstance(bucket_url_val, str):
             continue
         bucket_url = ctx.add_maybe_url(index_url, bucket_url_val)
         _, bucket_data = await fetch_bytes(session, scheduler, bucket_url, ctx.config, allow_404=True)
         bucket_obj = parse_json_bytes(bucket_data, bucket_url)
-        buckets = bucket_obj.get("buckets") if isinstance(bucket_obj, dict) else None
-        article_ids: set[str] = set()
-        if isinstance(buckets, dict):
-            article_ids.update(str(k) for k in buckets.keys())
-        elif isinstance(buckets, list):
-            for item in buckets:
-                if isinstance(item, str):
-                    article_ids.add(item)
-                elif isinstance(item, dict):
-                    for key in ("article", "article_id", "id", "no"):
-                        val = item.get(key)
-                        if val is not None:
-                            article_ids.add(str(val))
-                            break
-        for article in article_ids:
+        for article in extract_article_ids(bucket_obj):
             ctx.add_relative(f"{base}/text/{law_code}/{article}.txt")
             ctx.add_relative(f"{base}/enhanced/{law_code}/{article}.html")
 
@@ -253,7 +294,12 @@ async def collect_a2_ai_tsutatsu_db(ctx: MirrorContext, session: aiohttp.ClientS
     if not isinstance(obj, dict):
         return
 
-    doc_codes = sorted({str(v) for v in obj.values() if isinstance(v, str) and v})
+    aliases = obj.get("aliases") if isinstance(obj, dict) else None
+    if isinstance(aliases, dict):
+        values = aliases.values()
+    else:
+        values = obj.values()
+    doc_codes = sorted({str(v) for v in values if isinstance(v, str) and v})
     for doc_code in doc_codes:
         resolve_rel = f"{base}/data/resolve_lite/{doc_code}.json"
         ctx.add_relative(resolve_rel)
@@ -332,8 +378,18 @@ async def collect_a5_ai_nta_qa_db(ctx: MirrorContext, session: aiohttp.ClientSes
     idx_obj = parse_json_bytes(idx_data, idx_url)
     docs = idx_obj.get("docs") if isinstance(idx_obj, dict) else None
     if isinstance(docs, dict):
-        for doc_code, resolve_url_val in docs.items():
-            if not isinstance(doc_code, str) or not isinstance(resolve_url_val, str):
+        for doc_code, doc_meta in docs.items():
+            if not isinstance(doc_code, str):
+                continue
+            resolve_url_val = None
+            if isinstance(doc_meta, str):
+                resolve_url_val = doc_meta
+            elif isinstance(doc_meta, dict):
+                for key in ("resolve_lite_url", "url"):
+                    if isinstance(doc_meta.get(key), str):
+                        resolve_url_val = doc_meta[key]
+                        break
+            if not isinstance(resolve_url_val, str):
                 continue
             resolve_url = ctx.add_maybe_url(idx_url, resolve_url_val)
             _, resolve_data = await fetch_bytes(session, scheduler, resolve_url, ctx.config, allow_404=True)
@@ -341,7 +397,6 @@ async def collect_a5_ai_nta_qa_db(ctx: MirrorContext, session: aiohttp.ClientSes
             items = resolve_obj.get("items") if isinstance(resolve_obj, dict) else None
             for item_id in extract_item_ids(items):
                 ctx.add_relative(f"{base}/text/{doc_code}/{item_id}.txt")
-                ctx.add_relative(f"{base}/enhanced/{doc_code}/{item_id}.html")
 
     await add_shards_and_optional_packs(ctx, session, scheduler, f"{base}/data/shards_index.json")
 
@@ -371,7 +426,6 @@ async def collect_a6_ai_nta_guide_db(ctx: MirrorContext, session: aiohttp.Client
         items = resolve_obj.get("items") if isinstance(resolve_obj, dict) else None
         for item_id in extract_item_ids(items):
             ctx.add_relative(f"{base}/text/{doc_code}/{item_id}.txt")
-            ctx.add_relative(f"{base}/enhanced/{doc_code}/{item_id}.html")
 
 
 async def collect_a7_ai_paper_db(ctx: MirrorContext, session: aiohttp.ClientSession, scheduler: RequestScheduler) -> None:

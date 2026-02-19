@@ -175,19 +175,42 @@ def iter_strings(obj: Any) -> list[str]:
 def extract_item_ids(items: Any) -> list[str]:
     """Extract item IDs from resolve_lite items structures."""
     ids: list[str] = []
+    seen: set[str] = set()
+
+    def add_item_id(value: Any) -> None:
+        if isinstance(value, (int, float)):
+            value = str(value)
+        if isinstance(value, str):
+            candidate = value.strip()
+            if candidate and candidate not in seen:
+                seen.add(candidate)
+                ids.append(candidate)
+
     if not isinstance(items, list):
         return ids
+
     for item in items:
-        if isinstance(item, str):
-            ids.append(item)
+        if isinstance(item, (str, int, float)):
+            add_item_id(item)
             continue
         if not isinstance(item, dict):
             continue
+
+        found = False
         for key in ("item_id", "id", "itemCode", "code"):
             value = item.get(key)
-            if isinstance(value, str) and value:
-                ids.append(value)
+            if value is not None:
+                add_item_id(value)
+                found = True
                 break
+
+        if found:
+            continue
+
+        nested = item.get("item")
+        if isinstance(nested, dict):
+            add_item_id(nested.get("item_id"))
+
     return ids
 
 
@@ -407,25 +430,38 @@ async def collect_a6_ai_nta_guide_db(ctx: MirrorContext, session: aiohttp.Client
     ctx.add_relative(idx_rel)
     ctx.add_relative(f"{base}/quickstart.txt")
 
-    idx_url = ctx.path_to_url(idx_rel)
-    _, idx_data = await fetch_bytes(session, scheduler, idx_url, ctx.config, allow_404=True)
+    idx_url = "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-guide-db/data/resolve_lite/index.json"
+    status, idx_data = await fetch_bytes(session, scheduler, idx_url, ctx.config, allow_404=True)
+    if status == 404:
+        idx_url = ctx.path_to_url(idx_rel)
+        _, idx_data = await fetch_bytes(session, scheduler, idx_url, ctx.config, allow_404=True)
+
     idx_obj = parse_json_bytes(idx_data, idx_url)
     docs = idx_obj.get("docs") if isinstance(idx_obj, dict) else None
     if not isinstance(docs, list):
         return
+
     for doc in docs:
-        if not isinstance(doc, dict):
+        try:
+            if not isinstance(doc, dict):
+                continue
+
+            doc_code = doc.get("doc_code")
+            resolve_url_val = doc.get("url")
+            if not isinstance(doc_code, str) or not isinstance(resolve_url_val, str):
+                continue
+
+            resolve_url = ctx.add_maybe_url(idx_url, resolve_url_val)
+            _, resolve_data = await fetch_bytes(session, scheduler, resolve_url, ctx.config, allow_404=True)
+            resolve_obj = parse_json_bytes(resolve_data, resolve_url)
+            items = resolve_obj.get("items") if isinstance(resolve_obj, dict) else None
+
+            for item_id in extract_item_ids(items):
+                ctx.add_relative(f"{base}/text/{doc_code}/{item_id}.txt")
+                ctx.add_relative(f"{base}/enhanced/{doc_code}/{item_id}.html")
+        except Exception as exc:  # noqa: BLE001
+            logging.warning("Failed to process ai-nta-guide metadata entry %r: %s", doc, exc)
             continue
-        doc_code = doc.get("doc_code")
-        resolve_url_val = doc.get("url")
-        if not isinstance(doc_code, str) or not isinstance(resolve_url_val, str):
-            continue
-        resolve_url = ctx.add_maybe_url(idx_url, resolve_url_val)
-        _, resolve_data = await fetch_bytes(session, scheduler, resolve_url, ctx.config, allow_404=True)
-        resolve_obj = parse_json_bytes(resolve_data, resolve_url)
-        items = resolve_obj.get("items") if isinstance(resolve_obj, dict) else None
-        for item_id in extract_item_ids(items):
-            ctx.add_relative(f"{base}/text/{doc_code}/{item_id}.txt")
 
 
 async def collect_a7_ai_paper_db(ctx: MirrorContext, session: aiohttp.ClientSession, scheduler: RequestScheduler) -> None:

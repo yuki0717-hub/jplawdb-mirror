@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771492711,
+  "generated_at": 1771499079,
   "files": [
     {
       "path": ".nojekyll",
@@ -5582,69 +5582,9 @@
       "sha256": "db1a1950860135aa70a5b40529bdc7af8d49f1e5692966f53026dd523eca0b0a"
     },
     {
-      "path": "ai-nta-guide-db/data/resolve_lite/etax_tetsuzuki6.json",
-      "size": 422,
-      "sha256": "3f38146c6c12fedc09f329a7d936c67e957cb5609d6b73f49fbc1f3a5fc87236"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/gensen_aramashi_2026.json",
-      "size": 1528,
-      "sha256": "2ac7ccd6c1c5146b57232344fcae0f18043eacd960c3d0b64f5677ad67b6bcf2"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/gensen_shikata_2026.json",
-      "size": 967,
-      "sha256": "c5c527bafd0a44d45ba4b94c4fe2cd62603e8d7a120975056b04e7a9d5870ab3"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hojin_aramashi_2025.json",
-      "size": 1263,
-      "sha256": "3a874237e6624084c8ee9fe4d8221e52537e5253b3b5f61e0bd5b4aa8b9708ec"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hojin_kaisei_gaiyo_2025.json",
-      "size": 454,
-      "sha256": "4b9631d5136f24c70e08a819897d4fa233a6f8038e2636df6af281900ede8fa2"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hojin_shinkoku_besshyo.json",
-      "size": 445,
-      "sha256": "3bf6901b159964875b7a0437d3d98d8ada8cc496b3abbaed54bc747fd298c6e2"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hojin_shohi_kakikata_ippan.json",
-      "size": 490,
-      "sha256": "d91505c9e73126e186078b32aaa9a352c436a4564c50c91746b0d8019efef707"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hojin_shohi_kakikata_kani.json",
-      "size": 493,
-      "sha256": "3b1577a82bf09a04a5e1a5396e47314f5435cfa2f122b7d7aaac1f20fb5dfbbf"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/hotei_tebiki_2025.json",
-      "size": 694,
-      "sha256": "b0c01843a62a91667ce3386cf80122f48edc8779052a5c25890c634881dfa0b5"
-    },
-    {
       "path": "ai-nta-guide-db/data/resolve_lite/index.json",
       "size": 3095,
       "sha256": "10928901432cdb6db40b62d0ab1314cabf8174cece0467a83950037d54ffcce9"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/inshi_tebiki_2025.json",
-      "size": 416,
-      "sha256": "ea71e2a57263fbdcf03f6ed1b9a8a11daa6a96a7d4497263a8cafe6b43ae410b"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/invoice_oshirase_2025.json",
-      "size": 445,
-      "sha256": "8a9b69bf59936e82053d9b44f75825dafeab5dbb2bfb8948125c269ce031f9b8"
-    },
-    {
-      "path": "ai-nta-guide-db/data/resolve_lite/nencho_shikata_2025.json",
-      "size": 2636,
-      "sha256": "f03318754ef716a3ae6991d7bb9ee090d8250f2968ff9771f1137485c0103c2b"
     },
     {
       "path": "ai-nta-guide-db/quickstart.txt",
@@ -65608,8 +65548,8 @@
     },
     {
       "path": "download_log.tsv",
-      "size": 2286450,
-      "sha256": "7c4878eb719b4098ddcfbf72a6e73a6a65cea138245cf038fc725f50185b420c"
+      "size": 2284269,
+      "sha256": "6d7d6267dd9420ea562186339594d7512002721f357c13cabc3c66de125846ff"
     },
     {
       "path": "index.html",

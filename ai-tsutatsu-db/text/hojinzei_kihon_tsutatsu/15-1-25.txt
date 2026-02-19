@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−25 / id: 15-1-25 / title: 運送業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_09.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-25.html
+
+[p1] 令第5条第1項第8号《運送業》の運送業には、リフト、ロープウェイ等の索道事業が含まれるが、自動車道事業、運河業及び桟橋業はこれに含まれない。（昭56年直法2−16「七」により追加）
+[p2] 第10款 倉庫業
+[p3] 第10款 倉庫業

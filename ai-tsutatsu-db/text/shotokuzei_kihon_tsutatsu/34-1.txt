@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 34−1 / id: 34-1 / title: 一時所得の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/08.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/34-1.html
+
+[p1] 次に掲げるようなものに係る所得は、一時所得に該当する。（昭49直所2−23、昭55直所3−19、直法6−8、平11課所4−1、平17課個2−23、課資3−5、課法8−6、課審4−113、平18課個2−18、課資3−10、課審4−114、平23課個2−33、課法9−9、課審4−46、平27課個2−8、課審5−9、平30課個2−17、課審5−1改正）

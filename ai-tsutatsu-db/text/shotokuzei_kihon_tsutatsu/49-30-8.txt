@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の8 / id: 49-30-8 / title: 相当短いものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-8.html
+
+[p1] 令第120条の2第2項第5号ニに規定する「相当短いもの」とは、リース期間が当該リース資産について定められている耐用年数の100分の70(耐用年数が10年以上のリース資産については、100分の60)に相当する年数(１年未満の端数がある場合には、その端数を切り捨てる。)を下回る期間であるものとする。（平19課個2−31、課審4−44追加）

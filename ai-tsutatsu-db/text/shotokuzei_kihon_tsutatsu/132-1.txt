@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 132−1 / id: 132-1 / title: 延払条件付譲渡に係る譲渡に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm#a-01
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/132-1.html
+
+[p1] 法第132条第3項に規定する譲渡には、令第79条《資産の譲渡とみなされる行為》に規定する行為が含まれるものとする。
+[p2] 法第140条《純損失の繰戻しによる還付の請求》及び第141条《相続人等の純損失の繰戻しによる還付の請求》関係

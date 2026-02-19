@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−37 / id: 161-37 / title: 使用料に含まれないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/04.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-37.html
+
+[p1] 工業所有権等又は著作権の提供契約に基づき支払を受けるもののうち次に掲げる費用又は代金で、当該契約の目的である工業所有権等又は著作権の使用料として支払を受ける金額と明確に区分されているものは、161−35及び161−36にかかわらず、法第161条第１項第11号イ又はロに掲げる使用料に該当しないものとする（平28課2−4、課法11−8、課審5−5改正）。

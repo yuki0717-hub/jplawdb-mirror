@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−9 / id: 15-1-9 / title: 物品販売業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_02.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-9.html
+
+[p1] 令第5条第1項第1号《物品販売業》の物品販売業には、公益法人等が自己の栽培、採取、捕獲、飼育、繁殖、養殖その他これらに類する行為（以下15−1−22において「栽培等」という。）により取得した農産物等（農産物、畜産物、林産物又は水産物をいう。以下15−1−27までにおいて同じ。）をそのまま又は加工を加えた上で直接不特定又は多数の者に販売する行為が含まれるが、当該農産物等（出荷のために最小限必要とされる簡易な加工を加えたものを含む。）を特定の集荷業者等に売り渡すだけの行為は、これに該当しない。（昭56年直法2−16「七」、平24年課法2−17「六」により改正）

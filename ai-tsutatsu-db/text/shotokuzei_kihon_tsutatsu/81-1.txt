@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 81−1 / id: 81-1 / title: 配偶者控除を受ける場合のひとり親控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm#a-01
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/81-1.html
+
+[p1] 年の中途において夫又は妻と死別した妻又は夫でその年においてひとり親に該当するものについては、たとえその者が死別した夫又は妻につき配偶者控除の規定の適用を受ける場合であっても、ひとり親控除の規定の適用があることに留意する。（令2課個2-12、課法11-3、課審5-6追加）
+[p2] 法第83条から第84条まで（配偶者控除、配偶者特別控除及び扶養控除）関係

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−46 / id: 3-46 / title: 契約に基づかない定期金に関する権利
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-46.html
+
+[p1] 法第3条第1項第6号に規定する「定期金に関する権利で契約に基づくもの以外のもの」には、3―29の定めに該当する退職年金の継続受取人が取得する当該年金の受給に関する権利のほか、船員保険法の規定による遺族年金、厚生年金保険法（昭和29年法律第115号）の規定による遺族年金等があるのであるが、これらの法律による遺族年金等については、それぞれそれらの法律に非課税規定が設けられているので、相続税は課税されないことに留意する。（昭50直資2−257、昭57直資2−177、平元直資2−207、平27課資2−9改正）

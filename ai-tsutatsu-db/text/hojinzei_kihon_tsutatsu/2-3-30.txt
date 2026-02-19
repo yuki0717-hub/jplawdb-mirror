@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−30 / id: 2-3-30 / title: 取引所売買有価証券の気配相場
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_05.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-30.html
+
+[p1] 令第119条の13第1項第1号《取引所売買有価証券の時価評価金額》に規定する「取引所売買有価証券」の同号に規定する「最終の気配相場の価格」は、その日における最終の売り気配と買い気配の仲値とする。ただし、当該売り気配又は買い気配のいずれか一方のみが公表されている場合には、当該公表されている最終の売り気配又は買い気配とする。（平12年課法2−7「四」により追加、平15年課法2−7「八」、平19年課法2−3「十」、平22年課法2−1「九」、令2年課法2−17「三」により改正）

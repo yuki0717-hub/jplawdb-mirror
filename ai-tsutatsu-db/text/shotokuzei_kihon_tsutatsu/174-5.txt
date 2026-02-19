@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 174−5 / id: 174-5 / title: 一時払に準ずる払込方法の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/26/01.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/174-5.html
+
+[p1] 令第298条第5項に規定する「その一部をこれらの方法に準じて前納したとき」に当たるかどうかは、次の算式により求めた保険料又は掛金（以下この項及び174−8において「保険料等」という。）の割合が、保険期間又は共済期間（以下この項及び174−6において「保険期間等」という。）の初日から1年以内については2分の1以上、同日から2年以内については4分の3以上であるかどうかにより判定するものとする。（昭63直法6−7、直所3−8追加）

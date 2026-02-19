@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の15-2 / id: 21-15-2 / title: 相続時精算課税の適用を受ける財産の価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-15-2.html
+
+[p1] 法第21条の15第1項に規定する「第21条の９第３項の規定の適用を受けるものの価額」は、相続開始時における当該財産の状態にかかわらず、当該財産に係る贈与の時における価額となり、法第21条の15第１項の規定により相続税の課税価格に加算される金額は、法第21条の９第３項の規定の適用を受けるものの価額の合計額から相続時精算課税に係る基礎控除をした残額となることに留意する。（平15課資2-1追加、令５課資２−21改正）

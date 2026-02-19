@@ -1,0 +1,74 @@
+# AI向けクイックスタート（最短で条文/通達本文を取る）
+#
+# 方針:
+# - 条番号が分かるなら、このDBは「本文取得」にだけ使う（最短で直叩き）
+# - 条番号が分からない場合は、先に条番号（例: 66-7 / 39-14）を特定してから (1) へ
+#
+# 1) 本文（最短）
+#   https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/text/{law_code}/{article}.txt
+#
+# 例:
+# - 措置法66条の7 → .../text/sozei_tokubetsu/66-7.txt
+# - 措置令39条の14 → .../text/sozei_tokubetsu_seirei/39-14.txt
+# - 会社法2条 → .../text/kaishahou/2.txt
+#
+# 表記:
+# - 「第66条の7」→ "66-7"（「の」= "-"）
+# - 「第39条の十四」→ "39-14"
+#
+# 2) law_code（これだけ覚えればOK）
+# - hojinzei : 法人税法
+# - hojinzei_seirei : 法人税法施行令
+# - hojinzei_kisoku : 法人税法施行規則
+# - shotokuzei : 所得税法
+# - shotokuzei_seirei : 所得税法施行令
+# - shotokuzei_kisoku : 所得税法施行規則
+# - shohizei : 消費税法
+# - shohizei_seirei : 消費税法施行令
+# - shohizei_kisoku : 消費税法施行規則
+# - sozokuzei : 相続税法
+# - sozokuzei_seirei : 相続税法施行令
+# - sozokuzei_kisoku : 相続税法施行規則
+# - kokuzei_tsusoku : 国税通則法
+# - kokuzei_tsusoku_seirei : 国税通則法施行令
+# - kokuzei_tsusoku_kisoku : 国税通則法施行規則
+# - sozei_tokubetsu : 租税特別措置法（措置法）
+# - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置令）
+# - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置規則）
+# - kaishahou : 会社法
+# - kaishahou_seirei : 会社法施行令
+# - kaishahou_kisoku : 会社法施行規則
+# - shouhou : 商法
+# - shouhou_sekouhou : 商法施行法
+# - shouhou_kisoku : 商法施行規則
+#
+# 3) 根拠リンクが必要なときだけ（任意）
+#   https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/{law_code}/{article}.html
+#   - 項: #p2 / 号: #p2-i1
+
+#
+# --- 通達（ai-tsutatsu-db）---
+#
+# 4) 本文（最短）
+#   https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/{doc_code}/{item_id}.txt
+#
+# 例:
+# - 法人税基本通達 1-1-1 → .../ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/1-1-1.txt
+# - 措置法通達（法人税編）66-7 → .../ai-tsutatsu-db/text/sozei_tokubetsu_tsutatsu_hojinzei/66-7.txt
+#
+# doc_code（通達）
+# - hojinzei_kihon_tsutatsu : 法人税基本通達
+# - shotokuzei_kihon_tsutatsu : 所得税基本通達
+# - shohizei_kihon_tsutatsu : 消費税基本通達
+# - sozokuzei_kihon_tsutatsu : 相続税法基本通達
+# - sozei_tokubetsu_tsutatsu_hojinzei : 租税特別措置法関係通達（法人税編）
+# - kokuzei_tsusoku_kihon_tsutatsu : 国税通則法基本通達
+#
+# 注意:
+# - item_id の区切りは半角ハイフン「-」固定（"−" / "－" 等は「-」に正規化）
+# - "_" や "common" を含む item_id もあるため、迷うときは一覧で確認:
+#   https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/data/resolve_lite/{doc_code}.json
+#
+# 5) 根拠リンクが必要なときだけ（任意）
+#   https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/{doc_code}/{item_id}.html
+#   - 段落: #p1（例: #p2）

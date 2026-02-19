@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の9-3 / id: 57-9-3 / title: 適用事業区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_10.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-9-3.html
+
+[p1] 法人の営む事業が措置法令第33条の7第4項に掲げる事業のうちいずれの事業に該当するかは、別に定めるものを除き、おおむね日本標準産業分類（総務省）の分類を基準として判定する。（平10年課法2-7「三」により追加、平12年課法1-49、平19年課法2-3「三十四」、平25年課法2-4「十八」、平26年課法2-6「二十七」により改正）

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 122−1 / id: 122-1 / title: 還付等を受けるための申告書に係る更正の請求
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm#a-01
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/122-1.html
+
+[p1] 法第122条に規定する申告書についても、通則法第23条《更正の請求》の規定の適用があることに留意する。この場合において、同条第1項に規定する「当該申告書に係る国税の法定申告期限」とあるのは、「当該申告書を提出した日」と読み替えるものとする。
+[p2] 法第124条《確定申告書を提出すべき者等が死亡した場合の確定申告》及び
+[p3] 第125条《年の中途で死亡した場合の確定申告》関係

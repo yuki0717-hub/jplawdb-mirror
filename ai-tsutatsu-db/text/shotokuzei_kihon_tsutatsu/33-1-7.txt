@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-1の7 / id: 33-1-7 / title: 共有地の分割
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-1-7.html
+
+[p1] 個人が他の者と土地を共有している場合において、その共有に係る一の土地についてその持分に応ずる現物分割があったときには、その分割による土地の譲渡はなかったものとして取り扱う。（昭56直資3-2、直所3-3追加、令元課資3-3、課個2-20、課法11-5、課審7-3改正）

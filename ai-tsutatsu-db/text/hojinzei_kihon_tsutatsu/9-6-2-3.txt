@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−6の2−3 / id: 9-6-2-3 / title: 負担金の損金算入時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_2.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-2-3.html
+
+[p1] 法人が令第136条《特定の損失等に充てるための負担金の損金算入》に規定する負担金を支出した場合における当該負担金の損金算入時期は、当該法人が当該負担金を現実に支払った日(国税庁長官の指定前に支払ったものについては、その指定のあった日)の属する事業年度となることに留意する。(昭50年直法2−21「26」により追加)

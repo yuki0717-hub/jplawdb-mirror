@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 27−4 / id: 27-4 / title: 「相続の開始があったことを知った日」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/27-4.html
+
+[p1] 法第27条第1項及び第2項に規定する「相続の開始があったことを知った日」とは、自己のために相続の開始があったことを知った日をいうのであるが、例えば、次に掲げる者については、次に掲げる日をいうものとして取り扱うものとする。
+[p2] なお、当該相続に係る被相続人を特定贈与者とする相続時精算課税適用者に係る「相続の開始があつたことを知つた日」とは、次に掲げる日にかかわらず、当該特定贈与者が死亡したこと又は当該特定贈与者について民法第30条((失踪の宣告))の規定による失踪の宣告に関する審判の確定のあったことを知った日となるのであるから留意する。

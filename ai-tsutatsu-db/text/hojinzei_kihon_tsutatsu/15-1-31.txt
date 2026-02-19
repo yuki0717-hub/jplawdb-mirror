@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−31 / id: 15-1-31 / title: 出版業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-31.html
+
+[p1] 令第5条第1項第12号《出版業》の出版業には、各種の名簿、統計数値、企業財務に関する情報等を印刷物等として刷成し、これを販売する事業が含まれる。(昭56年直法2−16「七」により追加)

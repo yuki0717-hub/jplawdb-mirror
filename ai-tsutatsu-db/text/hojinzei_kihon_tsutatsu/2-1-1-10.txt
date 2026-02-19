@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−1の10 / id: 2-1-1-10 / title: 資産の引渡しの時の価額等の通則
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-1-10.html
+
+[p1] 法第22条の2第4項《収益の額》の「その販売若しくは譲渡をした資産の引渡しの時における価額又はその提供をした役務につき通常得べき対価の額に相当する金額」（以下2−1−1の11までにおいて「引渡し時の価額等」という。）とは、原則として資産の販売等につき第三者間で取引されたとした場合に通常付される価額をいう。なお、資産の販売等に係る目的物の引渡し又は役務の提供の日の属する事業年度終了の日までにその対価の額が合意されていない場合は、同日の現況により引渡し時の価額等を適正に見積もるものとする。（平30年課法2−8「二」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−15 / id: 2-15 / title: 貴金属の素材の価額が大部分を占める固定資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-15.html
+
+[p1] ガラス繊維製造用の白金製溶解炉、光学ガラス製造用の白金製るつぼ、か性カリ製造用の銀製なべのように、素材となる貴金属の価額が取得価額の大部分を占め、かつ、一定期間使用後は素材に還元の上鋳直して再使用することを常態としているものは、減価償却資産に該当しない。（昭55直所3−19、直法6−8改正）

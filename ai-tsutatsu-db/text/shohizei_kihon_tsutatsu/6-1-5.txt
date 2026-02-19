@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−1−5 / id: 6-1-5 / title: 土地付建物等の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/01.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-1-5.html
+
+[p1] 令第8条《土地の貸付けから除外される場合》の規定により、施設の利用に伴って土地が使用される場合のその土地を使用させる行為は土地の貸付けから除かれるから、例えば、建物、野球場、プール又はテニスコート等の施設の利用が土地の使用を伴うことになるとしても、その土地の使用は、土地の貸付けに含まれないことに留意する。

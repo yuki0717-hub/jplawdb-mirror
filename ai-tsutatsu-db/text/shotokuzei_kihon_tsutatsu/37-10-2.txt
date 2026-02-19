@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−10の2 / id: 37-10-2 / title: ソフトウエアに係る資本的支出と修繕費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/07.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-10-2.html
+
+[p1] 業務の用に供しているソフトウエアにつきプログラムの修正等を行った場合において、当該修正等が、プログラムの機能上の障害の除去、現状の効用の維持等に該当するときはその修正等に要した費用は修繕費に該当し、新たな機能の追加、機能の向上等に該当するときはその修正等に要した費用は資本的支出に該当することに留意する。(平12課所4−30追加、令３課個2-10、課法11-28、課審5-4改正)

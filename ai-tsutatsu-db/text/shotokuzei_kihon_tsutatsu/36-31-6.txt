@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−31の6 / id: 36-31-6 / title: 生命保険契約に係る取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-31-6.html
+
+[p1] 36−31から36−31の5までの取扱いについては、法第76条第5項第2号に掲げる旧簡易生命保険契約及び同項第3号に掲げる生命共済契約等について準用する。(昭63直法6−7、直所3−8追加、平23課個2−33、課法9−9、課審4−46改正)

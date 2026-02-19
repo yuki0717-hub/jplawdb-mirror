@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−5 / id: 48-2-5 / title: 特定物納に係る財産の収納価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-5.html
+
+[p1] 法第48条の2第5項に規定する「申請の時の価額」とは、特定物納申請財産について、当該特定物納の申請書が提出された時の財産の状況により、財産評価基本通達を適用して求めた価額をいうのであるから留意する。
+[p2] なお、次の場合にはそれぞれに掲げる価額をもって当該財産の価額として取り扱うのであるから留意する。

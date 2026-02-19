@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の10 / id: 49-30-10 / title: 賃借人におけるリース資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-10.html
+
+[p1] 賃借人におけるリース資産の取得価額は、原則として、そのリース期間中に支払うべきリース料の額の合計額による。ただし、そのリース料の額の合計額のうち利息相当額から成る部分の金額を合理的に区分することができる場合には、当該リース料の額の合計額から当該利息相当額を控除した金額を当該リース資産の取得価額とすることができる。（平19課個2−31、課審4−44追加）

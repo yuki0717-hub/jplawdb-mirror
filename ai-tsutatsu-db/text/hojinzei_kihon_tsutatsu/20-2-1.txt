@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−1 / id: 20-2-1 / title: 恒久的施設帰属所得の認識に当たり勘案されるその他の状況
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_01.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-1.html
+
+[p1] 恒久的施設を有する外国法人の法第138条第1項第1号《恒久的施設帰属所得》に掲げる国内源泉所得（同条第3項の規定により同号に掲げる所得とされるものを除く。以下20−2−2において「恒久的施設帰属所得」という。）の認識に当たり勘案される同号に規定する「その他の状況」には、恒久的施設に帰せられるリスク及び恒久的施設に帰せられる外部取引が含まれることに留意する。（平26年課法2−9「六」により追加）

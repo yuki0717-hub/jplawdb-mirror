@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−15の3 / id: 37-15-3 / title: 損壊した賃借資産等に係る修繕費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/07.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-15-3.html
+
+[p1] 居住者が、不動産所得、事業所得又は山林所得（以下この項において「事業所得等」という。）を生ずべき事業の用に供している賃借資産等(賃借若しくは賃貸をしている又は販売をした土地、建物、機械装置等をいう。)につき、契約により修繕等を行うこととされているものでない場合においても、当該賃借資産等が災害により被害を受けたため、当該賃借資産等の原状回復を行い、その費用の額を修繕費として、事業所得等の金額の計算上必要経費に算入しているときは、これを認めるものとする。（平29課個2−13、課資3−3、課審5−5追加）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−3−8 / id: 9-3-8 / title: 契約者配当
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_03.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-3-8.html
+
+[p1] 法人が生命保険契約（適格退職年金契約に係るものを含む。）に基づいて支払を受ける契約者配当の額については、その通知（据置配当については、その積立てをした旨の通知）を受けた日の属する事業年度の益金の額に算入するのであるが、当該生命保険契約が9−3−4の(1)に定める場合に該当する場合（9−3−6の(2)により9−3−4の(1)の例による場合を含む。）には、当該契約者配当の額を資産に計上している保険料の額から控除することができるものとする。（昭55年直法2−15「十三」により改正）

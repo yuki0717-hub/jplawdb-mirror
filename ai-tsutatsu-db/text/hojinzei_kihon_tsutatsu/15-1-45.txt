@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−45 / id: 15-1-45 / title: 代理業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_19.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-45.html
+
+[p1] 令第5条第1項第18号《代理業》の代理業とは、他の者のために商行為の代理を行う事業をいい、例えば保険代理店、旅行代理店等に係る事業がこれに該当する。（昭56年直法2−16「七」により追加）
+[p2] 第20款 仲立業
+[p3] 第20款 仲立業

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−10 / id: 58-10 / title: 支払利子の区分の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-10.html
+
+[p1] 支払利子の額で鉱業に係るものの金額は、各事業年度における支払利子の額を基礎として鉱業と鉱業以外の業との収入金額、売上原価その他合理的と認められる割合により計算する。この場合において、各事業年度における支払利子の額のうちに次に掲げる金額があるときは、当該金額は支払利子の額に含めないことができるものとする。

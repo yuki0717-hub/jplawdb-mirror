@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−2−14 / id: 12-2-14 / title: 繰延資産の基因となった資産について損壊等の被害があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-14.html
+
+[p1] 12−2−6から12−2−13まで《災害損失特別勘定の設定等》は、災害により令第114条《固定資産に準ずる繰延資産》に規定する繰延資産につき、当該繰延資産に係る他の者の有する固定資産について損壊等の被害があった場合について準用する。(平29年課法2−2「三」により追加)

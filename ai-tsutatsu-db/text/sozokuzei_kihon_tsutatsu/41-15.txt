@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−15 / id: 41-15 / title: 物納劣後財産と物納に充てることができる順位が後順位である財産がある場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-15.html
+
+[p1] 法第41条第4項に規定する物納劣後財産と同条第5項に規定する物納に充てることができる順位が後順位の財産がある場合には、まず、同条第5項に掲げる順位に従って物納に充てることのできる財産を区分し、その先順位財産の中に物納劣後財産として物納に充てることができる財産がない場合には、同条第5項による次順位の財産を物納に充てることができるのであるから留意する。
+[p2] （参考）物納に充てることのできる順位は、次の
+[p3] から
+[p4] の順となる。

@@ -1,0 +1,58 @@
+# 法人税判例データベース（AI検索最適化版）
+# Japanese Corporate Tax Court Cases Database (Corporate Tax)
+
+> 日本の法人税関連判決 990件のメタデータと要約（要約未生成のものはメタデータのみ）を提供します。
+> For AI/LLM consumption - optimized for ChatGPT, Claude, etc.
+
+## Quick Start (minimal)
+
+1) Search: `data/shards_index.json`
+2) Open 1–3 shards: `data/shards/shard-XX.txt` (TSV)
+3) Read summary (canonical): `core/{id}.txt`
+
+IMPORTANT:
+- `core/{id}.txt` is the canonical per-case entrypoint.
+- Do NOT rely on `core/batch-*.txt` for navigation; batch files are internal build artifacts and may include duplicates or older versions.
+
+## Endpoints
+
+### Index (start here)
+- data/shards_index.json
+
+### Shards (TSV; ~100 cases each)
+- data/shards/shard-00.txt ... shard-09.txt
+
+### Summaries
+- core/{id}.txt
+  - If summary is not yet generated, the file contains metadata + "要約未生成".
+
+### Internal (not for navigation)
+- core/batch-*.txt
+  - Internal authoring/build artifacts. May contain duplicates or older segments.
+
+## URL Patterns
+
+| Purpose | Pattern | Example |
+|---------|---------|---------|
+| Shard Index | data/shards_index.json | data/shards_index.json |
+| Shard TSV | data/shards/shard-XX.txt | data/shards/shard-00.txt |
+| Case Summary | core/{id}.txt | core/10861.txt |
+
+## Data Format (TSV)
+
+### Shard Entry
+```
+id	date	court	title	topics	keywords	laws
+10861	2008-01-16	東京地裁	法人税	法人税	過少申告加算税,損金算入	国税通則法23条,国税通則法65条,行政事件訴訟法14条
+```
+
+### Field Notes
+- court: 略称（東京地裁、大阪高裁、最高裁等）
+- title: 簡略化（不要語を削除）
+- topics: 税目・テーマ（法人税,CFC 等）
+- keywords: 争点/論点の検索語（最大5つ）
+- laws: 出現法令（最大5つ）
+
+## Source
+Original data: ai-law-db (private repository)
+Public endpoint: https://yuki0717-hub.github.io/jplawdb-mirror/ai-hanketsu-db/houjinzei/

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−66 / id: 15-1-66 / title: 技芸教授業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_30.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-66.html
+
+[p1] 令第5条第1項第30号《技芸教授業》の「技芸の教授」には、自らは技芸の習得に関する教授を行わないで同号に規定する技芸に関する免許の付与等のみを行う行為が含まれるが、同号に規定する技芸以外の技芸に関する免許の付与等はこれに該当しないことに留意する。（昭56年直法2−16「七」により追加）

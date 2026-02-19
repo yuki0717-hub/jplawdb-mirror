@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−8−10 / id: 7-8-10 / title: 損壊した賃借資産等に係る補修費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_08.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-8-10.html
+
+[p1] 法人が賃借資産（賃借をしている土地、建物、機械装置等をいう。）につき修繕等の補修義務がない場合においても、当該賃借資産が災害により被害を受けたため、当該法人が、当該賃借資産の原状回復のための補修を行い、その補修のために要した費用を修繕費として経理したときは、これを認める。
+[p2] 法人が、修繕等の補修義務がない販売をした又は賃貸をしている資産につき補修のための費用を支出した場合においても、同様とする。（平29年課法2−2「二」により追加）

@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-38 / id: 37-38 / title: 譲渡に要した費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-38.html
+
+[p1] 法第37条第2項に規定する「譲渡に要した費用」については、33-7の取扱いに準ずる。
+[p2] 〔販売代金の額が未確定の場合の所得計算〕
+[p3] 法第36条及び第37条（収入金額及び必要経費）共通関係
+[p4] 〔販売代金の額が未確定の場合の所得計算〕

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−9 / id: 38-9 / title: 非業務用の固定資産に係る登録免許税等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-9.html
+
+[p1] 固定資産（業務の用に供されるものを除く。以下この項において同じ。）に係る登録免許税（登録に要する費用を含む。）、不動産取得税等固定資産の取得に伴い納付することとなる租税公課は、当該固定資産の取得費に算入する。（昭51直所3−1、直法6−1、直資3−1、平17課資3−7、課個2−25、課審6−13改正）

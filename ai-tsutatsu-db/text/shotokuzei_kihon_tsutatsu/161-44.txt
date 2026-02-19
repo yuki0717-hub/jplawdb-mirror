@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−44 / id: 161-44 / title: 内国法人等が運航する船舶又は航空機において行う勤務等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-44.html
+
+[p1] 令第285条第1項第2号に掲げる勤務その他の人的役務の提供に関しては、次のことに留意する。
+[p2] （1） その勤務その他の人的役務の提供は、居住者又は内国法人が主体となって行う運航及びこれに付随する業務のために行われるものであること。

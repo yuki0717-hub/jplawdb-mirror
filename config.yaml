@@ -1,5 +1,5 @@
 source_base: "https://jplawdb.github.io/html-preview"
-my_base: "https://<MY_GITHUB_USER>.github.io/jplawdb-mirror"
+my_base: "https://yuki0717-hub.github.io/jplawdb-mirror"
 output_dir: "output"
 concurrency: 10
 delay_sec: 0.3

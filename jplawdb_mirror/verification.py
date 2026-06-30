@@ -195,7 +195,9 @@ def verify_output(root: Path, config: Config) -> VerificationReport:
     except (TypeError, ValueError, RuntimeError) as exc:
         errors.append(str(exc))
 
-    checked_links = _check_html_links(root, actual, errors)
+    link_targets = dict(actual)
+    link_targets["manifest.json"] = manifest_path
+    checked_links = _check_html_links(root, link_targets, errors)
     if errors:
         preview = errors[:100]
         remainder = len(errors) - len(preview)

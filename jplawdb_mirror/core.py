@@ -881,6 +881,7 @@ def rewrite_source_urls(root: Path, config: Config) -> int:
 
 def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
     links = [
+        ("複雑な税務質問の作動テスト", "tax-question-tests/index.html"),
         ("AI向け総合案内", "llms3.txt"),
         ("AI向け詳細案内", "llms4.txt"),
         ("e-Gov公式法令（最新同期）", "egov-law-db/index.html"),
@@ -1004,6 +1005,7 @@ def atomic_publish(staging: Path, output: Path) -> None:
 
 async def build_mirror(config: Config) -> BuildResult:
     from .egov import sync_egov_laws
+    from .tax_questions import run_tax_question_tests
     from .verification import verify_output
 
     output = config.output_dir.resolve()
@@ -1023,6 +1025,13 @@ async def build_mirror(config: Config) -> BuildResult:
             await download_targets(plan, fetcher, staging)
         rewrites = rewrite_source_urls(staging, config)
         logging.info("Rewrote %s source URL occurrences", rewrites)
+        question_metrics = await asyncio.to_thread(
+            run_tax_question_tests,
+            staging,
+            config.mirror_base,
+        )
+        plan.metrics.update(question_metrics)
+        logging.info("Tax-question metrics: %s", dict(sorted(question_metrics.items())))
         generate_portal(staging, plan)
         write_download_log(staging, plan)
         manifest = generate_manifest(staging, config, plan)

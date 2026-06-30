@@ -257,6 +257,75 @@ def _check_egov_sync(
             errors.append("manifest e-Gov article count is inconsistent")
 
 
+def _check_tax_question_tests(
+    actual: dict[str, Path],
+    manifest: dict[str, Any],
+    errors: list[str],
+) -> None:
+    metrics = manifest.get("metrics")
+    if not isinstance(metrics, dict) or "tax_question_scenarios" not in metrics:
+        return
+    required = {
+        "tax-question-tests/index.html",
+        "tax-question-tests/prompts.txt",
+        "tax-question-tests/report.json",
+    }
+    errors.extend(
+        f"required tax-question test file is missing: {path}"
+        for path in sorted(required - actual.keys())
+    )
+    report_path = actual.get("tax-question-tests/report.json")
+    if report_path is None:
+        return
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"cannot read tax-question test report: {exc}")
+        return
+    if not isinstance(report, dict) or report.get("schema_version") != 1:
+        errors.append("tax-question test report schema_version must be 1")
+        return
+    if report.get("passed") is not True:
+        errors.append("tax-question tests did not pass")
+    scenarios = report.get("scenarios")
+    if not isinstance(scenarios, list):
+        errors.append("tax-question test report scenarios must be a list")
+        return
+    source_count = 0
+    ids: set[str] = set()
+    for scenario in scenarios:
+        if not isinstance(scenario, dict):
+            errors.append("tax-question test report contains a non-object scenario")
+            continue
+        scenario_id = scenario.get("id")
+        if not isinstance(scenario_id, str) or not scenario_id or scenario_id in ids:
+            errors.append(f"invalid or duplicate tax-question scenario id: {scenario_id!r}")
+        else:
+            ids.add(scenario_id)
+        if scenario.get("status") != "passed":
+            errors.append(f"tax-question scenario did not pass: {scenario_id}")
+        sources = scenario.get("sources")
+        if not isinstance(sources, list) or not sources:
+            errors.append(f"tax-question scenario has no sources: {scenario_id}")
+            continue
+        source_count += len(sources)
+        for source in sources:
+            path = source.get("path") if isinstance(source, dict) else None
+            if not isinstance(path, str) or path not in actual:
+                errors.append(
+                    f"tax-question scenario references a missing source: "
+                    f"{scenario_id} -> {path!r}"
+                )
+    if report.get("scenario_count") != len(scenarios):
+        errors.append("tax-question report scenario_count is inconsistent")
+    if report.get("source_check_count") != source_count:
+        errors.append("tax-question report source_check_count is inconsistent")
+    if metrics.get("tax_question_scenarios") != len(scenarios):
+        errors.append("manifest tax-question scenario count is inconsistent")
+    if metrics.get("tax_question_source_checks") != source_count:
+        errors.append("manifest tax-question source count is inconsistent")
+
+
 def verify_output(root: Path, config: Config) -> VerificationReport:
     root = root.resolve()
     errors: list[str] = []
@@ -313,6 +382,7 @@ def verify_output(root: Path, config: Config) -> VerificationReport:
         errors.append(str(exc))
 
     _check_egov_sync(actual, manifest, config, errors)
+    _check_tax_question_tests(actual, manifest, errors)
     link_targets = dict(actual)
     link_targets["manifest.json"] = manifest_path
     checked_links = _check_html_links(root, link_targets, errors)

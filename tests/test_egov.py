@@ -27,6 +27,14 @@ XML = """<?xml version="1.0" encoding="UTF-8"?>
         <ArticleTitle>第一条</ArticleTitle>
         <Paragraph Num="1">
           <ParagraphSentence><Sentence>この法律は法人税について定める。</Sentence></ParagraphSentence>
+          <Item Num="1">
+            <ItemTitle>一</ItemTitle>
+            <ItemSentence><Sentence>ITEM-TEXT</Sentence></ItemSentence>
+            <Subitem1 Num="1">
+              <Subitem1Title>イ</Subitem1Title>
+              <Subitem1Sentence><Sentence>SUBITEM-TEXT</Sentence></Subitem1Sentence>
+            </Subitem1>
+          </Item>
         </Paragraph>
       </Article>
       <Article Num="66_7">
@@ -74,6 +82,16 @@ class EgovParserTest(unittest.TestCase):
         )
         self.assertIn("枝番号を含む条文", law.articles[1].text)
         self.assertEqual(law.law_title, "法人税法")
+
+    def test_preserves_article_paragraph_item_hierarchy(self) -> None:
+        article = make_law().articles[0]
+        self.assertIn("[a1:caption]", article.text)
+        self.assertIn("[a1:title]", article.text)
+        self.assertIn("[a1-p1:sentence]", article.text)
+        self.assertIn("[a1-p1-i1:title] 一", article.text)
+        self.assertIn("[a1-p1-i1:sentence] ITEM-TEXT", article.text)
+        self.assertIn("[a1-p1-i1-s1-1:sentence] SUBITEM-TEXT", article.text)
+        self.assertGreater(len(article.text.splitlines()), 5)
 
     def test_rejects_title_mismatch(self) -> None:
         with self.assertRaisesRegex(EgovError, "title mismatch"):

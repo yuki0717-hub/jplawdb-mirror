@@ -21,6 +21,7 @@ from .core import Config, MirrorError
 JST = timezone(timedelta(hours=9))
 RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 ARTICLE_NUMBER_RE = re.compile(r"\d+(?:[-_]\d+)*(?::\d+(?:[-_]\d+)*)*")
+STRUCTURAL_ELEMENT_RE = re.compile(r"Subitem(\d+)")
 
 
 class EgovError(MirrorError):
@@ -85,6 +86,70 @@ def _normalized_text(element: ElementTree.Element) -> str:
     return re.sub(r"\s+", " ", "".join(element.itertext())).strip()
 
 
+def _path_segment(element: ElementTree.Element) -> str | None:
+    name = _local_name(element.tag)
+    number = str(element.attrib.get("Num") or "").strip().replace("_", "-")
+    if name == "Article":
+        return f"a{number}" if number else "article"
+    if name == "Paragraph":
+        return f"p{number}" if number else "paragraph"
+    if name == "Item":
+        return f"i{number}" if number else "item"
+    match = STRUCTURAL_ELEMENT_RE.fullmatch(name)
+    if match:
+        level = match.group(1)
+        return f"s{level}-{number}" if number else f"subitem{level}"
+    if name == "Class":
+        return f"c{number}" if number else "class"
+    return None
+
+
+def _text_role(name: str) -> str | None:
+    if name == "Sentence":
+        return "sentence"
+    if name.endswith("Caption"):
+        return "caption"
+    if name.endswith("Title"):
+        return "title"
+    if name.endswith("Label"):
+        return "label"
+    if name.endswith("Num"):
+        return "number"
+    return None
+
+
+def _structured_article_text(element: ElementTree.Element) -> str:
+    """Render an article without discarding its paragraph/item hierarchy."""
+
+    lines: list[str] = []
+
+    def append(path: tuple[str, ...], role: str, text: str) -> None:
+        normalized = re.sub(r"\s+", " ", text).strip()
+        if normalized:
+            marker = "-".join(path) or "article"
+            lines.append(f"[{marker}:{role}] {normalized}")
+
+    def walk(node: ElementTree.Element, path: tuple[str, ...]) -> None:
+        name = _local_name(node.tag)
+        segment = _path_segment(node)
+        current_path = path + (segment,) if segment else path
+        role = _text_role(name)
+        if role is not None:
+            append(current_path, role, _normalized_text(node))
+            return
+        if node.text and node.text.strip():
+            append(current_path, "text", node.text)
+        for child in node:
+            walk(child, current_path)
+            if child.tail and child.tail.strip():
+                append(current_path, "text", child.tail)
+
+    walk(element, ())
+    if not lines:
+        return _normalized_text(element)
+    return "\n".join(lines)
+
+
 def parse_egov_xml(
     xml: bytes,
     *,
@@ -139,7 +204,7 @@ def parse_egov_xml(
             raise EgovError(f"duplicate e-Gov article number for {code}: {key}")
         seen.add(key)
         article_title = _child_text(element, "ArticleTitle")
-        body = _normalized_text(element)
+        body = _structured_article_text(element)
         deleted = str(element.attrib.get("Delete") or "").lower() == "true"
         if not body and not deleted:
             raise EgovError(f"empty e-Gov article for {code}: {key}")

@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+law: 商法施行法 (shouhou_sekouhou)
+law_num: 明治三十二年法律第四十九号
+law_id: 132AC0000000049
+law_revision_id: 132AC0000000049_20190401_430AC0000000029
+as_of: 2026-06-30
+article: 42
+title: 第四十二条
+deleted: false
+
+第四十二条 商法施行前ニ設立シタル合資会社ハ商法ノ規定ニ従ヒテ合併ヲ為スコトヲ得 但合併後存続シ又ハ合併ニ因リテ設立スル会社ハ商法ニ定メタル種類ノ一タルコトヲ要ス 合併ノ決議ハ旧商法第百五十一条第二項ノ規定ニ依ルニ非サレハ之ヲ為スコトヲ得ス

@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+law: 会社法施行規則 (kaishahou_kisoku)
+law_num: 平成十八年法務省令第十二号
+law_id: 418M60000010012
+law_revision_id: 418M60000010012_20240401_506M60000010011
+as_of: 2026-06-30
+article: 104
+title: 第百四条
+deleted: false
+
+（計算書類の閲覧） 第百四条 法第三百七十八条第二項に規定する法務省令で定める場合とは、会計参与である公認会計士若しくは監査法人又は税理士若しくは税理士法人の業務時間外である場合とする。

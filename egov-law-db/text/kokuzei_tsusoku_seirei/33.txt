@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260630
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20260401_507CO0000000126
+as_of: 2026-06-30
+article: 33
+title: 第三十三条
+deleted: false
+
+（担当審判官の通知） 第三十三条 国税不服審判所長は、法第九十四条第一項（担当審判官等の指定）の規定により担当審判官を指定したときは、遅滞なく、審査請求人及び参加人にその氏名及び所属を通知しなければならない。 担当審判官を変更したときも、また同様とする。

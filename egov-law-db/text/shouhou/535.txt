@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 535
+title: 第五百三十五条
+deleted: false
+
+（匿名組合契約） 第五百三十五条 匿名組合契約は、当事者の一方が相手方の営業のために出資をし、その営業から生ずる利益を分配することを約することによって、その効力を生ずる。

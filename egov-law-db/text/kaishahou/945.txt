@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+law: 会社法 (kaishahou)
+law_num: 平成十七年法律第八十六号
+law_id: 417AC0000000086
+law_revision_id: 417AC0000000086_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 945
+title: 第九百四十五条
+deleted: false
+
+（登録の更新） 第九百四十五条 登録は、三年を下らない政令で定める期間ごとにその更新を受けなければ、その期間の経過によって、その効力を失う。 ２ 前三条の規定は、前項の登録の更新について準用する。

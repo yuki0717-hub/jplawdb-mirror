@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260630
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20260601_508CO0000000094
+as_of: 2026-06-30
+article: 75
+title: 第七十五条
+deleted: false
+
+（法人の設立のための寄附金の要件） 第七十五条 法第三十七条第三項第二号（指定寄附金の損金算入）に規定する政令で定める寄附金は、同号に規定する法人の設立に関する許可又は認可があることが確実であると認められる場合においてされる寄附金とする。

@@ -1,0 +1,15 @@
+{
+  "code": "kaishahou_seirei",
+  "title": "会社法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "417CO0000000364",
+  "law_num": "平成十七年政令第三百六十四号",
+  "law_revision_id": "417CO0000000364_20210301_502CO0000000327",
+  "updated": "2021-06-18T05:41:38+09:00",
+  "amendment_enforcement_date": "2021-03-01",
+  "as_of": "2026-06-30",
+  "article_count": 4,
+  "xml_size": 12614,
+  "xml_sha256": "7255624b11398acf5f960cea890c765ae97446752f95c613556e944e7f9883b7",
+  "source_url": "https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20260630"
+}

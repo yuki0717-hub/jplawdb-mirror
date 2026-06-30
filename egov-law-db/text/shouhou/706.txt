@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 706
+title: 第七百六条
+deleted: false
+
+（費用の負担） 第七百六条 船舶の燃料、水先料、入港料その他船舶の利用に関する通常の費用は、定期傭船者の負担とする。

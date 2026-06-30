@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260630
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20260601_508CO0000000094
+as_of: 2026-06-30
+article: 155-60
+title: 第百五十五条の六十
+deleted: false
+
+第百五十五条の六十 法第八十二条の十五第二項（電子情報処理組織による申告）に規定する政令で定める法令は、地方法人税法その他の法人税の申告に関する法令（法（これに基づく命令を含む。）及び国税通則法を除く。）とする。

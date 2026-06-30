@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20260630
+law: 消費税法 (shohizei)
+law_num: 昭和六十三年法律第百八号
+law_id: 363AC0000000108
+law_revision_id: 363AC0000000108_20260401_506AC0000000008
+as_of: 2026-06-30
+article: 41
+title: 第四十一条
+deleted: false
+
+（税額控除の計算の細目） 第四十一条 この章に定めるもののほか、税額控除の計算の細目に関し必要な事項は、政令で定める。

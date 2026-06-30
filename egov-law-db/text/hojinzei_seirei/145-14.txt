@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260630
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20260601_508CO0000000094
+as_of: 2026-06-30
+article: 145-14
+title: 第百四十五条の十四
+deleted: false
+
+（債務の保証等に類する取引） 第百四十五条の十四 法第六十九条第五項（外国税額の控除）に規定する政令で定める取引は、資金の借入れその他の取引に係る債務の保証（債務を負担する行為であつて債務の保証に準ずるものを含む。）とする。

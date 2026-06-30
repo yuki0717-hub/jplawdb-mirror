@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260630
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_num: 昭和三十二年大蔵省令第十五号
+law_id: 332M50000040015
+law_revision_id: 332M50000040015_20260625_508M60000040021
+as_of: 2026-06-30
+article: 1-2
+title: 第一条の二
+deleted: false
+
+（法人課税信託の受託者等に関する通則） 第一条の二 所得税法施行規則（昭和四十年大蔵省令第十一号）第一条の五の規定は、法第二条の二第一項の規定を法第八条の四、第九条の四の二及び第四十一条の十二の二において適用する場合について準用する。

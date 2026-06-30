@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20260630
+law: 会社法施行令 (kaishahou_seirei)
+law_num: 平成十七年政令第三百六十四号
+law_id: 417CO0000000364
+law_revision_id: 417CO0000000364_20210301_502CO0000000327
+as_of: 2026-06-30
+article: 4
+title: 第四条
+deleted: false
+
+（電子公告調査機関の登録の有効期間） 第四条 法第九百四十五条第一項の政令で定める期間は、三年とする。

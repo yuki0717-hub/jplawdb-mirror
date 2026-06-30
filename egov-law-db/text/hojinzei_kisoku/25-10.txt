@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260630
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_num: 昭和四十年大蔵省令第十二号
+law_id: 340M50000040012
+law_revision_id: 340M50000040012_20260522_508M60000040039
+as_of: 2026-06-30
+article: 25-10
+title: 第二十五条の十
+deleted: false
+
+第二十五条の十 法第五十五条第三項第一号ロ（不正行為等に係る費用等）に規定する財務省令で定める場所は、同号ロの内国法人の納税地又は同号の取引に係る国内の事務所、事業所その他これらに準ずるものの所在地とする。

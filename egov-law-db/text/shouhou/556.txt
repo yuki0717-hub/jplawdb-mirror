@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 556
+title: 第五百五十六条
+deleted: false
+
+（問屋が買い入れた物品の供託及び競売） 第五百五十六条 問屋が買入れの委託を受けた場合において、委託者が買い入れた物品の受領を拒み、又はこれを受領することができないときは、第五百二十四条の規定を準用する。

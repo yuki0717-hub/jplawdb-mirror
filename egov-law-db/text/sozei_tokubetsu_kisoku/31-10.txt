@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260630
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_num: 昭和三十二年大蔵省令第十五号
+law_id: 332M50000040015
+law_revision_id: 332M50000040015_20260625_508M60000040021
+as_of: 2026-06-30
+article: 31-10
+title: 第三十一条の十
+deleted: false
+
+（債権の個数の算定方法） 第三十一条の十 法第八十四条の六第二項に規定する債権又は質権の目的とされた債権の個数の算定方法は、動産・債権譲渡登記規則（平成十年法務省令第三十九号）第十二条第一項第二号に掲げる個数により算定する。

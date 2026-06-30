@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337M50000040028?occasion_date=20260630
+law: 国税通則法施行規則 (kokuzei_tsusoku_kisoku)
+law_num: 昭和三十七年大蔵省令第二十八号
+law_id: 337M50000040028
+law_revision_id: 337M50000040028_20260521_507M60000040025
+as_of: 2026-06-30
+article: 9
+title: 第九条
+deleted: false
+
+（納付受託者に対する報告の徴求） 第九条 国税庁長官又は財務大臣は、納付受託者に対し、法第三十四条の六第二項（納付受託者の帳簿保存等の義務）の報告を求めるときは、報告すべき事項、報告の期限その他必要な事項を明示するものとする。

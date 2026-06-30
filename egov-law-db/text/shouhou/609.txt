@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 609
+title: 第六百九条
+deleted: false
+
+（寄託物の点検等） 第六百九条 寄託者又は倉荷証券の所持人は、倉庫営業者の営業時間内は、いつでも、寄託物の点検若しくはその見本の提供を求め、又はその保存に必要な処分をすることができる。

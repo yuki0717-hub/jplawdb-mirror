@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 3
+title: 第三条
+deleted: false
+
+（一方的商行為） 第三条 当事者の一方のために商行為となる行為については、この法律をその双方に適用する。 ２ 当事者の一方が二人以上ある場合において、その一人のために商行為となる行為については、この法律をその全員に適用する。

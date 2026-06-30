@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260630
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_num: 昭和三十二年大蔵省令第十五号
+law_id: 332M50000040015
+law_revision_id: 332M50000040015_20260625_508M60000040021
+as_of: 2026-06-30
+article: 39
+title: 第三十九条
+deleted: false
+
+（電子証明書の範囲） 第三十九条 施行令第四十七条の五第三項第二号に規定する財務省令で定める電磁的記録は、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第二条第一項第二号イからハまでに掲げるもののいずれかに該当するものとする。

@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 789
+title: 第七百八十九条
+deleted: false
+
+（船舶の衝突による損害賠償請求権の消滅時効） 第七百八十九条 船舶の衝突を原因とする不法行為による損害賠償請求権（財産権が侵害されたことによるものに限る。）は、不法行為の時から二年間行使しないときは、時効によって消滅する。

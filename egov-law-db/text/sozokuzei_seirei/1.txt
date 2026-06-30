@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20260630
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20260401_506CO0000000143
+as_of: 2026-06-30
+article: 1
+title: 第一条
+deleted: false
+
+（定義） 第一条 この政令において、「扶養義務者」、「期限後申告書」、「修正申告書」又は「更正」とは、それぞれ相続税法（以下「法」という。）第一条の二に規定する扶養義務者、期限後申告書、修正申告書又は更正をいう。

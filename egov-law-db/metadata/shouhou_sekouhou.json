@@ -1,0 +1,15 @@
+{
+  "code": "shouhou_sekouhou",
+  "title": "商法施行法",
+  "law_type": "Act",
+  "law_id": "132AC0000000049",
+  "law_num": "明治三十二年法律第四十九号",
+  "law_revision_id": "132AC0000000049_20190401_430AC0000000029",
+  "updated": "2025-08-22T15:53:44+09:00",
+  "amendment_enforcement_date": "2019-04-01",
+  "as_of": "2026-06-30",
+  "article_count": 113,
+  "xml_size": 71480,
+  "xml_sha256": "c5ca53fee2c8e7bc625d2420157a9b3a79fa8fe3b58072587d49fdaf9d85faca",
+  "source_url": "https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630"
+}

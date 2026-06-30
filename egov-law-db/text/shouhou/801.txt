@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 801
+title: 第八百一条
+deleted: false
+
+（救助料を請求することができない場合） 第八百一条 次に掲げる場合には、救助者は、救助料を請求することができない。 一 故意に海難を発生させたとき。 二 正当な事由により救助を拒まれたにもかかわらず、救助したとき。

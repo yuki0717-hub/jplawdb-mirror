@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260630
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20260401_507AC0000000013
+as_of: 2026-06-30
+article: 1
+title: 第一条
+deleted: false
+
+（趣旨） 第一条 この法律は、法人税について、納税義務者、課税所得等の範囲、税額の計算の方法、申告、納付及び還付の手続並びにその納税義務の適正な履行を確保するため必要な事項を定めるものとする。

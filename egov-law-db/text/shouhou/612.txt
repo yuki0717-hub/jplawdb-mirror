@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 612
+title: 第六百十二条
+deleted: false
+
+（寄託物の返還の制限） 第六百十二条 当事者が寄託物の保管期間を定めなかったときは、倉庫営業者は、寄託物の入庫の日から六箇月を経過した後でなければ、その返還をすることができない。 ただし、やむを得ない事由があるときは、この限りでない。

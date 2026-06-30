@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260630
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_num: 昭和四十年大蔵省令第十一号
+law_id: 340M50000040011
+law_revision_id: 340M50000040011_20260522_508M60000040017
+as_of: 2026-06-30
+article: 40-16
+title: 第四十条の十六
+deleted: false
+
+（共通費用の額の配分に関する書類） 第四十条の十六 第四十条の十一（共通費用の額の配分に関する書類）の規定は、令第二百二十一条の六第三項（その他の国外源泉所得に係る所得の金額の計算）に規定する財務省令で定める書類について準用する。

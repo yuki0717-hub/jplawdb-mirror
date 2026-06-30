@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 607
+title: 第六百七条
+deleted: false
+
+（倉荷証券の引渡しの効力） 第六百七条 倉荷証券により寄託物を受け取ることができる者に倉荷証券を引き渡したときは、その引渡しは、寄託物について行使する権利の取得に関しては、寄託物の引渡しと同一の効力を有する。

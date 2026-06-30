@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+law: 会社法 (kaishahou)
+law_num: 平成十七年法律第八十六号
+law_id: 417AC0000000086
+law_revision_id: 417AC0000000086_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 57
+title: 第五十七条
+deleted: false
+
+（設立時発行株式を引き受ける者の募集） 第五十七条 発起人は、この款の定めるところにより、設立時発行株式を引き受ける者の募集をする旨を定めることができる。 ２ 発起人は、前項の募集をする旨を定めようとするときは、その全員の同意を得なければならない。

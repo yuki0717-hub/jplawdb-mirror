@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+law: 会社法施行規則 (kaishahou_kisoku)
+law_num: 平成十八年法務省令第十二号
+law_id: 418M60000010012
+law_revision_id: 418M60000010012_20240401_506M60000010011
+as_of: 2026-06-30
+article: 231
+title: 第二百三十一条
+deleted: false
+
+（定義） 第二百三十一条 この節において使用する用語は、民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律（平成十六年法律第百四十九号。以下この節において「電子文書法」という。）において使用する用語の例による。

@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+law: 商法施行法 (shouhou_sekouhou)
+law_num: 明治三十二年法律第四十九号
+law_id: 132AC0000000049
+law_revision_id: 132AC0000000049_20190401_430AC0000000029
+as_of: 2026-06-30
+article: 11
+title: 第十一条
+deleted: false
+
+第十一条 商法施行前ニ設立シタル合名会社ニシテ其社名中ニ合名会社ナル文字ヲ用ヰサルモノハ其施行ノ日ヨリ三个月内ニ商法第十七条ノ規定ニ従ヒテ其社名ヲ改メ且其登記ヲ為スコトヲ要ス 会社ノ業務ヲ執行スル社員カ前項ノ規定ニ違反シタルトキハ五円以上五十円以下ノ過料ニ処セラル

@@ -1,0 +1,12 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+law: 商法 (shouhou)
+law_num: 明治三十二年法律第四十八号
+law_id: 132AC0000000048
+law_revision_id: 132AC0000000048_20260624_508AC0000000046
+as_of: 2026-06-30
+article: 10
+title: 第十条
+deleted: false
+
+（変更の登記及び消滅の登記） 第十条 この編の規定により登記した事項に変更が生じ、又はその事項が消滅したときは、当事者は、遅滞なく、変更の登記又は消滅の登記をしなければならない。

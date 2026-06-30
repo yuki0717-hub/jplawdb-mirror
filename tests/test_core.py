@@ -26,8 +26,13 @@ SOURCE = "https://jplawdb.github.io/html-preview"
 
 class DiscoveryHelpersTest(unittest.TestCase):
     def test_extracts_all_article_variants_from_index(self) -> None:
-        source = '<a href="1.html">1</a><a href="66-7.html#p2">66-7</a><a href="index.html">top</a>'
-        self.assertEqual(extract_article_ids(source), ["1", "66-7"])
+        source = (
+            '<a href="1.html">1</a>'
+            '<a href="66-7.html#p2">66-7</a>'
+            '<a href="136:137.html">136:137</a>'
+            '<a href="index.html">top</a>'
+        )
+        self.assertEqual(extract_article_ids(source), ["1", "66-7", "136:137"])
 
     def test_extract_item_ids_supports_string_and_object_schemas(self) -> None:
         items = ["1-1", {"item_id": "2-1"}, {"id": 3}, "1-1"]
@@ -171,6 +176,16 @@ class VerificationTest(unittest.TestCase):
             config = self.prepare_generated_files(root, '<a href="missing.txt">missing</a>')
             with self.assertRaisesRegex(VerificationError, "broken local link"):
                 verify_output(root, config)
+
+    def test_manifest_link_is_valid(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            config = self.prepare_generated_files(
+                root,
+                '<a href="manifest.json">manifest</a>',
+            )
+            report = verify_output(root, config)
+            self.assertEqual(report.html_links_checked, 1)
 
     def test_same_size_corruption_fails_hash_check(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

@@ -22,7 +22,7 @@ import yaml
 
 TEXT_EXTENSIONS = {".txt", ".json", ".jsonl", ".html", ".htm", ".tsv", ".csv", ".xml"}
 ARTICLE_LINK_RE = re.compile(
-    r"href\s*=\s*['\"](?:[^'\"]*/)?(\d+(?:-\d+)*)\.html(?:#[^'\"]*)?['\"]",
+    r"href\s*=\s*['\"](?:[^'\"]*/)?(\d+(?:[-:]\d+)*)\.html(?:#[^'\"]*)?['\"]",
     re.IGNORECASE,
 )
 HTML_REFERENCE_RE = re.compile(r"(?:href|src)\s*=\s*['\"]([^'\"]+)['\"]", re.IGNORECASE)
@@ -709,7 +709,7 @@ def extract_article_ids(index_html: str) -> list[str]:
 
 
 def article_sort_key(value: str) -> tuple[int, ...]:
-    return tuple(int(part) for part in value.split("-"))
+    return tuple(int(part) for part in re.split(r"[-:]", value))
 
 
 def extract_item_ids(items: Any) -> list[str]:

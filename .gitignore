@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Generated mirror. Never mix generated data with source code.
+output/
+.output.staging/
+.output.backup/

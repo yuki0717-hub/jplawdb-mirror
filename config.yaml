@@ -1,7 +1,32 @@
 source_base: "https://jplawdb.github.io/html-preview"
-my_base: "https://yuki0717-hub.github.io/jplawdb-mirror"
+mirror_base: "https://yuki0717-hub.github.io/jplawdb-mirror"
 output_dir: "output"
-concurrency: 10
-delay_sec: 0.3
-max_retries: 3
-log_file: "download_log.tsv"
+
+concurrency: 16
+delay_sec: 0.05
+max_retries: 4
+timeout_sec: 60
+max_file_bytes: 25000000
+
+# A sudden drop below these values means that the source schema changed or
+# discovery is incomplete. Update a threshold only after checking the source.
+minimum_counts:
+  law_codes: 24
+  law_articles: 5800
+  tsutatsu_documents: 7
+  tsutatsu_items: 4300
+  beppyo_items: 30
+  hanketsu_shards: 13
+  hanketsu_items: 1200
+  nta_qa_documents: 35
+  nta_qa_items: 3000
+  nta_qa_shards: 25
+  nta_guide_documents: 10
+  nta_guide_items: 350
+  nta_guide_shards: 30
+  paper_shards: 40
+  paper_rows: 1900
+  paper_packs: 190
+  treaty_shards: 45
+  treaty_rows: 1100
+  treaty_packs: 130

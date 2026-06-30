@@ -6,6 +6,7 @@
 
 ## 構成
 - jplawdb_mirror/core.py: 形式別の収集、クリーンビルド、原子的な入替え
+- jplawdb_mirror/egov.py: e-Gov法令API Version 2の取得、XML検証、条文別出力
 - jplawdb_mirror/verification.py: manifest、ハッシュ、UTF-8、内部リンクの検証
 - mirror.py: 収集CLI
 - verify.py: 検証CLI
@@ -28,4 +29,5 @@
 - 検証失敗を警告だけに変えない
 - 404を成功扱いしない
 - 既存ミラーを取得元にしない
+- e-Gov取得失敗時に旧法令データへ黙ってフォールバックしない
 - 元データ形式を確認せず最低件数を下げない

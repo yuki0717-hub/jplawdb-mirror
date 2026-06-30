@@ -54,6 +54,11 @@ class Config:
     timeout_sec: int = 60
     max_file_bytes: int = 25_000_000
     minimum_counts: dict[str, int] = field(default_factory=dict)
+    egov_api_base: str = ""
+    egov_as_of: str = "current"
+    egov_concurrency: int = 4
+    egov_min_articles: int = 1
+    egov_laws: dict[str, dict[str, str]] = field(default_factory=dict)
 
     @classmethod
     def from_file(cls, path: Path) -> "Config":
@@ -73,6 +78,41 @@ class Config:
         minimum_counts = raw.get("minimum_counts") or {}
         if not isinstance(minimum_counts, dict):
             raise ValueError("minimum_counts must be a mapping")
+        egov = raw.get("egov") or {}
+        if not isinstance(egov, dict):
+            raise ValueError("egov must be a mapping")
+        egov_api_base = str(egov.get("api_base") or "").rstrip("/")
+        egov_as_of = str(egov.get("as_of") or "current")
+        egov_concurrency = int(egov.get("concurrency", 4))
+        egov_min_articles = int(egov.get("minimum_articles", 1))
+        egov_laws_raw = egov.get("laws") or {}
+        if not isinstance(egov_laws_raw, dict):
+            raise ValueError("egov.laws must be a mapping")
+        egov_laws: dict[str, dict[str, str]] = {}
+        allowed_law_types = {
+            "Act",
+            "CabinetOrder",
+            "ImperialOrder",
+            "MinisterialOrdinance",
+            "Rule",
+            "Misc",
+        }
+        for code, law in egov_laws_raw.items():
+            if not isinstance(code, str) or not re.fullmatch(r"[a-z0-9_]+", code):
+                raise ValueError(f"invalid egov law code: {code!r}")
+            if not isinstance(law, dict):
+                raise ValueError(f"egov law must be a mapping: {code}")
+            title = str(law.get("title") or "").strip()
+            law_type = str(law.get("type") or "").strip()
+            if not title or law_type not in allowed_law_types:
+                raise ValueError(f"invalid egov law specification: {code}")
+            egov_laws[code] = {"title": title, "type": law_type}
+        if egov_laws:
+            parsed_egov = urlsplit(egov_api_base)
+            if parsed_egov.scheme != "https" or not parsed_egov.netloc:
+                raise ValueError("egov.api_base must be an absolute HTTPS URL")
+            if egov_concurrency < 1 or egov_min_articles < 1:
+                raise ValueError("invalid egov concurrency or minimum_articles")
         config = cls(
             source_base=source_base,
             mirror_base=mirror_base,
@@ -83,6 +123,11 @@ class Config:
             timeout_sec=int(raw.get("timeout_sec", 60)),
             max_file_bytes=int(raw.get("max_file_bytes", 25_000_000)),
             minimum_counts={str(k): int(v) for k, v in minimum_counts.items()},
+            egov_api_base=egov_api_base,
+            egov_as_of=egov_as_of,
+            egov_concurrency=egov_concurrency,
+            egov_min_articles=egov_min_articles,
+            egov_laws=egov_laws,
         )
         if config.concurrency < 1 or config.max_retries < 0 or config.timeout_sec < 1:
             raise ValueError("invalid concurrency, retry, or timeout setting")
@@ -783,9 +828,12 @@ async def _create_discovery(config: Config, session: aiohttp.ClientSession) -> t
 
 
 async def discover_mirror(config: Config) -> DiscoveryPlan:
+    from .egov import inspect_egov_laws
+
     connector = aiohttp.TCPConnector(limit=max(config.concurrency * 2, 16))
     async with aiohttp.ClientSession(connector=connector) as session:
         plan, _ = await _create_discovery(config, session)
+        plan.metrics.update(await inspect_egov_laws(config, session))
         return plan
 
 
@@ -835,6 +883,8 @@ def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
     links = [
         ("AI向け総合案内", "llms3.txt"),
         ("AI向け詳細案内", "llms4.txt"),
+        ("e-Gov公式法令（最新同期）", "egov-law-db/index.html"),
+        ("e-Gov公式法令クイックスタート", "egov-law-db/quickstart.txt"),
         ("法令クイックスタート", "ai-law-db/quickstart.txt"),
         ("法令名一覧", "ai-law-db/data/law_aliases.json"),
         ("通達クイックスタート", "ai-tsutatsu-db/quickstart.txt"),
@@ -953,6 +1003,7 @@ def atomic_publish(staging: Path, output: Path) -> None:
 
 
 async def build_mirror(config: Config) -> BuildResult:
+    from .egov import sync_egov_laws
     from .verification import verify_output
 
     output = config.output_dir.resolve()
@@ -966,6 +1017,9 @@ async def build_mirror(config: Config) -> BuildResult:
             plan, fetcher = await _create_discovery(config, session)
             logging.info("Discovered %s targets", len(plan.targets))
             logging.info("Coverage metrics: %s", dict(sorted(plan.metrics.items())))
+            egov_metrics = await sync_egov_laws(config, session, staging)
+            plan.metrics.update(egov_metrics)
+            logging.info("e-Gov metrics: %s", dict(sorted(egov_metrics.items())))
             await download_targets(plan, fetcher, staging)
         rewrites = rewrite_source_urls(staging, config)
         logging.info("Rewrote %s source URL occurrences", rewrites)

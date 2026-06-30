@@ -1,0 +1,90 @@
+# AI向け 日本法（主要税法＋会社法・商法）データセット
+
+> 主要税法に加え、会社法・商法の条文を、AIが読みやすい最小HTML（1条=1ページ）で提供します。
+
+## 目的
+
+- LLM/AIエージェントが「条文そのもの」に素早くアクセスできること
+- URLが安定していて、条・項・号の引用位置をフラグメントで特定できること
+
+## サイト構造
+
+- index.html : 入口（法令一覧）
+- enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
+- enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
+- text/{law_code}/{article}.txt : プレーンテキスト（抽出・RAG前処理向け / 条番号が分かるなら直叩き推奨）
+- data/laws.json : 利用可能な法令メタデータ（機械処理向け）
+- data/resolve_lite/{law_code}.json : 最軽量のURL解決（法令別・条文一覧）
+- data/resolve_lite/index.json : resolve_lite ディレクトリの目次（軽量）
+- data/resolve_meta_corp/index.json : 条文タイトル（法人税編・分割）目次（最優先・軽量）
+- data/resolve_meta_corp/{law_code}/index.json : 法人税編の条文タイトル（分割）目次（法令別）
+- data/resolve_meta_corp/{law_code}/{bucket}.json : 条文タイトル（分割; 例: 39-14 など）
+※bucket は「条文キー先頭の数字」です（例: 39-14→39 / 2-4-2→2）
+- data/resolve_meta/{law_code}.json : 条文タイトル（短縮）辞書（法令別・軽量）
+- data/resolve_meta/index.json : resolve_meta ディレクトリの目次（軽量）
+- data/resolve_lite.json : 省サイズのURL解決（全法令まとめ・やや重い）
+- data/resolve.min.json : resolve.json の省サイズ版（JSONをそのまま/高速）
+- data/resolve.json : 略称・法令/条文の解決（URL解決用）
+- data/law_aliases.json : 法令略称→law_code 辞書
+- data/chunks/{law_code}.jsonl : 項/号ごとのJSONL（RAG投入用）
+- sitemap.xml : サイトマップ
+
+## HTMLの構造（AI向け）
+
+- 条（Article）
+  - `<article data-law="法令名" data-law-code="sozei_tokubetsu" data-article="57-8">`
+  - `data-cite` / `data-cite-id` に正規化済み参照キーを付与
+  - 見出し: `<h2 id="article-57-8">...`
+
+- 項（Paragraph）
+  - `<div data-paragraph="1" id="p1" data-cite="...第1項" data-cite-id="...:p1">...`
+
+- 号（Item）
+  - `<p class="item" data-item="一" data-item-index="1" id="p2-i1" data-cite="...第1号" data-cite-id="...:i1">...`
+
+フラグメント例:
+- 第2項へ: `.../57-8.html#p2`
+- 第2項第1号へ: `.../57-8.html#p2-i1`
+
+## 推奨の参照フロー（高速）
+
+0) 条番号が分かるなら本文を直叩き（最短）: `text/{law_code}/{article}.txt`  
+   - 例: 措置法66条の7 → `text/sozei_tokubetsu/66-7.txt`
+1) 条名の発見（条番号が曖昧/条名から探したい場合）: `data/resolve_meta_corp/index.json` → 必要な `{bucket}.json`  
+   - bucket は「条文キー先頭の数字」なので、条番号が分かるなら `.../{law_code}/index.json` を見なくても `{bucket}.json` を直接取得できます  
+2) `law_code` が不明/略称入力のときだけ: `data/law_aliases.json` で `law_code` を確定  
+3) 根拠URLが必要なとき: `enhanced/{law_code}/{article}.html#pX` / `#pX-iY` を提示  
+
+※ `resolve.json` / `resolve.min.json` / `resolve_lite.json` は互換・全体検索向けで、トークン制約が厳しい場合は後回し推奨です。
+
+## 利用可能な法令（law_code）
+
+- shotokuzei : 所得税法
+- shotokuzei_seirei : 所得税法施行令
+- shotokuzei_kisoku : 所得税法施行規則
+- hojinzei : 法人税法
+- hojinzei_seirei : 法人税法施行令
+- hojinzei_kisoku : 法人税法施行規則
+- shohizei : 消費税法
+- shohizei_seirei : 消費税法施行令
+- shohizei_kisoku : 消費税法施行規則
+- sozokuzei : 相続税法
+- sozokuzei_seirei : 相続税法施行令
+- sozokuzei_kisoku : 相続税法施行規則
+- kokuzei_tsusoku : 国税通則法
+- kokuzei_tsusoku_seirei : 国税通則法施行令
+- kokuzei_tsusoku_kisoku : 国税通則法施行規則
+- sozei_tokubetsu : 租税特別措置法
+- sozei_tokubetsu_seirei : 租税特別措置法施行令
+- sozei_tokubetsu_kisoku : 租税特別措置法施行規則
+- kaishahou : 会社法
+- kaishahou_seirei : 会社法施行令
+- kaishahou_kisoku : 会社法施行規則
+- shouhou : 商法
+- shouhou_sekouhou : 商法施行法
+- shouhou_kisoku : 商法施行規則
+
+## データ出典
+
+- e-Gov法令検索（法令XML相当）を基に生成
+- 生成元データ最終更新（目安）: 2025-12-27

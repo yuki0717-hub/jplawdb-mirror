@@ -1,0 +1,175 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db",
+  "resolve_meta_url_template": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/{law_code}.json",
+  "laws": {
+    "hojinzei": {
+      "title": "法人税法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/hojinzei/index.html",
+      "articles_count": 234,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/hojinzei.json"
+    },
+    "hojinzei_kisoku": {
+      "title": "法人税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/hojinzei_kisoku/index.html",
+      "articles_count": 263,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/hojinzei_kisoku.json"
+    },
+    "hojinzei_seirei": {
+      "title": "法人税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/hojinzei_seirei/index.html",
+      "articles_count": 432,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/hojinzei_seirei.json"
+    },
+    "kaishahou": {
+      "title": "会社法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kaishahou/index.html",
+      "articles_count": 1078,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kaishahou.json"
+    },
+    "kaishahou_kisoku": {
+      "title": "会社法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kaishahou_kisoku/index.html",
+      "articles_count": 303,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kaishahou_kisoku.json"
+    },
+    "kaishahou_seirei": {
+      "title": "会社法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kaishahou_seirei/index.html",
+      "articles_count": 4,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kaishahou_seirei.json"
+    },
+    "kokuzei_tsusoku": {
+      "title": "国税通則法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kokuzei_tsusoku/index.html",
+      "articles_count": 194,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kokuzei_tsusoku.json"
+    },
+    "kokuzei_tsusoku_kisoku": {
+      "title": "国税通則法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/index.html",
+      "articles_count": 30,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kokuzei_tsusoku_kisoku.json"
+    },
+    "kokuzei_tsusoku_seirei": {
+      "title": "国税通則法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/kokuzei_tsusoku_seirei/index.html",
+      "articles_count": 82,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/kokuzei_tsusoku_seirei.json"
+    },
+    "shohizei": {
+      "title": "消費税法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shohizei/index.html",
+      "articles_count": 85,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shohizei.json"
+    },
+    "shohizei_kisoku": {
+      "title": "消費税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shohizei_kisoku/index.html",
+      "articles_count": 71,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shohizei_kisoku.json"
+    },
+    "shohizei_seirei": {
+      "title": "消費税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shohizei_seirei/index.html",
+      "articles_count": 127,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shohizei_seirei.json"
+    },
+    "shotokuzei": {
+      "title": "所得税法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shotokuzei/index.html",
+      "articles_count": 302,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shotokuzei.json"
+    },
+    "shotokuzei_kisoku": {
+      "title": "所得税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shotokuzei_kisoku/index.html",
+      "articles_count": 251,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shotokuzei_kisoku.json"
+    },
+    "shotokuzei_seirei": {
+      "title": "所得税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shotokuzei_seirei/index.html",
+      "articles_count": 463,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shotokuzei_seirei.json"
+    },
+    "shouhou": {
+      "title": "商法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shouhou/index.html",
+      "articles_count": 264,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shouhou.json"
+    },
+    "shouhou_kisoku": {
+      "title": "商法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shouhou_kisoku/index.html",
+      "articles_count": 13,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shouhou_kisoku.json"
+    },
+    "shouhou_sekouhou": {
+      "title": "商法施行法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/shouhou_sekouhou/index.html",
+      "articles_count": 113,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/shouhou_sekouhou.json"
+    },
+    "sozei_tokubetsu": {
+      "title": "租税特別措置法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozei_tokubetsu/index.html",
+      "articles_count": 496,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozei_tokubetsu.json"
+    },
+    "sozei_tokubetsu_kisoku": {
+      "title": "租税特別措置法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozei_tokubetsu_kisoku/index.html",
+      "articles_count": 403,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozei_tokubetsu_kisoku.json"
+    },
+    "sozei_tokubetsu_seirei": {
+      "title": "租税特別措置法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozei_tokubetsu_seirei/index.html",
+      "articles_count": 526,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozei_tokubetsu_seirei.json"
+    },
+    "sozokuzei": {
+      "title": "相続税法",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozokuzei/index.html",
+      "articles_count": 110,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozokuzei.json"
+    },
+    "sozokuzei_kisoku": {
+      "title": "相続税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozokuzei_kisoku/index.html",
+      "articles_count": 47,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozokuzei_kisoku.json"
+    },
+    "sozokuzei_seirei": {
+      "title": "相続税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/enhanced/sozokuzei_seirei/index.html",
+      "articles_count": 91,
+      "resolve_meta_url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-law-db/data/resolve_meta/sozokuzei_seirei.json"
+    }
+  }
+}

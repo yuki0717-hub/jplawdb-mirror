@@ -1,14 +1,53 @@
 <!doctype html>
-<html><head><meta charset='utf-8'><title>jplawdb mirror</title></head><body>
-<h1>jplawdb mirror index</h1>
-<ul>
-<li><a href="ai-hanketsu-db/">ai-hanketsu-db</a></li>
-<li><a href="ai-law-db/">ai-law-db</a></li>
-<li><a href="ai-nta-guide-db/">ai-nta-guide-db</a></li>
-<li><a href="ai-nta-qa-db/">ai-nta-qa-db</a></li>
-<li><a href="ai-paper-db/">ai-paper-db</a></li>
-<li><a href="ai-treaty-db/">ai-treaty-db</a></li>
-<li><a href="ai-tsutatsu-db/">ai-tsutatsu-db</a></li>
-<li><a href="beppyo-db/">beppyo-db</a></li>
-</ul>
-</body></html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jplawdb mirror</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.65}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:.45rem;text-align:left}th{width:65%}
+code{background:#f3f3f3;padding:.1rem .25rem}
+</style>
+</head>
+<body>
+<h1>jplawdb mirror</h1>
+<p>日本税法AIデータベースの検証済み静的ミラーです。公式な法令・税務判断の代替ではありません。</p>
+<h2>入口</h2>
+<ul><li><a href="llms3.txt">AI向け総合案内</a></li>
+<li><a href="llms4.txt">AI向け詳細案内</a></li>
+<li><a href="ai-law-db/quickstart.txt">法令クイックスタート</a></li>
+<li><a href="ai-law-db/data/law_aliases.json">法令名一覧</a></li>
+<li><a href="ai-tsutatsu-db/quickstart.txt">通達クイックスタート</a></li>
+<li><a href="beppyo-db/llms.txt">別表一覧</a></li>
+<li><a href="ai-nta-qa-db/quickstart.txt">国税庁Q&amp;Aクイックスタート</a></li>
+<li><a href="ai-nta-guide-db/quickstart.txt">国税庁手引きクイックスタート</a></li>
+<li><a href="ai-hanketsu-db/houjinzei/llms.txt">判決データ案内</a></li>
+<li><a href="ai-hanketsu-db/saiketsu-houjinzei/llms.txt">裁決データ案内</a></li>
+<li><a href="ai-treaty-db/jp-tax-treaties/quickstart.txt">租税条約クイックスタート</a></li></ul>
+<h2>今回の収録件数</h2>
+<table><tbody><tr><th>beppyo_items</th><td>45</td></tr>
+<tr><th>hanketsu_items</th><td>1,245</td></tr>
+<tr><th>hanketsu_shards</th><td>13</td></tr>
+<tr><th>law_articles</th><td>5,982</td></tr>
+<tr><th>law_codes</th><td>24</td></tr>
+<tr><th>nta_guide_documents</th><td>12</td></tr>
+<tr><th>nta_guide_items</th><td>368</td></tr>
+<tr><th>nta_guide_parts</th><td>30</td></tr>
+<tr><th>nta_guide_rows</th><td>368</td></tr>
+<tr><th>nta_guide_shards</th><td>31</td></tr>
+<tr><th>nta_qa_documents</th><td>37</td></tr>
+<tr><th>nta_qa_items</th><td>3,080</td></tr>
+<tr><th>nta_qa_rows</th><td>3,080</td></tr>
+<tr><th>nta_qa_shards</th><td>26</td></tr>
+<tr><th>paper_packs</th><td>203</td></tr>
+<tr><th>paper_rows</th><td>2,022</td></tr>
+<tr><th>paper_shards</th><td>45</td></tr>
+<tr><th>treaty_packs</th><td>140</td></tr>
+<tr><th>treaty_rows</th><td>1,206</td></tr>
+<tr><th>treaty_shards</th><td>48</td></tr>
+<tr><th>tsutatsu_documents</th><td>7</td></tr>
+<tr><th>tsutatsu_items</th><td>4,402</td></tr></tbody></table>
+<p>ファイル一覧とSHA-256は <a href="manifest.json">manifest.json</a> にあります。</p>
+</body>
+</html>

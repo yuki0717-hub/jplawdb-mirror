@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 948
 title: 第九百四十八条
 deleted: false
 
-（事業所の変更の届出） 第九百四十八条 調査機関は、電子公告調査を行う事業所の所在地を変更しようとするときは、変更しようとする日の二週間前までに、法務大臣に届け出なければならない。
+[a948:caption] （事業所の変更の届出）
+[a948:title] 第九百四十八条
+[a948-p1:sentence] 調査機関は、電子公告調査を行う事業所の所在地を変更しようとするときは、変更しようとする日の二週間前までに、法務大臣に届け出なければならない。

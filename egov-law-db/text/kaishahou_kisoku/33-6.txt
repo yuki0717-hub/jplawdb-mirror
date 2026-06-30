@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 33-6
 title: 第三十三条の六
 deleted: false
 
-（売渡株主等に対して通知すべき事項） 第三十三条の六 法第百七十九条の四第一項第一号に規定する法務省令で定める事項は、前条第一項第二号に掲げる事項とする。
+[a33-6:caption] （売渡株主等に対して通知すべき事項）
+[a33-6:title] 第三十三条の六
+[a33-6-p1:sentence] 法第百七十九条の四第一項第一号に規定する法務省令で定める事項は、前条第一項第二号に掲げる事項とする。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 92
 title: 第九十二条
 deleted: false
 
-（資産の移転等に含まれない行為） 第九十二条 法第四十四条（移転等の支出に充てるための交付金の総収入金額不算入）に規定する政令で定める行為は、第百八十一条（資本的支出）に規定する支出に係る行為とする。
+[a92:caption] （資産の移転等に含まれない行為）
+[a92:title] 第九十二条
+[a92-p1:sentence] 法第四十四条（移転等の支出に充てるための交付金の総収入金額不算入）に規定する政令で定める行為は、第百八十一条（資本的支出）に規定する支出に係る行為とする。

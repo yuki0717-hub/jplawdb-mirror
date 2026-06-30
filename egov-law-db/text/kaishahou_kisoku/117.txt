@@ -1,12 +1,23 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 117
 title: 第百十七条
 deleted: false
 
-第百十七条 次の各号に掲げる規定に規定する法務省令で定めるべき事項（事業報告及びその附属明細書に係るものに限る。）は、当該各号に定める規定の定めるところによる。 ただし、他の法令に別段の定めがある場合は、この限りでない。 一 法第四百三十五条第二項 次款 二 法第四百三十六条第一項及び第二項 第三款 三 法第四百三十七条 第四款
+[a117:title] 第百十七条
+[a117-p1:sentence] 次の各号に掲げる規定に規定する法務省令で定めるべき事項（事業報告及びその附属明細書に係るものに限る。）は、当該各号に定める規定の定めるところによる。
+[a117-p1:sentence] ただし、他の法令に別段の定めがある場合は、この限りでない。
+[a117-p1-i1:title] 一
+[a117-p1-i1:sentence] 法第四百三十五条第二項
+[a117-p1-i1:sentence] 次款
+[a117-p1-i2:title] 二
+[a117-p1-i2:sentence] 法第四百三十六条第一項及び第二項
+[a117-p1-i2:sentence] 第三款
+[a117-p1-i3:title] 三
+[a117-p1-i3:sentence] 法第四百三十七条
+[a117-p1-i3:sentence] 第四款

@@ -1,12 +1,15 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 544
 title: 第五百四十四条
 deleted: false
 
-（当事者のために給付を受けることの制限） 第五百四十四条 仲立人は、その媒介により成立させた行為について、当事者のために支払その他の給付を受けることができない。 ただし、当事者の別段の意思表示又は別段の慣習があるときは、この限りでない。
+[a544:caption] （当事者のために給付を受けることの制限）
+[a544:title] 第五百四十四条
+[a544-p1:sentence] 仲立人は、その媒介により成立させた行為について、当事者のために支払その他の給付を受けることができない。
+[a544-p1:sentence] ただし、当事者の別段の意思表示又は別段の慣習があるときは、この限りでない。

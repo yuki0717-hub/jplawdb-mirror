@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20260701
 law: 相続税法 (sozokuzei)
 law_num: 昭和二十五年法律第七十三号
 law_id: 325AC0000000073
 law_revision_id: 325AC0000000073_20260401_506AC0000000008
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 21
 title: 第二十一条
 deleted: false
 
-（贈与税の課税） 第二十一条 贈与税は、この節及び次節に定めるところにより、贈与により財産を取得した者に係る贈与税額として計算した金額により、課する。
+[a21:caption] （贈与税の課税）
+[a21:title] 第二十一条
+[a21-p1:sentence] 贈与税は、この節及び次節に定めるところにより、贈与により財産を取得した者に係る贈与税額として計算した金額により、課する。

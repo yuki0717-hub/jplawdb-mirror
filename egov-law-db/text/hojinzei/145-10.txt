@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260701
 law: 法人税法 (hojinzei)
 law_num: 昭和四十年法律第三十四号
 law_id: 340AC0000000034
 law_revision_id: 340AC0000000034_20260401_507AC0000000013
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 145-10
 title: 第百四十五条の十
 deleted: false
 
-（外国法人に係る退職年金等積立金に対する法人税の課税標準） 第百四十五条の十 外国法人に対して課する退職年金等積立金に対する法人税の課税標準は、各事業年度の退職年金等積立金の額とする。
+[a145-10:caption] （外国法人に係る退職年金等積立金に対する法人税の課税標準）
+[a145-10:title] 第百四十五条の十
+[a145-10-p1:sentence] 外国法人に対して課する退職年金等積立金に対する法人税の課税標準は、各事業年度の退職年金等積立金の額とする。

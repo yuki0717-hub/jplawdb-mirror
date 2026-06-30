@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260701
 law: 所得税法施行規則 (shotokuzei_kisoku)
 law_num: 昭和四十年大蔵省令第十一号
 law_id: 340M50000040011
 law_revision_id: 340M50000040011_20260522_508M60000040017
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 61
 title: 第六十一条
 deleted: false
 
-（貸借対照表及び損益計算書） 第六十一条 前条第一項に規定する青色申告者は、毎年十二月三十一日において、財務大臣の定める科目に従い、貸借対照表及び損益計算書を作成しなければならない。 ２ 財務大臣は、前項の定めをしたときは、これを告示する。
+[a61:caption] （貸借対照表及び損益計算書）
+[a61:title] 第六十一条
+[a61-p1:sentence] 前条第一項に規定する青色申告者は、毎年十二月三十一日において、財務大臣の定める科目に従い、貸借対照表及び損益計算書を作成しなければならない。
+[a61-p2:number] ２
+[a61-p2:sentence] 財務大臣は、前項の定めをしたときは、これを告示する。

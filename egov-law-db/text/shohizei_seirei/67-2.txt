@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260701
 law: 消費税法施行令 (shohizei_seirei)
 law_num: 昭和六十三年政令第三百六十号
 law_id: 363CO0000000360
 law_revision_id: 363CO0000000360_20260522_508CO0000000096
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 67-2
 title: 第六十七条の二
 deleted: false
 
-（担保の提供命令の手続） 第六十七条の二 法第五十一条第三項後段の規定による命令は、提供すべき担保の金額を記載した書面でしなければならない。
+[a67-2:caption] （担保の提供命令の手続）
+[a67-2:title] 第六十七条の二
+[a67-2-p1:sentence] 法第五十一条第三項後段の規定による命令は、提供すべき担保の金額を記載した書面でしなければならない。

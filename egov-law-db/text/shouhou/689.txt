@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 689
 title: 第六百八十九条
 deleted: false
 
-（航海中の船舶に対する差押え等の制限） 第六百八十九条 差押え及び仮差押えの執行（仮差押えの登記をする方法によるものを除く。）は、航海中の船舶（停泊中のものを除く。）に対してはすることができない。
+[a689:caption] （航海中の船舶に対する差押え等の制限）
+[a689:title] 第六百八十九条
+[a689-p1:sentence] 差押え及び仮差押えの執行（仮差押えの登記をする方法によるものを除く。）は、航海中の船舶（停泊中のものを除く。）に対してはすることができない。

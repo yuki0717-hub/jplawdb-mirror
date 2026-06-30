@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260701
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 50
 title: 第五十条
 deleted: false
 
-第五十条 第四十五条及ヒ第四十六条ノ場合ニ於テハ株式会社ハ各株ニ付キ株金ノ四分ノ一ノ払込アリタル後二週間内ニ商法第百四十一条第一項ニ定メタル登記ヲ為スコトヲ要ス
+[a50:title] 第五十条
+[a50-p1:sentence] 第四十五条及ヒ第四十六条ノ場合ニ於テハ株式会社ハ各株ニ付キ株金ノ四分ノ一ノ払込アリタル後二週間内ニ商法第百四十一条第一項ニ定メタル登記ヲ為スコトヲ要ス

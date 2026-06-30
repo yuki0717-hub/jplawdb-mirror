@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 692
 title: 第六百九十二条
 deleted: false
 
-（共有に係る船舶の利用） 第六百九十二条 船舶共有者の間においては、船舶の利用に関する事項は、各船舶共有者の持分の価格に従い、その過半数で決する。
+[a692:caption] （共有に係る船舶の利用）
+[a692:title] 第六百九十二条
+[a692-p1:sentence] 船舶共有者の間においては、船舶の利用に関する事項は、各船舶共有者の持分の価格に従い、その過半数で決する。

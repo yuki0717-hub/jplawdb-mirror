@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 686
 title: 第六百八十六条
 deleted: false
 
-（船舶の登記等） 第六百八十六条 船舶所有者は、船舶法（明治三十二年法律第四十六号）の定めるところに従い、登記をし、かつ、船舶国籍証書の交付を受けなければならない。 ２ 前項の規定は、総トン数二十トン未満の船舶については、適用しない。
+[a686:caption] （船舶の登記等）
+[a686:title] 第六百八十六条
+[a686-p1:sentence] 船舶所有者は、船舶法（明治三十二年法律第四十六号）の定めるところに従い、登記をし、かつ、船舶国籍証書の交付を受けなければならない。
+[a686-p2:number] ２
+[a686-p2:sentence] 前項の規定は、総トン数二十トン未満の船舶については、適用しない。

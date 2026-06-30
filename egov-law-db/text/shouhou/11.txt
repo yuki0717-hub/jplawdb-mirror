@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 11
 title: 第十一条
 deleted: false
 
-（商号の選定） 第十一条 商人（会社及び外国会社を除く。以下この編において同じ。）は、その氏、氏名その他の名称をもってその商号とすることができる。 ２ 商人は、その商号の登記をすることができる。
+[a11:caption] （商号の選定）
+[a11:title] 第十一条
+[a11-p1:sentence] 商人（会社及び外国会社を除く。以下この編において同じ。）は、その氏、氏名その他の名称をもってその商号とすることができる。
+[a11-p2:number] ２
+[a11-p2:sentence] 商人は、その商号の登記をすることができる。

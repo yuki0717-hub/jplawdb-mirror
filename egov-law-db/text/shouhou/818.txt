@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 818
 title: 第八百十八条
 deleted: false
 
-（船舶保険の保険価額） 第八百十八条 船舶を保険の目的物とする海上保険契約（以下この章において「船舶保険契約」という。）については、保険期間の始期における当該船舶の価額を保険価額とする。
+[a818:caption] （船舶保険の保険価額）
+[a818:title] 第八百十八条
+[a818-p1:sentence] 船舶を保険の目的物とする海上保険契約（以下この章において「船舶保険契約」という。）については、保険期間の始期における当該船舶の価額を保険価額とする。

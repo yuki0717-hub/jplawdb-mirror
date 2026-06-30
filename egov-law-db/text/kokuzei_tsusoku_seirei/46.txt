@@ -1,12 +1,28 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260701
 law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
 law_num: 昭和三十七年政令第百三十五号
 law_id: 337CO0000000135
 law_revision_id: 337CO0000000135_20260401_507CO0000000126
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 46
 title: 第四十六条
 deleted: false
 
-（間接国税の範囲） 第四十六条 法第百三十五条第一項（現行犯事件の臨検、捜索又は差押え）に規定する政令で定める国税は、次に掲げる国税とする。 一 消費税法第四十七条第二項（引取りに係る課税貨物についての課税標準額及び税額の申告等）に規定する課税貨物に課される消費税 二 酒税 三 たばこ税 四 揮発油税 五 地方揮発油税 六 石油ガス税 七 石油石炭税
+[a46:caption] （間接国税の範囲）
+[a46:title] 第四十六条
+[a46-p1:sentence] 法第百三十五条第一項（現行犯事件の臨検、捜索又は差押え）に規定する政令で定める国税は、次に掲げる国税とする。
+[a46-p1-i1:title] 一
+[a46-p1-i1:sentence] 消費税法第四十七条第二項（引取りに係る課税貨物についての課税標準額及び税額の申告等）に規定する課税貨物に課される消費税
+[a46-p1-i2:title] 二
+[a46-p1-i2:sentence] 酒税
+[a46-p1-i3:title] 三
+[a46-p1-i3:sentence] たばこ税
+[a46-p1-i4:title] 四
+[a46-p1-i4:sentence] 揮発油税
+[a46-p1-i5:title] 五
+[a46-p1-i5:sentence] 地方揮発油税
+[a46-p1-i6:title] 六
+[a46-p1-i6:sentence] 石油ガス税
+[a46-p1-i7:title] 七
+[a46-p1-i7:sentence] 石油石炭税

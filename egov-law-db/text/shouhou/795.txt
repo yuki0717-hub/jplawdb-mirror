@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 795
 title: 第七百九十五条
 deleted: false
 
-（救助料の上限額） 第七百九十五条 救助料の額は、特約がないときは、救助された物の価額（救助された積荷の運送賃の額を含む。）の合計額を超えることができない。
+[a795:caption] （救助料の上限額）
+[a795:title] 第七百九十五条
+[a795-p1:sentence] 救助料の額は、特約がないときは、救助された物の価額（救助された積荷の運送賃の額を含む。）の合計額を超えることができない。

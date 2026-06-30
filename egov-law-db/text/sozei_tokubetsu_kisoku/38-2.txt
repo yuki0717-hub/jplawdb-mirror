@@ -1,12 +1,20 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260701
 law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
 law_num: 昭和三十二年大蔵省令第十五号
 law_id: 332M50000040015
 law_revision_id: 332M50000040015_20260625_508M60000040021
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 38-2
 title: 第三十八条の二
 deleted: false
 
-（特定石油化学製品の指定用途） 第三十八条の二 施行令第四十七条の四第二項第三号に規定する財務省令で定める用途は、次に掲げる用途とする。 一 スチレンの製造用 二 試験研究用 三 その他揮発油税及び地方揮発油税の確保上支障がないものとして国税庁長官が定める用途
+[a38-2:caption] （特定石油化学製品の指定用途）
+[a38-2:title] 第三十八条の二
+[a38-2-p1:sentence] 施行令第四十七条の四第二項第三号に規定する財務省令で定める用途は、次に掲げる用途とする。
+[a38-2-p1-i1:title] 一
+[a38-2-p1-i1:sentence] スチレンの製造用
+[a38-2-p1-i2:title] 二
+[a38-2-p1-i2:sentence] 試験研究用
+[a38-2-p1-i3:title] 三
+[a38-2-p1-i3:sentence] その他揮発油税及び地方揮発油税の確保上支障がないものとして国税庁長官が定める用途

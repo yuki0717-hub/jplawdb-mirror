@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 49
 title: 第四十九条
 deleted: false
 
-（非課税貯蓄申告書等の書式） 第四十九条 非課税貯蓄申告書、非課税貯蓄申込書、非課税貯蓄限度額変更申告書、非課税貯蓄に関する異動申告書、非課税貯蓄廃止申告書及び非課税貯蓄相続申込書の書式は、財務省令で定める。
+[a49:caption] （非課税貯蓄申告書等の書式）
+[a49:title] 第四十九条
+[a49-p1:sentence] 非課税貯蓄申告書、非課税貯蓄申込書、非課税貯蓄限度額変更申告書、非課税貯蓄に関する異動申告書、非課税貯蓄廃止申告書及び非課税貯蓄相続申込書の書式は、財務省令で定める。

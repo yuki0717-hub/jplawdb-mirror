@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 600
 title: 第六百条
 deleted: false
 
-（倉荷証券の交付義務） 第六百条 倉庫営業者は、寄託者の請求により、寄託物の倉荷証券を交付しなければならない。
+[a600:caption] （倉荷証券の交付義務）
+[a600:title] 第六百条
+[a600-p1:sentence] 倉庫営業者は、寄託者の請求により、寄託物の倉荷証券を交付しなければならない。

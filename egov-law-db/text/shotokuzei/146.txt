@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260701
 law: 所得税法 (shotokuzei)
 law_num: 昭和四十年法律第三十三号
 law_id: 340AC0000000033
 law_revision_id: 340AC0000000033_20260401_507AC0000000013
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 146
 title: 第百四十六条
 deleted: false
 
-（青色申告の承認等の通知） 第百四十六条 税務署長は、第百四十四条（青色申告の承認の申請）の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした居住者に対し、書面によりその旨を通知する。
+[a146:caption] （青色申告の承認等の通知）
+[a146:title] 第百四十六条
+[a146-p1:sentence] 税務署長は、第百四十四条（青色申告の承認の申請）の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした居住者に対し、書面によりその旨を通知する。

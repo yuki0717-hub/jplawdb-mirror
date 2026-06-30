@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260701
 law: 相続税法施行規則 (sozokuzei_kisoku)
 law_num: 昭和二十五年大蔵省令第十七号
 law_id: 325M50000040017
 law_revision_id: 325M50000040017_20260401_508M60000040009
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 1
 title: 第一条
 deleted: false
 
-（定義） 第一条 この省令において、「期限後申告書」又は「修正申告書」とは、それぞれ相続税法（昭和二十五年法律第七十三号。以下「法」という。）第一条の二に規定する期限後申告書又は修正申告書をいう。
+[a1:caption] （定義）
+[a1:title] 第一条
+[a1-p1:sentence] この省令において、「期限後申告書」又は「修正申告書」とは、それぞれ相続税法（昭和二十五年法律第七十三号。以下「法」という。）第一条の二に規定する期限後申告書又は修正申告書をいう。

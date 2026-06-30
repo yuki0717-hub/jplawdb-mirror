@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 610
 title: 第六百十条
 deleted: false
 
-（倉庫営業者の責任） 第六百十条 倉庫営業者は、寄託物の保管に関し注意を怠らなかったことを証明しなければ、その滅失又は損傷につき損害賠償の責任を免れることができない。
+[a610:caption] （倉庫営業者の責任）
+[a610:title] 第六百十条
+[a610-p1:sentence] 倉庫営業者は、寄託物の保管に関し注意を怠らなかったことを証明しなければ、その滅失又は損傷につき損害賠償の責任を免れることができない。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260701
 law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
 law_num: 昭和三十七年政令第百三十五号
 law_id: 337CO0000000135
 law_revision_id: 337CO0000000135_20260401_507CO0000000126
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 19
 title: 第十九条
 deleted: false
 
-（保証人に対する納付通知書に係る納付の期限） 第十九条 法第五十二条第二項（納付通知書による告知）に規定する納付通知書に記載すべき納付の期限は、当該通知書を発する日の翌日から起算して一月を経過する日とする。
+[a19:caption] （保証人に対する納付通知書に係る納付の期限）
+[a19:title] 第十九条
+[a19-p1:sentence] 法第五十二条第二項（納付通知書による告知）に規定する納付通知書に記載すべき納付の期限は、当該通知書を発する日の翌日から起算して一月を経過する日とする。

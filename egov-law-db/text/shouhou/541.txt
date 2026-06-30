@@ -1,12 +1,20 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 541
 title: 第五百四十一条
 deleted: false
 
-（匿名組合契約の終了事由） 第五百四十一条 前条の場合のほか、匿名組合契約は、次に掲げる事由によって終了する。 一 匿名組合の目的である事業の成功又はその成功の不能 二 営業者の死亡又は営業者が後見開始の審判を受けたこと。 三 営業者又は匿名組合員が破産手続開始の決定を受けたこと。
+[a541:caption] （匿名組合契約の終了事由）
+[a541:title] 第五百四十一条
+[a541-p1:sentence] 前条の場合のほか、匿名組合契約は、次に掲げる事由によって終了する。
+[a541-p1-i1:title] 一
+[a541-p1-i1:sentence] 匿名組合の目的である事業の成功又はその成功の不能
+[a541-p1-i2:title] 二
+[a541-p1-i2:sentence] 営業者の死亡又は営業者が後見開始の審判を受けたこと。
+[a541-p1-i3:title] 三
+[a541-p1-i3:sentence] 営業者又は匿名組合員が破産手続開始の決定を受けたこと。

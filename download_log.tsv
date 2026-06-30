@@ -20991,7 +20991,7 @@ ai-paper-db/nta-tp-audit/packs/jimu-ch06-pack-00.txt	paper	25552	fbf7ec2be431cd9
 ai-paper-db/nta-tp-audit/packs/jimu-ch06-pack-01.txt	paper	16191	c86e26102d31e68901d2f167284b849d504acf1daa2f4cfb41fad52602bab9e0
 ai-paper-db/nta-tp-audit/packs/jimu-ch07-pack-00.txt	paper	1453	acdaae99078cee86bd2d1f725643d6ae76571ccbd57ce5471b950ed3b4f5f11b
 ai-paper-db/nta-tp-audit/packs/jimu-ch08-pack-00.txt	paper	12271	7c3aad7ea0f952e06710c9ef5a3bc2e40a6cd11b053ff56701d4a9e2d7bbe094
-ai-paper-db/nta-tp-audit/quickstart.txt	paper	1721	9b759d74b8236b08b8c96202a88f9a3aad746bce99e59006d24b73852eaed9a2
+ai-paper-db/nta-tp-audit/quickstart.txt	paper	1860	36224f8f193be6ad46cfc8192a2214468b3dd1e9421190237825892302e44df7
 ai-paper-db/oecd-beps/data/latin_terms/AA17-00.tsv	paper	558	06f1db2db6f0fb3ed553505bac31ece7bfa93a2ef0d203c8264227c50bf456ea
 ai-paper-db/oecd-beps/data/latin_terms/AAA-00.tsv	paper	1127	2e81fb491194f1d0ec0e03837de49dccdb224c7f60aca7bc3802f81dec3af290
 ai-paper-db/oecd-beps/data/latin_terms/ABBREVIATIONS-00.tsv	paper	301	350d1555ca0338447f8c02ba39f5523734d42a70264d4c6ab6235491c5092f97
@@ -21398,7 +21398,7 @@ ai-paper-db/oecd-tpg-2022/packs/ch10-pack-04.txt	paper	24285	8c4917a1887bf2a9b0e
 ai-paper-db/oecd-tpg-2022/packs/ch10-pack-05.txt	paper	24400	d14f702d450569b5f90a052f2f7054bbadf0f1beeead73651717adb77d8e6287
 ai-paper-db/oecd-tpg-2022/packs/ch10-pack-06.txt	paper	24088	25bf5327b5475d743c87fb785acfae06664f008dd3be19c8971f5eef29ddc854
 ai-paper-db/oecd-tpg-2022/packs/ch10-pack-07.txt	paper	1795	b7f08d35ec3d4ce31ba5c11d2997f31f520d67ee03f4600ed04187867d21f8ce
-ai-paper-db/oecd-tpg-2022/quickstart.txt	paper	1887	b5d203abb1021788283570b59c5ee3fbfb89c914b75132092dabba6dc579cccf
+ai-paper-db/oecd-tpg-2022/quickstart.txt	paper	1980	da17426a3ed9f2c7d4f58d6ea6d86cb919e9acbf7f10edb61fa43203b2a86ce5
 ai-treaty-db/jp-tax-treaties/data/docs_index.tsv	treaty	23477	ed65bc398ec3ccd94e8658d27ba47b1eb3c25c3c506915e0f37d569ac26d32ce
 ai-treaty-db/jp-tax-treaties/data/latin_terms/JOEE-00.tsv	treaty	355	28dc2a8d2136291cb58b33b09890f58f60c9994cb1489250f5177bc03200a4bc
 ai-treaty-db/jp-tax-treaties/data/latin_terms/index.json	treaty	631	545db945c7c7a377937c8a2c90e88a659236f2a0712c71ca05308f68820fd3bd

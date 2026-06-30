@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 559
 title: 第五百五十九条
 deleted: false
 
-（定義等） 第五百五十九条 この章において「運送取扱人」とは、自己の名をもって物品運送の取次ぎをすることを業とする者をいう。 ２ 運送取扱人については、この章に別段の定めがある場合を除き、第五百五十一条に規定する問屋に関する規定を準用する。
+[a559:caption] （定義等）
+[a559:title] 第五百五十九条
+[a559-p1:sentence] この章において「運送取扱人」とは、自己の名をもって物品運送の取次ぎをすることを業とする者をいう。
+[a559-p2:number] ２
+[a559-p2:sentence] 運送取扱人については、この章に別段の定めがある場合を除き、第五百五十一条に規定する問屋に関する規定を準用する。

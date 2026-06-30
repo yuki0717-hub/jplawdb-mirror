@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20260701
 law: 消費税法 (shohizei)
 law_num: 昭和六十三年法律第百八号
 law_id: 363AC0000000108
 law_revision_id: 363AC0000000108_20260401_506AC0000000008
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 26
 title: 第二十六条
 deleted: false
 
-（外国貨物に係る納税地） 第二十六条 保税地域から引き取られる外国貨物に係る消費税の納税地は、当該保税地域の所在地とする。
+[a26:caption] （外国貨物に係る納税地）
+[a26:title] 第二十六条
+[a26-p1:sentence] 保税地域から引き取られる外国貨物に係る消費税の納税地は、当該保税地域の所在地とする。

@@ -1,12 +1,38 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 63
 title: 第六十三条
 deleted: false
 
-（事業の範囲） 第六十三条 法第二十七条第一項（事業所得）に規定する政令で定める事業は、次に掲げる事業（不動産の貸付業又は船舶若しくは航空機の貸付業に該当するものを除く。）とする。 一 農業 二 林業及び狩猟業 三 漁業及び水産養殖業 四 鉱業（土石採取業を含む。） 五 建設業 六 製造業 七 卸売業及び小売業（飲食店業及び料理店業を含む。） 八 金融業及び保険業 九 不動産業 十 運輸通信業（倉庫業を含む。） 十一 医療保健業、著述業その他のサービス業 十二 前各号に掲げるもののほか、対価を得て継続的に行なう事業
+[a63:caption] （事業の範囲）
+[a63:title] 第六十三条
+[a63-p1:sentence] 法第二十七条第一項（事業所得）に規定する政令で定める事業は、次に掲げる事業（不動産の貸付業又は船舶若しくは航空機の貸付業に該当するものを除く。）とする。
+[a63-p1-i1:title] 一
+[a63-p1-i1:sentence] 農業
+[a63-p1-i2:title] 二
+[a63-p1-i2:sentence] 林業及び狩猟業
+[a63-p1-i3:title] 三
+[a63-p1-i3:sentence] 漁業及び水産養殖業
+[a63-p1-i4:title] 四
+[a63-p1-i4:sentence] 鉱業（土石採取業を含む。）
+[a63-p1-i5:title] 五
+[a63-p1-i5:sentence] 建設業
+[a63-p1-i6:title] 六
+[a63-p1-i6:sentence] 製造業
+[a63-p1-i7:title] 七
+[a63-p1-i7:sentence] 卸売業及び小売業（飲食店業及び料理店業を含む。）
+[a63-p1-i8:title] 八
+[a63-p1-i8:sentence] 金融業及び保険業
+[a63-p1-i9:title] 九
+[a63-p1-i9:sentence] 不動産業
+[a63-p1-i10:title] 十
+[a63-p1-i10:sentence] 運輸通信業（倉庫業を含む。）
+[a63-p1-i11:title] 十一
+[a63-p1-i11:sentence] 医療保健業、著述業その他のサービス業
+[a63-p1-i12:title] 十二
+[a63-p1-i12:sentence] 前各号に掲げるもののほか、対価を得て継続的に行なう事業

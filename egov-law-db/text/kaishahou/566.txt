@@ -1,12 +1,18 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 566
 title: 第五百六十六条
 deleted: false
 
-（担保権を有する債権者等の参加） 第五百六十六条 清算株式会社は、協定案の作成に当たり必要があると認めるときは、次に掲げる債権者の参加を求めることができる。 一 第五百二十二条第二項に規定する担保権を有する債権者 二 一般の先取特権その他一般の優先権がある債権を有する債権者
+[a566:caption] （担保権を有する債権者等の参加）
+[a566:title] 第五百六十六条
+[a566-p1:sentence] 清算株式会社は、協定案の作成に当たり必要があると認めるときは、次に掲げる債権者の参加を求めることができる。
+[a566-p1-i1:title] 一
+[a566-p1-i1:sentence] 第五百二十二条第二項に規定する担保権を有する債権者
+[a566-p1-i2:title] 二
+[a566-p1-i2:sentence] 一般の先取特権その他一般の優先権がある債権を有する債権者

@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 704
 title: 第七百四条
 deleted: false
 
-（社債管理者の義務） 第七百四条 社債管理者は、社債権者のために、公平かつ誠実に社債の管理を行わなければならない。 ２ 社債管理者は、社債権者に対し、善良な管理者の注意をもって社債の管理を行わなければならない。
+[a704:caption] （社債管理者の義務）
+[a704:title] 第七百四条
+[a704-p1:sentence] 社債管理者は、社債権者のために、公平かつ誠実に社債の管理を行わなければならない。
+[a704-p2:number] ２
+[a704-p2:sentence] 社債管理者は、社債権者に対し、善良な管理者の注意をもって社債の管理を行わなければならない。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 327
 title: 第三百二十七条
 deleted: false
 
-（匿名組合契約等の範囲） 第三百二十七条 法第二百十条（源泉徴収義務）に規定する政令で定める契約は、第二百八十八条（匿名組合契約に準ずる契約の範囲）に規定する契約とする。
+[a327:caption] （匿名組合契約等の範囲）
+[a327:title] 第三百二十七条
+[a327-p1:sentence] 法第二百十条（源泉徴収義務）に規定する政令で定める契約は、第二百八十八条（匿名組合契約に準ずる契約の範囲）に規定する契約とする。

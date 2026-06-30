@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 503
 title: 第五百三条
 deleted: false
 
-（附属的商行為） 第五百三条 商人がその営業のためにする行為は、商行為とする。 ２ 商人の行為は、その営業のためにするものと推定する。
+[a503:caption] （附属的商行為）
+[a503:title] 第五百三条
+[a503-p1:sentence] 商人がその営業のためにする行為は、商行為とする。
+[a503-p2:number] ２
+[a503-p2:sentence] 商人の行為は、その営業のためにするものと推定する。

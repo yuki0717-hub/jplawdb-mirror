@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20260701
 law: 商法施行規則 (shouhou_kisoku)
 law_num: 平成十四年法務省令第二十二号
 law_id: 414M60000010022
 law_revision_id: 414M60000010022_20231227_505M60000010049
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 1
 title: 第一条
 deleted: false
 
-（目的） 第一条 この規則は、商法（明治三十二年法律第四十八号）の委任に基づく事項を定めることを目的とする。
+[a1:caption] （目的）
+[a1:title] 第一条
+[a1-p1:sentence] この規則は、商法（明治三十二年法律第四十八号）の委任に基づく事項を定めることを目的とする。

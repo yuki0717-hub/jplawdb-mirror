@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 527
 title: 第五百二十七条
 deleted: false
 
-（監督委員の選任等） 第五百二十七条 裁判所は、一人又は二人以上の監督委員を選任し、当該監督委員に対し、第五百三十五条第一項の許可に代わる同意をする権限を付与することができる。 ２ 法人は、監督委員となることができる。
+[a527:caption] （監督委員の選任等）
+[a527:title] 第五百二十七条
+[a527-p1:sentence] 裁判所は、一人又は二人以上の監督委員を選任し、当該監督委員に対し、第五百三十五条第一項の許可に代わる同意をする権限を付与することができる。
+[a527-p2:number] ２
+[a527-p2:sentence] 法人は、監督委員となることができる。

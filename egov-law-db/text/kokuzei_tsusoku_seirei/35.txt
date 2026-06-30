@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20260701
 law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
 law_num: 昭和三十七年政令第百三十五号
 law_id: 337CO0000000135
 law_revision_id: 337CO0000000135_20260401_507CO0000000126
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 35
 title: 第三十五条
 deleted: false
 
-（通話者等の確認） 第三十五条 担当審判官は、法第九十七条の二第二項（審理手続の計画的遂行）の規定による意見の聴取を行う場合には、通話者及び通話先の場所の確認をしなければならない。
+[a35:caption] （通話者等の確認）
+[a35:title] 第三十五条
+[a35-p1:sentence] 担当審判官は、法第九十七条の二第二項（審理手続の計画的遂行）の規定による意見の聴取を行う場合には、通話者及び通話先の場所の確認をしなければならない。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260701
 law: 法人税法施行令 (hojinzei_seirei)
 law_num: 昭和四十年政令第九十七号
 law_id: 340CO0000000097
 law_revision_id: 340CO0000000097_20260601_508CO0000000094
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 6
 title: 第六条
 deleted: false
 
-（収益事業を行う法人の経理の区分） 第六条 公益法人等及び人格のない社団等は、収益事業から生ずる所得に関する経理と収益事業以外の事業から生ずる所得に関する経理とを区分して行わなければならない。
+[a6:caption] （収益事業を行う法人の経理の区分）
+[a6:title] 第六条
+[a6-p1:sentence] 公益法人等及び人格のない社団等は、収益事業から生ずる所得に関する経理と収益事業以外の事業から生ずる所得に関する経理とを区分して行わなければならない。

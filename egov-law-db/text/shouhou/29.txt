@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 29
 title: 第二十九条
 deleted: false
 
-（通知を受ける権限） 第二十九条 物品の販売又はその媒介の委託を受けた代理商は、第五百二十六条第二項の通知その他売買に関する通知を受ける権限を有する。
+[a29:caption] （通知を受ける権限）
+[a29:title] 第二十九条
+[a29-p1:sentence] 物品の販売又はその媒介の委託を受けた代理商は、第五百二十六条第二項の通知その他売買に関する通知を受ける権限を有する。

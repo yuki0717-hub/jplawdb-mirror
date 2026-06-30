@@ -1,12 +1,15 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 823
 title: 第八百二十三条
 deleted: false
 
-（他の法律の適用関係） 第八百二十三条 外国会社は、他の法律の適用については、日本における同種の会社又は最も類似する会社とみなす。 ただし、他の法律に別段の定めがあるときは、この限りでない。
+[a823:caption] （他の法律の適用関係）
+[a823:title] 第八百二十三条
+[a823-p1:sentence] 外国会社は、他の法律の適用については、日本における同種の会社又は最も類似する会社とみなす。
+[a823-p1:sentence] ただし、他の法律に別段の定めがあるときは、この限りでない。

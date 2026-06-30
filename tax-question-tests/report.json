@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-30T23:55:03.459146+00:00",
+  "passed": true,
+  "scenario_count": 6,
+  "source_check_count": 19,
+  "navigation_repairs": 2,
+  "scenarios": [
+    {
+      "id": "executive-compensation",
+      "title": "役員給与の期中改定と事前確定届出給与",
+      "question": "3月決算法人が業績悪化を理由に9月から代表取締役の月額報酬を減額し、12月に臨時賞与も支給する。各支給額を損金算入できる条件、届出期限、不相当に高額な部分の扱いを整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "法人税法34条",
+          "path": "egov-law-db/text/hojinzei/34.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/34.txt",
+          "required_terms": [
+            "役員",
+            "定期同額給与"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 10468,
+          "status": "passed"
+        },
+        {
+          "label": "法人税法施行令69条",
+          "path": "egov-law-db/text/hojinzei_seirei/69.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/69.txt",
+          "required_terms": [
+            "定期同額給与",
+            "改定"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 35417,
+          "status": "passed"
+        },
+        {
+          "label": "法人税基本通達9-2-12",
+          "path": "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/9-2-12.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/9-2-12.txt",
+          "required_terms": [
+            "定期同額給与",
+            "非常勤役員"
+          ],
+          "observed_date": "snapshot: 2025-06-28",
+          "size": 1789,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁タックスアンサー5211",
+          "path": "ai-nta-qa-db/text/taxanswer_hojin/5211.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_hojin/5211.txt",
+          "required_terms": [
+            "損金",
+            "事前確定届出給与"
+          ],
+          "observed_date": "[令和7年4月1日現在法令等]",
+          "size": 19017,
+          "status": "passed"
+        }
+      ],
+      "external_sources": [
+        {
+          "label": "国税庁：事前確定届出給与に関する届出",
+          "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104.htm"
+        }
+      ]
+    },
+    {
+      "id": "transfer-pricing",
+      "title": "国外関連者への無形資産ライセンスと移転価格",
+      "question": "日本法人が独自技術を海外子会社へライセンスするが、直接比較できる取引がない。最も適切な独立企業間価格の算定方法、比較可能性、無形資産への貢献、ローカルファイルで残すべき検討過程を整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "租税特別措置法66条の4",
+          "path": "egov-law-db/text/sozei_tokubetsu/66-4.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-4.txt",
+          "required_terms": [
+            "国外関連者",
+            "独立企業間価格"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 38046,
+          "status": "passed"
+        },
+        {
+          "label": "租税特別措置法施行令39条の12",
+          "path": "egov-law-db/text/sozei_tokubetsu_seirei/39-12.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-12.txt",
+          "required_terms": [
+            "独立企業間価格",
+            "比較対象取引"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 46501,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁移転価格事務運営要領・参考事例集の索引",
+          "path": "ai-paper-db/nta-tp-audit/data/shards_index.json",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-paper-db/nta-tp-audit/data/shards_index.json",
+          "required_terms": [],
+          "observed_date": null,
+          "size": 6876,
+          "status": "passed"
+        },
+        {
+          "label": "OECD移転価格ガイドライン2022の索引",
+          "path": "ai-paper-db/oecd-tpg-2022/data/shards_index.json",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-paper-db/oecd-tpg-2022/data/shards_index.json",
+          "required_terms": [],
+          "observed_date": null,
+          "size": 12377,
+          "status": "passed"
+        }
+      ],
+      "external_sources": [
+        {
+          "label": "国税庁：移転価格事務運営要領",
+          "url": "https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm"
+        }
+      ]
+    },
+    {
+      "id": "invoice-input-tax-credit",
+      "title": "インボイスがない取引の仕入税額控除",
+      "question": "従業員の国内出張について、公共交通機関の領収書や適格請求書がない。仕入税額控除が認められる範囲、帳簿の追加記載事項、保存期間、経過措置の確認事項を整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "消費税法30条",
+          "path": "egov-law-db/text/shohizei/30.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/shohizei/30.txt",
+          "required_terms": [
+            "課税仕入れ",
+            "帳簿",
+            "請求書"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 20151,
+          "status": "passed"
+        },
+        {
+          "label": "消費税法施行令49条",
+          "path": "egov-law-db/text/shohizei_seirei/49.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/shohizei_seirei/49.txt",
+          "required_terms": [
+            "帳簿",
+            "請求書"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 11853,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁タックスアンサー6496",
+          "path": "ai-nta-qa-db/text/taxanswer_shohi/6496.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_shohi/6496.txt",
+          "required_terms": [
+            "仕入税額控除",
+            "適格請求書"
+          ],
+          "observed_date": "[令和7年4月1日現在法令等]",
+          "size": 5451,
+          "status": "passed"
+        }
+      ],
+      "external_sources": [
+        {
+          "label": "国税庁：インボイス制度Q&A",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/qa_01.htm"
+        }
+      ]
+    },
+    {
+      "id": "revenue-recognition",
+      "title": "複合契約の収益認識",
+      "question": "SaaSの初期設定、導入支援、月額利用料を一つの契約で受け取る。法人税上の収益計上単位と時期を、履行義務、引渡し・役務完了、会計処理との相違を区別して整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "法人税法22条の2",
+          "path": "egov-law-db/text/hojinzei/22-2.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/22-2.txt",
+          "required_terms": [
+            "収益",
+            "引渡し"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 3955,
+          "status": "passed"
+        },
+        {
+          "label": "法人税基本通達2-1-1",
+          "path": "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/2-1-1.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/2-1-1.txt",
+          "required_terms": [
+            "個々の契約",
+            "履行義務"
+          ],
+          "observed_date": "snapshot: 2025-06-28",
+          "size": 1632,
+          "status": "passed"
+        }
+      ],
+      "external_sources": [
+        {
+          "label": "国税庁：収益認識に関する改正通達の趣旨説明",
+          "url": "https://www.nta.go.jp/law/joho-zeikaishaku/hojin/180530/index.htm"
+        }
+      ]
+    },
+    {
+      "id": "unlisted-share-valuation",
+      "title": "取引相場のない株式の相続税評価",
+      "question": "非上場会社株式を相続した。会社規模、同族株主か少数株主か、類似業種比準・純資産価額・配当還元のどの方式を使うか、判定順序と追加で必要な事実を整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "相続税法22条",
+          "path": "egov-law-db/text/sozokuzei/22.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozokuzei/22.txt",
+          "required_terms": [
+            "財産",
+            "時価"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 698,
+          "status": "passed"
+        },
+        {
+          "label": "財産評価基本通達178",
+          "path": "ai-tsutatsu-db/text/hyoka_kihon_tsutatsu/178.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hyoka_kihon_tsutatsu/178.txt",
+          "required_terms": [
+            "取引相場のない株式",
+            "大会社"
+          ],
+          "observed_date": "snapshot: 2026-02-07",
+          "size": 5201,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁タックスアンサー4638",
+          "path": "ai-nta-qa-db/text/taxanswer_hyoka/4638.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_hyoka/4638.txt",
+          "required_terms": [
+            "同族株主",
+            "配当還元方式"
+          ],
+          "observed_date": "[令和7年4月1日現在法令等]",
+          "size": 5439,
+          "status": "passed"
+        }
+      ],
+      "external_sources": []
+    },
+    {
+      "id": "additional-tax-penalties",
+      "title": "修正申告・期限後申告と加算税",
+      "question": "税務調査の連絡後に申告漏れへ気付き修正申告する。単純な計上漏れと証憑の改ざんが混在する場合、過少申告加算税、無申告加算税、重加算税の適用関係と『正当な理由』『隠蔽・仮装』を整理してください。",
+      "status": "passed",
+      "sources": [
+        {
+          "label": "国税通則法65条",
+          "path": "egov-law-db/text/kokuzei_tsusoku/65.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/kokuzei_tsusoku/65.txt",
+          "required_terms": [
+            "過少申告加算税",
+            "正当な理由"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 11130,
+          "status": "passed"
+        },
+        {
+          "label": "国税通則法66条",
+          "path": "egov-law-db/text/kokuzei_tsusoku/66.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/kokuzei_tsusoku/66.txt",
+          "required_terms": [
+            "無申告加算税",
+            "正当な理由"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 11716,
+          "status": "passed"
+        },
+        {
+          "label": "国税通則法68条",
+          "path": "egov-law-db/text/kokuzei_tsusoku/68.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/kokuzei_tsusoku/68.txt",
+          "required_terms": [
+            "重加算税",
+            "隠蔽",
+            "仮装"
+          ],
+          "observed_date": "as_of: 2026-07-01",
+          "size": 6189,
+          "status": "passed"
+        }
+      ],
+      "external_sources": [
+        {
+          "label": "国税庁：法人税の過少申告加算税及び無申告加算税の取扱い",
+          "url": "https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm"
+        }
+      ]
+    }
+  ]
+}

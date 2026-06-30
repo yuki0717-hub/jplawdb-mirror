@@ -1,12 +1,28 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 641
 title: 第六百四十一条
 deleted: false
 
-（解散の事由） 第六百四十一条 持分会社は、次に掲げる事由によって解散する。 一 定款で定めた存続期間の満了 二 定款で定めた解散の事由の発生 三 総社員の同意 四 社員が欠けたこと。 五 合併（合併により当該持分会社が消滅する場合に限る。） 六 破産手続開始の決定 七 第八百二十四条第一項又は第八百三十三条第二項の規定による解散を命ずる裁判
+[a641:caption] （解散の事由）
+[a641:title] 第六百四十一条
+[a641-p1:sentence] 持分会社は、次に掲げる事由によって解散する。
+[a641-p1-i1:title] 一
+[a641-p1-i1:sentence] 定款で定めた存続期間の満了
+[a641-p1-i2:title] 二
+[a641-p1-i2:sentence] 定款で定めた解散の事由の発生
+[a641-p1-i3:title] 三
+[a641-p1-i3:sentence] 総社員の同意
+[a641-p1-i4:title] 四
+[a641-p1-i4:sentence] 社員が欠けたこと。
+[a641-p1-i5:title] 五
+[a641-p1-i5:sentence] 合併（合併により当該持分会社が消滅する場合に限る。）
+[a641-p1-i6:title] 六
+[a641-p1-i6:sentence] 破産手続開始の決定
+[a641-p1-i7:title] 七
+[a641-p1-i7:sentence] 第八百二十四条第一項又は第八百三十三条第二項の規定による解散を命ずる裁判

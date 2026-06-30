@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260701
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 65
 title: 第六十五条
 deleted: false
 
-第六十五条 商法施行前ニ選任シタル取締役ハ其施行ノ後遅滞ナク定款ニ定メタル員数ノ株券ヲ監査役ニ供託スルコトヲ要ス
+[a65:title] 第六十五条
+[a65-p1:sentence] 商法施行前ニ選任シタル取締役ハ其施行ノ後遅滞ナク定款ニ定メタル員数ノ株券ヲ監査役ニ供託スルコトヲ要ス

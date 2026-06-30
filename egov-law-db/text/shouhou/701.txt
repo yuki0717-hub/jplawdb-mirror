@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 701
 title: 第七百一条
 deleted: false
 
-（船舶賃貸借の対抗力） 第七百一条 船舶の賃貸借は、これを登記したときは、その後その船舶について物権を取得した者に対しても、その効力を生ずる。
+[a701:caption] （船舶賃貸借の対抗力）
+[a701:title] 第七百一条
+[a701-p1:sentence] 船舶の賃貸借は、これを登記したときは、その後その船舶について物権を取得した者に対しても、その効力を生ずる。

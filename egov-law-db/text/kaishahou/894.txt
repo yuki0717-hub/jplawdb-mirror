@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 894
 title: 第八百九十四条
 deleted: false
 
-（監督委員の解任及び報酬等） 第八百九十四条 裁判所は、監督委員を解任する場合には、当該監督委員の陳述を聴かなければならない。 ２ 第五百三十二条第一項の規定による決定に対しては、即時抗告をすることができる。
+[a894:caption] （監督委員の解任及び報酬等）
+[a894:title] 第八百九十四条
+[a894-p1:sentence] 裁判所は、監督委員を解任する場合には、当該監督委員の陳述を聴かなければならない。
+[a894-p2:number] ２
+[a894-p2:sentence] 第五百三十二条第一項の規定による決定に対しては、即時抗告をすることができる。

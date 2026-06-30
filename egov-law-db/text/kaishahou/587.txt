@@ -1,12 +1,15 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 587
 title: 第五百八十七条
 deleted: false
 
-第五百八十七条 持分会社は、その持分の全部又は一部を譲り受けることができない。 ２ 持分会社が当該持分会社の持分を取得した場合には、当該持分は、当該持分会社がこれを取得した時に、消滅する。
+[a587:title] 第五百八十七条
+[a587-p1:sentence] 持分会社は、その持分の全部又は一部を譲り受けることができない。
+[a587-p2:number] ２
+[a587-p2:sentence] 持分会社が当該持分会社の持分を取得した場合には、当該持分は、当該持分会社がこれを取得した時に、消滅する。

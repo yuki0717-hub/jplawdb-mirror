@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 684
 title: 第六百八十四条
 deleted: false
 
-（定義） 第六百八十四条 この編（第七百四十七条を除く。）において「船舶」とは、商行為をする目的で航海の用に供する船舶（端舟その他ろかいのみをもって運転し、又は主としてろかいをもって運転する舟を除く。）をいう。
+[a684:caption] （定義）
+[a684:title] 第六百八十四条
+[a684-p1:sentence] この編（第七百四十七条を除く。）において「船舶」とは、商行為をする目的で航海の用に供する船舶（端舟その他ろかいのみをもって運転し、又は主としてろかいをもって運転する舟を除く。）をいう。

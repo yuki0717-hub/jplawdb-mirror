@@ -1,12 +1,15 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 532
 title: 第五百三十二条
 deleted: false
 
-（交互計算の承認） 第五百三十二条 当事者は、債権及び債務の各項目を記載した計算書の承認をしたときは、当該各項目について異議を述べることができない。 ただし、当該計算書の記載に錯誤又は脱漏があったときは、この限りでない。
+[a532:caption] （交互計算の承認）
+[a532:title] 第五百三十二条
+[a532-p1:sentence] 当事者は、債権及び債務の各項目を記載した計算書の承認をしたときは、当該各項目について異議を述べることができない。
+[a532-p1:sentence] ただし、当該計算書の記載に錯誤又は脱漏があったときは、この限りでない。

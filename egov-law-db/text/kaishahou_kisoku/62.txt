@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 62
 title: 第六十二条
 deleted: false
 
-第六十二条 法第二百八十六条第一項第三号に規定する法務省令で定めるものは、取締役会に現物出資財産の価額の決定に関する議案を提案した取締役及び執行役とする。
+[a62:title] 第六十二条
+[a62-p1:sentence] 法第二百八十六条第一項第三号に規定する法務省令で定めるものは、取締役会に現物出資財産の価額の決定に関する議案を提案した取締役及び執行役とする。

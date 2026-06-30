@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 927
 title: 第九百二十七条
 deleted: false
 
-（継続の登記） 第九百二十七条 第四百七十三条、第六百四十二条第一項又は第八百四十五条の規定により会社が継続したときは、二週間以内に、その本店の所在地において、継続の登記をしなければならない。
+[a927:caption] （継続の登記）
+[a927:title] 第九百二十七条
+[a927-p1:sentence] 第四百七十三条、第六百四十二条第一項又は第八百四十五条の規定により会社が継続したときは、二週間以内に、その本店の所在地において、継続の登記をしなければならない。

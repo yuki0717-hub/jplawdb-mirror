@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20260701
 law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
 law_num: 昭和三十二年政令第四十三号
 law_id: 332CO0000000043
 law_revision_id: 332CO0000000043_20260522_508CO0000000098
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 44
 title: 第四十四条
 deleted: false
 
-（登記の免税を受ける第一種鉄道事業者の範囲） 第四十四条 法第八十四条の二に規定する政令で定める法人は、その発行済株式の総数の三分の二以上の数が地方公共団体により所有されている株式会社とする。
+[a44:caption] （登記の免税を受ける第一種鉄道事業者の範囲）
+[a44:title] 第四十四条
+[a44-p1:sentence] 法第八十四条の二に規定する政令で定める法人は、その発行済株式の総数の三分の二以上の数が地方公共団体により所有されている株式会社とする。

@@ -1,12 +1,28 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 3
 title: 第三条
 deleted: false
 
-（棚卸資産の範囲） 第三条 法第二条第一項第十六号（棚卸資産の意義）に規定する政令で定める資産は、次に掲げる資産とする。 一 商品又は製品（副産物及び作業くずを含む。） 二 半製品 三 仕掛品（半成工事を含む。） 四 主要原材料 五 補助原材料 六 消耗品で貯蔵中のもの 七 前各号に掲げる資産に準ずるもの
+[a3:caption] （棚卸資産の範囲）
+[a3:title] 第三条
+[a3-p1:sentence] 法第二条第一項第十六号（棚卸資産の意義）に規定する政令で定める資産は、次に掲げる資産とする。
+[a3-p1-i1:title] 一
+[a3-p1-i1:sentence] 商品又は製品（副産物及び作業くずを含む。）
+[a3-p1-i2:title] 二
+[a3-p1-i2:sentence] 半製品
+[a3-p1-i3:title] 三
+[a3-p1-i3:sentence] 仕掛品（半成工事を含む。）
+[a3-p1-i4:title] 四
+[a3-p1-i4:sentence] 主要原材料
+[a3-p1-i5:title] 五
+[a3-p1-i5:sentence] 補助原材料
+[a3-p1-i6:title] 六
+[a3-p1-i6:sentence] 消耗品で貯蔵中のもの
+[a3-p1-i7:title] 七
+[a3-p1-i7:sentence] 前各号に掲げる資産に準ずるもの

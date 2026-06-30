@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260701
 law: 法人税法施行規則 (hojinzei_kisoku)
 law_num: 昭和四十年大蔵省令第十二号
 law_id: 340M50000040012
 law_revision_id: 340M50000040012_20260522_508M60000040039
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 64
 title: 第六十四条
 deleted: false
 
-（外国普通法人となつた旨の届出に係る添付書類） 第六十四条 法第百四十九条第一項及び第二項（外国普通法人となつた旨の届出）に規定する財務省令で定める書類は、定款等の和訳文とする。
+[a64:caption] （外国普通法人となつた旨の届出に係る添付書類）
+[a64:title] 第六十四条
+[a64-p1:sentence] 法第百四十九条第一項及び第二項（外国普通法人となつた旨の届出）に規定する財務省令で定める書類は、定款等の和訳文とする。

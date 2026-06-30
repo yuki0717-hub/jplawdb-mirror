@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 685
 title: 第六百八十五条
 deleted: false
 
-（従物の推定等） 第六百八十五条 船舶の属具目録に記載した物は、その従物と推定する。 ２ 属具目録の書式は、国土交通省令で定める。
+[a685:caption] （従物の推定等）
+[a685:title] 第六百八十五条
+[a685-p1:sentence] 船舶の属具目録に記載した物は、その従物と推定する。
+[a685-p2:number] ２
+[a685-p2:sentence] 属具目録の書式は、国土交通省令で定める。

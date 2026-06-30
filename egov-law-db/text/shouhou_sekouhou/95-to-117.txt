@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260701
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 95-to-117
 title: 第九十五条乃至第百十七条
 deleted: false
 
-第九十五条乃至第百十七条 削除
+[a95:117:title] 第九十五条乃至第百十七条
+[a95:117-p1:sentence] 削除

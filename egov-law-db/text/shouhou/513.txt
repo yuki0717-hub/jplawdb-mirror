@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 513
 title: 第五百十三条
 deleted: false
 
-（利息請求権） 第五百十三条 商人間において金銭の消費貸借をしたときは、貸主は、法定利息を請求することができる。 ２ 商人がその営業の範囲内において他人のために金銭の立替えをしたときは、その立替えの日以後の法定利息を請求することができる。
+[a513:caption] （利息請求権）
+[a513:title] 第五百十三条
+[a513-p1:sentence] 商人間において金銭の消費貸借をしたときは、貸主は、法定利息を請求することができる。
+[a513-p2:number] ２
+[a513-p2:sentence] 商人がその営業の範囲内において他人のために金銭の立替えをしたときは、その立替えの日以後の法定利息を請求することができる。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 548
 title: 第五百四十八条
 deleted: false
 
-（当事者の氏名等を相手方に示さない場合） 第五百四十八条 当事者がその氏名又は名称を相手方に示してはならない旨を仲立人に命じたときは、仲立人は、結約書及び前条第二項の謄本にその氏名又は名称を記載することができない。
+[a548:caption] （当事者の氏名等を相手方に示さない場合）
+[a548:title] 第五百四十八条
+[a548-p1:sentence] 当事者がその氏名又は名称を相手方に示してはならない旨を仲立人に命じたときは、仲立人は、結約書及び前条第二項の謄本にその氏名又は名称を記載することができない。

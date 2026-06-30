@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20260701
 law: 相続税法施行令 (sozokuzei_seirei)
 law_num: 昭和二十五年政令第七十一号
 law_id: 325CO0000000071
 law_revision_id: 325CO0000000071_20260401_506CO0000000143
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 4-21
 title: 第四条の二十一
 deleted: false
 
-（障害者非課税信託申告書等の書式） 第四条の二十一 障害者非課税信託申告書、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び障害者非課税信託に関する異動申告書の書式は、財務省令で定める。
+[a4-21:caption] （障害者非課税信託申告書等の書式）
+[a4-21:title] 第四条の二十一
+[a4-21-p1:sentence] 障害者非課税信託申告書、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び障害者非課税信託に関する異動申告書の書式は、財務省令で定める。

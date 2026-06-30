@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 8
 title: 第八条
 deleted: false
 
-（通則） 第八条 この編の規定により登記すべき事項は、当事者の申請により、商業登記法（昭和三十八年法律第百二十五号）の定めるところに従い、商業登記簿にこれを登記する。
+[a8:caption] （通則）
+[a8:title] 第八条
+[a8-p1:sentence] この編の規定により登記すべき事項は、当事者の申請により、商業登記法（昭和三十八年法律第百二十五号）の定めるところに従い、商業登記簿にこれを登記する。

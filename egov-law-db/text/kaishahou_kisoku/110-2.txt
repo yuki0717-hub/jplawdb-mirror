@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 110-2
 title: 第百十条の二
 deleted: false
 
-（監査等委員の報告の対象） 第百十条の二 法第三百九十九条の五に規定する法務省令で定めるものは、電磁的記録その他の資料とする。
+[a110-2:caption] （監査等委員の報告の対象）
+[a110-2:title] 第百十条の二
+[a110-2-p1:sentence] 法第三百九十九条の五に規定する法務省令で定めるものは、電磁的記録その他の資料とする。

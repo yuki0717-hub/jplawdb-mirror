@@ -1,12 +1,16 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 816
 title: 第八百十六条
 deleted: false
 
-（持分会社の設立の特則） 第八百十六条 第五百七十五条及び第五百七十八条の規定は、新設合併設立持分会社又は新設分割設立持分会社（次項において「設立持分会社」という。）の設立については、適用しない。 ２ 設立持分会社の定款は、消滅会社等が作成する。
+[a816:caption] （持分会社の設立の特則）
+[a816:title] 第八百十六条
+[a816-p1:sentence] 第五百七十五条及び第五百七十八条の規定は、新設合併設立持分会社又は新設分割設立持分会社（次項において「設立持分会社」という。）の設立については、適用しない。
+[a816-p2:number] ２
+[a816-p2:sentence] 設立持分会社の定款は、消滅会社等が作成する。

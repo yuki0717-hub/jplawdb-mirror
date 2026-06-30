@@ -1,12 +1,22 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 51-2
 title: 第五十一条の二
 deleted: false
 
-（公社債等の範囲） 第五十一条の二 法第十一条第三項（公共法人等及び公益信託等に係る非課税）に規定する政令で定める受益権は、次に掲げる受益権とする。 一 貸付信託の受益権 二 公社債投資信託の受益権 三 公社債等運用投資信託の受益権 四 法第六条の三第四号（受託法人等に関するこの法律の適用）に規定する社債的受益権
+[a51-2:caption] （公社債等の範囲）
+[a51-2:title] 第五十一条の二
+[a51-2-p1:sentence] 法第十一条第三項（公共法人等及び公益信託等に係る非課税）に規定する政令で定める受益権は、次に掲げる受益権とする。
+[a51-2-p1-i1:title] 一
+[a51-2-p1-i1:sentence] 貸付信託の受益権
+[a51-2-p1-i2:title] 二
+[a51-2-p1-i2:sentence] 公社債投資信託の受益権
+[a51-2-p1-i3:title] 三
+[a51-2-p1-i3:sentence] 公社債等運用投資信託の受益権
+[a51-2-p1-i4:title] 四
+[a51-2-p1-i4:sentence] 法第六条の三第四号（受託法人等に関するこの法律の適用）に規定する社債的受益権

@@ -1,12 +1,27 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 159
 title: 第百五十九条
 deleted: false
 
-第百五十九条 次に掲げる規定に規定する法務省令で定めるべき事項は、会社計算規則の定めるところによる。 一 法第六百十五条第一項 二 法第六百十七条第一項及び第二項 三 法第六百二十条第二項 四 法第六百二十三条第一項 五 法第六百二十六条第四項第四号 六 法第六百三十一条第一項 七 法第六百三十五条第二項、第三項及び第五項
+[a159:title] 第百五十九条
+[a159-p1:sentence] 次に掲げる規定に規定する法務省令で定めるべき事項は、会社計算規則の定めるところによる。
+[a159-p1-i1:title] 一
+[a159-p1-i1:sentence] 法第六百十五条第一項
+[a159-p1-i2:title] 二
+[a159-p1-i2:sentence] 法第六百十七条第一項及び第二項
+[a159-p1-i3:title] 三
+[a159-p1-i3:sentence] 法第六百二十条第二項
+[a159-p1-i4:title] 四
+[a159-p1-i4:sentence] 法第六百二十三条第一項
+[a159-p1-i5:title] 五
+[a159-p1-i5:sentence] 法第六百二十六条第四項第四号
+[a159-p1-i6:title] 六
+[a159-p1-i6:sentence] 法第六百三十一条第一項
+[a159-p1-i7:title] 七
+[a159-p1-i7:sentence] 法第六百三十五条第二項、第三項及び第五項

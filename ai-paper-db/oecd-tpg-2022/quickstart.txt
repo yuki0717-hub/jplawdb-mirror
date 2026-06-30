@@ -1,3 +1,4 @@
+# mirror note: 元案内の未収録topic indexを、実在する shards_index.json に修正済み。
 # OECD 移転価格ガイドライン 2022（参考仮訳） - Quickstart
 
 前提（重要）
@@ -5,7 +6,7 @@
 - したがって、このDBは『索引→shard→本文』の3段階で最短到達する。
 
 入口（迷ったら）
-- `data/topics.txt`（テーマ別索引: DEMPE/無形資産/役務提供/リスク等）
+- `data/shards_index.json`（章・節とshardの対応を確認する索引）
 
 推奨フロー（最小Read）
 1) `data/shards_index.json` を読む（章=section と shard の対応を得る）

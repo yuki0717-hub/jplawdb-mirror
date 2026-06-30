@@ -1,6 +1,6 @@
 # e-Gov法令API Version 2 直接同期データ
 
-- as_of: 2026-06-30
+- as_of: 2026-07-01
 - laws: 24
 - main_articles: 6070
 - canonical article: text/{law_code}/{article}.txt

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 574
 title: 第五百七十四条
 deleted: false
 
-（運送人の留置権） 第五百七十四条 運送人は、運送品に関して受け取るべき運送賃、付随の費用及び立替金（以下この節において「運送賃等」という。）についてのみ、その弁済を受けるまで、その運送品を留置することができる。
+[a574:caption] （運送人の留置権）
+[a574:title] 第五百七十四条
+[a574-p1:sentence] 運送人は、運送品に関して受け取るべき運送賃、付随の費用及び立替金（以下この節において「運送賃等」という。）についてのみ、その弁済を受けるまで、その運送品を留置することができる。

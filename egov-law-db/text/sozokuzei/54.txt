@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20260701
 law: 相続税法 (sozokuzei)
 law_num: 昭和二十五年法律第七十三号
 law_id: 325AC0000000073
 law_revision_id: 325AC0000000073_20260401_506AC0000000008
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 54
 title: 第五十四条
 deleted: false
 
-第五十四条 削除
+[a54:title] 第五十四条
+[a54-p1:sentence] 削除

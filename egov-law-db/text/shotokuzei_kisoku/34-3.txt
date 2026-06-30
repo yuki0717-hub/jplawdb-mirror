@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260701
 law: 所得税法施行規則 (shotokuzei_kisoku)
 law_num: 昭和四十年大蔵省令第十一号
 law_id: 340M50000040011
 law_revision_id: 340M50000040011_20260522_508M60000040017
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 34-3
 title: 第三十四条の三
 deleted: false
 
-（一括償却資産の主要な業務として行う貸付けの判定） 第三十四条の三 前条の規定は、令第百三十九条第一項（一括償却資産の必要経費算入）に規定する主要な業務として行われる貸付けに該当するかどうかの判定について準用する。
+[a34-3:caption] （一括償却資産の主要な業務として行う貸付けの判定）
+[a34-3:title] 第三十四条の三
+[a34-3-p1:sentence] 前条の規定は、令第百三十九条第一項（一括償却資産の必要経費算入）に規定する主要な業務として行われる貸付けに該当するかどうかの判定について準用する。

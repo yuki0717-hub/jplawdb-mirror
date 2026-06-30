@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 458
 title: 第四百五十八条
 deleted: false
 
-（適用除外） 第四百五十八条 第四百五十三条から前条までの規定は、株式会社の純資産額が三百万円を下回る場合には、適用しない。
+[a458:caption] （適用除外）
+[a458:title] 第四百五十八条
+[a458-p1:sentence] 第四百五十三条から前条までの規定は、株式会社の純資産額が三百万円を下回る場合には、適用しない。

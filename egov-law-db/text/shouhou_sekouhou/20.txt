@@ -1,12 +1,15 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260701
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 20
 title: 第二十条
 deleted: false
 
-第二十条 商法第三十二条第三項ノ規定ハ旧商法第五十条ノ規定ニ反シテ為シタル行為ニ之ヲ準用ス 但一年ノ期間ハ商法施行ノ日ヨリ之ヲ起算ス 主人カ商法施行前ニ前項ノ行為ヲ知リタルトキハ二週間ノ期間モ亦其施行ノ日ヨリ之ヲ起算ス
+[a20:title] 第二十条
+[a20-p1:sentence] 商法第三十二条第三項ノ規定ハ旧商法第五十条ノ規定ニ反シテ為シタル行為ニ之ヲ準用ス
+[a20-p1:sentence] 但一年ノ期間ハ商法施行ノ日ヨリ之ヲ起算ス
+[a20-p2:sentence] 主人カ商法施行前ニ前項ノ行為ヲ知リタルトキハ二週間ノ期間モ亦其施行ノ日ヨリ之ヲ起算ス

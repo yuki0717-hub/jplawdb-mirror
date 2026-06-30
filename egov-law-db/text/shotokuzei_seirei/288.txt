@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260701
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 288
 title: 第二百八十八条
 deleted: false
 
-（匿名組合契約に準ずる契約の範囲） 第二百八十八条 法第百六十一条第一項第十六号（国内源泉所得）に規定する政令で定める契約は、当事者の一方が相手方の事業のために出資をし、相手方がその事業から生ずる利益を分配することを約する契約とする。
+[a288:caption] （匿名組合契約に準ずる契約の範囲）
+[a288:title] 第二百八十八条
+[a288-p1:sentence] 法第百六十一条第一項第十六号（国内源泉所得）に規定する政令で定める契約は、当事者の一方が相手方の事業のために出資をし、相手方がその事業から生ずる利益を分配することを約する契約とする。

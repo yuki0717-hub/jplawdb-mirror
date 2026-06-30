@@ -1,12 +1,17 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 563
 title: 第五百六十三条
 deleted: false
 
-（介入権） 第五百六十三条 運送取扱人は、自ら運送をすることができる。 この場合において、運送取扱人は、運送人と同一の権利義務を有する。 ２ 運送取扱人が委託者の請求によって船荷証券又は複合運送証券を作成したときは、自ら運送をするものとみなす。
+[a563:caption] （介入権）
+[a563:title] 第五百六十三条
+[a563-p1:sentence] 運送取扱人は、自ら運送をすることができる。
+[a563-p1:sentence] この場合において、運送取扱人は、運送人と同一の権利義務を有する。
+[a563-p2:number] ２
+[a563-p2:sentence] 運送取扱人が委託者の請求によって船荷証券又は複合運送証券を作成したときは、自ら運送をするものとみなす。

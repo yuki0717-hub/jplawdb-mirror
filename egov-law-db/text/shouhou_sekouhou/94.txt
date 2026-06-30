@@ -1,12 +1,13 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260701
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 94
 title: 第九十四条
 deleted: false
 
-第九十四条 私設鉄道株式会社ニハ明治二十年勅令第十二号私設鉄道条例ノ改正ニ至ルマテ旧商法及ヒ其附属法令中株式会社ニ関スル規定ヲ適用ス
+[a94:title] 第九十四条
+[a94-p1:sentence] 私設鉄道株式会社ニハ明治二十年勅令第十二号私設鉄道条例ノ改正ニ至ルマテ旧商法及ヒ其附属法令中株式会社ニ関スル規定ヲ適用ス

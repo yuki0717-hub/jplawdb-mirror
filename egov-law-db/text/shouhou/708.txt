@@ -1,12 +1,20 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 708
 title: 第七百八条
 deleted: false
 
-（船長の代理権） 第七百八条 船長は、船籍港外においては、次に掲げる行為を除き、船舶所有者に代わって航海のために必要な一切の裁判上又は裁判外の行為をする権限を有する。 一 船舶について抵当権を設定すること。 二 借財をすること。 ２ 船長の代理権に加えた制限は、善意の第三者に対抗することができない。
+[a708:caption] （船長の代理権）
+[a708:title] 第七百八条
+[a708-p1:sentence] 船長は、船籍港外においては、次に掲げる行為を除き、船舶所有者に代わって航海のために必要な一切の裁判上又は裁判外の行為をする権限を有する。
+[a708-p1-i1:title] 一
+[a708-p1-i1:sentence] 船舶について抵当権を設定すること。
+[a708-p1-i2:title] 二
+[a708-p1-i2:sentence] 借財をすること。
+[a708-p2:number] ２
+[a708-p2:sentence] 船長の代理権に加えた制限は、善意の第三者に対抗することができない。

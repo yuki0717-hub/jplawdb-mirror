@@ -1,12 +1,18 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260701
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 621
 title: 第六百二十一条
 deleted: false
 
-（利益の配当） 第六百二十一条 社員は、持分会社に対し、利益の配当を請求することができる。 ２ 持分会社は、利益の配当を請求する方法その他の利益の配当に関する事項を定款で定めることができる。 ３ 社員の持分の差押えは、利益の配当を請求する権利に対しても、その効力を有する。
+[a621:caption] （利益の配当）
+[a621:title] 第六百二十一条
+[a621-p1:sentence] 社員は、持分会社に対し、利益の配当を請求することができる。
+[a621-p2:number] ２
+[a621-p2:sentence] 持分会社は、利益の配当を請求する方法その他の利益の配当に関する事項を定款で定めることができる。
+[a621-p3:number] ３
+[a621-p3:sentence] 社員の持分の差押えは、利益の配当を請求する権利に対しても、その効力を有する。

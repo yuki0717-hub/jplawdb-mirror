@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 688
 title: 第六百八十八条
 deleted: false
 
-（航海中の船舶を譲渡した場合の損益の帰属） 第六百八十八条 航海中の船舶を譲渡したときは、その航海によって生ずる損益は、譲受人に帰属する。
+[a688:caption] （航海中の船舶を譲渡した場合の損益の帰属）
+[a688:title] 第六百八十八条
+[a688-p1:sentence] 航海中の船舶を譲渡したときは、その航海によって生ずる損益は、譲受人に帰属する。

@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20260701
 law: 商法 (shouhou)
 law_num: 明治三十二年法律第四十八号
 law_id: 132AC0000000048
 law_revision_id: 132AC0000000048_20260624_508AC0000000046
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 558
 title: 第五百五十八条
 deleted: false
 
-（準問屋） 第五百五十八条 この章の規定は、自己の名をもって他人のために販売又は買入れ以外の行為をすることを業とする者について準用する。
+[a558:caption] （準問屋）
+[a558:title] 第五百五十八条
+[a558-p1:sentence] この章の規定は、自己の名をもって他人のために販売又は買入れ以外の行為をすることを業とする者について準用する。

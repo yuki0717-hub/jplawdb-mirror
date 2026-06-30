@@ -1,12 +1,14 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260630
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260701
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-06-30
+as_of: 2026-07-01
 article: 157
 title: 第百五十七条
 deleted: false
 
-（電磁的方法による議決権行使の期限） 第百五十七条 法第五百五十七条第一項に規定する法務省令で定める時は、第百五十三条第五号イの行使の期限とする。
+[a157:caption] （電磁的方法による議決権行使の期限）
+[a157:title] 第百五十七条
+[a157-p1:sentence] 法第五百五十七条第一項に規定する法務省令で定める時は、第百五十三条第五号イの行使の期限とする。

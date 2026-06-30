@@ -8,6 +8,85 @@ max_retries: 4
 timeout_sec: 60
 max_file_bytes: 25000000
 
+egov:
+  api_base: "https://laws.e-gov.go.jp/api/2"
+  as_of: "current"
+  concurrency: 4
+  minimum_articles: 5000
+  laws:
+    shotokuzei:
+      title: "所得税法"
+      type: "Act"
+    shotokuzei_seirei:
+      title: "所得税法施行令"
+      type: "CabinetOrder"
+    shotokuzei_kisoku:
+      title: "所得税法施行規則"
+      type: "MinisterialOrdinance"
+    hojinzei:
+      title: "法人税法"
+      type: "Act"
+    hojinzei_seirei:
+      title: "法人税法施行令"
+      type: "CabinetOrder"
+    hojinzei_kisoku:
+      title: "法人税法施行規則"
+      type: "MinisterialOrdinance"
+    shohizei:
+      title: "消費税法"
+      type: "Act"
+    shohizei_seirei:
+      title: "消費税法施行令"
+      type: "CabinetOrder"
+    shohizei_kisoku:
+      title: "消費税法施行規則"
+      type: "MinisterialOrdinance"
+    sozokuzei:
+      title: "相続税法"
+      type: "Act"
+    sozokuzei_seirei:
+      title: "相続税法施行令"
+      type: "CabinetOrder"
+    sozokuzei_kisoku:
+      title: "相続税法施行規則"
+      type: "MinisterialOrdinance"
+    kokuzei_tsusoku:
+      title: "国税通則法"
+      type: "Act"
+    kokuzei_tsusoku_seirei:
+      title: "国税通則法施行令"
+      type: "CabinetOrder"
+    kokuzei_tsusoku_kisoku:
+      title: "国税通則法施行規則"
+      type: "MinisterialOrdinance"
+    sozei_tokubetsu:
+      title: "租税特別措置法"
+      type: "Act"
+    sozei_tokubetsu_seirei:
+      title: "租税特別措置法施行令"
+      type: "CabinetOrder"
+    sozei_tokubetsu_kisoku:
+      title: "租税特別措置法施行規則"
+      type: "MinisterialOrdinance"
+    kaishahou:
+      title: "会社法"
+      type: "Act"
+    kaishahou_seirei:
+      title: "会社法施行令"
+      type: "CabinetOrder"
+    kaishahou_kisoku:
+      title: "会社法施行規則"
+      type: "MinisterialOrdinance"
+    shouhou:
+      title: "商法"
+      type: "Act"
+    shouhou_sekouhou:
+      title: "商法施行法"
+      type: "Act"
+    shouhou_kisoku:
+      title: "商法施行規則"
+      type: "MinisterialOrdinance"
+
 # A sudden drop below these values means that the source schema changed or
 # discovery is incomplete. Update a threshold only after checking the source.
 minimum_counts:

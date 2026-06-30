@@ -4,6 +4,7 @@ import hashlib
 import json
 import posixpath
 from dataclasses import dataclass
+from datetime import date, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -140,6 +141,122 @@ def _check_html_links(root: Path, files: dict[str, Path], errors: list[str]) -> 
     return checked
 
 
+def _check_egov_sync(
+    actual: dict[str, Path],
+    manifest: dict[str, Any],
+    config: Config,
+    errors: list[str],
+) -> None:
+    if not config.egov_laws:
+        return
+    from .egov import JST, resolve_egov_as_of
+
+    required = {
+        "egov-law-db/index.html",
+        "egov-law-db/index.json",
+        "egov-law-db/llms.txt",
+        "egov-law-db/quickstart.txt",
+        "egov-law-db/status.json",
+    }
+    errors.extend(
+        f"required e-Gov file is missing: {path}"
+        for path in sorted(required - actual.keys())
+    )
+    status_path = actual.get("egov-law-db/status.json")
+    if status_path is None:
+        return
+    try:
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"cannot read e-Gov status: {exc}")
+        return
+    if not isinstance(status, dict) or status.get("schema_version") != 1:
+        errors.append("e-Gov status schema_version must be 1")
+        return
+    actual_as_of = status.get("as_of")
+    if config.egov_as_of == "current":
+        try:
+            actual_date = date.fromisoformat(str(actual_as_of))
+            today = datetime.now(JST).date()
+            age_days = (today - actual_date).days
+            if age_days < 0 or age_days > 1:
+                errors.append(
+                    f"e-Gov status is stale: current={today} actual={actual_as_of}"
+                )
+        except ValueError:
+            errors.append(f"invalid e-Gov status as_of: {actual_as_of}")
+    else:
+        expected_as_of = resolve_egov_as_of(config.egov_as_of)
+        if actual_as_of != expected_as_of:
+            errors.append(
+                f"e-Gov status date mismatch: expected={expected_as_of} actual={actual_as_of}"
+            )
+    laws = status.get("laws")
+    if not isinstance(laws, list):
+        errors.append("e-Gov status laws must be a list")
+        return
+    expected_codes = set(config.egov_laws)
+    actual_codes = {
+        str(item.get("code"))
+        for item in laws
+        if isinstance(item, dict) and isinstance(item.get("code"), str)
+    }
+    if actual_codes != expected_codes:
+        errors.append(
+            f"e-Gov law codes mismatch: missing={sorted(expected_codes - actual_codes)} "
+            f"extra={sorted(actual_codes - expected_codes)}"
+        )
+    article_total = 0
+    for item in laws:
+        if not isinstance(item, dict):
+            errors.append("e-Gov status contains a non-object law")
+            continue
+        code = item.get("code")
+        if not isinstance(code, str) or code not in config.egov_laws:
+            continue
+        for field in ("law_id", "law_num", "law_revision_id", "xml_sha256"):
+            if not isinstance(item.get(field), str) or not item[field]:
+                errors.append(f"e-Gov metadata is missing {field}: {code}")
+        article_count = item.get("article_count")
+        if not isinstance(article_count, int) or article_count < 1:
+            errors.append(f"invalid e-Gov article count: {code}")
+            continue
+        article_total += article_count
+        xml_path = f"egov-law-db/xml/{code}.xml"
+        metadata_path = f"egov-law-db/metadata/{code}.json"
+        index_path = f"egov-law-db/text/{code}/index.html"
+        for path in (xml_path, metadata_path, index_path):
+            if path not in actual:
+                errors.append(f"required e-Gov law file is missing: {path}")
+        text_prefix = f"egov-law-db/text/{code}/"
+        text_count = sum(
+            1
+            for path in actual
+            if path.startswith(text_prefix) and path.endswith(".txt")
+        )
+        if text_count != article_count:
+            errors.append(
+                f"e-Gov article files mismatch for {code}: "
+                f"expected={article_count} actual={text_count}"
+            )
+    if status.get("law_count") != len(config.egov_laws):
+        errors.append(
+            f"e-Gov status law_count mismatch: "
+            f"expected={len(config.egov_laws)} actual={status.get('law_count')}"
+        )
+    if status.get("article_count") != article_total:
+        errors.append(
+            f"e-Gov status article_count mismatch: "
+            f"declared={status.get('article_count')} actual={article_total}"
+        )
+    metrics = manifest.get("metrics")
+    if isinstance(metrics, dict):
+        if metrics.get("egov_law_codes") != len(config.egov_laws):
+            errors.append("manifest e-Gov law count is inconsistent")
+        if metrics.get("egov_main_articles") != article_total:
+            errors.append("manifest e-Gov article count is inconsistent")
+
+
 def verify_output(root: Path, config: Config) -> VerificationReport:
     root = root.resolve()
     errors: list[str] = []
@@ -195,6 +312,7 @@ def verify_output(root: Path, config: Config) -> VerificationReport:
     except (TypeError, ValueError, RuntimeError) as exc:
         errors.append(str(exc))
 
+    _check_egov_sync(actual, manifest, config, errors)
     link_targets = dict(actual)
     link_targets["manifest.json"] = manifest_path
     checked_links = _check_html_links(root, link_targets, errors)

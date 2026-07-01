@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta content="text/html; charset=shift_jis" http-equiv="Content-Type">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+
+		<title>（気配相場等のある株式の評価）｜国税庁</title>
+		<link href="/template/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="/template/js/html5shiv.min.js"></script>
+			<script src="/template/js/respond.min.js"></script>
+		<![endif]-->
+		<script src="/template/js/jquery.min.js"></script>
+		<script src="/template/js/bootstrap.min.js"></script>
+		<link href="/template/css/common.css" rel="stylesheet">
+		<link href="/template/css/import.css" rel="stylesheet">
+		<script src="/template/js/custom.js"></script>
+
+		
+		<link href="/template/css/tsutatsu.css" rel="stylesheet">
+
+		<script src="/template/js/include.js"></script>
+	</head>
+	<body>
+<noscript>すべての機能をご利用いただくにはJavascriptを有効にしてください。</noscript>
+
+		<div class="container">
+
+			
+						<div id="header"></div>
+
+
+			<div class="wrap">
+
+				<div class="clearfix">
+
+					<div class="left-content contents">
+
+						
+
+					
+
+
+						<div id="contents">
+<div class="imp-cnt-tsutatsu" id="bodyArea">
+<p class="skip"></p>
+<ol class="breadcrumb"><li><a href="/">ホーム</a></li><li><a href="/law/index.htm">法令等</a></li><li><a href="/law/tsutatsu/menu.htm">法令解釈通達</a></li><li class="active">（気配相場等のある株式の評価）<!-- InstanceEndEditable --></li></ol>
+<!-- InstanceBeginEditable name="bodyArea" -->
+<p>
+<a id="a-174" name="a-174"></a></p>
+<h2>（気配相場等のある株式の評価）</h2>
+<p class="indent1"><strong>174　</strong>気配相場等のある株式の評価は、次に掲げる区分に従い、それぞれ次に掲げるところによる。（昭47直資3－16・昭58直評5外・平2直評12外・平14課評2－2外・平18課評2－27外・平20課評2-5外・平26課評2-19外改正）</p>
+<p class="indent2">（1）　登録銘柄及び店頭管理銘柄</p>
+<p class="indent3">イ　ロに該当しない登録銘柄及び店頭管理銘柄の価額は、日本証券業協会の公表する課税時期の取引価格（その取引価格が高値と安値の双方について公表されている場合には、その平均額。以下177－2≪登録銘柄及び店頭管理銘柄の取引価格の月平均額の特例≫までにおいて同じ。）によって評価する。ただし、その取引価格が課税時期の属する月以前3か月間の毎日の取引価格の各月ごとの平均額（以下「取引価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する。</p>
+<p class="indent3">ロ　負担付贈与又は個人間の対価を伴う取引により取得した登録銘柄及び店頭管理銘柄の価額は、日本証券業協会の公表する課税時期の取引価格によって評価する。</p>
+<p class="indent2">（2）　公開途上にある株式</p>
+<p class="indent3">イ　株式の上場又は登録に際して、株式の公募又は売出し（以下この項において「公募等」という。）が行われる場合における公開途上にある株式の価額は、その株式の公開価格（金融商品取引所又は日本証券業協会の内規によって行われるブックビルディング方式又は競争入札方式のいずれかの方式により決定される公募等の価格をいう。）によって評価する。</p>
+<p class="indent3">ロ　株式の上場又は登録に際して、公募等が行われない場合における公開途上にある株式の価額は、課税時期以前の取引価格等を勘案して評価する。</p>
+<p><a id="a-175" name="a-175"></a></p>
+<h2>（気配相場等のある株式の取引価格の特例－課税時期が権利落等の日から株式の割当て等の基準日までの間にある場合）</h2>
+<p class="indent1"><strong>175　</strong>前項の(1)の定めにより気配相場等のある株式の価額を評価する場合において、課税時期が権利落等の日から株式の割当て等の基準日までの間にあるときは、その権利落等の日の前日以前の取引価格（課税時期の属する月以前3か月以内のものに限る。）のうち、課税時期に最も近い日の取引価格をもって課税時期の取引価格とする。（平2直評12外・平18課評2－27外改正）</p>
+<p><a id="a-176" name="a-176"></a></p>
+<h2>（気配相場等のある株式の取引価格の特例－課税時期に取引価格がない場合）</h2>
+<p class="indent1"><strong>176　</strong>174≪気配相場等のある株式の評価≫の(1)の定めにより気配相場等のある株式の価額を評価する場合において、課税時期に取引価格がないものについては、前項の定めの適用があるものを除き、次に掲げる場合に応じ、それぞれ次に掲げる取引価格又は修正した価格をもって課税時期の取引価格とする。（平2直評12外・平11課評2－2外・平18課評2－27外改正）</p>
+<p class="indent2">（1）　(2)に該当する場合以外の場合 課税時期の前日以前の取引価格のうち、課税時期に最も近い日の取引価格（課税時期の属する月以前3か月以内のものに限る。）</p>
+<p class="indent2">（2）　課税時期が株式の割当て等の基準日の翌日以後で、かつ、課税時期の前日以前の取引価格のうち、課税時期に最も近い日の取引価格（課税時期の属する月以前3か月以内のものに限る。以下この項において同じ。）がその基準日に係る権利落等の日の前日以前のものである場合　課税時期に最も近い日の取引価格を次のイ又はロの算式によって修正した価格</p>
+<p class="indent3">イ　課税時期に最も近い日の取引価格が権利落の日の前日以前のものである場合<br>　（課税時期に最も近い日の取引価格＋割当てを受けた株式1株につき払い込むべき金額&times;株式1株に対する割当株式数）&divide;（1＋株式1株に対する割当株式数又は交付株式数）</p>
+<p class="indent3">ロ　課税時期に最も近い日の取引価格が配当落の日の前日以前のものである場合<br>　課税時期に最も近い日の取引価格－株式1株に対する予想配当の金額</p>
+<p><a id="a-177" name="a-177"></a></p>
+<h2>（気配相場等のある株式の評価の特例）</h2>
+<p class="indent1"><strong>177　</strong>174≪気配相場等のある株式の評価≫の(1)の定めにより気配相場等のある株式の価額を評価する場合において、その株式が次の(1)又は(2)に該当するものの価額は、課税時期以前の取引価格等を勘案して評価する。（平2直評12外・平18課評2－27外改正）</p>
+<p class="indent2">（1）　課税時期が権利落等の日から株式の割当て等の基準日までの間にあるため、その権利落等の日の前日以前の取引価格のうち課税時期に最も近い日の取引価格によって評価する場合において、その課税時期に最も近い日の取引価格が、課税時期の属する月以前3か月以内にないもの</p>
+<p class="indent2">（2）　(1)に該当する場合を除き、課税時期に取引価格がないため、課税時期の前日以前の取引価格のうち、課税時期に最も近い日の取引価格によって評価する場合において、その取引価格が、課税時期の属する月以前3か月以内にないもの</p>
+<h2>（登録銘柄及び店頭管理銘柄の取引価格の月平均額の特例）<a id="a-177_2" name="a-177_2"></a></h2>
+<p class="indent1"><strong>177</strong><strong>－2　</strong>174≪気配相場等のある株式の評価≫の(1)の定めにより登録銘柄及び店頭管理銘柄の価額を評価する場合において、課税時期の属する月以前3か月間に権利落等がある場合における取引価格の月平均額については、172≪上場株式についての最終価格の月平均額の特例≫の定めを準用する。この場合において、「最終価格の月平均額」は「取引価格の月平均額」と、「毎日の最終価格の平均額」は「毎日の取引価格の平均額」と読み替えるものとする。（平2直評12外追加・平18課評2－27外改正）</p>
+<p>          <a id="a-178" name="a-178"></a></p>
+<h2>（取引相場のない株式の評価上の区分）</h2>
+<p class="indent1"><strong>178　</strong>取引相場のない株式の価額は、評価しようとするその株式の発行会社（以下「評価会社」という。）が次の表の大会社、中会社又は小会社のいずれに該当するかに応じて、それぞれ次項の定めによって評価する。ただし、同族株主以外の株主等が取得した株式又は特定の評価会社の株式の価額は、それぞれ188≪同族株主以外の株主等が取得した株式≫又は189≪特定の評価会社の株式≫の定めによって評価する。（昭41直資3－19・昭47直資3－16・昭53直評5外・昭58直評5外・平2直評12外・平6課評2－8外・平10課評2－10外・平11課評2－2外・平12課評2－4外・平18課評2－27外・平29課評2-12外改正）</p>
+<div class="table-responsive"><table border="1" cellpadding="5" cellspacing="0" class="table table-bordered datatable" width="99%">
+<tbody><tr>
+<th class="un_normalize_header" id="un_0" scope="col" valign="middle" width="1%">規模区分</th>
+<th align="left" class="un_normalize_header" colspan="2" id="un_1" scope="col" valign="middle">区分の内容</th>
+<th align="left" class="un_normalize_header" id="un_2" scope="col" valign="top">総資産価額(帳簿価額によって計算した金額)及び従業員数</th>
+<th align="left" class="un_normalize_header" id="un_3" scope="col" valign="top">直前期末以前1年間における取引金額</th>
+</tr>
+<tr>
+<td align="center" class="un_normalize_header" headers="un_0" id="un_4" rowspan="3" valign="middle" width="1%">　大会社</td>
+<td class="un_normalize_header" headers="un_4 un_1" id="un_5" rowspan="3">従業員数が70人以上の会社又は右のいずれかに該当する会社</td>
+<td class="un_normalize_header" headers="un_4 un_5 un_1" id="un_6" valign="middle">卸売業</td>
+<td headers="un_4 un_5 un_6 un_2" valign="top">20億円以上(従業員数が35人以下の会社を除く。)</td>
+<td headers="un_4 un_5 un_6 un_3" valign="middle">30億円以上</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_4 un_5 un_1" id="un_7" valign="middle">小売・サービス業</td>
+<td headers="un_4 un_5 un_7 un_2" valign="top">15億円以上(従業員数が35人以下の会社を除く。)</td>
+<td headers="un_4 un_5 un_7 un_3" valign="middle">20億円以上</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_4 un_5 un_1" id="un_8" valign="middle">卸売業、小売・サービス業以外</td>
+<td headers="un_4 un_5 un_8 un_2" valign="top">15億円以上(従業員数が35人以下の会社を除く。)</td>
+<td headers="un_4 un_5 un_8 un_3" valign="middle">15億円以上</td>
+</tr>
+<tr>
+<td align="center" class="un_normalize_header" headers="un_0" id="un_9" rowspan="3" valign="middle" width="1%">　中会社</td>
+<td class="un_normalize_header" headers="un_9 un_1" id="un_10" rowspan="3">従業員数が70人未満の会社で右のいずれかに該当する会社（大会社に該当する場合を除く。）</td>
+<td class="un_normalize_header" headers="un_9 un_10 un_1" id="un_11" valign="middle">卸売業</td>
+<td headers="un_9 un_10 un_11 un_2" valign="top">7,000万円以上(従業員数が5人以下の会社を除く。)</td>
+<td headers="un_9 un_10 un_11 un_3" valign="middle">2億円以上30億円未満</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_9 un_10 un_1" id="un_12" valign="middle">小売・サービス業</td>
+<td headers="un_9 un_10 un_12 un_2" valign="top">4,000万円以上(従業員数が5人以下の会社を除く。)</td>
+<td headers="un_9 un_10 un_12 un_3" valign="middle">6,000万円以上20億円未満</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_9 un_10 un_1" id="un_13" valign="middle">卸売業、小売・サービス業以外</td>
+<td headers="un_9 un_10 un_13 un_2" valign="top">5,000万円以上(従業員数が5人以下の会社を除く。)</td>
+<td headers="un_9 un_10 un_13 un_3" valign="middle">8,000万円以上15億円未満</td>
+</tr>
+<tr>
+<td align="center" class="un_normalize_header" headers="un_0" id="un_14" rowspan="3" valign="middle" width="1%">　小会社</td>
+<td class="un_normalize_header" headers="un_14 un_1" id="un_15" rowspan="3">従業員数が70人未満の会社で右のいずれにも該当する会社</td>
+<td class="un_normalize_header" headers="un_14 un_15 un_1" id="un_16" valign="middle">卸売業</td>
+<td headers="un_14 un_15 un_16 un_2" valign="top">7,000万円未満又は従業員数が5人以下</td>
+<td headers="un_14 un_15 un_16 un_3" valign="middle">2億円未満</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_14 un_15 un_1" id="un_17" valign="middle">小売・サービス業</td>
+<td headers="un_14 un_15 un_17 un_2" valign="top">4,000万円未満又は従業員数が5人以下</td>
+<td headers="un_14 un_15 un_17 un_3" valign="middle">6,000万円未満</td>
+</tr>
+<tr>
+<td class="un_normalize_header" headers="un_14 un_15 un_1" id="un_18" valign="middle">卸売業、小売・サービス業以外</td>
+<td headers="un_14 un_15 un_18 un_2" valign="top">5,000万円未満又は従業員数が5人以下</td>
+<td headers="un_14 un_15 un_18 un_3" valign="middle">8,000万円未満</td>
+</tr>
+</tbody></table></div>
+<p class="marginLeft1em">　上の表の「総資産価額（帳簿価額によって計算した金額）及び従業員数」及び「直前期末以前1年間における取引金額」は、それぞれ次の(1)から(3)により、「卸売業」、「小売・サービス業」又は「卸売業、小売・サービス業以外」の判定は(4)による。</p>
+<p class="indent2">（1）　「総資産価額（帳簿価額によって計算した金額)」は、課税時期の直前に終了した事業年度の末日（以下「直前期末」という。）における評価会社の各資産の帳簿価額の合計額とする。</p>
+<p class="indent2">（2）　「従業員数」は、直前期末以前1年間においてその期間継続して評価会社に勤務していた従業員（就業規則等で定められた1週間当たりの労働時間が30時間未満である従業員を除く。以下この項において「継続勤務従業員」という。）の数に、直前期末以前1年間において評価会社に勤務していた従業員（継続勤務従業員を除く。）のその1年間における労働時間の合計時間数を従業員1人当たり年間平均労働時間数で除して求めた数を加算した数とする。<br>　この場合における従業員1人当たり年間平均労働時間数は、1,800時間とする。</p>
+<p class="indent2">（3）　「直前期末以前1年間における取引金額」は、その期間における評価会社の目的とする事業に係る収入金額（金融業・証券業については収入利息及び収入手数料）とする。</p>
+<p class="indent2">（4）　評価会社が「卸売業」、「小売・サービス業」又は「卸売業、小売・サービス業以外」のいずれの業種に該当するかは、上記(3)の直前期末以前1年間における取引金額（以下この項及び181－2≪評価会社の事業が該当する業種目≫において「取引金額」という。）に基づいて判定し、当該取引金額のうちに2以上の業種に係る取引金額が含まれている場合には、それらの取引金額のうち最も多い取引金額に係る業種によって判定する。</p>
+<p class="indent3">（注）　上記(2)の従業員には、社長、理事長並びに法人税法施行令第71条≪使用人兼務役員とされない役員≫第1項第1号、第2号及び第4号に掲げる役員は含まないのであるから留意する。</p>
+<p><a id="a-179" name="a-179"></a></p>
+<h2>（取引相場のない株式の評価の原則）</h2>
+<p class="indent1"><strong>179　</strong>前項により区分された大会社、中会社及び小会社の株式の価額は、それぞれ次による。（昭41直資3－19・昭47直資3－16・昭58直評5外・平6課評2－8外・平10課評2－10外・平12課評2－4外・平29課評2-12外改正）</p>
+<p class="indent2">（1）　大会社の株式の価額は、類似業種比準価額によって評価する。ただし、納税義務者の選択により、1株当たりの純資産価額（相続税評価額によって計算した金額）によって評価することができる。</p>
+<p class="indent2">（2）　中会社の株式の価額は、次の算式により計算した金額によって評価する。ただし、納税義務者の選択により、算式中の類似業種比準価額を1株当たりの純資産価額（相続税評価額によって計算した金額）によって計算することができる。</p>
+<p class="marginLeft3em">類似業種比準価額&times;L＋1株当たりの純資産価額（相続税評価額によって計算した金額）&times;（1－L）</p>
+<p class="marginLeft2em">　上の算式中の「L」は、評価会社の前項に定める総資産価額（帳簿価額によって計算した金額）及び従業員数又は直前期末以前1年間における取引金額に応じて、それぞれ次に定める割合のうちいずれか大きい方の割合とする。</p>
+<p class="indent3">イ　総資産価額（帳簿価額によって計算した金額）及び従業員数に応ずる割合</p>
+<div class="table-responsive"><table border="1" cellpadding="3" cellspacing="0" class="table table-bordered datatable" width="99%">
+<tbody><tr>
+<th align="center" class="un_normalize_header" scope="col" valign="middle">卸売業</th>
+<th align="center" class="un_normalize_header" scope="col" valign="middle">小売・サービス業</th>
+<th class="un_normalize_header" scope="col" valign="top">卸売業、小売・サービス業以外</th>
+<th class="un_normalize_header" nowrap="nowrap" scope="col">割合</th>
+</tr>
+<tr>
+<td valign="top">4億円以上（従業員数が35人以下の会社を除く。）</td>
+<td valign="top">5億円以上（従業員数が35人以下の会社を除く。）</td>
+<td valign="top">5億円以上（従業員数が35人以下の会社を除く。）</td>
+<td nowrap="nowrap">0.90</td>
+</tr>
+<tr>
+<td valign="top">2億円以上（従業員数が20人以下の会社を除く。）</td>
+<td valign="top">2億5,000万円以上（従業員数が20人以下の会社を除く。）</td>
+<td valign="top">2億5,000万円以上（従業員数が20人以下の会社を除く。）</td>
+<td nowrap="nowrap">0.75</td>
+</tr>
+<tr>
+<td valign="top">7,000万円以上（従業員数が5人以下の会社を除く。）</td>
+<td valign="top">4,000万円以上（従業員数が5人以下の会社を除く。）</td>
+<td valign="top"><p>5,000万円以上（従業員数が5人以下の会社を除く。）</p></td>
+<td nowrap="nowrap">0.60</td>
+</tr>
+</tbody></table></div>
+<p class="indent4">（注）　複数の区分に該当する場合には、上位の区分に該当するものとする。</p>
+<p class="indent3">ロ　直前期末以前1年間における取引金額に応ずる割合</p>
+<div class="table-responsive"><table border="1" cellpadding="3" cellspacing="0" class="table table-bordered datatable" width="99%">
+<tbody><tr>
+<th align="center" class="un_normalize_header" scope="col" valign="middle">卸売業</th>
+<th align="center" class="un_normalize_header" scope="col" valign="middle">小売・サービス業</th>
+<th class="un_normalize_header" scope="col" valign="top">卸売業、小売・サービス業以外</th>
+<th class="un_normalize_header" nowrap="nowrap" scope="col">割合</th>
+</tr>
+<tr>
+<td valign="top">7億円以上30億円未満</td>
+<td valign="top">5億円以上20億円未満</td>
+<td valign="top">4億円以上15億円未満</td>
+<td nowrap="nowrap">0.90</td>
+</tr>
+<tr>
+<td valign="top">3億5,000万円以上7億円未満</td>
+<td valign="top">2億5,000万円以上5億円未満</td>
+<td valign="top">2億円以上4億円未満</td>
+<td nowrap="nowrap">0.75</td>
+</tr>
+<tr>
+<td valign="top">2億円以上3億5,000万円未満</td>
+<td valign="top">6,000万円以上2億5,000万円未満</td>
+<td valign="top">8,000万円以上2億円未満</td>
+<td nowrap="nowrap">0.60</td>
+</tr>
+</tbody></table></div>
+<p class="indent2"> （3）　小会社の株式の価額は、1株当たりの純資産価額（相続税評価額によって計算した金額）によって評価する。ただし、納税義務者の選択により、Lを0.50として(2)の算式により計算した金額によって評価することができる。 </p>
+<!-- InstanceEndEditable --></div>
+</div>
+
+						<p class="page-top-link"><a href="#page-top">このページの先頭へ</a></p>
+
+					</div>
+					<!--/left-menu-->
+
+					<div class="right-menu">
+						
+						
+								<div class="panel panel-default sidenavi bmg20">
+							<div class="panel-heading">
+								<h2 class="panel-title"><a href="/law/index.htm">法令等</a></h2>
+							</div>
+							<div class="panel-group" id="navi-Accordion">
+
+
+
+
+
+
+								<h3 class="sidenavi-title"><a class="navi_title" href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/">税法（e-Govの「e-Gov法令検索」へリンク）</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/tsutatsu/menu.htm">法令解釈通達</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/joho-zeikaishaku/sonota/sonota.htm">その他法令解釈に関する情報</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/jimu-unei/jimu.htm">事務運営指針</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/kokuji/kokuji.htm">国税庁告示</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/bunshokaito/01.htm">文書回答事例</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/shitsugi/01.htm">質疑応答事例</a></h3>
+
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+					<!--/right-menu-->
+
+				</div>
+				<!--/clearfix-->
+
+			</div>
+			<!--/wrap-->
+
+			
+						<footer>
+				<h2>サイトマップ（コンテンツ一覧）</h2>
+				<ol class="breadcrumb footer"><li><a href="/">ホーム</a></li><li><a href="/law/index.htm">法令等</a></li><li><a href="/law/tsutatsu/menu.htm">法令解釈通達</a></li><li class="active">（気配相場等のある株式の評価）<!-- InstanceEndEditable --></li></ol>
+				<div id="footer"></div>
+			</footer>
+
+		</div>
+		<!--/container-->
+
+	
+
+		
+		
+
+
+	</body>
+</html>

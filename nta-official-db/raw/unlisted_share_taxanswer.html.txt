@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="ja">
+
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>No.4638 取引相場のない株式の評価｜国税庁</title>
+    <link href="/template/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+			<script src="/template/js/html5shiv.min.js"></script>
+			<script src="/template/js/respond.min.js"></script>
+		<![endif]-->
+    <script src="/template/js/jquery.min.js"></script>
+    <script src="/template/js/bootstrap.min.js"></script>
+    <link href="/template/css/common.css" rel="stylesheet">
+    <link href="/template/css/import.css" rel="stylesheet">
+    <script src="/template/js/custom.js"></script>
+
+
+    <script src="/template/js/include.js"></script>
+    <link href="/taxes/shiraberu/taxanswer/css/taxanswer.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <noscript>すべての機能をご利用いただくにはJavascriptを有効にしてください。</noscript>
+
+    <div class="container">
+
+
+      <div id="header"></div>
+
+
+      <div class="wrap">
+
+        <div class="clearfix">
+
+          <div class="left-content contents">
+
+
+
+
+
+
+            <div id="contents">
+              <div class="imp-cnt" id="bodyArea">
+                <p class="skip"></p>
+                <ol class="breadcrumb">
+                  <li><a href="/">ホーム</a></li>
+                  <li><a href="/taxes/index.htm">税の情報・手続・用紙</a></li>
+                  <li><a href="/taxes/shiraberu/index.htm">税について調べる</a></li>
+                  <li><a href="/taxes/shiraberu/taxanswer/index2.htm">タックスアンサー（よくある税の質問）</a></li>
+                  <li class="active">No.4638 取引相場のない株式の評価</li>
+                </ol>
+                <div class="page-header" id="page-top">
+                  <h1>No.4638 取引相場のない株式の評価</h1>
+                </div>
+                <p>[令和7年4月1日現在法令等]</p>
+                <h2>対象税目</h2>
+                <p>相続税、贈与税</p>
+                <h2>概要</h2>
+                <p>取引相場のない株式（<a href="/taxes/shiraberu/taxanswer/hyoka/4632.htm">「上場株式」</a>および<a href="/taxes/shiraberu/taxanswer/hyoka/4635.htm">「気配相場等のある株式」</a>以外の株式をいいます。）は、相続や贈与などで株式を取得した株主が、その株式を発行した会社の経営支配力を持っている同族株主等か、それ以外の株主かの区分により、それぞれ原則的評価方式または特例的な評価方式である配当還元方式により評価します。</p>
+                <h3>原則的評価方式</h3>
+                <p>原則的評価方式は、評価する株式を発行した会社を総資産価額、従業員数および取引金額により大会社、中会社または小会社のいずれかに区分して、原則として次のような方法で評価をすることになっています。</p>
+                <p>（1）　大会社</p>
+                <p>大会社は、原則として、類似業種比準方式により評価します。類似業種比準方式とは、類似業種の株価を基に、評価する会社の一株当たりの「配当金額」、「利益金額」および「純資産価額（簿価）」の3つで比準して評価する方法です。</p>
+                <p>なお、類似業種の業種目および業種目別株価などは、<a href="/law/tsutatsu/kobetsu/hyoka/zaisan.htm">国税庁ホームページ</a>で閲覧できます。</p>
+                <p>（2）　小会社</p>
+                <p>小会社は、原則として、純資産価額方式によって評価します。純資産価額方式とは、会社の総資産や負債を原則として相続税の評価に洗い替えて、その評価した総資産の価額から負債や評価差額に対する法人税額等相当額を差し引いた残りの金額により評価する方法です。</p>
+                <p>（3）　中会社</p>
+                <p>中会社は、大会社と小会社の評価方法を併用して評価します。</p>
+                <h3>特例的な評価方式</h3>
+                <p>取引相場のない株式は、原則として、以上のような方式により評価しますが、同族株主以外の株主が取得した株式については、その株式の発行会社の規模にかかわらず原則的評価方式に代えて特例的な評価方式である配当還元方式で評価します。配当還元方式とは、その株式を所有することによって受け取る一年間の配当金額を、一定の利率（10パーセント）で還元して元本である株式の価額を評価する方法です。</p>
+                <h3>特定の評価会社の株式の評価</h3>
+                <p>次のような特定の評価会社の株式は、原則として、（1）から（5）については純資産価額方式により、（6）については清算分配見込額により評価することになっています。</p>
+                <p>なお、（1）から（4）の会社の株式を取得した同族株主以外の株主等については、特例的な評価方式である配当還元方式により評価します。</p>
+                <p>（1）　類似業種比準方式で評価する場合の3つの比準要素である「配当金額」、「利益金額」および「純資産価額（簿価）」のうち直前期末の比準要素のいずれか2つがゼロであり、かつ、直前々期末の比準要素のいずれか2つ以上がゼロである会社（比準要素数1の会社）の株式</p>
+                <p>（2）　株式等の保有割合（総資産価額中に占める株式、出資および新株予約権付社債の価額の合計額の割合）が一定の割合以上の会社（株式等保有特定会社）の株式</p>
+                <p>（3）　土地等の保有割合（総資産価額中に占める土地などの価額の合計額の割合）が一定の割合以上の会社（土地保有特定会社）の株式</p>
+                <p>（4）　課税時期（相続または遺贈の場合は被相続人の死亡の日、贈与の場合は贈与により財産を取得した日）において開業後の経過年数が3年未満の会社や、類似業種比準方式で評価する場合の3つの比準要素である「配当金額」、「利益金額」および「純資産価額（簿価）」の直前期末の比準要素がいずれもゼロである会社（開業後3年未満の会社等）の株式</p>
+                <p>（5）　開業前または休業中の会社の株式</p>
+                <p>（6）　清算中の会社の株式</p>
+                <p>以上それぞれの評価方法に応じて、この取引相場のない株式の評価をするときには、<a href="/taxes/tetsuzuki/shinsei/annai/hyoka/annai/1470-01.htm">「取引相場のない株式（出資）の評価明細書」</a>を使用していただければ比較的容易に株価の計算ができるようになっています。</p>
+                <h2>根拠法令等</h2>
+                <p>評基通168、178～180、185、188、188-2、189～189-6</p>
+                <h2>関連リンク</h2>
+                <p>◆関連する税務手続</p>
+                <p>・<a href="/taxes/tetsuzuki/shinsei/annai/hyoka/annai/1470-01.htm">［手続名］取引相場のない株式（出資）の評価明細書</a></p>
+                <h2>お問い合わせ先</h2>
+                <p>国税に関するご相談は、国税局電話相談センター等で行っていますので、<a href="/taxes/shiraberu/shirabekata/9200.htm#a02">税についての相談窓口</a>をご覧になって、電話相談をご利用ください。</p>
+                <div class="contents-feedback">
+                  <div class="display-before">
+                    <div class="title-feedback">このコンテンツはお役にたちましたか？</div>
+                    <div class="feedback-set">
+                      <a class="feedback-btn" data-type="good">はい</a>
+                      <a class="feedback-btn" data-type="bad">いいえ</a>
+                    </div>
+                  </div>
+                  <div class="display-after">ご協力ありがとうございました</div>
+                  <div class="surbey-link"><a href="/suggestion/taxanser/input_form.html">
+                      <p>今後の改善のための参考とさせていただくため、<br>アンケートを実施しています。ぜひご協力をお願いいたします。</p><span>アンケートへ</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="page-top-link"><a href="#page-top">このページの先頭へ</a></p>
+
+          </div>
+          <!--/left-menu-->
+
+          <div class="right-menu">
+
+
+            <div class="panel panel-default sidenavi bmg20">
+              <div class="panel-heading">
+                <h2 class="panel-title"><a href="/taxes/index.htm">税の情報・手続・用紙</a></h2>
+              </div>
+              <div class="panel-group" id="navi-Accordion">
+
+
+
+
+
+
+                <h3 class="sidenavi-title"><a class="navi_title" href="/taxes/shiraberu/index.htm">税について調べる</a><a class="navi_btn" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse1"><img alt="メニューを閉じる" src="/template/img/template/navi_up.png"></a></h3>
+                <div class="panel-collapse collapse in" id="sidenaviAccordionCollapse1">
+                  <ul>
+                    <li><a href="/taxes/shiraberu/shinkoku/kakutei.htm">所得税（確定申告書等作成コーナー）</a></li>
+                    <li><a href="/taxes/shiraberu/taxanswer/index2.htm">タックスアンサー（よくある税の質問）</a></li>
+                    <li><a href="/taxes/shiraberu/sodan/index.htm">税の相談</a></li>
+                    <li><a href="/taxes/shiraberu/zeimokubetsu/index.htm">税目別情報</a></li>
+                    <li><a href="http://www.rosenka.nta.go.jp/">路線価図・評価倍率表</a></li>
+                    <li><a href="/taxes/shiraberu/saigai/index.htm">災害関連情報</a></li>
+                    <li><a href="/taxes/shiraberu/kokusai/index.htm">国際税務関係情報</a></li>
+                    <li><a href="/taxes/shiraberu/shirabekata/info.htm">税についての上手な調べ方</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidenavi-title"><a class="navi_title" href="/taxes/tetsuzuki/index.htm">申告手続・用紙</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse2"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3>
+                <div class="panel-collapse collapse" id="sidenaviAccordionCollapse2">
+                  <ul>
+                    <li><a href="/taxes/tetsuzuki/shinsei/index.htm">申告・申請・届出等、用紙（手続の案内・様式）</a></li>
+                    <li><a href="/taxes/tetsuzuki/mynumberinfo/index.htm">社会保障・税番号制度(マイナンバー)</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidenavi-title"><a class="navi_title" href="/taxes/nozei/index.htm">納税・納税証明書手続</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse3"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3>
+                <div class="panel-collapse collapse" id="sidenaviAccordionCollapse3">
+                  <ul>
+                    <li><a href="/taxes/nozei/annai/index.htm">納税に関する総合案内</a></li>
+                    <li><a href="/taxes/nozei/nozei-shomei/01.htm">納税証明書</a></li>
+                    <li><a href="/taxes/nozei/enno-butsuno/01.htm">延納・物納申請等</a></li>
+                    <li><a href="/taxes/nozei/entaizei/keisan/entai.htm">延滞税</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidenavi-title"><a class="navi_title" href="/taxes/zeirishi/index.htm">税理士に関する情報</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse4"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3>
+                <div class="panel-collapse collapse" id="sidenaviAccordionCollapse4">
+                  <ul>
+                    <li><a href="/taxes/zeirishi/index.htm#news">新着情報</a></li>
+                    <li><a href="/taxes/zeirishi/zeirishiseido/seido.htm">税理士制度</a></li>
+                    <li><a href="/taxes/zeirishi/zeirishishiken/zeirishi.htm">税理士試験</a></li>
+                    <li><a href="/taxes/zeirishi/chokai/chokai.htm">税理士に関する懲戒処分等</a></li>
+                    <li><a href="/taxes/zeirishi/search/search.htm">税理士をお探しの方</a></li>
+                    <li><a href="/taxes/zeirishi/zeirishiseido/qa.htm">税理士関係法令等・Q＆A</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidenavi-title"><a class="navi_title" href="/taxes/sake/index.htm">お酒に関する情報</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse5"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3>
+                <div class="panel-collapse collapse" id="sidenaviAccordionCollapse5">
+                  <ul>
+                    <li><a href="/taxes/sake/index.htm#syuzei">酒税関係及び各種施策</a></li>
+                    <li><a href="/taxes/sake/index.htm#ippan">一般的な酒税の取扱い</a></li>
+                    <li><a href="/taxes/sake/index.htm#senmonsyuzei">専門的な酒税の取扱い</a></li>
+                    <li><a href="/taxes/sake/index.htm#senmonsodan">専門的な酒税の相談</a></li>
+                    <li><a href="/taxes/sake/index.htm#shinkoku">酒税の申告・納付や届出等</a></li>
+                    <li><a href="/taxes/sake/index.htm#denwa">電話相談センター・税務署の案内</a></li>
+                    <li><a href="/taxes/sake/index.htm#shingikai">審議会等</a></li>
+                    <li><a href="/taxes/sake/index.htm#tokei">統計情報・各種資料</a></li>
+                    <li><a href="/taxes/sake/index.htm#qa">お酒に関するQ＆A(よくある質問)</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidenavi-title"><a href="/taxes/kids/index.htm" class="navi_title">税の学習コーナー</a></h3>
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+          <!--/right-menu-->
+
+        </div>
+        <!--/clearfix-->
+
+      </div>
+      <!--/wrap-->
+
+
+      <footer>
+        <h2>サイトマップ（コンテンツ一覧）</h2>
+        <ol class="breadcrumb footer">
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/taxes/index.htm">税の情報・手続・用紙</a></li>
+          <li><a href="/taxes/shiraberu/index.htm">税について調べる</a></li>
+          <li><a href="/taxes/shiraberu/taxanswer/index2.htm">タックスアンサー（よくある税の質問）</a></li>
+          <li class="active">No.4638 取引相場のない株式の評価</li>
+        </ol>
+        <div id="footer"></div>
+      </footer>
+
+    </div>
+    <!--/container-->
+
+
+
+
+
+
+
+
+    <script>
+      var sendPath = "/taxes/shiraberu/taxanswer/cgi-bin/questionnaire.php";
+      var feedBackElement = $(".display-before");
+      var thanksElement = $(".display-after");
+      var lastPathName = location.pathname.split("/").pop();
+      $(".feedback-btn").each(function(i, btn) {
+        var type = $(btn).data("type");
+        var sendData = "type=" + type + "&url=" + lastPathName;
+        $(btn).click(function() {
+          $.ajax({
+              type: "GET",
+              url: sendPath,
+              data: sendData,
+            })
+            .done(function() {})
+            .fail(function(jqXHR) {
+              console.error(jqXHR);
+            })
+          feedBackElement.hide();
+          thanksElement.show();
+        });
+      });
+    </script>
+  </body>
+
+</html>

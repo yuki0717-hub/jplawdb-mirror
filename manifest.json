@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-30T23:55:07.632878+00:00",
+  "generated_at": "2026-07-01T07:41:52.517252+00:00",
   "source_base": "https://jplawdb.github.io/html-preview",
   "mirror_base": "https://yuki0717-hub.github.io/jplawdb-mirror",
   "metrics": {
@@ -17,6 +17,9 @@
     "nta_guide_parts": 30,
     "nta_guide_rows": 368,
     "nta_guide_shards": 31,
+    "nta_official_documents": 11,
+    "nta_official_legal_dates": 3,
+    "nta_official_source_bytes": 196910,
     "nta_qa_documents": 37,
     "nta_qa_items": 3080,
     "nta_qa_rows": 3080,
@@ -26,7 +29,7 @@
     "paper_shards": 45,
     "tax_question_navigation_repairs": 2,
     "tax_question_scenarios": 6,
-    "tax_question_source_checks": 19,
+    "tax_question_source_checks": 24,
     "treaty_packs": 140,
     "treaty_rows": 1206,
     "treaty_shards": 48,
@@ -152392,7 +152395,7 @@
     {
       "path": "egov-law-db/index.json",
       "size": 15484,
-      "sha256": "1a6a2825b018eea868e7282085d2069c337f8510b25702a1d67de1f65eefb526"
+      "sha256": "670b2f013502b3d425a1f09f6907293eb76ea9197abed85bf15d9d7bd1bfa50e"
     },
     {
       "path": "egov-law-db/llms.txt",
@@ -152417,7 +152420,7 @@
     {
       "path": "egov-law-db/metadata/kaishahou.json",
       "size": 552,
-      "sha256": "fe2ce6664f975d16abaea7f66fda760388eed020e1aafb8b2c8f991b30f8f75e"
+      "sha256": "4ed8b5e7690599da465ae1562e9cb456451e1b03e11fb72e3009015984f22678"
     },
     {
       "path": "egov-law-db/metadata/kaishahou_kisoku.json",
@@ -152432,7 +152435,7 @@
     {
       "path": "egov-law-db/metadata/kokuzei_tsusoku.json",
       "size": 565,
-      "sha256": "a3ad62e24b31458038b6d5fd116f433930a9887a8b4387b966bf1385e6948d1f"
+      "sha256": "fc8a6fd25bef8c83ac22efb25f2bde6e3bede53376e1c1cf3397270de945caf9"
     },
     {
       "path": "egov-law-db/metadata/kokuzei_tsusoku_kisoku.json",
@@ -152477,7 +152480,7 @@
     {
       "path": "egov-law-db/metadata/shouhou.json",
       "size": 548,
-      "sha256": "56dc5a092e34a99c921cfb062816e3fd58e1a4fd7e58c44eaf965c8959b7b6a1"
+      "sha256": "8a50552a3a5aa8eb0e292320a1b4a859615141fd5b2a911ab8d7e77dae267d34"
     },
     {
       "path": "egov-law-db/metadata/shouhou_kisoku.json",
@@ -152527,7 +152530,7 @@
     {
       "path": "egov-law-db/status.json",
       "size": 15555,
-      "sha256": "a26a6856e9ea97df9f168fd505c96efa446f133d4597ac7ccc5c2a1f004a885b"
+      "sha256": "87051376653ee8addb450cbecc4a8116284173a30502b50cc7b172f3c5710c4d"
     },
     {
       "path": "egov-law-db/text/hojinzei/1.txt",
@@ -183017,7 +183020,7 @@
     {
       "path": "egov-law-db/xml/kaishahou.xml",
       "size": 3164761,
-      "sha256": "e4bdb57289add1b4508e27b6dedfb1df13ef639d82c99c2d06608b9f25e93dbe"
+      "sha256": "702e289446ffc06447dd0e0fb871dea8579331a2ca832b2466a14e90e86c6b45"
     },
     {
       "path": "egov-law-db/xml/kaishahou_kisoku.xml",
@@ -183032,7 +183035,7 @@
     {
       "path": "egov-law-db/xml/kokuzei_tsusoku.xml",
       "size": 934905,
-      "sha256": "97642ef5998be49e3023003cfc4875d816a6ae187c3179006a7a87ce3a1c765c"
+      "sha256": "741886f2611679a53e43f1a8570daad33772d0229267f6a429fc3a060afd84ea"
     },
     {
       "path": "egov-law-db/xml/kokuzei_tsusoku_kisoku.xml",
@@ -183077,7 +183080,7 @@
     {
       "path": "egov-law-db/xml/shouhou.xml",
       "size": 554295,
-      "sha256": "0433a41360b1e1c754b8c92eed9d39f9b2fee80071d082a800de3f8e9495707c"
+      "sha256": "2afd4da758682f90d6fbefa57901f85bed91c5b6a08922a65dadb64e5c0fbeb1"
     },
     {
       "path": "egov-law-db/xml/shouhou_kisoku.xml",
@@ -183121,8 +183124,8 @@
     },
     {
       "path": "index.html",
-      "size": 3243,
-      "sha256": "9cf7049448bf2a796fcad8bb7685b40c8af9b80624dfda9e5332258b84b446ff"
+      "size": 3498,
+      "sha256": "57b48927775f1868161dea5c1246761576ba91f08d8154f117fc0d02c1bf0248"
     },
     {
       "path": "llms3.txt",
@@ -183135,19 +183138,204 @@
       "sha256": "2fee17178adab6da37f2b2aad4109de3f5db9dd96eefc7e6adf429d76b5cf0c0"
     },
     {
+      "path": "nta-official-db/index.html",
+      "size": 3049,
+      "sha256": "a5dc8cb005a68f09d10f3999c020e85a3868ff52293f1710f46979cdb07afb38"
+    },
+    {
+      "path": "nta-official-db/index.json",
+      "size": 12256,
+      "sha256": "23f30944222fec33f4a25e6712dfae693180bdcada3e97f94cf56675069e8f21"
+    },
+    {
+      "path": "nta-official-db/metadata/additional_tax_guidance.json",
+      "size": 1071,
+      "sha256": "f4e803f24d664f0a549b724f1fd33acffd8a0daf05332b8a575b3ed088d961fc"
+    },
+    {
+      "path": "nta-official-db/metadata/consumption_tax_circular.json",
+      "size": 1076,
+      "sha256": "d3b182e10e99662f08b27189868a83863dd3005ba7ee8ae7ec9575b92e57313b"
+    },
+    {
+      "path": "nta-official-db/metadata/executive_compensation_circular.json",
+      "size": 970,
+      "sha256": "41f08c54b750dba2488f28b03059f5ef337262a75be47e9228451ccc115e7ebe"
+    },
+    {
+      "path": "nta-official-db/metadata/executive_compensation_filing.json",
+      "size": 1021,
+      "sha256": "2d95829e809718a794aaa653362991fe085abf74870e2d316810bee9467574a4"
+    },
+    {
+      "path": "nta-official-db/metadata/executive_compensation_taxanswer.json",
+      "size": 1008,
+      "sha256": "951434bb00f9f0162cd8f7b2887c79eb51e87b8e2cf6c61303b4a544422f7657"
+    },
+    {
+      "path": "nta-official-db/metadata/invoice_taxanswer.json",
+      "size": 962,
+      "sha256": "cefc03d44df352bc7cf496d50deb164c712d56dee4fc99995fe02bb107bb6bd1"
+    },
+    {
+      "path": "nta-official-db/metadata/revenue_recognition_circular.json",
+      "size": 1040,
+      "sha256": "008332ef15d701fbe7a08a1bd63a6f3bb599b936f6505cbdc6b69c49fa98e80f"
+    },
+    {
+      "path": "nta-official-db/metadata/transfer_pricing_guidance.json",
+      "size": 1011,
+      "sha256": "7d80727f5f019d0b28b989e6ac6d2b1e1e74c0e3df23988709aaa4fad3b4b5fb"
+    },
+    {
+      "path": "nta-official-db/metadata/transfer_pricing_methods.json",
+      "size": 1008,
+      "sha256": "d0d84771c6ec9fa68f561882769640b53eedb6f6f853b340cfe10826e0bc957a"
+    },
+    {
+      "path": "nta-official-db/metadata/unlisted_share_circular.json",
+      "size": 985,
+      "sha256": "840ffd3c060a0f584d79a6e5e7f36ae94c04f100bb2e9ef79dd401422c705d5f"
+    },
+    {
+      "path": "nta-official-db/metadata/unlisted_share_taxanswer.json",
+      "size": 950,
+      "sha256": "cc82b506f1d85fbbd816a3dde3bb88054a5bae348fae3315352eb8dc096c3582"
+    },
+    {
+      "path": "nta-official-db/quickstart.txt",
+      "size": 441,
+      "sha256": "ca2522f69cda2f1b682ea155742b74907f6484b664a756bdfefe9089ce14ce47"
+    },
+    {
+      "path": "nta-official-db/raw/additional_tax_guidance.html.txt",
+      "size": 32706,
+      "sha256": "46ff1ce49b8f745857b3964232a57af77373a468933b64b931143f03086135d4"
+    },
+    {
+      "path": "nta-official-db/raw/consumption_tax_circular.html.txt",
+      "size": 13548,
+      "sha256": "3f259a3ddaf3053190e01011c9b8cd29540109e4edbd2e1c5b5d5901e7fe8758"
+    },
+    {
+      "path": "nta-official-db/raw/executive_compensation_circular.html.txt",
+      "size": 7771,
+      "sha256": "837bc9d3c5813916af03bf00a16295208c0124618e9d3ad88d44883af1d605ff"
+    },
+    {
+      "path": "nta-official-db/raw/executive_compensation_filing.html.txt",
+      "size": 15114,
+      "sha256": "9b5ee720015633618e2bca61f99329b796256a8d5c9b68c8858fec0d0c6f8369"
+    },
+    {
+      "path": "nta-official-db/raw/executive_compensation_taxanswer.html.txt",
+      "size": 32078,
+      "sha256": "03da65d7348f799669f89c9604285e8234b2316a0ae278ab0acf1ffe9534c70d"
+    },
+    {
+      "path": "nta-official-db/raw/invoice_taxanswer.html.txt",
+      "size": 17896,
+      "sha256": "f4dbc685dc1599bfb78c370748b484025048ee13427f744e8d316b0b853973c5"
+    },
+    {
+      "path": "nta-official-db/raw/revenue_recognition_circular.html.txt",
+      "size": 31892,
+      "sha256": "a0c28834e04b44a6f148091f775aef54193984fdaccfffd741cbacc43924102f"
+    },
+    {
+      "path": "nta-official-db/raw/transfer_pricing_guidance.html.txt",
+      "size": 13120,
+      "sha256": "856a3fbacf1b398ca21f98e381adf59e8cc59f0df30a57c402a1fd0e9c605af5"
+    },
+    {
+      "path": "nta-official-db/raw/transfer_pricing_methods.html.txt",
+      "size": 30938,
+      "sha256": "bccd973b4335d159efcb7352fe3d99ec7dfad0f03e74816c84fa73c5532a6d54"
+    },
+    {
+      "path": "nta-official-db/raw/unlisted_share_circular.html.txt",
+      "size": 23540,
+      "sha256": "6ec54e2422dff26544beb81ae2eb3dd049b68c7e15f0db38a644f9699edd1ba5"
+    },
+    {
+      "path": "nta-official-db/raw/unlisted_share_taxanswer.html.txt",
+      "size": 17070,
+      "sha256": "af0605867a1af9040c7ced38a5f9c1d3c4720d4b464b36ec1d278d15c10e4483"
+    },
+    {
+      "path": "nta-official-db/status.json",
+      "size": 12177,
+      "sha256": "18eabc49de02390ba9f49d85e2bced3bd1331a4afe8aa28723def961f2df81e7"
+    },
+    {
+      "path": "nta-official-db/text/additional_tax_guidance.txt",
+      "size": 25670,
+      "sha256": "70e7a267e23fec627bff5556d0fd32c1cec41adc88cb23ae4691d406be695d07"
+    },
+    {
+      "path": "nta-official-db/text/consumption_tax_circular.txt",
+      "size": 9493,
+      "sha256": "c91613e0402daefa0a99c8de805da5061529a413f76fc4a012dd0422b8fd00f8"
+    },
+    {
+      "path": "nta-official-db/text/executive_compensation_circular.txt",
+      "size": 4434,
+      "sha256": "8cf0d27ffaa0764718c38b2f0dec85c94cc873fbd4df5389c8ab5417d86a9bd3"
+    },
+    {
+      "path": "nta-official-db/text/executive_compensation_filing.txt",
+      "size": 5147,
+      "sha256": "c5856720991c71f2195bb734be70f0928319561e18c607e2f1c48491199d872b"
+    },
+    {
+      "path": "nta-official-db/text/executive_compensation_taxanswer.txt",
+      "size": 19413,
+      "sha256": "9338e30e274d291373e589869dc53746ca9e313e1b16a7da1eb36f750d6e5eba"
+    },
+    {
+      "path": "nta-official-db/text/invoice_taxanswer.txt",
+      "size": 5856,
+      "sha256": "750f7e4c10582e170f8ce7b44b5b5f68ec0c28f25ec151c889d811a93b31c07e"
+    },
+    {
+      "path": "nta-official-db/text/revenue_recognition_circular.txt",
+      "size": 26325,
+      "sha256": "e6bfbc50d20dba18b3a0c55cf0bfca8a8372b8c83c31ec85ef1344a6909ba761"
+    },
+    {
+      "path": "nta-official-db/text/transfer_pricing_guidance.txt",
+      "size": 5893,
+      "sha256": "b0ab05fbd309832aa8bde626964724b34a5c73976c8f08a17a9c7cad9c1d1042"
+    },
+    {
+      "path": "nta-official-db/text/transfer_pricing_methods.txt",
+      "size": 25743,
+      "sha256": "a1931a4f7e22a4afc9dda29bf2789382954238e7046cb1fb7cd4b5778c44c404"
+    },
+    {
+      "path": "nta-official-db/text/unlisted_share_circular.txt",
+      "size": 14503,
+      "sha256": "dfe082a2af26a583c6f15aca5d282042edceab7b2124e86e347455c1dc0a662c"
+    },
+    {
+      "path": "nta-official-db/text/unlisted_share_taxanswer.txt",
+      "size": 5828,
+      "sha256": "92aa34a7e6cab9fd8fd1531029a8a5cba896de2fdab7e125ca431c1d245cb885"
+    },
+    {
       "path": "tax-question-tests/index.html",
-      "size": 6549,
-      "sha256": "30b5518283594e08ed2654ec10a377f9fbecef68e195fcf688698e8f622a2c52"
+      "size": 7579,
+      "sha256": "1820d5b05426b40533baba55f91c945ef414159528624191f5f43efb0586bed2"
     },
     {
       "path": "tax-question-tests/prompts.txt",
-      "size": 5559,
-      "sha256": "8bb9bdacd32f2c9add429709d5034319f37a7fb1a5f0f8492edb49f317bfb512"
+      "size": 6428,
+      "sha256": "2e19c9405287c6598c65b5544948fe2383a156c58500652833b64b1bb119157f"
     },
     {
       "path": "tax-question-tests/report.json",
-      "size": 12506,
-      "sha256": "3524865c51e8896ae739fa6681df7866308ef6b2f6cf51b6233c46fd0ef66f2a"
+      "size": 15388,
+      "sha256": "4a5b4777628eac11a4c6874315e227679bce48eb68fdd6cacdb6ada04c18c5df"
     }
   ]
 }

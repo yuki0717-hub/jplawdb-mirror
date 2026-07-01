@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta content="text/html; charset=shift_jis" http-equiv="Content-Type">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+
+		<title>C1-23　事前確定届出給与に関する届出｜国税庁</title>
+		<link href="/template/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="/template/js/html5shiv.min.js"></script>
+			<script src="/template/js/respond.min.js"></script>
+		<![endif]-->
+		<script src="/template/js/jquery.min.js"></script>
+		<script src="/template/js/bootstrap.min.js"></script>
+		<link href="/template/css/common.css" rel="stylesheet">
+		<link href="/template/css/import.css" rel="stylesheet">
+		<script src="/template/js/custom.js"></script>
+
+		
+		<script src="/template/js/include.js"></script>
+	</head>
+	<body>
+<noscript>すべての機能をご利用いただくにはJavascriptを有効にしてください。</noscript>
+
+		<div class="container">
+
+			
+						<div id="header"></div>
+
+
+			<div class="wrap">
+
+				<div class="clearfix">
+
+					<div class="left-content contents">
+
+						
+
+					
+
+
+						<div id="contents">
+<div class="imp-cnt" id="bodyArea">
+<p class="skip"></p>
+<ol class="breadcrumb"><li><a href="/">ホーム</a></li><li><a href="/taxes/index.htm">税の情報・手続・用紙</a></li><li><a href="/taxes/tetsuzuki/index.htm">申告手続・用紙</a></li><li><a href="/taxes/tetsuzuki/shinsei/index.htm">申告・申請・届出等、用紙（手続の案内・様式）</a></li><li><a href="/taxes/tetsuzuki/shinsei/annai/yousiki.htm">税務手続の案内（税目別一覧）</a></li><li><a href="/taxes/tetsuzuki/shinsei/annai/hojin/mokuji.htm">C1 法人税</a></li><li class="active">C1-23　事前確定届出給与に関する届出<!-- InstanceEndEditable --></li></ol>
+<!-- InstanceBeginEditable name="bodyArea" -->
+
+<div class="page-header" id="page-top"><h1>C1-23　事前確定届出給与に関する届出</h1></div>
+
+<h4 class="marginBottom0">概要</h4>
+<p class="marginLeft1em marginTop0">事前確定届出給与について届け出る場合の手続です。</p>
+
+<h5 class="marginBottom0">［手続対象者］</h5>
+<p class="marginLeft1em marginTop0">事前確定届出給与について届け出る法人 </p>
+
+<h5 class="marginBottom0">［提出時期］</h5>
+<p class="marginLeft1em marginTop0 marginBottom0">次に掲げる区分に応じてそれぞれの日までです。</p>
+<ol class="marginTop0">
+	<li>
+		<div class="pr pr2">株主総会等の決議により役員の職務につき「所定の時期に確定した額の金銭又は確定した数の株式若しくは新株予約権若しくは確定した額の金銭債権に係る法人税法第54条第1項に規定する特定譲渡制限付株式若しくは同法第54条の2第1項に規定する特定新株予約権を交付する旨の定め」（以下「所定の時期に確定した額の金銭等を交付する旨の定め」といいます。）」をした場合（以下の2又は3に該当する場合を除きます。）</div>
+		<div class="pr pr2">株主総会等の決議をした日（同日がその職務の執行を開始する日後である場合にあっては、当該開始する日）から1月を経過する日。ただし、その日が職務執行期間開始の日の属する会計期間開始の日から4月（法人税法第75条の2第1項各号又は同法第144条の８において準用する同法第75条の２第１項各号の指定を受けている法人にあっては、その指定に係る月数に3を加えた月数）を経過する日（以下「会計期間4月経過日等」といいます。）後である場合には当該会計期間4月経過日等</div>
+	</li>
+	<li>
+		<div class="pr pr2">新設法人がその役員のその設立の時に開始する職務につき「所定の時期に確定した額の金銭等を交付する旨の定め」をした場合</div>
+		<div class="pr pr2">その設立の日以後2月を経過する日</div>
+	</li>
+	<li>
+		<div class="pr pr2">臨時改定事由（法人税法施行令第69条第1項第1号ロ（定期同額給与の範囲等）に規定する役員の職制上の地位の変更、職務の内容の重大な変更その他これらに類するやむを得ない事情をいいます。以下同じ。）により当該臨時改定事由に係る役員の職務につき「所定の時期に確定した額の金銭等を交付する旨の定め」をした場合</div>
+		<div class="pr pr1">次に掲げる日のうちいずれか遅い日</div>
+		<ul class="lst lst_2e">
+			<li>イ&emsp;上記1に掲げる日（上記2に該当する場合は、2に掲げる日）</li>
+			<li>
+				ロ&emsp;当該臨時改定事由が生じた日から1月を経過する日
+				<ul class="lst lst_2e">
+					<li>（注）&emsp;役員の当該臨時改定事由が生ずる直前の職務につき「定め」があった場合には、「事前確定届出給与に関する変更届出書」を使用してください。</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ol>
+
+<h5 class="marginBottom0">［提出方法］</h5>
+<p class="marginLeft1em marginTop0 marginBottom0">
+e-Taxソフトで届出書を作成・提出してください。<br>
+詳しくは、e-Taxホームページ「<a href="https://www.e-tax.nta.go.jp/e-taxsoft/index.htm" target="_blank">e-Taxソフトについて</a>」をご確認ください。
+</p>
+<p style="text-indent: -2em; padding-left: 3em; margin-top: 0; margin-bottom: 0">※　e-Taxを初めてご利用になる方は、利用者識別番号を取得する必要があります。詳しくは、国税庁ホームページ「<a href="/taxes/tetsuzuki/shinsei/annai/e-tax/annai/001.htm">H3-1電子申告・納税等開始（変更等）の届出</a>」をご確認ください。</p>
+<p style="text-indent: -2em; padding-left: 3em; margin-top: 0">※　書面で作成される場合は、届出書を１部、提出先に持参又は送付してください。</p>
+
+<h5 class="marginBottom0">［申請書様式・記載要領］</h5>
+
+<!-- No.0026003-062 start -->
+<div id="cntPDFarea" style="padding: 4px 4px;font-size: 0.8em;margin-top: 15px;margin-bottom: 15px;">
+<p style="margin: 1em 0;">※<a href="/taxes/tetsuzuki/shinsei/annai/toiawase/1679/01.htm">PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。</a></p>
+</div>
+<!-- No.0026003-062 end -->
+<p>（平成21年4月1日以後に行う届出分）</p>
+<ul>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/HOY840.pdf">事前確定届出給与に関する届出書（PDF/593KB）</a>
+	</li>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/068-1.pdf">記載要領（PDF/118KB）</a>
+	</li>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/HOY831.pdf">
+			付表1（事前確定届出給与等の状況（金銭交付用））（PDF/757KB）
+		</a>
+	</li>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/069-1.pdf">記載要領（PDF/92KB）</a>
+	</li>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/HOY833.pdf">
+			付表2（事前確定届出給与等の状況（株式交付用））（PDF/600KB）
+		</a>
+	</li>
+	<li>
+		<a href="/law/tsutatsu/kobetsu/hojin/010705/pdf/070-1.pdf">記載要領（PDF/109KB）</a>
+	</li>
+</ul>
+
+<h5 class="marginBottom0">［提出先］</h5>
+<p class="marginLeft1em marginTop0">納税地の所轄税務署長（税務署の所在地については、国税庁ホームページの「組織（国税局・税務署等）」の「<a href="/about/organization/access/map.htm">税務署の所在地などを知りたい方</a>」をご覧下さい。）</p>
+
+<h5 class="marginBottom0">［受付時間］</h5>
+<p class="marginLeft1em marginTop0 marginBottom0">○　e-Taxの利用可能時間</p>
+<p class="marginLeft3em marginTop0 marginBottom0">e-Taxホームページの「<a href="https://www.e-tax.nta.go.jp/info_center/index.htm" target="_blank">e-Taxの利用可能時間</a>」をご確認ください。</p>
+<p class="marginLeft1em marginTop0 marginBottom0">○　税務署の開庁時間</p>
+<p class="marginLeft2em marginTop0">&emsp;8時30分から17時までです。<br>
+&emsp;ただし、税務署の閉庁日（土・日曜日・祝日等）は、受付を行っておりませんが、送付又は税務署の時間外収受箱に投函することにより、提出することができます。
+</p>
+
+<h5 class="marginBottom0">［相談窓口］</h5>
+<p class="marginLeft1em marginTop0">「<a href="/taxes/shiraberu/sodan/denwa-sodan/index.htm">国税に関するご相談について</a>」をご確認ください。</p>
+
+<h5 class="marginBottom0">［手続根拠］</h5>
+<p class="marginLeft1em marginTop0">法人税法施行令第69条第4項</p>
+
+
+<!-- InstanceEndEditable --></div>
+</div><p class="page-top-link"><a href="#page-top">このページの先頭へ</a></p>
+
+					</div>
+					<!--/left-menu-->
+
+					<div class="right-menu">
+						
+						
+								<div class="panel panel-default sidenavi bmg20">
+							<div class="panel-heading">
+								<h2 class="panel-title"><a href="/taxes/index.htm">税の情報・手続・用紙</a></h2>
+							</div>
+							<div class="panel-group" id="navi-Accordion">
+
+
+
+
+
+
+								<h3 class="sidenavi-title"><a class="navi_title" href="/taxes/shiraberu/index.htm">税について調べる</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse1"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3><div class="panel-collapse collapse" id="sidenaviAccordionCollapse1"><ul><li><a href="/taxes/shiraberu/shinkoku/kakutei.htm">所得税（確定申告書等作成コーナー）</a></li><li><a href="/taxes/shiraberu/taxanswer/index2.htm">タックスアンサー（よくある税の質問）</a></li><li><a href="/taxes/shiraberu/sodan/index.htm">税の相談</a></li><li><a href="/taxes/shiraberu/zeimokubetsu/index.htm">税目別情報</a></li><li><a href="http://www.rosenka.nta.go.jp/">路線価図・評価倍率表</a></li><li><a href="/taxes/shiraberu/saigai/index.htm">災害関連情報</a></li><li><a href="/taxes/shiraberu/kokusai/index.htm">国際税務関係情報</a></li><li><a href="/taxes/shiraberu/shirabekata/info.htm">税についての上手な調べ方</a></li></ul></div><h3 class="sidenavi-title"><a class="navi_title" href="/taxes/tetsuzuki/index.htm">申告手続・用紙</a><a class="navi_btn" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse2"><img alt="メニューを閉じる" src="/template/img/template/navi_up.png"></a></h3><div class="panel-collapse collapse in" id="sidenaviAccordionCollapse2"><ul><li><a href="/taxes/tetsuzuki/shinsei/index.htm">申告・申請・届出等、用紙（手続の案内・様式）</a></li><li><a href="/taxes/tetsuzuki/mynumberinfo/index.htm">社会保障・税番号制度(マイナンバー)</a></li></ul></div><h3 class="sidenavi-title"><a class="navi_title" href="/taxes/nozei/index.htm">納税・納税証明書手続</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse3"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3><div class="panel-collapse collapse" id="sidenaviAccordionCollapse3"><ul><li><a href="/taxes/nozei/annai/index.htm">納税に関する総合案内</a></li><li><a href="/taxes/nozei/nozei-shomei/01.htm">納税証明書</a></li><li><a href="/taxes/nozei/enno-butsuno/01.htm">延納・物納申請等</a></li><li><a href="/taxes/nozei/entaizei/keisan/entai.htm">延滞税</a></li></ul></div><h3 class="sidenavi-title"><a class="navi_title" href="/taxes/zeirishi/index.htm">税理士に関する情報</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse4"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3><div class="panel-collapse collapse" id="sidenaviAccordionCollapse4"><ul><li><a href="/taxes/zeirishi/index.htm#news">新着情報</a></li><li><a href="/taxes/zeirishi/zeirishiseido/seido.htm">税理士制度</a></li><li><a href="/taxes/zeirishi/zeirishishiken/zeirishi.htm">税理士試験</a></li><li><a href="/taxes/zeirishi/chokai/chokai.htm">税理士に関する懲戒処分等</a></li><li><a href="/taxes/zeirishi/search/search.htm">税理士をお探しの方</a></li><li><a href="/taxes/zeirishi/zeirishiseido/qa.htm">税理士関係法令等・Ｑ＆Ａ</a></li></ul></div><h3 class="sidenavi-title"><a class="navi_title" href="/taxes/sake/index.htm">お酒に関する情報</a><a class="navi_btn collapsed" data-parent="#sidenaviAccordion" data-toggle="collapse" href="#sidenaviAccordionCollapse5"><img alt="メニューを開く" src="/template/img/template/navi_down.png"></a></h3><div class="panel-collapse collapse" id="sidenaviAccordionCollapse5"><ul><li><a href="/taxes/sake/index.htm#syuzei">酒税関係及び各種施策</a></li><li><a href="/taxes/sake/index.htm#ippan">一般的な酒税の取扱い</a></li><li><a href="/taxes/sake/index.htm#senmonsyuzei">専門的な酒税の取扱い</a></li><li><a href="/taxes/sake/index.htm#senmonsodan">専門的な酒税の相談</a></li><li><a href="/taxes/sake/index.htm#shinkoku">酒税の申告・納付や届出等</a></li><li><a href="/taxes/sake/index.htm#denwa">電話相談センター・税務署の案内</a></li><li><a href="/taxes/sake/index.htm#shingikai">審議会等</a></li><li><a href="/taxes/sake/index.htm#tokei">統計情報・各種資料</a></li><li><a href="/taxes/sake/index.htm#qa">お酒に関するＱ＆Ａ(よくある質問)</a></li></ul></div><h3 class="sidenavi-title"><a href="/taxes/kids/index.htm" class="navi_title">税の学習コーナー</a></h3>
+
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+					<!--/right-menu-->
+
+				</div>
+				<!--/clearfix-->
+
+			</div>
+			<!--/wrap-->
+
+			
+						<footer>
+				<h2>サイトマップ（コンテンツ一覧）</h2>
+				<ol class="breadcrumb footer"><li><a href="/">ホーム</a></li><li><a href="/taxes/index.htm">税の情報・手続・用紙</a></li><li><a href="/taxes/tetsuzuki/index.htm">申告手続・用紙</a></li><li><a href="/taxes/tetsuzuki/shinsei/index.htm">申告・申請・届出等、用紙（手続の案内・様式）</a></li><li><a href="/taxes/tetsuzuki/shinsei/annai/yousiki.htm">税務手続の案内（税目別一覧）</a></li><li><a href="/taxes/tetsuzuki/shinsei/annai/hojin/mokuji.htm">C1 法人税</a></li><li class="active">C1-23　事前確定届出給与に関する届出<!-- InstanceEndEditable --></li></ol>
+				<div id="footer"></div>
+			</footer>
+
+		</div>
+		<!--/container-->
+
+	
+
+		
+		
+
+
+	</body>
+</html>

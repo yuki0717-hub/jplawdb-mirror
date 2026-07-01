@@ -1,0 +1,20 @@
+{
+  "code": "executive_compensation_taxanswer",
+  "title": "No.5211 役員に対する給与（平成29年4月1日以後支給決議分）｜国税庁",
+  "expected_title": "No.5211",
+  "source_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
+  "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
+  "fetched_at": "2026-07-01T07:16:42.863006+00:00",
+  "last_modified": "Mon, 25 May 2026 05:00:01 GMT",
+  "etag": "\"7d4d-6529d40455a70\"",
+  "declared_charset": "utf-8",
+  "decoded_charset": "utf-8",
+  "legal_as_of": "2025-04-01",
+  "legal_age_days": 456,
+  "source_size": 32077,
+  "source_sha256": "11ba29eb18c3acb80f77fdb836cbcba3a65a7d458abef1bab3ab3fe2a14c3a85",
+  "text_path": "text/executive_compensation_taxanswer.txt",
+  "text_sha256": "9338e30e274d291373e589869dc53746ca9e313e1b16a7da1eb36f750d6e5eba",
+  "raw_path": "raw/executive_compensation_taxanswer.html.txt",
+  "raw_sha256": "03da65d7348f799669f89c9604285e8234b2316a0ae278ab0acf1ffe9534c70d"
+}

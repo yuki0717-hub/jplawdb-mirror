@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta content="text/html; charset=shift_jis" http-equiv="Content-Type">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+
+		<title>第6節　仕入税額の控除に係る帳簿及び請求書等の記載事項の特例｜国税庁</title>
+		<link href="/template/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="/template/js/html5shiv.min.js"></script>
+			<script src="/template/js/respond.min.js"></script>
+		<![endif]-->
+		<script src="/template/js/jquery.min.js"></script>
+		<script src="/template/js/bootstrap.min.js"></script>
+		<link href="/template/css/common.css" rel="stylesheet">
+		<link href="/template/css/import.css" rel="stylesheet">
+		<script src="/template/js/custom.js"></script>
+
+		
+		<link href="/template/css/tsutatsu.css" rel="stylesheet">
+
+		<script src="/template/js/include.js"></script>
+	</head>
+	<body>
+<noscript>すべての機能をご利用いただくにはJavascriptを有効にしてください。</noscript>
+
+		<div class="container">
+
+			
+						<div id="header"></div>
+
+
+			<div class="wrap">
+
+				<div class="clearfix">
+
+					<div class="left-content contents">
+
+						
+
+					
+
+
+						<div id="contents">
+<div class="imp-cnt-tsutatsu" id="bodyArea">
+<p class="skip"></p>
+<ol class="breadcrumb"><li><a href="/">ホーム</a></li><li><a href="/law/index.htm">法令等</a></li><li><a href="/law/tsutatsu/menu.htm">法令解釈通達</a></li><li class="active">第6節　仕入税額の控除に係る帳簿及び請求書等の記載事項の特例<!-- InstanceEndEditable --></li></ol>
+<!-- InstanceBeginEditable name="bodyArea" -->
+<div class="page-header" id="page-top"><h1>第6節　仕入税額の控除に係る帳簿及び請求書等の記載事項の特例</h1></div>
+<h2>（仕入税額控除に係る帳簿及び請求書等の記載事項の特例）</h2>
+<p class="indent1"><strong>11－6－1　</strong>法第30条第7項《仕入税額控除に係る帳簿及び請求書等の保存》に規定する課税仕入れ等の税額の控除に係る帳簿及び請求書等に関して同条第8項第1号《仕入税額控除に係る帳簿》及び同条第9項第1号《仕入税額控除に係る請求書等》に規定する記載事項については、次により取り扱って差し支えない。（平9課消2－5、平27課消1-17により改正）</p>
+<p class="indent2">(1)　法第30条第8項第1号及び第2号《仕入税額控除に係る帳簿》に規定する記載事項</p>
+<p class="indent3">イ　同項各号イに規定する課税仕入れの相手方の氏名又は名称　　取引先コード等の記号、番号等による表示</p>
+<p class="indent3">ロ　同項各号ハに規定する課税仕入れに係る資産又は役務の内容　　当該仕入れが課税仕入れかどうかの判別
+が明らかである場合の商品コード等による表示</p>
+<p class="indent4">(注)　帳簿とは、第1号イからニ及び第2号イからホに規定する記載事項を記録したものであればよいのであるから、商業帳簿のほか、所得税又は法人税の申告の基礎となる帳簿でも差し支えない。</p>
+<p class="indent2">(2)　法第30条第9項第1号《仕入税額控除に係る請求書等》に規定する記載事項</p>
+<p class="indent3">イ　同号イに規定する作成者の氏名又は名称及びホに規定する書類の交付を受ける当該事業者の氏名又は名称　取引先コード等の記号、番号等による表示</p>
+<p class="indent3">ロ　同号ハに規定する課税資産の譲渡等に係る資産又は役務の内容　　当該資産の譲渡等が課税資産の譲渡等かどうかの判別
+が明らかである場合の商品コード等による表示</p>
+<p class="indent2">(3)　法第30条第9項第2号《仕入税額控除に係る請求書等》に規定する記載事項</p>
+<p class="indent3">イ　同号イに規定する作成者の氏名又は名称及びロに規定する課税仕入れの相手方の氏名又は名称　　取引先コード等の記号、番号等による表示</p>
+<p class="indent3">ロ　同号ニに規定する課税仕入れに係る資産又は役務の内容　　当該仕入れが課税仕入れかどうかの判別が明らかである場合の商品コード等による表示</p>
+<h2>（支払対価の額の合計額が3万円未満の判定単位）</h2>
+<p class="indent1"><strong>11－6－2　</strong>令第49条第1項第1号《課税仕入れ等の税額の控除に係る帳簿等の記載事項等》に規定する「課税仕入れに係る支払対価の額の合計額が3万円未満である場合」に該当するか否かは、一回の取引の課税仕入れに係る税込みの金額が3万円未満かどうかで判定するのであるから、課税仕入れに係る一商品ごとの税込金額等によるものではないことに留意する。（平10課消2－9により追加） 　</p>
+<h2>（請求書等の交付を受けなかったことにつきやむを得ない理由があるときの範囲）</h2>
+<p class="indent1"><strong>11－6－3　</strong>令第49条第1項第2号《課税仕入れ等の税額の控除に係る帳簿等の記載事項等》に規定する「請求書等の交付を受けなかったことにつきやむを得ない理由があるとき」は、次による。<br>　なお、請求書等の交付を受けなかったことについてやむを得ない理由があるときに該当する場合であっても、11－6－4に該当する取引でない限り、当該やむを得ない理由及び課税仕入れの相手方の住所又は所在地を帳簿に記載する必要があるから留意する。（平10課消2－9により追加）</p>
+<p class="indent2">(1)　自動販売機を利用して課税仕入れを行った場合</p>
+<p class="indent2"> (2)　入場券、乗車券、搭乗券等のように課税仕入れに係る証明書類が資産の譲渡等を受ける時に資産の譲渡等を行う者により回収されることとなっている場合</p>
+<p class="indent2">(3)　課税仕入れを行った者が課税仕入れの相手方に請求書等の交付を請求したが、交付を受けられなかった場合</p>
+<p class="indent2">(4)　課税仕入れを行った場合において、その課税仕入れを行った課税期間の末日までにその支払対価の額が確定していない場合<br>         　なお、この場合には、その後支払対価の額が確定した時に課税仕入れの相手方から請求書等の交付を受け保存するものとする。</p>
+<p class="indent2">(5)　その他、これらに準ずる理由により請求書等の交付を受けられなかった場合</p>
+<h2>（課税仕入れの相手方の住所又は所在地を記載しなくてもよいものとして国税庁長官が指定する者の範囲）</h2>
+<p class="indent1"><strong>11－6－4　</strong>令第49条第1項第2号《課税仕入れ等の税額の控除に係る帳簿等の記載事項等》に規定する「国税庁長官が指定する者」は次による。（平10課消2－9により追加）</p>
+<p class="indent2">(1)　汽車、電車、乗合自動車、船舶又は航空機に係る旅客運賃（料金を含む。）を支払って役務の提供を受けた場合の一般乗合旅客自動車運送事業者又は航空運送事業者</p>
+<p class="indent2">(2)　郵便役務の提供を受けた場合の当該郵便役務の提供を行った者</p>
+<p class="indent2">(3)　課税仕入れに該当する出張旅費、宿泊費、日当及び通勤手当（以下11－6－4において「出張旅費等」という。）を支払った場合の当該出張旅費等を受領した使用人等</p>
+<p class="indent2">(4)　令第49条第2項《課税仕入れ等の税額の控除に係る帳簿等の記載事項等》の規定に該当する課税仕入れを行った場合の当該課税仕入れの相手方</p>
+<h2>（課税仕入れの相手方の確認を受ける方法）</h2>
+<p class="indent1"><strong>11－6－5　</strong>法第30条第9項第2号《請求書等の範囲》に規定する「課税仕入れの相手方の確認を受けたもの」とは、保存する仕入明細書等に課税仕入れの相手方の確認の事実が明らかにされているもののほか、例えば、次のものがこれに該当する。（平10課消2－9により追加）</p>
+<p class="indent2">(1)　仕入明細書等への記載内容を通信回線等を通じて課税仕入れの相手方の端末機に出力し、確認の通信を受けた上で自己の端末機から出力したもの</p>
+<p class="indent2"> (2)　仕入明細書等の写し等を課税仕入れの相手方に交付した後、一定期間内に誤りのある旨の連絡がない場合には記載内容のとおり確認があったものとする基本契約等を締結した場合における当該一定期間を経たもの</p>
+<h2>（元請業者が作成する出来高検収書の取扱い）</h2>
+<p class="indent1"><strong>11－6－6　</strong>建設工事等を請け負った事業者（以下11－6－6において「元請業者」という。）が、建設工事等の全部又は一部を他の事業者（以下11－6－6において「下請業者」という。）に請け負わせる場合において、元請業者が下請業者の行った工事等の出来高について検収を行い、当該検収の内容及び出来高に応じた金額等を記載した書類　（以下11－6－6において「出来高検収書」という。）を作成し、それに基づき請負金額を支払っているときは、当該出来高検収書は、法第30条第9項第2号《請求書等の範囲》に規定する書類に該当するものとして取り扱う（当該出来高検収書の記載事項が同号に規定する事項を記載しており、その内容について下請業者の確認を受けているものに限る。）。<br>　なお、元請業者は、当該出来高検収書を作成し下請業者に記載事項の確認を受けることにより、当該出来高検収書に記載された課税仕入れを行ったこととなり、法第30条第1項《仕入れに係る消費税額の控除》の規定が適用できるものとして取り扱う。（平10課消2－9により追加）</p>
+<p class="indent2">(注)　この取扱いは下請業者の資産の譲渡等の計上時期により影響されるものではないことに留意する。</p>
+<h2>（帳簿及び請求書等の保存期間）</h2>
+<p class="indent1"><strong>11－6－7　</strong>法第30条第1項《仕入れに係る消費税額の控除》の規定の適用を受けようとする事業者は、令第50条第1項ただし書《課税仕入れ等の税額の控除に係る帳簿等の保存期間等》、規則第15条の3《帳簿等の保存期間の特例》の規定により、帳簿及び請求書等の保存期間のうち6年目及び7年目は、法第30条第7項《仕入れに係る消費税額の控除に係る帳簿及び請求書等の保存》に規定する帳簿又は請求書等のいずれかを保存すればよいのであるから留意する。（平10課消2－9により追加、平12課消2－10により改正）　</p>
+<!-- InstanceEndEditable --></div>
+</div>
+
+						<p class="page-top-link"><a href="#page-top">このページの先頭へ</a></p>
+
+					</div>
+					<!--/left-menu-->
+
+					<div class="right-menu">
+						
+						
+								<div class="panel panel-default sidenavi bmg20">
+							<div class="panel-heading">
+								<h2 class="panel-title"><a href="/law/index.htm">法令等</a></h2>
+							</div>
+							<div class="panel-group" id="navi-Accordion">
+
+
+
+
+
+
+								<h3 class="sidenavi-title"><a class="navi_title" href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/">税法（e-Govの「e-Gov法令検索」へリンク）</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/tsutatsu/menu.htm">法令解釈通達</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/joho-zeikaishaku/sonota/sonota.htm">その他法令解釈に関する情報</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/jimu-unei/jimu.htm">事務運営指針</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/kokuji/kokuji.htm">国税庁告示</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/bunshokaito/01.htm">文書回答事例</a></h3><h3 class="sidenavi-title"><a class="navi_title" href="/law/shitsugi/01.htm">質疑応答事例</a></h3>
+
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+					<!--/right-menu-->
+
+				</div>
+				<!--/clearfix-->
+
+			</div>
+			<!--/wrap-->
+
+			
+						<footer>
+				<h2>サイトマップ（コンテンツ一覧）</h2>
+				<ol class="breadcrumb footer"><li><a href="/">ホーム</a></li><li><a href="/law/index.htm">法令等</a></li><li><a href="/law/tsutatsu/menu.htm">法令解釈通達</a></li><li class="active">第6節　仕入税額の控除に係る帳簿及び請求書等の記載事項の特例<!-- InstanceEndEditable --></li></ol>
+				<div id="footer"></div>
+			</footer>
+
+		</div>
+		<!--/container-->
+
+	
+
+		
+		
+
+
+	</body>
+</html>

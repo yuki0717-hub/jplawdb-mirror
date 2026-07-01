@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T23:55:03.459146+00:00",
+  "generated_at": "2026-07-01T07:41:47.724467+00:00",
   "passed": true,
   "scenario_count": 6,
-  "source_check_count": 19,
+  "source_check_count": 24,
   "navigation_repairs": 2,
   "scenarios": [
     {
@@ -37,27 +37,39 @@
           "status": "passed"
         },
         {
-          "label": "法人税基本通達9-2-12",
-          "path": "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/9-2-12.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/9-2-12.txt",
+          "label": "国税庁公式・法人税基本通達9-2-12",
+          "path": "nta-official-db/text/executive_compensation_circular.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/executive_compensation_circular.txt",
           "required_terms": [
             "定期同額給与",
             "非常勤役員"
           ],
-          "observed_date": "snapshot: 2025-06-28",
-          "size": 1789,
+          "observed_date": "fetched_at: 2026-07-01T07:16:42.422200+00:00",
+          "size": 4434,
           "status": "passed"
         },
         {
-          "label": "国税庁タックスアンサー5211",
-          "path": "ai-nta-qa-db/text/taxanswer_hojin/5211.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_hojin/5211.txt",
+          "label": "国税庁公式・タックスアンサー5211",
+          "path": "nta-official-db/text/executive_compensation_taxanswer.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/executive_compensation_taxanswer.txt",
           "required_terms": [
             "損金",
             "事前確定届出給与"
           ],
-          "observed_date": "[令和7年4月1日現在法令等]",
-          "size": 19017,
+          "observed_date": "legal_as_of: 2025-04-01",
+          "size": 19413,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁公式・事前確定届出給与に関する届出",
+          "path": "nta-official-db/text/executive_compensation_filing.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/executive_compensation_filing.txt",
+          "required_terms": [
+            "事前確定届出給与",
+            "提出時期"
+          ],
+          "observed_date": "fetched_at: 2026-07-01T07:16:42.542113+00:00",
+          "size": 5147,
           "status": "passed"
         }
       ],
@@ -96,6 +108,31 @@
           ],
           "observed_date": "as_of: 2026-07-01",
           "size": 46501,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁公式・移転価格事務運営要領",
+          "path": "nta-official-db/text/transfer_pricing_guidance.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_guidance.txt",
+          "required_terms": [
+            "独立企業間価格",
+            "ローカルファイル"
+          ],
+          "observed_date": "fetched_at: 2026-07-01T07:16:43.013407+00:00",
+          "size": 5893,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁公式・独立企業間価格の算定上の留意点",
+          "path": "nta-official-db/text/transfer_pricing_methods.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_methods.txt",
+          "required_terms": [
+            "最も適切な方法",
+            "比較対象取引",
+            "独立企業間価格"
+          ],
+          "observed_date": "fetched_at: 2026-07-01T07:16:43.309017+00:00",
+          "size": 25743,
           "status": "passed"
         },
         {
@@ -156,15 +193,27 @@
           "status": "passed"
         },
         {
-          "label": "国税庁タックスアンサー6496",
-          "path": "ai-nta-qa-db/text/taxanswer_shohi/6496.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_shohi/6496.txt",
+          "label": "国税庁公式・タックスアンサー6496",
+          "path": "nta-official-db/text/invoice_taxanswer.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/invoice_taxanswer.txt",
           "required_terms": [
             "仕入税額控除",
             "適格請求書"
           ],
-          "observed_date": "[令和7年4月1日現在法令等]",
-          "size": 5451,
+          "observed_date": "legal_as_of: 2025-04-01",
+          "size": 5856,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁公式・消費税基本通達11-6",
+          "path": "nta-official-db/text/consumption_tax_circular.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/consumption_tax_circular.txt",
+          "required_terms": [
+            "出張旅費",
+            "保存期間"
+          ],
+          "observed_date": "fetched_at: 2026-07-01T07:16:42.426988+00:00",
+          "size": 9493,
           "status": "passed"
         }
       ],
@@ -194,15 +243,15 @@
           "status": "passed"
         },
         {
-          "label": "法人税基本通達2-1-1",
-          "path": "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/2-1-1.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/2-1-1.txt",
+          "label": "国税庁公式・法人税基本通達2-1-1",
+          "path": "nta-official-db/text/revenue_recognition_circular.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/revenue_recognition_circular.txt",
           "required_terms": [
             "個々の契約",
             "履行義務"
           ],
-          "observed_date": "snapshot: 2025-06-28",
-          "size": 1632,
+          "observed_date": "fetched_at: 2026-07-01T07:16:42.677665+00:00",
+          "size": 26325,
           "status": "passed"
         }
       ],
@@ -232,27 +281,27 @@
           "status": "passed"
         },
         {
-          "label": "財産評価基本通達178",
-          "path": "ai-tsutatsu-db/text/hyoka_kihon_tsutatsu/178.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-tsutatsu-db/text/hyoka_kihon_tsutatsu/178.txt",
+          "label": "国税庁公式・財産評価基本通達178",
+          "path": "nta-official-db/text/unlisted_share_circular.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/unlisted_share_circular.txt",
           "required_terms": [
             "取引相場のない株式",
             "大会社"
           ],
-          "observed_date": "snapshot: 2026-02-07",
-          "size": 5201,
+          "observed_date": "fetched_at: 2026-07-01T07:16:43.428726+00:00",
+          "size": 14503,
           "status": "passed"
         },
         {
-          "label": "国税庁タックスアンサー4638",
-          "path": "ai-nta-qa-db/text/taxanswer_hyoka/4638.txt",
-          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/ai-nta-qa-db/text/taxanswer_hyoka/4638.txt",
+          "label": "国税庁公式・タックスアンサー4638",
+          "path": "nta-official-db/text/unlisted_share_taxanswer.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/unlisted_share_taxanswer.txt",
           "required_terms": [
             "同族株主",
             "配当還元方式"
           ],
-          "observed_date": "[令和7年4月1日現在法令等]",
-          "size": 5439,
+          "observed_date": "legal_as_of: 2025-04-01",
+          "size": 5828,
           "status": "passed"
         }
       ],
@@ -299,6 +348,20 @@
           ],
           "observed_date": "as_of: 2026-07-01",
           "size": 6189,
+          "status": "passed"
+        },
+        {
+          "label": "国税庁公式・加算税事務運営指針",
+          "path": "nta-official-db/text/additional_tax_guidance.txt",
+          "url": "https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/additional_tax_guidance.txt",
+          "required_terms": [
+            "過少申告加算税",
+            "無申告加算税",
+            "調査通知",
+            "正当な理由"
+          ],
+          "observed_date": "fetched_at: 2026-07-01T07:16:42.549332+00:00",
+          "size": 25670,
           "status": "passed"
         }
       ],

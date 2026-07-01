@@ -1,0 +1,20 @@
+{
+  "code": "invoice_taxanswer",
+  "title": "No.6496 仕入税額控除をするための帳簿及び請求書等の保存｜国税庁",
+  "expected_title": "No.6496",
+  "source_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm",
+  "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm",
+  "fetched_at": "2026-07-01T07:16:42.986956+00:00",
+  "last_modified": "Wed, 22 Oct 2025 01:00:07 GMT",
+  "etag": "\"45e7-641b4d66b4d38\"",
+  "declared_charset": "utf-8",
+  "decoded_charset": "utf-8",
+  "legal_as_of": "2025-04-01",
+  "legal_age_days": 456,
+  "source_size": 17895,
+  "source_sha256": "2f3a2e5f8b2a8c985e9445406bd1c793ab0fb456ed3ee67067618fca69926efc",
+  "text_path": "text/invoice_taxanswer.txt",
+  "text_sha256": "750f7e4c10582e170f8ce7b44b5b5f68ec0c28f25ec151c889d811a93b31c07e",
+  "raw_path": "raw/invoice_taxanswer.html.txt",
+  "raw_sha256": "f4dbc685dc1599bfb78c370748b484025048ee13427f744e8d316b0b853973c5"
+}

@@ -257,6 +257,123 @@ def _check_egov_sync(
             errors.append("manifest e-Gov article count is inconsistent")
 
 
+def _check_nta_sync(
+    actual: dict[str, Path],
+    manifest: dict[str, Any],
+    config: Config,
+    errors: list[str],
+) -> None:
+    if not config.nta_sources:
+        return
+    from .nta import JST, _match_text
+
+    required = {
+        "nta-official-db/index.html",
+        "nta-official-db/index.json",
+        "nta-official-db/quickstart.txt",
+        "nta-official-db/status.json",
+    }
+    errors.extend(
+        f"required NTA official file is missing: {path}"
+        for path in sorted(required - actual.keys())
+    )
+    status_path = actual.get("nta-official-db/status.json")
+    if status_path is None:
+        return
+    try:
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"cannot read NTA official status: {exc}")
+        return
+    if not isinstance(status, dict) or status.get("schema_version") != 1:
+        errors.append("NTA official status schema_version must be 1")
+        return
+    try:
+        fetched_on = date.fromisoformat(str(status.get("fetched_on")))
+        age_days = (datetime.now(JST).date() - fetched_on).days
+        if age_days < 0 or age_days > 1:
+            errors.append(
+                f"NTA official status is stale: "
+                f"current={datetime.now(JST).date()} fetched_on={fetched_on}"
+            )
+    except ValueError:
+        errors.append(f"invalid NTA official fetched_on: {status.get('fetched_on')}")
+    sources = status.get("sources")
+    if not isinstance(sources, list):
+        errors.append("NTA official status sources must be a list")
+        return
+    expected_codes = set(config.nta_sources)
+    actual_codes = {
+        str(item.get("code"))
+        for item in sources
+        if isinstance(item, dict) and isinstance(item.get("code"), str)
+    }
+    if actual_codes != expected_codes:
+        errors.append(
+            f"NTA official source codes mismatch: "
+            f"missing={sorted(expected_codes - actual_codes)} "
+            f"extra={sorted(actual_codes - expected_codes)}"
+        )
+    for item in sources:
+        if not isinstance(item, dict):
+            errors.append("NTA official status contains a non-object source")
+            continue
+        code = item.get("code")
+        if not isinstance(code, str) or code not in config.nta_sources:
+            continue
+        spec = config.nta_sources[code]
+        if item.get("source_url") != spec.url:
+            errors.append(f"NTA official source URL mismatch: {code}")
+        if _match_text(spec.title) not in _match_text(str(item.get("title") or "")):
+            errors.append(f"NTA official source title mismatch: {code}")
+        text_relative = f"nta-official-db/{item.get('text_path')}"
+        raw_relative = f"nta-official-db/{item.get('raw_path')}"
+        metadata_relative = f"nta-official-db/metadata/{code}.json"
+        for relative in (text_relative, raw_relative, metadata_relative):
+            if relative not in actual:
+                errors.append(f"required NTA official source file is missing: {relative}")
+        text_path = actual.get(text_relative)
+        if text_path is not None:
+            if item.get("text_sha256") != _sha256(text_path):
+                errors.append(f"NTA official text SHA-256 mismatch: {code}")
+            text = text_path.read_text(encoding="utf-8")
+            normalized_text = _match_text(text)
+            missing_terms = [
+                term
+                for term in spec.required_terms
+                if _match_text(term) not in normalized_text
+            ]
+            if missing_terms:
+                errors.append(
+                    f"NTA official text lost required terms: {code}: {missing_terms}"
+                )
+        raw_path = actual.get(raw_relative)
+        if raw_path is not None and item.get("raw_sha256") != _sha256(raw_path):
+            errors.append(f"NTA official raw SHA-256 mismatch: {code}")
+        legal_as_of = item.get("legal_as_of")
+        if spec.require_legal_date and not isinstance(legal_as_of, str):
+            errors.append(f"NTA official legal date is missing: {code}")
+        if isinstance(legal_as_of, str):
+            try:
+                legal_date = date.fromisoformat(legal_as_of)
+                legal_age = (datetime.now(JST).date() - legal_date).days
+                if legal_age < 0 or legal_age > config.nta_max_legal_age_days:
+                    errors.append(
+                        f"NTA official legal date is stale: {code}: age_days={legal_age}"
+                    )
+            except ValueError:
+                errors.append(f"NTA official legal date is invalid: {code}: {legal_as_of}")
+    if status.get("source_count") != len(config.nta_sources):
+        errors.append(
+            f"NTA official source_count mismatch: "
+            f"expected={len(config.nta_sources)} actual={status.get('source_count')}"
+        )
+    metrics = manifest.get("metrics")
+    if isinstance(metrics, dict):
+        if metrics.get("nta_official_documents") != len(config.nta_sources):
+            errors.append("manifest NTA official source count is inconsistent")
+
+
 def _check_tax_question_tests(
     actual: dict[str, Path],
     manifest: dict[str, Any],
@@ -382,6 +499,7 @@ def verify_output(root: Path, config: Config) -> VerificationReport:
         errors.append(str(exc))
 
     _check_egov_sync(actual, manifest, config, errors)
+    _check_nta_sync(actual, manifest, config, errors)
     _check_tax_question_tests(actual, manifest, errors)
     link_targets = dict(actual)
     link_targets["manifest.json"] = manifest_path

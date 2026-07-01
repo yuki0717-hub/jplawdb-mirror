@@ -44,6 +44,15 @@ class DiscoveryError(MirrorError):
 
 
 @dataclass(frozen=True, slots=True)
+class NtaSourceSpec:
+    title: str
+    url: str
+    required_terms: tuple[str, ...]
+    require_legal_date: bool = False
+    minimum_text_chars: int = 200
+
+
+@dataclass(frozen=True, slots=True)
 class Config:
     source_base: str
     mirror_base: str
@@ -59,6 +68,9 @@ class Config:
     egov_concurrency: int = 4
     egov_min_articles: int = 1
     egov_laws: dict[str, dict[str, str]] = field(default_factory=dict)
+    nta_concurrency: int = 3
+    nta_max_legal_age_days: int = 550
+    nta_sources: dict[str, NtaSourceSpec] = field(default_factory=dict)
 
     @classmethod
     def from_file(cls, path: Path) -> "Config":
@@ -113,6 +125,50 @@ class Config:
                 raise ValueError("egov.api_base must be an absolute HTTPS URL")
             if egov_concurrency < 1 or egov_min_articles < 1:
                 raise ValueError("invalid egov concurrency or minimum_articles")
+        nta = raw.get("nta_official") or {}
+        if not isinstance(nta, dict):
+            raise ValueError("nta_official must be a mapping")
+        nta_concurrency = int(nta.get("concurrency", 3))
+        nta_max_legal_age_days = int(nta.get("maximum_legal_age_days", 550))
+        nta_sources_raw = nta.get("sources") or {}
+        if not isinstance(nta_sources_raw, dict):
+            raise ValueError("nta_official.sources must be a mapping")
+        nta_sources: dict[str, NtaSourceSpec] = {}
+        for code, source in nta_sources_raw.items():
+            if not isinstance(code, str) or not re.fullmatch(r"[a-z0-9_]+", code):
+                raise ValueError(f"invalid NTA source code: {code!r}")
+            if not isinstance(source, dict):
+                raise ValueError(f"NTA source must be a mapping: {code}")
+            title = str(source.get("title") or "").strip()
+            url = str(source.get("url") or "").strip()
+            parsed_url = urlsplit(url)
+            if (
+                not title
+                or parsed_url.scheme != "https"
+                or parsed_url.hostname != "www.nta.go.jp"
+                or parsed_url.username is not None
+                or parsed_url.password is not None
+            ):
+                raise ValueError(f"invalid NTA source specification: {code}")
+            terms_raw = source.get("required_terms") or []
+            if (
+                not isinstance(terms_raw, list)
+                or not terms_raw
+                or any(not isinstance(term, str) or not term.strip() for term in terms_raw)
+            ):
+                raise ValueError(f"invalid NTA required_terms: {code}")
+            minimum_text_chars = int(source.get("minimum_text_chars", 200))
+            if minimum_text_chars < 20:
+                raise ValueError(f"invalid NTA minimum_text_chars: {code}")
+            nta_sources[code] = NtaSourceSpec(
+                title=title,
+                url=url,
+                required_terms=tuple(term.strip() for term in terms_raw),
+                require_legal_date=bool(source.get("require_legal_date", False)),
+                minimum_text_chars=minimum_text_chars,
+            )
+        if nta_sources and (nta_concurrency < 1 or nta_max_legal_age_days < 1):
+            raise ValueError("invalid NTA concurrency or maximum_legal_age_days")
         config = cls(
             source_base=source_base,
             mirror_base=mirror_base,
@@ -128,6 +184,9 @@ class Config:
             egov_concurrency=egov_concurrency,
             egov_min_articles=egov_min_articles,
             egov_laws=egov_laws,
+            nta_concurrency=nta_concurrency,
+            nta_max_legal_age_days=nta_max_legal_age_days,
+            nta_sources=nta_sources,
         )
         if config.concurrency < 1 or config.max_retries < 0 or config.timeout_sec < 1:
             raise ValueError("invalid concurrency, retry, or timeout setting")
@@ -313,7 +372,6 @@ class Discovery:
         await self.discover_nta_guide()
         await self.discover_papers()
         await self.discover_treaties()
-        validate_metrics(self.plan.metrics, self.config.minimum_counts)
         return self.plan
 
     async def discover_portal(self) -> None:
@@ -829,11 +887,14 @@ async def _create_discovery(config: Config, session: aiohttp.ClientSession) -> t
 
 async def discover_mirror(config: Config) -> DiscoveryPlan:
     from .egov import inspect_egov_laws
+    from .nta import inspect_nta_sources
 
     connector = aiohttp.TCPConnector(limit=max(config.concurrency * 2, 16))
     async with aiohttp.ClientSession(connector=connector) as session:
         plan, _ = await _create_discovery(config, session)
         plan.metrics.update(await inspect_egov_laws(config, session))
+        plan.metrics.update(await inspect_nta_sources(config, session))
+        validate_metrics(plan.metrics, config.minimum_counts)
         return plan
 
 
@@ -882,6 +943,7 @@ def rewrite_source_urls(root: Path, config: Config) -> int:
 def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
     links = [
         ("複雑な税務質問の作動テスト", "tax-question-tests/index.html"),
+        ("国税庁公式資料（直接同期）", "nta-official-db/index.html"),
         ("AI向け総合案内", "llms3.txt"),
         ("AI向け詳細案内", "llms4.txt"),
         ("e-Gov公式法令（最新同期）", "egov-law-db/index.html"),
@@ -1005,6 +1067,7 @@ def atomic_publish(staging: Path, output: Path) -> None:
 
 async def build_mirror(config: Config) -> BuildResult:
     from .egov import sync_egov_laws
+    from .nta import sync_nta_sources
     from .tax_questions import run_tax_question_tests
     from .verification import verify_output
 
@@ -1022,6 +1085,10 @@ async def build_mirror(config: Config) -> BuildResult:
             egov_metrics = await sync_egov_laws(config, session, staging)
             plan.metrics.update(egov_metrics)
             logging.info("e-Gov metrics: %s", dict(sorted(egov_metrics.items())))
+            nta_metrics = await sync_nta_sources(config, session, staging)
+            plan.metrics.update(nta_metrics)
+            logging.info("NTA metrics: %s", dict(sorted(nta_metrics.items())))
+            validate_metrics(plan.metrics, config.minimum_counts)
             await download_targets(plan, fetcher, staging)
         rewrites = rewrite_source_urls(staging, config)
         logging.info("Rewrote %s source URL occurrences", rewrites)

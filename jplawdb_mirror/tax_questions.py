@@ -59,14 +59,19 @@ SCENARIOS = (
                 ("定期同額給与", "改定"),
             ),
             SourceCheck(
-                "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/9-2-12.txt",
-                "法人税基本通達9-2-12",
+                "nta-official-db/text/executive_compensation_circular.txt",
+                "国税庁公式・法人税基本通達9-2-12",
                 ("定期同額給与", "非常勤役員"),
             ),
             SourceCheck(
-                "ai-nta-qa-db/text/taxanswer_hojin/5211.txt",
-                "国税庁タックスアンサー5211",
+                "nta-official-db/text/executive_compensation_taxanswer.txt",
+                "国税庁公式・タックスアンサー5211",
                 ("損金", "事前確定届出給与"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/executive_compensation_filing.txt",
+                "国税庁公式・事前確定届出給与に関する届出",
+                ("事前確定届出給与", "提出時期"),
             ),
         ),
         external_sources=(
@@ -94,6 +99,16 @@ SCENARIOS = (
                 "egov-law-db/text/sozei_tokubetsu_seirei/39-12.txt",
                 "租税特別措置法施行令39条の12",
                 ("独立企業間価格", "比較対象取引"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_guidance.txt",
+                "国税庁公式・移転価格事務運営要領",
+                ("独立企業間価格", "ローカルファイル"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_methods.txt",
+                "国税庁公式・独立企業間価格の算定上の留意点",
+                ("最も適切な方法", "比較対象取引", "独立企業間価格"),
             ),
             SourceCheck(
                 "ai-paper-db/nta-tp-audit/data/shards_index.json",
@@ -131,9 +146,14 @@ SCENARIOS = (
                 ("帳簿", "請求書"),
             ),
             SourceCheck(
-                "ai-nta-qa-db/text/taxanswer_shohi/6496.txt",
-                "国税庁タックスアンサー6496",
+                "nta-official-db/text/invoice_taxanswer.txt",
+                "国税庁公式・タックスアンサー6496",
                 ("仕入税額控除", "適格請求書"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/consumption_tax_circular.txt",
+                "国税庁公式・消費税基本通達11-6",
+                ("出張旅費", "保存期間"),
             ),
         ),
         external_sources=(
@@ -158,8 +178,8 @@ SCENARIOS = (
                 ("収益", "引渡し"),
             ),
             SourceCheck(
-                "ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/2-1-1.txt",
-                "法人税基本通達2-1-1",
+                "nta-official-db/text/revenue_recognition_circular.txt",
+                "国税庁公式・法人税基本通達2-1-1",
                 ("個々の契約", "履行義務"),
             ),
         ),
@@ -185,13 +205,13 @@ SCENARIOS = (
                 ("財産", "時価"),
             ),
             SourceCheck(
-                "ai-tsutatsu-db/text/hyoka_kihon_tsutatsu/178.txt",
-                "財産評価基本通達178",
+                "nta-official-db/text/unlisted_share_circular.txt",
+                "国税庁公式・財産評価基本通達178",
                 ("取引相場のない株式", "大会社"),
             ),
             SourceCheck(
-                "ai-nta-qa-db/text/taxanswer_hyoka/4638.txt",
-                "国税庁タックスアンサー4638",
+                "nta-official-db/text/unlisted_share_taxanswer.txt",
+                "国税庁公式・タックスアンサー4638",
                 ("同族株主", "配当還元方式"),
             ),
         ),
@@ -219,6 +239,11 @@ SCENARIOS = (
                 "egov-law-db/text/kokuzei_tsusoku/68.txt",
                 "国税通則法68条",
                 ("重加算税", "隠蔽", "仮装"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/additional_tax_guidance.txt",
+                "国税庁公式・加算税事務運営指針",
+                ("過少申告加算税", "無申告加算税", "調査通知", "正当な理由"),
             ),
         ),
         external_sources=(
@@ -264,11 +289,16 @@ def repair_broken_question_guides(root: Path) -> int:
 
 
 def _date_marker(text: str) -> str | None:
+    fetched_at: str | None = None
     for line in text.splitlines()[:20]:
         stripped = line.strip()
         if stripped.startswith(("as_of:", "snapshot:", "[令和")):
             return stripped
-    return None
+        if stripped.startswith("legal_as_of:") and stripped.partition(":")[2].strip():
+            return stripped
+        if stripped.startswith("fetched_at:"):
+            fetched_at = stripped
+    return fetched_at
 
 
 def _source_result(root: Path, source: SourceCheck, mirror_base: str) -> dict[str, Any]:

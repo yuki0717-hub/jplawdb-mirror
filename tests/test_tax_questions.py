@@ -7,6 +7,7 @@ from pathlib import Path
 
 from jplawdb_mirror.core import Config, DiscoveryPlan, generate_manifest
 from jplawdb_mirror.tax_questions import (
+    SCENARIOS,
     SourceCheck,
     TaxQuestionScenario,
     TaxQuestionTestError,
@@ -17,6 +18,21 @@ from jplawdb_mirror.verification import verify_output
 
 
 class TaxQuestionTestRunnerTest(unittest.TestCase):
+    def test_production_scenarios_prioritize_direct_nta_sources(self) -> None:
+        sources = [source for scenario in SCENARIOS for source in scenario.sources]
+        official = [
+            source for source in sources if source.path.startswith("nta-official-db/")
+        ]
+        self.assertEqual(len(SCENARIOS), 6)
+        self.assertEqual(len(sources), 24)
+        self.assertEqual(len(official), 11)
+        self.assertFalse(
+            any(
+                source.path.startswith(("ai-nta-qa-db/", "ai-tsutatsu-db/"))
+                for source in sources
+            )
+        )
+
     def scenario(self) -> tuple[TaxQuestionScenario, ...]:
         return (
             TaxQuestionScenario(

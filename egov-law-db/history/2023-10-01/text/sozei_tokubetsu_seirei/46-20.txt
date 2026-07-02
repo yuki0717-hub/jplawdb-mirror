@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 46-20
+title: 第四十六条の二十
+deleted: false
+
+[a46-20:caption] （控除又は還付に係る申告書の提出期間）
+[a46-20:title] 第四十六条の二十
+[a46-20-p1:sentence] 法第八十九条第四項に規定する政令で定める期間は、三月とする。

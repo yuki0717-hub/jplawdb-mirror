@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20240401
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20240401_506CO0000000145
+as_of: 2024-04-01
+article: 2-2
+title: 第二条の二
+deleted: false
+
+[a2-2:caption] （特定役務の提供の範囲）
+[a2-2:title] 第二条の二
+[a2-2-p1:sentence] 法第二条第一項第八号の五に規定する政令で定める役務の提供は、映画若しくは演劇の俳優、音楽家その他の芸能人又は職業運動家の役務の提供を主たる内容とする事業として行う役務の提供のうち、国外事業者が他の事業者に対して行う役務の提供（当該国外事業者が不特定かつ多数の者に対して行う役務の提供を除く。）とする。

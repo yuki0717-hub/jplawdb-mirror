@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20240401
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20240401_505CO0000000210
+as_of: 2024-04-01
+article: 7
+title: 第七条
+deleted: false
+
+[a7:caption] （口座振替納付に係る納付期日）
+[a7:title] 第七条
+[a7-p1:sentence] 法第三十四条の二第二項（口座振替納付に係る通知等）に規定する政令で定める日は、同条第一項の通知が金融機関に到達した日から二取引日を経過した最初の取引日（災害その他やむを得ない理由によりその日までに納付することができないと税務署長が認める場合には、その承認する日）とする。
+[a7-p2:number] ２
+[a7-p2:sentence] 前項に規定する取引日とは、金融機関の休日以外の日をいう。

@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20230607_505AC0000000047
+as_of: 2023-10-01
+article: 142-10
+title: 第百四十二条の十
+deleted: false
+
+[a142-10:title] 第百四十二条の十
+[a142-10-p1:sentence] 外国法人の各事業年度の第百四十一条第一号ロ及び第二号（課税標準）に定める国内源泉所得に係る所得の金額は、これらの規定に規定する国内源泉所得につき政令で定めるところにより第百四十二条から第百四十二条の二の二まで（恒久的施設帰属所得に係る所得の金額の計算）の規定に準じて計算した金額とする。

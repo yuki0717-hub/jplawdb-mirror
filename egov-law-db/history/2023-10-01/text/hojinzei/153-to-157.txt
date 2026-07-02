@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20230607_505AC0000000047
+as_of: 2023-10-01
+article: 153-to-157
+title: 第百五十三条から第百五十七条まで
+deleted: false
+
+[a153:157:title] 第百五十三条から第百五十七条まで
+[a153:157-p1:sentence] 削除

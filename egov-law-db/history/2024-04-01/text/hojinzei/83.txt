@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 83
+title: 第八十三条
+deleted: false
+
+[a83:caption] （退職年金等積立金に対する法人税の課税標準）
+[a83:title] 第八十三条
+[a83-p1:sentence] 内国法人に対して課する退職年金等積立金に対する法人税の課税標準は、各事業年度の退職年金等積立金の額とする。

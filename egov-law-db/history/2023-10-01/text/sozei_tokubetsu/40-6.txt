@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20231001_505AC0000000003
+as_of: 2023-10-01
+article: 40-6
+title: 第四十条の六
+deleted: false
+
+[a40-6:title] 第四十条の六
+[a40-6-p1:sentence] 居住者が第四十条の四第一項各号に掲げる者に該当するかどうかの判定に関する事項、前二条の規定の適用を受ける居住者の所得税法第九十五条第一項に規定する控除限度額の計算その他前二条の規定の適用に関し必要な事項は、政令で定める。

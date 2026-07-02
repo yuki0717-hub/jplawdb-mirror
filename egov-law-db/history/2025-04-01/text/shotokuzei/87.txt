@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 87
+title: 第八十七条
+deleted: false
+
+[a87:caption] （所得控除の順序）
+[a87:title] 第八十七条
+[a87-p1:sentence] 雑損控除と医療費控除、社会保険料控除、小規模企業共済等掛金控除、生命保険料控除、地震保険料控除、寄附金控除、障害者控除、寡婦控除、ひとり親控除、勤労学生控除、配偶者控除、配偶者特別控除、扶養控除又は基礎控除とを行う場合には、まず雑損控除を行うものとする。
+[a87-p2:number] ２
+[a87-p2:sentence] 前項の控除をすべき金額は、総所得金額、山林所得金額又は退職所得金額から順次控除する。

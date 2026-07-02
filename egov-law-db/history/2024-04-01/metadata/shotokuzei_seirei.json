@@ -1,0 +1,16 @@
+{
+  "code": "shotokuzei_seirei",
+  "title": "所得税法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "340CO0000000096",
+  "law_num": "昭和四十年政令第九十六号",
+  "law_revision_id": "340CO0000000096_20240401_506CO0000000141",
+  "updated": "2024-11-18T09:43:05+09:00",
+  "amendment_enforcement_date": "2024-04-01",
+  "as_of": "2024-04-01",
+  "article_count": 464,
+  "supplementary_count": 294,
+  "source_xml_size": 3573882,
+  "source_xml_sha256": "121f419799d5dada07cd4d672b85375f3fef474f14ad07bbcb902d1470cd4d9e",
+  "source_url": "https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401"
+}

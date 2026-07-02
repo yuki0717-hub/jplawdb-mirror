@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2025-04-01
+article: 2-2
+title: 第二条の二
+deleted: false
+
+[a2-2:caption] （贈与税の課税財産の範囲）
+[a2-2:title] 第二条の二
+[a2-2-p1:sentence] 第一条の四第一項第一号又は第二号の規定に該当する者については、その者が贈与により取得した財産の全部に対し、贈与税を課する。
+[a2-2-p2:number] ２
+[a2-2-p2:sentence] 第一条の四第一項第三号又は第四号の規定に該当する者については、その者が贈与により取得した財産でこの法律の施行地にあるものに対し、贈与税を課する。

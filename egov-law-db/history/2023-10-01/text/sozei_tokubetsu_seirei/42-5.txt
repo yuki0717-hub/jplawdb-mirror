@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 42-5
+title: 第四十二条の五
+deleted: false
+
+[a42-5:caption] （勧告等によつてする登記の税率の軽減）
+[a42-5:title] 第四十二条の五
+[a42-5-p1:sentence] 法第七十九条の規定の適用を受けようとする者は、その登記を受ける事項が同条の規定に該当するものであることについて財務大臣の承認を受け、その登記の申請書に、当該登記を受ける事項が同条の規定に該当するものであることについて当該財務大臣の承認を受けたものである旨を証する書類で同条に規定する勧告又は指示の日の記載があるものを添付しなければならない。

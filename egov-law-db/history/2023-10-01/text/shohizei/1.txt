@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20231001
+snapshot_kind: historical
+law: 消費税法 (shohizei)
+law_num: 昭和六十三年法律第百八号
+law_id: 363AC0000000108
+law_revision_id: 363AC0000000108_20231001_505AC0000000003
+as_of: 2023-10-01
+article: 1
+title: 第一条
+deleted: false
+
+[a1:caption] （趣旨等）
+[a1:title] 第一条
+[a1-p1:sentence] この法律は、消費税について、課税の対象、納税義務者、税額の計算の方法、申告、納付及び還付の手続並びにその納税義務の適正な履行を確保するため必要な事項を定めるものとする。
+[a1-p2:number] ２
+[a1-p2:sentence] 消費税の収入については、地方交付税法（昭和二十五年法律第二百十一号）に定めるところによるほか、毎年度、制度として確立された年金、医療及び介護の社会保障給付並びに少子化に対処するための施策に要する経費に充てるものとする。

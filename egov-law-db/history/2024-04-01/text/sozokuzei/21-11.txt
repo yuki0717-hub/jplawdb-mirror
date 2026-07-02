@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 21-11
+title: 第二十一条の十一
+deleted: false
+
+[a21-11:caption] （適用除外）
+[a21-11:title] 第二十一条の十一
+[a21-11-p1:sentence] 相続時精算課税適用者が特定贈与者からの贈与により取得した財産については、第二十一条の五から第二十一条の七までの規定は、適用しない。

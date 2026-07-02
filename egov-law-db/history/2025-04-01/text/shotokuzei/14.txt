@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 14
+title: 第十四条
+deleted: false
+
+[a14:title] 第十四条
+[a14-p1:sentence] 削除

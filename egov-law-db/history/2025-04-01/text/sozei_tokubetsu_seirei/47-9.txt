@@ -1,0 +1,29 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 47-9
+title: 第四十七条の九
+deleted: false
+
+[a47-9:caption] （特定用途免税揮発油の譲渡の承認手続）
+[a47-9:title] 第四十七条の九
+[a47-9-p1:sentence] 法第八十九条の三第十三項（法第八十九条の四第五項において準用される場合を含む。）の承認を受けようとする者は、次に掲げる事項を記載した申請書を当該税務署長に提出しなければならない。
+[a47-9-p1-i1:title] 一
+[a47-9-p1-i1:sentence] 申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+[a47-9-p1-i2:title] 二
+[a47-9-p1-i2:sentence] 当該揮発油を移入した場所の所在地及び名称
+[a47-9-p1-i3:title] 三
+[a47-9-p1-i3:sentence] 譲渡に係る揮発油の用途、規格及び数量
+[a47-9-p1-i4:title] 四
+[a47-9-p1-i4:sentence] 譲渡の理由
+[a47-9-p1-i5:title] 五
+[a47-9-p1-i5:sentence] 譲渡の年月日
+[a47-9-p1-i6:title] 六
+[a47-9-p1-i6:sentence] 譲受者の住所及び氏名又は名称
+[a47-9-p1-i7:title] 七
+[a47-9-p1-i7:sentence] 譲受者が譲受けに係る揮発油を移入する場所の所在地及び名称

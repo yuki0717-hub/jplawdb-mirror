@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 27
+title: 第二十七条
+deleted: false
+
+[a27:caption] （事業所得）
+[a27:title] 第二十七条
+[a27-p1:sentence] 事業所得とは、農業、漁業、製造業、卸売業、小売業、サービス業その他の事業で政令で定めるものから生ずる所得（山林所得又は譲渡所得に該当するものを除く。）をいう。
+[a27-p2:number] ２
+[a27-p2:sentence] 事業所得の金額は、その年中の事業所得に係る総収入金額から必要経費を控除した金額とする。

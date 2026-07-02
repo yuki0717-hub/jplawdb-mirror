@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 169
+title: 第百六十九条
+deleted: false
+
+[a169:caption] （時価による譲渡とみなす低額譲渡の範囲）
+[a169:title] 第百六十九条
+[a169-p1:sentence] 法第五十九条第一項第二号（贈与等の場合の譲渡所得等の特例）に規定する政令で定める額は、同項に規定する山林又は譲渡所得の基因となる資産の譲渡の時における価額の二分の一に満たない金額とする。

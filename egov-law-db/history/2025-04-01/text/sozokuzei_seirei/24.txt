@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20250401_507CO0000000123
+as_of: 2025-04-01
+article: 24
+title: 第二十四条
+deleted: false
+
+[a24:title] 第二十四条
+[a24-p1:sentence] 税務署長及び国税局長は、物納簿を備え、これにその所掌に係る相続税の物納の額その他必要な事項を記入しなければならない。

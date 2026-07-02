@@ -1,0 +1,16 @@
+{
+  "code": "hojinzei",
+  "title": "法人税法",
+  "law_type": "Act",
+  "law_id": "340AC0000000034",
+  "law_num": "昭和四十年法律第三十四号",
+  "law_revision_id": "340AC0000000034_20230607_505AC0000000047",
+  "updated": "2026-04-11T17:14:20+09:00",
+  "amendment_enforcement_date": "2023-06-07",
+  "as_of": "2023-10-01",
+  "article_count": 223,
+  "supplementary_count": 335,
+  "source_xml_size": 2747406,
+  "source_xml_sha256": "f8b4ad53545c06239b881aaf76c222b1c5e112c5dcde136a0456d91f4cdb3314",
+  "source_url": "https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001"
+}

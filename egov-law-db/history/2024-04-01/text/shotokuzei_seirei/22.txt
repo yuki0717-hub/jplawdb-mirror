@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 22
+title: 第二十二条
+deleted: false
+
+[a22:caption] （非課税とされる在外手当）
+[a22:title] 第二十二条
+[a22-p1:sentence] 法第九条第一項第七号（非課税所得）に規定する政令で定める手当は、国外で勤務する者がその勤務により国内で勤務した場合に受けるべき通常の給与に加算して支給を受ける給与のうち、その勤務地における物価、生活水準及び生活環境並びに勤務地と国内との間の為替相場等の状況に照らし、加算して支給を受けることにより国内で勤務した場合に比して利益を受けると認められない部分の金額とする。

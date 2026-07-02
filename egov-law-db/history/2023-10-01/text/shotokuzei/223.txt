@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20231001_504AC1000000071
+as_of: 2023-10-01
+article: 223
+title: 第二百二十三条
+deleted: false
+
+[a223:caption] （源泉徴収に係る所得税について納付があつたものとみなす場合）
+[a223:title] 第二百二十三条
+[a223-p1:sentence] 第一章から第五章まで（源泉徴収）の規定により所得税の徴収がされたときは、これらの規定による徴収をされるべき者に対する所得税の還付又は充当については、これらの規定により所得税を徴収して納付すべき者がその所得税を国に納付すべき日（徴収の日がその納付すべき日後である場合には、その徴収の日）においてその納付があつたものとみなす。

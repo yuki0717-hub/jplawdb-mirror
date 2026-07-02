@@ -1,0 +1,8 @@
+# e-Gov過去法令クイックスタート
+
+過去条文: {YYYY-MM-DD}/text/{law_code}/{article}.txt
+過去附則: {YYYY-MM-DD}/supplementary/{law_code}.txt
+改正履歴: revisions/{law_code}.json
+全体状態: status.json
+
+質問の取引日・事業年度に一致する基準日を選び、現在法令と混同しないでください。

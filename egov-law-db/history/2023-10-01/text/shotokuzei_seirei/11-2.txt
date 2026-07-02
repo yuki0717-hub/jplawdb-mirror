@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 11-2
+title: 第十一条の二
+deleted: false
+
+[a11-2:caption] （ひとり親の範囲）
+[a11-2:title] 第十一条の二
+[a11-2-p1:sentence] 法第二条第一項第三十一号（定義）に規定する配偶者の生死の明らかでない者で政令で定めるものは、前条各号に掲げる者の配偶者とする。
+[a11-2-p2:number] ２
+[a11-2-p2:sentence] 法第二条第一項第三十一号イに規定する政令で定める子は、その年分の総所得金額、退職所得金額及び山林所得金額の合計額が四十八万円以下の子（他の者の同一生計配偶者又は扶養親族とされている者を除く。）とする。

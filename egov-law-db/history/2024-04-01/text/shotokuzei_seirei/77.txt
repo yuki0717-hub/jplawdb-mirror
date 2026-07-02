@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 77
+title: 第七十七条
+deleted: false
+
+[a77:caption] （退職所得の収入の時期）
+[a77:title] 第七十七条
+[a77-p1:sentence] 居住者が一の勤務先を退職することにより二以上の法第三十条第一項（退職所得）に規定する退職手当等の支払を受ける権利を有することとなる場合には、その者の支払を受ける当該退職手当等については、これらのうち最初に支払を受けるべきものの支払を受けるべき日の属する年における収入金額として同条の規定を適用する。

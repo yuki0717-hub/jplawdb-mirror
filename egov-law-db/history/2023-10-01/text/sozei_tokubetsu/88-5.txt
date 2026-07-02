@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20231001_505AC0000000003
+as_of: 2023-10-01
+article: 88-5
+title: 第八十八条の五
+deleted: false
+
+[a88-5:caption] （用語の意義）
+[a88-5:title] 第八十八条の五
+[a88-5-p1:sentence] この節において「揮発油」とは、揮発油税法第二条第一項に規定する揮発油（同法第六条又は次条の規定により揮発油とみなされる物を含む。）をいう。

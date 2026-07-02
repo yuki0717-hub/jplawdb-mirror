@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 223
+title: 第二百二十三条
+deleted: false
+
+[a223:caption] （地方税控除限度額）
+[a223:title] 第二百二十三条
+[a223-p1:sentence] 法第九十五条第二項（外国税額控除）に規定する地方税控除限度額として政令で定める金額は、地方税法施行令（昭和二十五年政令第二百四十五号）第七条の十九第三項（道府県民税からの外国所得税額の控除）の規定による限度額と同令第四十八条の九の二第四項（市町村民税からの外国所得税額の控除）の規定による限度額との合計額とする。

@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 46-10
+title: 第四十六条の十
+deleted: false
+
+[a46-10:caption] （みなし揮発油に係る試験方法等）
+[a46-10:title] 第四十六条の十
+[a46-10-p1:sentence] 法第八十八条の六第一項に規定する政令で定める分留性状の試験方法は、日本産業規格（産業標準化法（昭和二十四年法律第百八十五号）第二十条第一項に規定する日本産業規格をいう。第四十七条の七第二項、第四十八条第二項及び第四十八条の六第二項において同じ。）に定める燃料油の蒸留試験方法とする。
+[a46-10-p2:number] ２
+[a46-10-p2:sentence] 法第八十八条の六第一項に規定する政令で定める温度は、百度とする。

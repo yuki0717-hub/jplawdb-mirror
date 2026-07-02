@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20240401_506CO0000000143
+as_of: 2024-04-01
+article: 19-3
+title: 第十九条の三
+deleted: false
+
+[a19-3:caption] （物納手続関係書類等の訂正又は提出の請求）
+[a19-3:title] 第十九条の三
+[a19-3-p1:sentence] 法第四十二条第八項に規定する政令で定める事由は、次に掲げる事由とする。
+[a19-3-p1-i1:title] 一
+[a19-3-p1-i1:sentence] 法第四十二条第一項の申請書について、その記載に不備があること。
+[a19-3-p1-i2:title] 二
+[a19-3-p1-i2:sentence] 法第四十二条第一項に規定する物納手続関係書類について、その記載に不備があること又はその全部若しくは一部の提出がないこと。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20231001
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20230401_505CO0000000136
+as_of: 2023-10-01
+article: 4-9
+title: 第四条の九
+deleted: false
+
+[a4-9:caption] （受託者の範囲）
+[a4-9:title] 第四条の九
+[a4-9-p1:sentence] 法第二十一条の四第一項に規定する信託会社その他の者で政令で定めるものは、信託会社及び信託業務を営む金融機関とする。

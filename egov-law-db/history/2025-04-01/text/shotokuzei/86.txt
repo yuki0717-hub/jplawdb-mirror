@@ -1,0 +1,26 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 86
+title: 第八十六条
+deleted: false
+
+[a86:caption] （基礎控除）
+[a86:title] 第八十六条
+[a86-p1:sentence] 合計所得金額が二千五百万円以下である居住者については、その者のその年分の総所得金額、退職所得金額又は山林所得金額から次の各号に掲げる場合の区分に応じ当該各号に定める金額を控除する。
+[a86-p1-i1:title] 一
+[a86-p1-i1:sentence] その居住者の合計所得金額が二千四百万円以下である場合
+[a86-p1-i1:sentence] 四十八万円
+[a86-p1-i2:title] 二
+[a86-p1-i2:sentence] その居住者の合計所得金額が二千四百万円を超え二千四百五十万円以下である場合
+[a86-p1-i2:sentence] 三十二万円
+[a86-p1-i3:title] 三
+[a86-p1-i3:sentence] その居住者の合計所得金額が二千四百五十万円を超え二千五百万円以下である場合
+[a86-p1-i3:sentence] 十六万円
+[a86-p2:number] ２
+[a86-p2:sentence] 前項の規定による控除は、基礎控除という。

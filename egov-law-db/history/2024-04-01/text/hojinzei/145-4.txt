@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 145-4
+title: 第百四十五条の四
+deleted: false
+
+[a145-4:caption] （外国法人に係る退職年金等積立金に対する法人税の税率）
+[a145-4:title] 第百四十五条の四
+[a145-4-p1:sentence] 外国法人に対して課する退職年金等積立金に対する法人税の額は、各事業年度の退職年金等積立金の額に百分の一の税率を乗じて計算した金額とする。

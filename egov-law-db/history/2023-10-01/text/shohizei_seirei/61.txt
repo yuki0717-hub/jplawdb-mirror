@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20231001
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20231001_505CO0000000246
+as_of: 2023-10-01
+article: 61
+title: 第六十一条
+deleted: false
+
+[a61:title] 第六十一条
+[a61-p1:sentence] 削除

@@ -1,0 +1,16 @@
+{
+  "code": "kokuzei_tsusoku_seirei",
+  "title": "国税通則法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "337CO0000000135",
+  "law_num": "昭和三十七年政令第百三十五号",
+  "law_revision_id": "337CO0000000135_20221231_504CO0000000147",
+  "updated": "2024-01-01T02:11:49+09:00",
+  "amendment_enforcement_date": "2022-12-31",
+  "as_of": "2023-10-01",
+  "article_count": 81,
+  "supplementary_count": 88,
+  "source_xml_size": 352481,
+  "source_xml_sha256": "4afe1d736f95f96af5d2055f08d1fa06181093969dcc758475dedc9a7c1f9bfa",
+  "source_url": "https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20231001"
+}

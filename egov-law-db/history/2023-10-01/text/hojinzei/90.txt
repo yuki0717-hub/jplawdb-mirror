@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20230607_505AC0000000047
+as_of: 2023-10-01
+article: 90
+title: 第九十条
+deleted: false
+
+[a90:caption] （退職年金等積立金に係る中間申告による納付）
+[a90:title] 第九十条
+[a90-p1:sentence] 第八十八条（退職年金等積立金に係る中間申告）の規定による申告書を提出した内国法人は、当該申告書に記載した同条第二号に掲げる金額があるときは、当該申告書の提出期限までに、当該金額に相当する法人税を国に納付しなければならない。

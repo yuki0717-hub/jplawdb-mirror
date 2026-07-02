@@ -1,0 +1,23 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20240401_506CO0000000143
+as_of: 2024-04-01
+article: 1-6
+title: 第一条の六
+deleted: false
+
+[a1-6:caption] （退職年金の支給を目的とする信託等の範囲）
+[a1-6:title] 第一条の六
+[a1-6-p1:sentence] 法第九条の二第一項に規定する政令で定めるものは、次に掲げる信託とする。
+[a1-6-p1-i1:title] 一
+[a1-6-p1-i1:sentence] 確定給付企業年金法第六十五条第三項（事業主の積立金の管理及び運用に関する契約）に規定する資産管理運用契約に係る信託
+[a1-6-p1-i2:title] 二
+[a1-6-p1-i2:sentence] 確定拠出年金法第八条第二項（資産管理契約の締結）に規定する資産管理契約に係る信託
+[a1-6-p1-i3:title] 三
+[a1-6-p1-i3:sentence] 第一条の三第八号に規定する適格退職年金契約に係る信託
+[a1-6-p1-i4:title] 四
+[a1-6-p1-i4:sentence] 前三号に掲げる信託に該当しない退職給付金に関する信託で、その委託者の使用人（法人の役員を含む。）又はその遺族を当該信託の受益者とするもの

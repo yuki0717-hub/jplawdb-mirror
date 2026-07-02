@@ -1,0 +1,16 @@
+{
+  "code": "shotokuzei",
+  "title": "所得税法",
+  "law_type": "Act",
+  "law_id": "340AC0000000033",
+  "law_num": "昭和四十年法律第三十三号",
+  "law_revision_id": "340AC0000000033_20240401_506AC0000000008",
+  "updated": "2024-08-17T06:56:37+09:00",
+  "amendment_enforcement_date": "2024-04-01",
+  "as_of": "2024-04-01",
+  "article_count": 298,
+  "supplementary_count": 344,
+  "source_xml_size": 16523605,
+  "source_xml_sha256": "9e8883929b7c429b47b239454edd117437e69a11c6c0410e40baabf55ee4d94b",
+  "source_url": "https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20240401"
+}

@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 60-2
+title: 第六十条の二
+deleted: false
+
+[a60-2:caption] （協同組合等の事業分量配当等の損金算入）
+[a60-2:title] 第六十条の二
+[a60-2-p1:sentence] 協同組合等が各事業年度の決算の確定の時にその支出すべき旨を決議する次に掲げる金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。
+[a60-2-p1-i1:title] 一
+[a60-2-p1-i1:sentence] その組合員その他の構成員に対しその者が当該事業年度中に取り扱つた物の数量、価額その他その協同組合等の事業を利用した分量に応じて分配する金額
+[a60-2-p1-i2:title] 二
+[a60-2-p1-i2:sentence] その組合員その他の構成員に対しその者が当該事業年度中にその協同組合等の事業に従事した程度に応じて分配する金額

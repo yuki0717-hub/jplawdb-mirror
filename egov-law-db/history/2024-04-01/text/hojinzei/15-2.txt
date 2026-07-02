@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 15-2
+title: 第十五条の二
+deleted: false
+
+[a15-2:caption] （対象会計年度の意義）
+[a15-2:title] 第十五条の二
+[a15-2-p1:sentence] この法律において「対象会計年度」とは、第八十二条第三号（定義）に規定する多国籍企業グループ等の同条第十号に規定する最終親会社等の同条第一号に規定する連結等財務諸表の作成に係る期間をいう。

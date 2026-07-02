@@ -1,0 +1,16 @@
+{
+  "code": "sozei_tokubetsu",
+  "title": "租税特別措置法",
+  "law_type": "Act",
+  "law_id": "332AC0000000026",
+  "law_num": "昭和三十二年法律第二十六号",
+  "law_revision_id": "332AC0000000026_20240401_506AC0000000008",
+  "updated": "2026-04-15T08:49:26+09:00",
+  "amendment_enforcement_date": "2024-04-01",
+  "as_of": "2024-04-01",
+  "article_count": 483,
+  "supplementary_count": 476,
+  "source_xml_size": 14074469,
+  "source_xml_sha256": "658da64b5ae2be44a675c3ac443697c3e253fd565573c31a5a272951d8b228d1",
+  "source_url": "https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20240401"
+}

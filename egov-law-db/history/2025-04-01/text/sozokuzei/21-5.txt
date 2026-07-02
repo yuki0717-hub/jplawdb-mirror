@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2025-04-01
+article: 21-5
+title: 第二十一条の五
+deleted: false
+
+[a21-5:caption] （贈与税の基礎控除）
+[a21-5:title] 第二十一条の五
+[a21-5-p1:sentence] 贈与税については、課税価格から六十万円を控除する。

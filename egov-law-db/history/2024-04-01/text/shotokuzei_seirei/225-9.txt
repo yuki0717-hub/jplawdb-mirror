@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 225-9
+title: 第二百二十五条の九
+deleted: false
+
+[a225-9:caption] （事業の広告宣伝のための賞金）
+[a225-9:title] 第二百二十五条の九
+[a225-9-p1:sentence] 法第九十五条第四項第十一号（外国税額控除）に規定する政令で定める賞金は、国外において事業を行う者から当該事業の広告宣伝のために賞として支払を受ける金品その他の経済的な利益（旅行その他の役務の提供を内容とするもので、金品との選択をすることができないものとされているものを除く。）とする。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 46-17
+title: 第四十六条の十七
+deleted: false
+
+[a46-17:caption] （地方揮発油税に係る担保の提供の特例）
+[a46-17:title] 第四十六条の十七
+[a46-17-p1:sentence] 法第八十八条の八第一項の規定による地方揮発油税については、地方揮発油税法施行令（昭和三十年政令第百五十一号）第一条第一項中「二百四十三分の四十四」とあるのは、「四百八十六分の五十二」として、同項の規定を適用する。

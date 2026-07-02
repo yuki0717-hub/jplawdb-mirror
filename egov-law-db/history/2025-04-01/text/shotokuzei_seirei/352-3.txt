@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 352-3
+title: 第三百五十二条の三
+deleted: false
+
+[a352-3:caption] （支払通知書を交付すべき支払をする者に準ずる者）
+[a352-3:title] 第三百五十二条の三
+[a352-3-p1:sentence] 法第二百二十五条第二項各号（支払通知書）に規定する政令で定めるものは、法第二百二十七条（信託の計算書）に規定する信託の受託者及び法第二百二十八条第一項（名義人受領の配当所得の調書）に規定する配当等の支払を受ける者に該当する者とする。

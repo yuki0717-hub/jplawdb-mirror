@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 155-52
+title: 第百五十五条の五十二
+deleted: false
+
+[a155-52:caption] （無国籍共同支配会社等に係る未分配所得国際最低課税額）
+[a155-52:title] 第百五十五条の五十二
+[a155-52-p1:sentence] 第百五十五条の四十九（共同支配会社等に係る未分配所得国際最低課税額）の規定は、法第八十二条の二第四項第四号ハ（国際最低課税額）に規定する政令で定める金額について準用する。

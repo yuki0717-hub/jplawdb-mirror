@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20231001
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20230401_505AC0000000003
+as_of: 2023-10-01
+article: 58
+title: 第五十八条
+deleted: false
+
+[a58:caption] （市町村長等の通知）
+[a58:title] 第五十八条
+[a58-p1:sentence] 市町村長その他戸籍に関する事務をつかさどる者は、死亡又は失踪そうに関する届書を受理したときは、当該届書に記載された事項を、当該届書を受理した日の属する月の翌月末日までにその事務所の所在地の所轄税務署長に通知しなければならない。
+[a58-p2:number] ２
+[a58-p2:sentence] 前項の規定により市町村が処理することとされている事務は、地方自治法（昭和二十二年法律第六十七号）第二条第九項第一号（法定受託事務）に規定する第一号法定受託事務とする。

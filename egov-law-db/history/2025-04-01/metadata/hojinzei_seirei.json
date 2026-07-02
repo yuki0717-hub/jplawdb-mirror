@@ -1,0 +1,16 @@
+{
+  "code": "hojinzei_seirei",
+  "title": "法人税法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "340CO0000000097",
+  "law_num": "昭和四十年政令第九十七号",
+  "law_revision_id": "340CO0000000097_20250401_507CO0000000121",
+  "updated": "2026-04-01T05:46:07+09:00",
+  "amendment_enforcement_date": "2025-04-01",
+  "as_of": "2025-04-01",
+  "article_count": 432,
+  "supplementary_count": 323,
+  "source_xml_size": 5830492,
+  "source_xml_sha256": "2c17524c4e1e92175ba8744889c6281eb41dae085031a9083a293a02da922566",
+  "source_url": "https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401"
+}

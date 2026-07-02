@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 23
+title: 第二十三条
+deleted: false
+
+[a23:caption] （職員の給与が非課税とされる国際機関の範囲）
+[a23:title] 第二十三条
+[a23-p1:sentence] 法第九条第一項第八号（非課税所得）に規定する政令で定める国際機関は、国際間の取極に基づき設立された機関のうち日本国が構成員となつているものその他国を構成員とするもので、財務大臣が指定するものとする。
+[a23-p2:number] ２
+[a23-p2:sentence] 財務大臣は、前項の指定をしたときは、これを告示する。

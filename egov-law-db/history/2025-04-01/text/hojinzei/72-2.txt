@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 72-2
+title: 第七十二条の二
+deleted: false
+
+[a72-2:caption] （通算法人の災害等による中間申告書の提出期限の延長）
+[a72-2:title] 第七十二条の二
+[a72-2-p1:sentence] 国税通則法第十一条（災害等による期限の延長）の規定により通算法人の第七十一条第一項（中間申告）の規定による申告書の提出期限が延長された場合には、政令で定めるところにより、他の通算法人についても、同法第十一条の規定により同項の規定による申告書の提出期限が延長されたものとみなす。

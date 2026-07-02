@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 29
+title: 第二十九条
+deleted: false
+
+[a29:title] 第二十九条
+[a29-p1:sentence] 削除

@@ -1,0 +1,32 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 7
+title: 第七条
+deleted: false
+
+[a7:caption] （課税所得の範囲）
+[a7:title] 第七条
+[a7-p1:sentence] 所得税は、次の各号に掲げる者の区分に応じ当該各号に定める所得について課する。
+[a7-p1-i1:title] 一
+[a7-p1-i1:sentence] 非永住者以外の居住者
+[a7-p1-i1:sentence] 全ての所得
+[a7-p1-i2:title] 二
+[a7-p1-i2:sentence] 非永住者
+[a7-p1-i2:sentence] 第九十五条第一項（外国税額控除）に規定する国外源泉所得（国外にある有価証券の譲渡により生ずる所得として政令で定めるものを含む。以下この号において「国外源泉所得」という。）以外の所得及び国外源泉所得で国内において支払われ、又は国外から送金されたもの
+[a7-p1-i3:title] 三
+[a7-p1-i3:sentence] 非居住者
+[a7-p1-i3:sentence] 第百六十四条第一項各号（非居住者に対する課税の方法）に掲げる非居住者の区分に応じそれぞれ同項各号及び同条第二項各号に定める国内源泉所得
+[a7-p1-i4:title] 四
+[a7-p1-i4:sentence] 内国法人
+[a7-p1-i4:sentence] 国内において支払われる第百七十四条各号（内国法人に係る所得税の課税標準）に掲げる利子等、配当等、給付補塡金、利息、利益、差益、利益の分配及び賞金
+[a7-p1-i5:title] 五
+[a7-p1-i5:sentence] 外国法人
+[a7-p1-i5:sentence] 第百六十一条第一項（国内源泉所得）に規定する国内源泉所得のうち同項第四号から第十一号まで及び第十三号から第十六号までに掲げるもの
+[a7-p2:number] ２
+[a7-p2:sentence] 前項第二号に掲げる所得の範囲に関し必要な事項は、政令で定める。

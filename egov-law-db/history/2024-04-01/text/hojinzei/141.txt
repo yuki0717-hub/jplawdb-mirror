@@ -1,0 +1,24 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 141
+title: 第百四十一条
+deleted: false
+
+[a141:title] 第百四十一条
+[a141-p1:sentence] 外国法人に対して課する各事業年度の所得に対する法人税の課税標準は、次の各号に掲げる外国法人の区分に応じ当該各号に定める国内源泉所得に係る所得の金額とする。
+[a141-p1-i1:title] 一
+[a141-p1-i1:sentence] 恒久的施設を有する外国法人
+[a141-p1-i1:sentence] 各事業年度の次に掲げる国内源泉所得
+[a141-p1-i1-s1-1:title] イ
+[a141-p1-i1-s1-1:sentence] 第百三十八条第一項第一号（国内源泉所得）に掲げる国内源泉所得
+[a141-p1-i1-s1-2:title] ロ
+[a141-p1-i1-s1-2:sentence] 第百三十八条第一項第二号から第六号までに掲げる国内源泉所得（同項第一号に掲げる国内源泉所得に該当するものを除く。）
+[a141-p1-i2:title] 二
+[a141-p1-i2:sentence] 恒久的施設を有しない外国法人
+[a141-p1-i2:sentence] 各事業年度の第百三十八条第一項第二号から第六号までに掲げる国内源泉所得

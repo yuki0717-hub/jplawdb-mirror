@@ -1,0 +1,16 @@
+{
+  "code": "shohizei_seirei",
+  "title": "消費税法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "363CO0000000360",
+  "law_num": "昭和六十三年政令第三百六十号",
+  "law_revision_id": "363CO0000000360_20240401_506CO0000000145",
+  "updated": "2024-10-09T01:24:26+09:00",
+  "amendment_enforcement_date": "2024-04-01",
+  "as_of": "2024-04-01",
+  "article_count": 130,
+  "supplementary_count": 137,
+  "source_xml_size": 1256845,
+  "source_xml_sha256": "f9756642fe3df89bb708923a95c70c7a57b2098da585d78f7f495f40bbf887b7",
+  "source_url": "https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20240401"
+}

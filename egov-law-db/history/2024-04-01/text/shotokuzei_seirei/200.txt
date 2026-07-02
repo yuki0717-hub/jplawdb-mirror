@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 200
+title: 第二百条
+deleted: false
+
+[a200:caption] （損益通算の対象とならない損失の控除）
+[a200:title] 第二百条
+[a200-p1:sentence] 法第六十九条第二項（損益通算の対象とならない損失）に規定する政令で定める損失の金額は、第百七十八条第一項第一号（生活に通常必要でない資産の災害による損失額の計算等）に規定する競走馬の譲渡に係る譲渡所得の金額の計算上生じた損失の金額とする。
+[a200-p2:number] ２
+[a200-p2:sentence] 譲渡所得の金額の計算上生じた損失の金額のうちに前項に規定する競走馬の譲渡に係る損失の金額がある場合には、当該損失の金額は、当該競走馬の保有に係る雑所得の金額から控除する。

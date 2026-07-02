@@ -1,0 +1,27 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20250401
+snapshot_kind: historical
+law: 消費税法 (shohizei)
+law_num: 昭和六十三年法律第百八号
+law_id: 363AC0000000108
+law_revision_id: 363AC0000000108_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 20
+title: 第二十条
+deleted: false
+
+[a20:caption] （個人事業者の納税地）
+[a20:title] 第二十条
+[a20-p1:sentence] 個人事業者の資産の譲渡等及び特定仕入れに係る消費税の納税地は、その個人事業者が次の各号に掲げる場合のいずれに該当するかに応じ当該各号に定める場所とする。
+[a20-p1-i1:title] 一
+[a20-p1-i1:sentence] 国内に住所を有する場合
+[a20-p1-i1:sentence] その住所地
+[a20-p1-i2:title] 二
+[a20-p1-i2:sentence] 国内に住所を有せず、居所を有する場合
+[a20-p1-i2:sentence] その居所地
+[a20-p1-i3:title] 三
+[a20-p1-i3:sentence] 国内に住所及び居所を有しない者で、国内にその行う事業に係る事務所、事業所その他これらに準ずるもの（以下この号、次条第二項及び第二十二条第二号において「事務所等」という。）を有する者である場合
+[a20-p1-i3:sentence] その事務所等の所在地（その事務所等が二以上ある場合には、主たるものの所在地）
+[a20-p1-i4:title] 四
+[a20-p1-i4:sentence] 前三号に掲げる場合以外の場合
+[a20-p1-i4:sentence] 政令で定める場所

@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 40-18
+title: 第四十条の十八
+deleted: false
+
+[a40-18:caption] （旅客会社に貸し付けられている土地等についての課税価格の計算の特例）
+[a40-18:title] 第四十条の十八
+[a40-18-p1:sentence] 法第七十一条の八第二項第一号に規定する政令で定める土地等は、貸付けに係る期間が一年未満である土地等とする。
+[a40-18-p2:number] ２
+[a40-18-p2:sentence] 法第七十一条の八第二項第二号に規定する政令で定める建物等は、建物等（同号に規定する建物等をいう。以下この章において同じ。）を有する者により一の者に対して貸し付けられている当該建物等とする。

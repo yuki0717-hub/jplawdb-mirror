@@ -4,7 +4,7 @@
   "expected_title": "事前確定届出給与に関する届出",
   "source_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104.htm",
   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104.htm",
-  "fetched_at": "2026-07-01T07:16:42.542113+00:00",
+  "fetched_at": "2026-07-02T08:23:14.375309+00:00",
   "last_modified": "Tue, 30 Jun 2026 08:31:40 GMT",
   "etag": "\"3327-6557467726730\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 13095,
   "source_sha256": "b59197be45c013e2a1c60a2aa88a7d19beef34efea75ee490753d560c49e57bc",
   "text_path": "text/executive_compensation_filing.txt",
-  "text_sha256": "c5856720991c71f2195bb734be70f0928319561e18c607e2f1c48491199d872b",
+  "text_sha256": "9de4afbc224997394b3914ab94574eb5aa785ee1a124c5f1b74448a4d98804aa",
   "raw_path": "raw/executive_compensation_filing.html.txt",
   "raw_sha256": "9b5ee720015633618e2bca61f99329b796256a8d5c9b68c8858fec0d0c6f8369"
 }

@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20250401_507CO0000000123
+as_of: 2025-04-01
+article: 25
+title: 第二十五条
+deleted: false
+
+[a25:title] 第二十五条
+[a25-p1:sentence] 第二十一条及び第二十二条に規定する書類の様式並びに前条に規定する帳簿の様式及び記入の方法は、財務大臣が定める。

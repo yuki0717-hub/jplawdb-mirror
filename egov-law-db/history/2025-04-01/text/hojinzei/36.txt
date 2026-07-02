@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 36
+title: 第三十六条
+deleted: false
+
+[a36:caption] （過大な使用人給与の損金不算入）
+[a36:title] 第三十六条
+[a36-p1:sentence] 内国法人がその役員と政令で定める特殊の関係のある使用人に対して支給する給与（債務の免除による利益その他の経済的な利益を含む。）の額のうち不相当に高額な部分の金額として政令で定める金額は、その内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。

@@ -1,0 +1,23 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 68-3
+title: 第六十八条の三
+deleted: false
+
+[a68-3:caption] （資産の評価損の計上ができない株式の発行法人等）
+[a68-3:title] 第六十八条の三
+[a68-3-p1:sentence] 法第三十三条第五項（資産の評価損）に規定する政令で定めるものは、次に掲げる法人とする。
+[a68-3-p1-i1:title] 一
+[a68-3-p1-i1:sentence] 清算中の内国法人
+[a68-3-p1-i2:title] 二
+[a68-3-p1-i2:sentence] 解散（合併による解散を除く。）をすることが見込まれる内国法人
+[a68-3-p1-i3:title] 三
+[a68-3-p1-i3:sentence] 内国法人で当該内国法人との間に完全支配関係がある他の内国法人との間で適格合併を行うことが見込まれるもの
+[a68-3-p2:number] ２
+[a68-3-p2:sentence] 法第三十三条第五項に規定する政令で定める法人は、第二十四条の三（資産の評価益の計上ができない株式の発行法人等から除外される通算法人）に規定する初年度離脱通算子法人とする。

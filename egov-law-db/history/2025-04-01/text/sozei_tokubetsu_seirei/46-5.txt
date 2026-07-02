@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 46-5
+title: 第四十六条の五
+deleted: false
+
+[a46-5:caption] （法人課税信託の受託者に関する通則）
+[a46-5:title] 第四十六条の五
+[a46-5-p1:sentence] 消費税法施行令第二十七条及び第二十八条の規定は、法第八十六条の七第一項の規定を法第八十五条から第八十六条の六まで及び第四十五条から前条までにおいて適用する場合について準用する。
+[a46-5-p2:number] ２
+[a46-5-p2:sentence] 前項に定めるもののほか、消費税法第十五条第三項に規定する受託事業者又は同条第四項に規定する固有事業者についての法第八十五条から第八十六条の六まで又は第四十五条から前条までの規定の適用に関し必要な事項は、財務省令で定める。

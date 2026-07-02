@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20240401
+snapshot_kind: historical
+law: 国税通則法 (kokuzei_tsusoku)
+law_num: 昭和三十七年法律第六十六号
+law_id: 337AC0000000066
+law_revision_id: 337AC0000000066_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 40
+title: 第四十条
+deleted: false
+
+[a40:caption] （滞納処分）
+[a40:title] 第四十条
+[a40-p1:sentence] 税務署長は、第三十七条（督促）の規定による督促に係る国税がその督促状を発した日から起算して十日を経過した日までに完納されない場合、第三十八条第一項（繰上請求）の規定による請求に係る国税がその請求に係る期限までに完納されない場合その他国税徴収法に定める場合には、同法その他の法律の規定により滞納処分を行なう。

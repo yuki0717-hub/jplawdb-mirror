@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 28-6
+title: 第二十八条の六
+deleted: false
+
+[a28-6:caption] （共同利用施設の特別償却）
+[a28-6:title] 第二十八条の六
+[a28-6-p1:sentence] 法第四十四条の三第一項に規定する政令で定める規模のものは、一の共同利用施設の取得価額（法人税法施行令第五十四条第一項各号の規定により計算した取得価額をいう。）が四百万円（建物にあつては、六百五十万円）以上のものとする。

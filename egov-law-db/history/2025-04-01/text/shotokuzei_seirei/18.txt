@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 18
+title: 第十八条
+deleted: false
+
+[a18:caption] （非課税とされない当座預金の利子）
+[a18:title] 第十八条
+[a18-p1:sentence] 法第九条第一項第一号（非課税所得）に規定する政令で定める利子は、年一パーセントを超える利率の利子を付された当座預金の利子とする。

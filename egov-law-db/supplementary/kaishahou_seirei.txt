@@ -1,0 +1,41 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20260702
+law: 会社法施行令 (kaishahou_seirei)
+law_num: 平成十七年政令第三百六十四号
+law_id: 417CO0000000364
+law_revision_id: 417CO0000000364_20210301_502CO0000000327
+as_of: 2026-07-02
+supplementary_count: 3
+---
+[supplementary:001]
+label: 附 則
+amendment_law_num: 
+extract: 
+
+[suppl001:label] 附 則
+[suppl001-p1:caption] （施行期日）
+[suppl001-p1:number] １
+[suppl001-p1:sentence] この政令は、法の施行の日から施行する。
+[suppl001-p2:caption] （関係政令の廃止）
+[suppl001-p2:number] ２
+[suppl001-p2:sentence] 次に掲げる政令は、廃止する。
+[suppl001-p2-i1:title] 一
+[suppl001-p2-i1:sentence] 商法、有限会社法及び株式会社の監査等に関する商法の特例に関する法律の関係規定に基づく電磁的方法による情報の提供等に関する承諾の手続等を定める政令（平成十四年政令第二十号）
+[suppl001-p2-i2:title] 二
+[suppl001-p2-i2:sentence] 電子公告を行う調査機関の登録の申請等に係る手数料の額等を定める政令（平成十六年政令第三百八十六号）
+
+[supplementary:002]
+label: 附 則
+amendment_law_num: 平成二〇年三月三一日政令第一〇〇号
+extract: 
+
+[suppl002:label] 附 則
+[suppl002-p1:sentence] この政令は、平成二十年四月一日から施行する。
+
+[supplementary:003]
+label: 附 則
+amendment_law_num: 令和二年一一月二〇日政令第三二七号
+extract: true
+
+[suppl003:label] 附 則
+[suppl003-p1:sentence] この政令は、会社法の一部を改正する法律（令和元年法律第七十号）の施行の日（令和三年三月一日）から施行する。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20250401_507CO0000000123
+as_of: 2025-04-01
+article: 1-14
+title: 第一条の十四
+deleted: false
+
+[a1-14:caption] （貸付金債権の所在の基準となる債務者）
+[a1-14:title] 第一条の十四
+[a1-14-p1:sentence] 法第十条第一項第七号に規定する債務者が二以上ある貸付金債権についての同号に規定する一の債務者は、当該貸付金債権の債務者のうちに法の施行地に住所又は本店若しくは主たる事務所を有する者があるときは、その者（その者が二以上あるときは、いずれか一の者）とし、当該貸付金債権の債務者のうちに法の施行地に住所又は本店若しくは主たる事務所を有する者がないときは、当該債務者とする。

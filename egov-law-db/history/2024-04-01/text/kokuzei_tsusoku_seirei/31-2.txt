@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20240401
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20240401_505CO0000000210
+as_of: 2024-04-01
+article: 31-2
+title: 第三十一条の二
+deleted: false
+
+[a31-2:caption] （再調査の請求書の添付書面）
+[a31-2:title] 第三十一条の二
+[a31-2-p1:sentence] 法第八十一条第二項（再調査の請求書の記載事項等）に規定する再調査の請求書には、再調査の請求人が代理人によつて再調査の請求をする場合にあつては代理人の権限を証する書面を、再調査の請求人が総代を互選した場合にあつては総代の権限を証する書面を、それぞれ添付しなければならない。

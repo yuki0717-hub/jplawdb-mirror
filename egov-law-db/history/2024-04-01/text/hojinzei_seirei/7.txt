@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20240401_506CO0000000142
+as_of: 2024-04-01
+article: 7
+title: 第七条
+deleted: false
+
+[a7:caption] （役員の範囲）
+[a7:title] 第七条
+[a7-p1:sentence] 法第二条第十五号（役員の意義）に規定する政令で定める者は、次に掲げる者とする。
+[a7-p1-i1:title] 一
+[a7-p1-i1:sentence] 法人の使用人（職制上使用人としての地位のみを有する者に限る。次号において同じ。）以外の者でその法人の経営に従事しているもの
+[a7-p1-i2:title] 二
+[a7-p1-i2:sentence] 同族会社の使用人のうち、第七十一条第一項第五号イからハまで（使用人兼務役員とされない役員）の規定中「役員」とあるのを「使用人」と読み替えた場合に同号イからハまでに掲げる要件のすべてを満たしている者で、その会社の経営に従事しているもの

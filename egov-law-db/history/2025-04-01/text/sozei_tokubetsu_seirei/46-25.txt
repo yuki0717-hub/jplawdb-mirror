@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 46-25
+title: 第四十六条の二十五
+deleted: false
+
+[a46-25:caption] （課税対象揮発油の手持品課税に係る申告等）
+[a46-25:title] 第四十六条の二十五
+[a46-25-p1:sentence] 法第八十九条第十九項に規定する申告書には、同項各号に掲げる事項のほか、次に掲げる事項を記載しなければならない。
+[a46-25-p1-i1:title] 一
+[a46-25-p1-i1:sentence] 申告者の住所、氏名又は名称及び個人番号又は法人番号
+[a46-25-p1-i2:title] 二
+[a46-25-p1-i2:sentence] 課税対象揮発油（法第八十九条第十八項に規定する課税対象揮発油をいう。第四十六条の二十七において同じ。）の貯蔵場所の所在地及び名称
+[a46-25-p2:number] ２
+[a46-25-p2:sentence] 揮発油税法施行令第三条第二項から第五項までの規定は、前項の申告書を提出する義務がある者が当該申告書の提出期限前に当該申告書を提出しないで死亡した場合について準用する。

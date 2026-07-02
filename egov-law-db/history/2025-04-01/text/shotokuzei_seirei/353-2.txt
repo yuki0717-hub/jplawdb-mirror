@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 353-2
+title: 第三百五十三条の二
+deleted: false
+
+[a353-2:caption] （有限責任事業組合等に係る組合員所得に関する計算書）
+[a353-2:title] 第三百五十三条の二
+[a353-2-p1:sentence] 法第二百二十七条の二（有限責任事業組合等に係る組合員所得に関する計算書）に規定する政令で定める日は、同条に規定する投資事業有限責任組合契約において定める同条の計算期間の終了の日の翌日から二月を経過する日とする。

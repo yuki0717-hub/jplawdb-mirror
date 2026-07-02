@@ -63,3 +63,21 @@ SaaSの初期設定、導入支援、月額利用料を一つの契約で受け�
 - 国税庁公式・加算税事務運営指針: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/additional_tax_guidance.txt
 公式サイトで最終確認:
 - 国税庁：法人税の過少申告加算税及び無申告加算税の取扱い: https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm
+
+## 7. インボイス制度開始日時点の仕入税額控除
+2023年10月1日に行った国内課税仕入れについて、同日時点の消費税法を基準に、仕入税額控除に必要な帳簿・請求書等の要件を整理してください。現在法令で上書きせず、参照した過去基準日も回答に明記してください。
+参照必須:
+- 2023年10月1日時点・消費税法30条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2023-10-01/text/shohizei/30.txt
+- 2023年10月1日時点・消費税法施行令49条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2023-10-01/text/shohizei_seirei/49.txt
+
+## 8. 2024年度開始時点の収益認識
+2024年4月1日に開始した事業年度のSaaS契約について、同日時点の法人税法22条・22条の2を基準に益金算入額と収益計上時期を整理してください。現在法令との差異があれば区別してください。
+参照必須:
+- 2024年4月1日時点・法人税法22条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2024-04-01/text/hojinzei/22.txt
+- 2024年4月1日時点・法人税法22条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2024-04-01/text/hojinzei/22-2.txt
+
+## 9. 2025年度開始時点の役員給与
+2025年4月1日に開始した事業年度中に役員報酬を改定する場合、同日時点の法人税法34条と施行令69条を基準に定期同額給与の要件を整理してください。取引日より後の改正を混在させないでください。
+参照必須:
+- 2025年4月1日時点・法人税法34条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2025-04-01/text/hojinzei/34.txt
+- 2025年4月1日時点・法人税法施行令69条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2025-04-01/text/hojinzei_seirei/69.txt

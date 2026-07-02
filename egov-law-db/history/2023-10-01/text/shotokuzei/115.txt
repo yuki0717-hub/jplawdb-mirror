@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20231001_504AC1000000071
+as_of: 2023-10-01
+article: 115
+title: 第百十五条
+deleted: false
+
+[a115:caption] （出国をする場合の予定納税額の納期限の特例）
+[a115:title] 第百十五条
+[a115-p1:sentence] 第百四条第一項（予定納税額の納付）又は第百七条第一項（特別農業所得者の予定納税額の納付）の規定により予定納税額を納付すべき居住者は、これらの規定に規定する納期限前に出国をする場合には、これらの規定にかかわらず、その出国後に当該納期限の到来する予定納税額に相当する所得税を、その出国の時までに国に納付しなければならない。

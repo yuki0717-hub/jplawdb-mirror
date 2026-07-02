@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20230607_505AC0000000047
+as_of: 2023-10-01
+article: 3
+title: 第三条
+deleted: false
+
+[a3:caption] （人格のない社団等に対するこの法律の適用）
+[a3:title] 第三条
+[a3-p1:sentence] 人格のない社団等は、法人とみなして、この法律（第七十五条の四（電子情報処理組織による申告）及び別表第二を除く。）の規定を適用する。

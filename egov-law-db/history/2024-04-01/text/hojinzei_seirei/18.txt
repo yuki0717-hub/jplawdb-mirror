@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20240401_506CO0000000142
+as_of: 2024-04-01
+article: 18
+title: 第十八条
+deleted: false
+
+[a18:caption] （納税地の異動の届出）
+[a18:title] 第十八条
+[a18-p1:sentence] 法第二十条（納税地の異動の届出）に規定する届出は、納税地の異動があつた後遅滞なく、異動前の納税地及び異動後の納税地を記載した書面をもつてしなければならない。

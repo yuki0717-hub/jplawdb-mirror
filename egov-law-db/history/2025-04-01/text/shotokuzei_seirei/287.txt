@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 287
+title: 第二百八十七条
+deleted: false
+
+[a287:caption] （年金に係る契約の範囲）
+[a287:title] 第二百八十七条
+[a287-p1:sentence] 法第百六十一条第一項第十四号（国内源泉所得）に規定する政令で定める契約は、第百八十三条第三項（生命保険契約等の意義）に規定する生命保険契約等又は第百八十四条第一項（損害保険年金等に係る雑所得の金額の計算上控除する保険料等）に規定する損害保険契約等であつて、年金を給付する定めのあるものとする。

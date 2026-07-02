@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 21-11-2
+title: 第二十一条の十一の二
+deleted: false
+
+[a21-11-2:caption] （相続時精算課税に係る贈与税の基礎控除）
+[a21-11-2:title] 第二十一条の十一の二
+[a21-11-2-p1:sentence] 相続時精算課税適用者がその年中において特定贈与者からの贈与により取得した財産に係るその年分の贈与税については、贈与税の課税価格から六十万円を控除する。
+[a21-11-2-p2:number] ２
+[a21-11-2-p2:sentence] 前項の相続時精算課税適用者に係る特定贈与者が二人以上ある場合における各特定贈与者から贈与により取得した財産に係る課税価格から控除する金額の計算については、政令で定める。

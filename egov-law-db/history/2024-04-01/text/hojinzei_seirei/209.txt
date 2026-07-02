@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20240401_506CO0000000142
+as_of: 2024-04-01
+article: 209
+title: 第二百九条
+deleted: false
+
+[a209:caption] （更正等により還付すべき所得税額等の充当の順序）
+[a209:title] 第二百九条
+[a209-p1:sentence] 第二百四条（所得税額等の還付手続等）において準用する第百五十二条（還付すべき所得税額等の充当の順序）の規定は、法第百四十七条の三第一項（更正等による所得税額等の還付）の規定による還付金（これに係る還付加算金を含む。）を未納の国税及び滞納処分費に充当する場合について準用する。

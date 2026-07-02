@@ -1,0 +1,18 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 5
+title: 第五条
+deleted: false
+
+[a5:caption] （納税準備預金の利子の非課税）
+[a5:title] 第五条
+[a5-p1:sentence] 納税準備預金の利子については、所得税を課さない。
+[a5-p1:sentence] ただし、当該預金から租税の納付の目的以外の目的のために引き出された金額がある場合には、その引出しの日の属する利子の計算期間に対応する利子については、所得税を課する。
+[a5-p2:number] ２
+[a5-p2:sentence] 前項に規定する納税準備預金とは、租税の納付に充てることを目的として銀行その他の政令で定める金融機関に対してした預金で当該金融機関が他の預金と区分して経理しているものをいう。

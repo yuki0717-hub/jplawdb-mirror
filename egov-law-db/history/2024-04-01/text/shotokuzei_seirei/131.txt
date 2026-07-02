@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 131
+title: 第百三十一条
+deleted: false
+
+[a131:caption] （減価償却資産の償却費の計算）
+[a131:title] 第百三十一条
+[a131-p1:sentence] 居住者の有する減価償却資産につきその償却費としてその者の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上必要経費に算入する金額は、当該資産につきその者が採用している償却の方法に基づいて計算した金額とする。

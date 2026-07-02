@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 202
+title: 第二百二条
+deleted: false
+
+[a202:caption] （被災事業用資産の損失等に係る純損失の金額）
+[a202:title] 第二百二条
+[a202-p1:sentence] 法第七十条第二項（被災事業用資産の損失等に係る純損失の繰越控除）に規定する政令で定める純損失の金額は、同項に規定するその年の前年以前三年内の各年において生じた純損失の金額のうち、同項各号に掲げる損失の金額に達するまでの金額（既に同項の規定によりその年の前年以前において控除されたものを除く。）とする。

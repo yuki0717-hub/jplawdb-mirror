@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20240401
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20240401_506CO0000000145
+as_of: 2024-04-01
+article: 37
+title: 第三十七条
+deleted: false
+
+[a37:caption] （公共法人等のリース譲渡に係る資産の譲渡等の時期の特例）
+[a37:title] 第三十七条
+[a37-p1:sentence] 法人税法の規定の適用を受けない法人がリース譲渡を行つた場合において、当該法人が当該リース譲渡に係る対価の額につき延払基準の方法又はこれに準ずる方法により経理することとしているときは、当該法人が同法第六十三条第一項（リース譲渡に係る収益及び費用の帰属事業年度）の規定の適用を受けるため延払基準の方法により経理するものとみなして、法第十六条の規定を適用する。

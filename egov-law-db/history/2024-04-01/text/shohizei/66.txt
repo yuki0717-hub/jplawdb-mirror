@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20240401
+snapshot_kind: historical
+law: 消費税法 (shohizei)
+law_num: 昭和六十三年法律第百八号
+law_id: 363AC0000000108
+law_revision_id: 363AC0000000108_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 66
+title: 第六十六条
+deleted: false
+
+[a66:title] 第六十六条
+[a66-p1:sentence] 正当な理由がなくて第四十五条第一項の規定による申告書（同項第四号に掲げる消費税額がないものを除く。）又は第四十七条第一項の規定による申告書をその提出期限までに提出しなかつた者は、一年以下の懲役又は五十万円以下の罰金に処する。
+[a66-p1:sentence] ただし、情状により、その刑を免除することができる。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 210-2
+title: 第二百十条の二
+deleted: false
+
+[a210-2:caption] （退職年金に関する契約の範囲）
+[a210-2:title] 第二百十条の二
+[a210-2-p1:sentence] 法第七十六条第五項第四号（生命保険料控除）に規定する退職年金に関する契約で政令で定めるものは、法人税法附則第二十条第三項（退職年金等積立金に対する法人税の特例）に規定する適格退職年金契約とする。

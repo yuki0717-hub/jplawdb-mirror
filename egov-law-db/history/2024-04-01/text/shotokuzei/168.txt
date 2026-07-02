@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 168
+title: 第百六十八条
+deleted: false
+
+[a168:caption] （更正及び決定）
+[a168:title] 第百六十八条
+[a168-p1:sentence] 前編第八章（居住者に係る更正及び決定）の規定は、非居住者の総合課税に係る所得税についての更正又は決定について準用する。

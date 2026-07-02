@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20231001_504AC1000000071
+as_of: 2023-10-01
+article: 210
+title: 第二百十条
+deleted: false
+
+[a210:caption] （源泉徴収義務）
+[a210:title] 第二百十条
+[a210-p1:sentence] 居住者に対し国内において匿名組合契約（これに準ずる契約として政令で定めるものを含む。）に基づく利益の分配につき支払をする者は、その支払の際、その利益の分配について所得税を徴収し、その徴収の日の属する月の翌月十日までに、これを国に納付しなければならない。

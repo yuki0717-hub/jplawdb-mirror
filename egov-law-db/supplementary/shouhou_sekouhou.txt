@@ -1,0 +1,140 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260702
+law: 商法施行法 (shouhou_sekouhou)
+law_num: 明治三十二年法律第四十九号
+law_id: 132AC0000000049
+law_revision_id: 132AC0000000049_20190401_430AC0000000029
+as_of: 2026-07-02
+supplementary_count: 12
+---
+[supplementary:001]
+label: 附 則
+amendment_law_num: 
+extract: 
+
+[suppl001:label] 附 則
+[suppl001-a138:title] 第百三十八条
+[suppl001-a138-p1:sentence] 本法ハ商法施行ノ日ヨリ之ヲ施行ス
+[suppl001-a139:title] 第百三十九条
+[suppl001-a139-p1:sentence] 商法施行条例ハ之ヲ廃止ス
+[suppl001-a139-p1:sentence] 但シ同条例第二十一条乃至第二十三条及第五十一条ノ規定ハ旧商法ノ規定ニ依ルヘキ場合ニ於テハ仍其ノ効力ヲ有ス
+
+[supplementary:002]
+label: 附 則
+amendment_law_num: 大正一一年四月二五日法律第七一号
+extract: true
+
+[suppl002:label] 附 則
+[suppl002-a383:title] 第三百八十三条
+[suppl002-a383-p1:sentence] 本法施行ノ期日ハ勅令ヲ以テ之ヲ定ム
+
+[supplementary:003]
+label: 附 則
+amendment_law_num: 昭和七年七月一五日法律第二〇号
+extract: true
+
+[suppl003:label] 附 則
+[suppl003-a79:title] 第七十九条
+[suppl003-a79-p1:sentence] 本法施行ノ期日ハ勅令ヲ以テ之ヲ定ム
+
+[supplementary:004]
+label: 附 則
+amendment_law_num: 昭和一三年四月五日法律第七三号
+extract: true
+
+[suppl004:label] 附 則
+[suppl004-p1:sentence] 本法施行ノ期日ハ勅令ヲ以テ之ヲ定ム
+
+[supplementary:005]
+label: 附 則
+amendment_law_num: 昭和二二年九月一日法律第一〇〇号
+extract: true
+
+[suppl005:label] 附 則
+[suppl005-a1:title] 第一条
+[suppl005-a1-p1:sentence] この法律は、第十章の規定を除いて、公布の日からこれを施行する。
+
+[supplementary:006]
+label: 附 則
+amendment_law_num: 昭和二九年五月一五日法律第一〇〇号
+extract: true
+
+[suppl006:label] 附 則
+[suppl006-p1:number] １
+[suppl006-p1:sentence] この法律は、公布の日から起算して一月を経過した日から施行する。
+
+[supplementary:007]
+label: 附 則
+amendment_law_num: 昭和四一年七月一日法律第一一一号
+extract: true
+
+[suppl007:label] 附 則
+[suppl007-a1:caption] （施行期日）
+[suppl007-a1:title] 第一条
+[suppl007-a1-p1:sentence] この法律は、公布の日から起算して六月をこえない範囲内において政令で定める日から施行する。
+
+[supplementary:008]
+label: 附 則
+amendment_law_num: 昭和五四年三月三〇日法律第五号
+extract: true
+
+[suppl008:label] 附 則
+[suppl008-p1:caption] （施行期日）
+[suppl008-p1:number] １
+[suppl008-p1:sentence] この法律は、民事執行法（昭和五十四年法律第四号）の施行の日（昭和五十五年十月一日）から施行する。
+[suppl008-p2:caption] （経過措置）
+[suppl008-p2:number] ２
+[suppl008-p2:sentence] この法律の施行前に申し立てられた民事執行、企業担保権の実行及び破産の事件については、なお従前の例による。
+[suppl008-p3:number] ３
+[suppl008-p3:sentence] 前項の事件に関し執行官が受ける手数料及び支払又は償還を受ける費用の額については、同項の規定にかかわらず、最高裁判所規則の定めるところによる。
+
+[supplementary:009]
+label: 附 則
+amendment_law_num: 平成二年六月二九日法律第六四号
+extract: true
+
+[suppl009:label] 附 則
+[suppl009-a1:caption] （施行期日）
+[suppl009-a1:title] 第一条
+[suppl009-a1-p1:sentence] この法律は、公布の日から起算して一年を超えない範囲内において政令で定める日から施行する。
+
+[supplementary:010]
+label: 附 則
+amendment_law_num: 平成一一年一二月二二日法律第一六〇号
+extract: true
+
+[suppl010:label] 附 則
+[suppl010-a1:caption] （施行期日）
+[suppl010-a1:title] 第一条
+[suppl010-a1-p1:sentence] この法律（第二条及び第三条を除く。）は、平成十三年一月六日から施行する。
+[suppl010-a1-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl010-a1-p1-i1:title] 一
+[suppl010-a1-p1-i1:sentence] 第九百九十五条（核原料物質、核燃料物質及び原子炉の規制に関する法律の一部を改正する法律附則の改正規定に係る部分に限る。）、第千三百五条、第千三百六条、第千三百二十四条第二項、第千三百二十六条第二項及び第千三百四十四条の規定
+[suppl010-a1-p1-i1:sentence] 公布の日
+
+[supplementary:011]
+label: 附 則
+amendment_law_num: 平成二〇年六月六日法律第五三号
+extract: true
+
+[suppl011:label] 附 則
+[suppl011-a1:caption] （施行期日）
+[suppl011-a1:title] 第一条
+[suppl011-a1-p1:sentence] この法律は、公布の日から起算して三月を超えない範囲内において政令で定める日から施行する。
+
+[supplementary:012]
+label: 附 則
+amendment_law_num: 平成三〇年五月二五日法律第二九号
+extract: true
+
+[suppl012:label] 附 則
+[suppl012-a1:caption] （施行期日）
+[suppl012-a1:title] 第一条
+[suppl012-a1-p1:sentence] この法律は、公布の日から起算して一年を超えない範囲内において政令で定める日から施行する。
+[suppl012-a1-p1:sentence] ただし、附則第五十条及び第五十二条の規定は、公布の日から施行する。
+[suppl012-a51:caption] （罰則に関する経過措置）
+[suppl012-a51:title] 第五十一条
+[suppl012-a51-p1:sentence] 施行日前にした行為及びこの附則の規定によりなお従前の例によることとされる場合における施行日以後にした行為に対する罰則の適用については、なお従前の例による。
+[suppl012-a52:caption] （政令への委任）
+[suppl012-a52:title] 第五十二条
+[suppl012-a52-p1:sentence] この附則に規定するもののほか、この法律の施行に関し必要な経過措置は、政令で定める。

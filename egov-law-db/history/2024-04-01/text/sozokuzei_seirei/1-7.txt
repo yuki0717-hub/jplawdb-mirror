@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20240401_506CO0000000143
+as_of: 2024-04-01
+article: 1-7
+title: 第一条の七
+deleted: false
+
+[a1-7:caption] （信託の変更をする権限）
+[a1-7:title] 第一条の七
+[a1-7-p1:sentence] 法第九条の二第五項に規定する政令で定めるものは、信託の目的に反しないことが明らかである場合に限り信託の変更をすることができる権限とする。
+[a1-7-p2:number] ２
+[a1-7-p2:sentence] 法第九条の二第五項に規定する信託の変更をする権限には、他の者との合意により信託の変更をすることができる権限を含むものとする。

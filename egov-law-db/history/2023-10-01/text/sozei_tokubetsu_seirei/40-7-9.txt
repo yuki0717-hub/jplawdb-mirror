@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 40-7-9
+title: 第四十条の七の九
+deleted: false
+
+[a40-7-9:caption] （個人の事業用資産の贈与者が死亡した場合の相続税の課税の特例）
+[a40-7-9:title] 第四十条の七の九
+[a40-7-9-p1:sentence] 法第七十条の六の九第二項の規定により読み替えて適用する同条第一項に規定する政令で定める者は、前条第三項各号に掲げる場合の区分に応じ当該各号に定める者とする。

@@ -1,0 +1,35 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2025-04-01
+article: 23
+title: 第二十三条
+deleted: false
+
+[a23:caption] （地上権及び永小作権の評価）
+[a23:title] 第二十三条
+[a23-p1:sentence] 地上権（借地借家法（平成三年法律第九十号）に規定する借地権又は民法第二百六十九条の二第一項（地下又は空間を目的とする地上権）の地上権に該当するものを除く。以下同じ。）及び永小作権の価額は、その残存期間に応じ、その目的となつている土地のこれらの権利を取得した時におけるこれらの権利が設定されていない場合の時価に、次に定める割合を乗じて算出した金額による。
+[a23-p1:sentence] 残存期間が十年以下のもの
+[a23-p1:sentence] 百分の五
+[a23-p1:sentence] 残存期間が十年を超え十五年以下のもの
+[a23-p1:sentence] 百分の十
+[a23-p1:sentence] 残存期間が十五年を超え二十年以下のもの
+[a23-p1:sentence] 百分の二十
+[a23-p1:sentence] 残存期間が二十年を超え二十五年以下のもの
+[a23-p1:sentence] 百分の三十
+[a23-p1:sentence] 残存期間が二十五年を超え三十年以下のもの及び地上権で存続期間の定めのないもの
+[a23-p1:sentence] 百分の四十
+[a23-p1:sentence] 残存期間が三十年を超え三十五年以下のもの
+[a23-p1:sentence] 百分の五十
+[a23-p1:sentence] 残存期間が三十五年を超え四十年以下のもの
+[a23-p1:sentence] 百分の六十
+[a23-p1:sentence] 残存期間が四十年を超え四十五年以下のもの
+[a23-p1:sentence] 百分の七十
+[a23-p1:sentence] 残存期間が四十五年を超え五十年以下のもの
+[a23-p1:sentence] 百分の八十
+[a23-p1:sentence] 残存期間が五十年を超えるもの
+[a23-p1:sentence] 百分の九十

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 90-8
+title: 第九十条の八
+deleted: false
+
+[a90-8:caption] （航空機燃料税の税率の特例）
+[a90-8:title] 第九十条の八
+[a90-8-p1:sentence] 航空機燃料税法第二条第一号に規定する航空機に、令和五年四月一日から令和十年三月三十一日までの間に積み込まれる航空機燃料に係る航空機燃料税の税率は、同法第十一条の規定にかかわらず、航空機燃料一キロリットルにつき一万八千円とする。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20240401_506CO0000000142
+as_of: 2024-04-01
+article: 78
+title: 第七十八条
+deleted: false
+
+[a78:caption] （支出した寄附金の額）
+[a78:title] 第七十八条
+[a78-p1:sentence] 法第三十七条第七項（寄附金の意義）に規定する寄附金の支出は、各事業年度の所得の金額の計算については、その支払がされるまでの間、なかつたものとする。

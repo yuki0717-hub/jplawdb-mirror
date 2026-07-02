@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 40-4-8
+title: 第四十条の四の八
+deleted: false
+
+[a40-4-8:title] 第四十条の四の八
+[a40-4-8-p1:sentence] 前条の規定は、法第七十条の二の八において法第七十条の二の七の規定を準用する場合について準用する。

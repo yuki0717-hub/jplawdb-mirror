@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20250401_507CO0000000123
+as_of: 2025-04-01
+article: 4-7
+title: 第四条の七
+deleted: false
+
+[a4-7:caption] （用語の意義）
+[a4-7:title] 第四条の七
+[a4-7-p1:sentence] この節において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
+[a4-7-p1-i1:title] 一
+[a4-7-p1-i1:sentence] 特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書
+[a4-7-p1-i1:sentence] それぞれ法第二十一条の四第一項に規定する特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書をいう。
+[a4-7-p1-i2:title] 二
+[a4-7-p1-i2:sentence] 特定障害者扶養信託契約
+[a4-7-p1-i2:sentence] 法第二十一条の四第二項に規定する特定障害者扶養信託契約をいう。

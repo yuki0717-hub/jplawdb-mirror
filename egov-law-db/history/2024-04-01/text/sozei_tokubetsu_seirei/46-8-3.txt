@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 46-8-3
+title: 第四十六条の八の三
+deleted: false
+
+[a46-8-3:caption] （輸出酒類販売場における保存書類等）
+[a46-8-3:title] 第四十六条の八の三
+[a46-8-3-p1:sentence] 法第八十七条の六第二項に規定する書類は前条第三項第二号ロに規定する書類とし、法第八十七条の六第二項に規定する電磁的記録は前条第五項の規定により国税庁長官に提供した酒類購入記録情報（同条第十一項後段の規定により提供を受けた酒類購入記録情報又は交付を受けた同項に規定する書類を含む。）とする。

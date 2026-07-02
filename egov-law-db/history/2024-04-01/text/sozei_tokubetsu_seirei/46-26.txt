@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 46-26
+title: 第四十六条の二十六
+deleted: false
+
+[a46-26:caption] （エタノールの数量に相当する数量）
+[a46-26:title] 第四十六条の二十六
+[a46-26-p1:sentence] 法第八十九条第十九項第二号に規定する政令で定める数量は、同項第一号イの数量に財務省令で定める数値を乗じて得た数量とする。

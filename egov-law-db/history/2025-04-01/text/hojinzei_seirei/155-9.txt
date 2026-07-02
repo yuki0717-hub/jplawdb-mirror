@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 155-9
+title: 第百五十五条の九
+deleted: false
+
+[a155-9:caption] （所有持分）
+[a155-9:title] 第百五十五条の九
+[a155-9-p1:sentence] 法第八十二条第八号（定義）に規定する政令で定める権利は、残余財産の分配を受ける権利とする。

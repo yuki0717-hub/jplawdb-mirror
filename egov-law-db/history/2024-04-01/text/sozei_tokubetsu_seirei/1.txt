@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 1
+title: 第一条
+deleted: false
+
+[a1:caption] （用語の意義）
+[a1:title] 第一条
+[a1-p1:sentence] 第二章において、租税特別措置法（以下「法」という。）第二条第一項各号に掲げる用語の意義は、当該各号に定めるところによる。
+[a1-p2:number] ２
+[a1-p2:sentence] 第三章において、法第二条第二項各号に掲げる用語の意義は、当該各号に定めるところによる。
+[a1-p3:number] ３
+[a1-p3:sentence] 第五章において、法第二条第四項各号に掲げる用語の意義は、当該各号に定めるところによる。

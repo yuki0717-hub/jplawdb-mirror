@@ -1,0 +1,16 @@
+{
+  "code": "sozokuzei",
+  "title": "相続税法",
+  "law_type": "Act",
+  "law_id": "325AC0000000073",
+  "law_num": "昭和二十五年法律第七十三号",
+  "law_revision_id": "325AC0000000073_20230401_505AC0000000003",
+  "updated": "2024-01-01T00:13:51+09:00",
+  "amendment_enforcement_date": "2023-04-01",
+  "as_of": "2023-10-01",
+  "article_count": 109,
+  "supplementary_count": 103,
+  "source_xml_size": 812408,
+  "source_xml_sha256": "0a9726a8b11d3ea5aacf56a5b085ce8384b13cab6864e4cbf5fe15e0eba26267",
+  "source_url": "https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20231001"
+}

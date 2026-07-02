@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 5-2-2
+title: 第五条の二の二
+deleted: false
+
+[a5-2-2:caption] （非課税口座内の少額上場株式等に係る配当所得の非課税）
+[a5-2-2:title] 第五条の二の二
+[a5-2-2-p1:sentence] 法第九条の八に規定する政令で定める支払の取扱者は、同条各号に掲げる配当等の支払を受ける者の当該配当等の受領の媒介、取次ぎ又は代理（業務として又は業務に関連して国内においてするものに限る。）をする者で財務省令で定めるものとする。

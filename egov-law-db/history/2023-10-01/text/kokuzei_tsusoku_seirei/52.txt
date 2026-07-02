@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20231001
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20221231_504CO0000000147
+as_of: 2023-10-01
+article: 52
+title: 第五十二条
+deleted: false
+
+[a52:caption] （調書の記載事項）
+[a52:title] 第五十二条
+[a52-p1:sentence] 法第百五十二条各項（調書の作成）に規定する調書には、質問、検査、領置、臨検、捜索、差押え又は記録命令付差押えの事実、日時及び場所並びに質問の調書にあつては答弁の要領及び同条第一項の申立てに係る陳述を記載しなければならない。

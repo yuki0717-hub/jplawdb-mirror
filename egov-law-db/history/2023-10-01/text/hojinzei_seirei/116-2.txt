@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20231001_430CO0000000132
+as_of: 2023-10-01
+article: 116-2
+title: 第百十六条の二
+deleted: false
+
+[a116-2:caption] （会社更生等の場合の欠損金額の範囲）
+[a116-2:title] 第百十六条の二
+[a116-2-p1:sentence] 法第五十九条第一項（会社更生等による債務免除等があつた場合の欠損金の損金算入）に規定する欠損金額で政令で定めるものは、同項に規定する適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額とする。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 350-6
+title: 第三百五十条の六
+deleted: false
+
+[a350-6:caption] （金地金等の譲渡の対価に係る告知義務のない公共法人等の範囲）
+[a350-6:title] 第三百五十条の六
+[a350-6-p1:sentence] 法第二百二十四条の六（金地金等の譲渡の対価の受領者の告知）に規定する法人税法別表第一（公共法人の表）に掲げる法人その他の政令で定めるものは、公共法人等とする。

@@ -1,0 +1,23 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 46-8-5
+title: 第四十六条の八の五
+deleted: false
+
+[a46-8-5:caption] （酒類の製造場とみなされる酒類の販売場の範囲）
+[a46-8-5:title] 第四十六条の八の五
+[a46-8-5-p1:sentence] 法第八十七条の六第九項に規定する政令で定める要件は、次に掲げる全ての要件とする。
+[a46-8-5-p1-i1:title] 一
+[a46-8-5-p1-i1:sentence] 酒類製造者が経営する酒類の販売場が当該酒類製造者の酒類の製造場に近接すること。
+[a46-8-5-p1-i2:title] 二
+[a46-8-5-p1-i2:sentence] 当該酒類の販売場の所在地と当該酒類の製造場の所在地が同一の税務署の管轄区域内にあること。
+[a46-8-5-p1-i3:title] 三
+[a46-8-5-p1-i3:sentence] 当該酒類の販売場が当該酒類製造者によつて管理され、かつ、当該酒類の製造場と当該酒類の販売場において酒類の製造及び販売が一体的に行われていること。
+[a46-8-5-p1-i4:title] 四
+[a46-8-5-p1-i4:sentence] 酒税の取締り上特に不適当であると認められる事情がないこと。

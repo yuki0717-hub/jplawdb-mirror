@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 147
+title: 第百四十七条
+deleted: false
+
+[a147:caption] （更正及び決定）
+[a147:title] 第百四十七条
+[a147-p1:sentence] 第百三十条から第百三十二条の二まで（内国法人に係る更正及び決定）の規定は、外国法人の各事業年度の所得に対する法人税及び外国法人の退職年金等積立金に対する法人税に係る更正又は決定について準用する。

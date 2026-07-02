@@ -1,0 +1,24 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20231001_505AC0000000003
+as_of: 2023-10-01
+article: 90-3-2
+title: 第九十条の三の二
+deleted: false
+
+[a90-3-2:caption] （地球温暖化対策のための石油石炭税の税率の特例）
+[a90-3-2:title] 第九十条の三の二
+[a90-3-2-p1:sentence] 地球温暖化対策を推進する観点から、平成二十四年十月一日以後に原油、ガス状炭化水素若しくは石炭の採取場から移出される原油、ガス状炭化水素若しくは石炭又は保税地域から引き取られる原油若しくは石油製品、ガス状炭化水素若しくは石炭に係る石油石炭税の税額は、石油石炭税法第九条の規定にかかわらず、次の各号に掲げる区分に応じ、当該各号に定める税率により計算した金額とする。
+[a90-3-2-p1-i1:title] 一
+[a90-3-2-p1-i1:sentence] 原油及び石油製品
+[a90-3-2-p1-i1:sentence] 一キロリットルにつき二千八百円
+[a90-3-2-p1-i2:title] 二
+[a90-3-2-p1-i2:sentence] ガス状炭化水素
+[a90-3-2-p1-i2:sentence] 一トンにつき千八百六十円
+[a90-3-2-p1-i3:title] 三
+[a90-3-2-p1-i3:sentence] 石炭
+[a90-3-2-p1-i3:sentence] 一トンにつき千三百七十円

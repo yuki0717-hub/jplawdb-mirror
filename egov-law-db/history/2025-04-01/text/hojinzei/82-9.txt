@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 82-9
+title: 第八十二条の九
+deleted: false
+
+[a82-9:caption] （国際最低課税額に係る確定申告による納付）
+[a82-9:title] 第八十二条の九
+[a82-9-p1:sentence] 第八十二条の六第一項（国際最低課税額に係る確定申告）の規定による申告書を提出した内国法人は、当該申告書に記載した同項第二号に掲げる金額があるときは、当該申告書の提出期限までに、当該金額に相当する法人税を国に納付しなければならない。

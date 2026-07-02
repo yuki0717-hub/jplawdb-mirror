@@ -1,0 +1,31 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2025-04-01
+article: 21-7
+title: 第二十一条の七
+deleted: false
+
+[a21-7:caption] （贈与税の税率）
+[a21-7:title] 第二十一条の七
+[a21-7-p1:sentence] 贈与税の額は、前二条の規定による控除後の課税価格を次の表の上欄に掲げる金額に区分してそれぞれの金額に同表の下欄に掲げる税率を乗じて計算した金額を合計した金額とする。
+[a21-7-p1:sentence] 二百万円以下の金額
+[a21-7-p1:sentence] 百分の十
+[a21-7-p1:sentence] 二百万円を超え三百万円以下の金額
+[a21-7-p1:sentence] 百分の十五
+[a21-7-p1:sentence] 三百万円を超え四百万円以下の金額
+[a21-7-p1:sentence] 百分の二十
+[a21-7-p1:sentence] 四百万円を超え六百万円以下の金額
+[a21-7-p1:sentence] 百分の三十
+[a21-7-p1:sentence] 六百万円を超え千万円以下の金額
+[a21-7-p1:sentence] 百分の四十
+[a21-7-p1:sentence] 千万円を超え千五百万円以下の金額
+[a21-7-p1:sentence] 百分の四十五
+[a21-7-p1:sentence] 千五百万円を超え三千万円以下の金額
+[a21-7-p1:sentence] 百分の五十
+[a21-7-p1:sentence] 三千万円を超える金額
+[a21-7-p1:sentence] 百分の五十五

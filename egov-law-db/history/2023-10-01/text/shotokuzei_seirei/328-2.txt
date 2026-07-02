@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 328-2
+title: 第三百二十八条の二
+deleted: false
+
+[a328-2:caption] （組合員に類する者の範囲）
+[a328-2:title] 第三百二十八条の二
+[a328-2-p1:sentence] 法第二百十二条第五項（源泉徴収義務）に規定する組合員に類する者で政令で定めるものは、同項に規定する組合契約を締結していた組合員並びに第二百八十一条の二第一項第三号（恒久的施設を通じて行う組合事業から生ずる利益）に掲げる契約を締結している者及び当該契約を締結していた者とする。

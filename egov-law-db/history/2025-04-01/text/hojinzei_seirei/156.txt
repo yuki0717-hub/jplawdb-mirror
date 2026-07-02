@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 156
+title: 第百五十六条
+deleted: false
+
+[a156:title] 第百五十六条
+[a156-p1:sentence] 法第八十二条の七第三項（電子情報処理組織による申告）に規定する政令で定める法令は、地方法人税法その他の法人税の申告に関する法令（法（これに基づく命令を含む。）及び国税通則法を除く。）とする。

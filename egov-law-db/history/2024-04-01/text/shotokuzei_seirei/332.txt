@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 332
+title: 第三百三十二条
+deleted: false
+
+[a332:caption] （源泉徴収を免除されない非居住者の国内源泉所得）
+[a332:title] 第三百三十二条
+[a332-p1:sentence] 法第二百十四条第一項（源泉徴収を要しない非居住者の国内源泉所得）に規定する政令で定める国内源泉所得は、次に掲げる国内源泉所得とする。
+[a332-p1-i1:title] 一
+[a332-p1-i1:sentence] 法第百六十一条第一項第十一号（国内源泉所得）に掲げる使用料又は対価で法第二百四条第一項第一号（源泉徴収義務）に掲げる報酬又は料金に該当するもの
+[a332-p1-i2:title] 二
+[a332-p1-i2:sentence] 法第百六十一条第一項第十二号イに掲げる報酬で法第二百四条第一項第五号に掲げる人的役務の提供に関する報酬又は料金に該当するもの以外のもの
+[a332-p1-i3:title] 三
+[a332-p1-i3:sentence] 法第百六十一条第一項第十四号に掲げる年金でその支払額が二十五万円以上のもの

@@ -1,0 +1,29 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20231001
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20231001_505CO0000000246
+as_of: 2023-10-01
+article: 4
+title: 第四条
+deleted: false
+
+[a4:caption] （棚卸資産の範囲）
+[a4:title] 第四条
+[a4-p1:sentence] 法第二条第一項第十五号に規定する政令で定める資産は、棚卸をすべき資産で次に掲げるものとする。
+[a4-p1-i1:title] 一
+[a4-p1-i1:sentence] 商品又は製品（副産物及び作業くずを含む。）
+[a4-p1-i2:title] 二
+[a4-p1-i2:sentence] 半製品
+[a4-p1-i3:title] 三
+[a4-p1-i3:sentence] 仕掛品（半成工事を含む。）
+[a4-p1-i4:title] 四
+[a4-p1-i4:sentence] 主要原材料
+[a4-p1-i5:title] 五
+[a4-p1-i5:sentence] 補助原材料
+[a4-p1-i6:title] 六
+[a4-p1-i6:sentence] 消耗品で貯蔵中のもの
+[a4-p1-i7:title] 七
+[a4-p1-i7:sentence] 前各号に掲げる資産に準ずるもの

@@ -1,0 +1,26 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 84-6
+title: 第八十四条の六
+deleted: false
+
+[a84-6:caption] （動産譲渡登記等に係る登録免許税の税率の特例）
+[a84-6:title] 第八十四条の六
+[a84-6-p1:sentence] 個人又は法人が、登録免許税法別表第一第九号の動産の譲渡又は債権の譲渡若しくは質権の設定について次の各号に掲げる登記（第二号に掲げる登記にあつては、同号の債権又は同号の質権の目的とされた債権の個数が五千個以下であるものに限る。）を受ける場合には、当該登記に係る登録免許税の税率は、同法第九条の規定にかかわらず、当該各号に掲げる登記の区分に応じ、当該各号に定める金額とする。
+[a84-6-p1-i1:title] 一
+[a84-6-p1-i1:sentence] 動産の譲渡の登記
+[a84-6-p1-i1:sentence] 一件につき七千五百円
+[a84-6-p1-i2:title] 二
+[a84-6-p1-i2:sentence] 債権の譲渡又は質権の設定の登記
+[a84-6-p1-i2:sentence] 一件につき七千五百円
+[a84-6-p1-i3:title] 三
+[a84-6-p1-i3:sentence] 前二号に掲げる登記の存続期間を延長する登記
+[a84-6-p1-i3:sentence] 一件につき三千円
+[a84-6-p2:number] ２
+[a84-6-p2:sentence] 前項の債権又は質権の目的とされた債権の個数の算定方法は、財務省令で定める。

@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 104
+title: 第百四条
+deleted: false
+
+[a104:caption] （棚卸資産の取得価額の特例）
+[a104:title] 第百四条
+[a104-p1:sentence] 居住者の有する棚卸資産につき次に掲げる事実が生じた場合には、その事実の生じた日の属する年以後の各年における当該資産の第九十九条第一項（棚卸資産の評価の方法）又は第九十九条の二第一項（棚卸資産の特別な評価の方法）の規定による評価額の計算については、その年十二月三十一日における当該資産の価額をもつて、前条第一項に規定する取得価額とすることができる。
+[a104-p1-i1:title] 一
+[a104-p1-i1:sentence] 当該資産が災害により著しく損傷したこと。
+[a104-p1-i2:title] 二
+[a104-p1-i2:sentence] 当該資産が著しく陳腐化したこと。
+[a104-p1-i3:title] 三
+[a104-p1-i3:sentence] 前二号に準ずる特別の事実

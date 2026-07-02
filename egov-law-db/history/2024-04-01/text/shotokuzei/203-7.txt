@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 203-7
+title: 第二百三条の七
+deleted: false
+
+[a203-7:caption] （源泉徴収を要しない公的年金等）
+[a203-7:title] 第二百三条の七
+[a203-7-p1:sentence] 居住者が前条第一項に規定する公的年金等の支払を受ける場合において、その年中に支払を受けるべき当該公的年金等の額がその年最初に当該公的年金等の支払を受けるべき日の前日の現況において政令で定める金額に満たないときは、当該公的年金等については、第二百三条の二（源泉徴収義務）の規定による所得税の徴収及び納付は、要しないものとする。

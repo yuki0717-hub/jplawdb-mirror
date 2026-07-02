@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260701
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260702
 law: 法人税法施行令 (hojinzei_seirei)
 law_num: 昭和四十年政令第九十七号
 law_id: 340CO0000000097
 law_revision_id: 340CO0000000097_20260601_508CO0000000094
-as_of: 2026-07-01
+as_of: 2026-07-02
 article: 24-2
 title: 第二十四条の二
 deleted: false

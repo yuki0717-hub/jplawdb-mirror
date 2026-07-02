@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20240401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20240401_506CO0000000151
+as_of: 2024-04-01
+article: 23-3
+title: 第二十三条の三
+deleted: false
+
+[a23-3:caption] （低未利用土地等を譲渡した場合の長期譲渡所得の特別控除）
+[a23-3:title] 第二十三条の三
+[a23-3-p1:sentence] 法第三十五条の三第二項第一号に規定する当該個人と政令で定める特別の関係がある者は、前条第一項各号に掲げる者とする。
+[a23-3-p2:number] ２
+[a23-3-p2:sentence] 法第三十五条の三第二項第二号イに規定する政令で定める区域は、次に掲げる区域とする。
+[a23-3-p2-i1:title] 一
+[a23-3-p2-i1:sentence] 都市計画法第七条第一項の市街化区域と定められた区域
+[a23-3-p2-i2:title] 二
+[a23-3-p2-i2:sentence] 都市計画法第七条第一項に規定する区域区分に関する同法第四条第一項に規定する都市計画が定められていない同条第二項に規定する都市計画区域のうち、同法第八条第一項第一号に規定する用途地域が定められている区域

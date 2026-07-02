@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 153
+title: 第百五十三条
+deleted: false
+
+[a153:caption] （中間納付額の還付の手続）
+[a153:title] 第百五十三条
+[a153-p1:sentence] 税務署長は、法第七十四条第一項第五号（中間納付額の控除不足額）に掲げる金額の記載がある確定申告書の提出があつた場合には、当該金額が過大であると認められる事由がある場合を除き、遅滞なく、法第七十九条第一項又は第二項（中間納付額の還付）の規定による還付又は充当の手続をしなければならない。

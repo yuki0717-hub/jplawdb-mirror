@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20250401
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20250401_507CO0000000125
+as_of: 2025-04-01
+article: 11
+title: 第十一条
+deleted: false
+
+[a11:caption] （物品切手に類するものの範囲）
+[a11:title] 第十一条
+[a11-p1:sentence] 法別表第二第四号ハに規定する政令で定めるものは、役務の提供又は物品の貸付けに係る請求権を表彰する証書及び資金決済に関する法律第三条第一項（定義）に規定する前払式支払手段に該当する同項各号に規定する番号、記号その他の符号（電子決済手段に該当するものを除く。）とする。

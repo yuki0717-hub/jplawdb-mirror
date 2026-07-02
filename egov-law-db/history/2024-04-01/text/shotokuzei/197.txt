@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 197
+title: 第百九十七条
+deleted: false
+
+[a197:caption] （給与所得者の源泉徴収に関する申告から除外される給与等）
+[a197:title] 第百九十七条
+[a197-p1:sentence] 次に掲げる給与等は、第百九十四条から前条まで（給与所得者の源泉徴収に関する申告書）に規定する給与等に含まれないものとする。
+[a197-p1-i1:title] 一
+[a197-p1-i1:sentence] 第百八十四条（源泉徴収を要しない給与等の支払者）の規定によりその所得税を徴収して納付することを要しないものとされる給与等
+[a197-p1-i2:title] 二
+[a197-p1-i2:sentence] 第百八十五条第一項第三号（労働した日ごとに支払われる給与等）に掲げる給与等

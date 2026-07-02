@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20231001_504AC1000000071
+as_of: 2023-10-01
+article: 182
+title: 第百八十二条
+deleted: false
+
+[a182:caption] （徴収税額）
+[a182:title] 第百八十二条
+[a182-p1:sentence] 前条の規定により徴収すべき所得税の額は、次の各号の区分に応じ当該各号に掲げる金額とする。
+[a182-p1-i1:title] 一
+[a182-p1-i1:sentence] 利子等
+[a182-p1-i1:sentence] その金額に百分の十五の税率を乗じて計算した金額
+[a182-p1-i2:title] 二
+[a182-p1-i2:sentence] 配当等
+[a182-p1-i2:sentence] その金額に百分の二十の税率を乗じて計算した金額

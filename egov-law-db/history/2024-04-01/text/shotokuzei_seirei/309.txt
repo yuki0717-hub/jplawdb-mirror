@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 309
+title: 第三百九条
+deleted: false
+
+[a309:caption] （日払の給与等の意義）
+[a309:title] 第三百九条
+[a309-p1:sentence] 法第百八十五条第一項第三号（賞与以外の給与等に係る徴収税額）に規定する政令で定める給与等は、日日雇い入れられる者が支払を受ける給与等（一の給与等の支払者から継続して二月をこえて支払を受ける場合におけるその二月をこえて支払を受けるものを除く。）とする。

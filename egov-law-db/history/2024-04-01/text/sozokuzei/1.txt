@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 1
+title: 第一条
+deleted: false
+
+[a1:caption] （趣旨）
+[a1:title] 第一条
+[a1-p1:sentence] この法律は、相続税及び贈与税について、納税義務者、課税財産の範囲、税額の計算の方法、申告、納付及び還付の手続並びにその納税義務の適正な履行を確保するため必要な事項を定めるものとする。

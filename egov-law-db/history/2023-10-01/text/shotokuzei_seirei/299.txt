@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 299
+title: 第二百九十九条
+deleted: false
+
+[a299:caption] （内国法人に係る所得税の税率）
+[a299:title] 第二百九十九条
+[a299-p1:sentence] 法第百七十五条第三号（内国法人に係る所得税の税率）に規定する政令で定める金額は、前条第一項に規定する金額とする。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法 (sozokuzei)
+law_num: 昭和二十五年法律第七十三号
+law_id: 325AC0000000073
+law_revision_id: 325AC0000000073_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 21-13
+title: 第二十一条の十三
+deleted: false
+
+[a21-13:caption] （相続時精算課税に係る贈与税の税率）
+[a21-13:title] 第二十一条の十三
+[a21-13-p1:sentence] 相続時精算課税適用者がその年中において特定贈与者からの贈与により取得した財産に係るその年分の贈与税の額は、特定贈与者ごとに、第二十一条の十一の二第一項の規定による控除後の贈与税の課税価格（前条第一項の規定の適用がある場合には、同項の規定による控除後の金額）にそれぞれ百分の二十の税率を乗じて計算した金額とする。

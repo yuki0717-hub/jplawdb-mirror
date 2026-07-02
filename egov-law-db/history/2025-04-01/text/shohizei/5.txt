@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20250401
+snapshot_kind: historical
+law: 消費税法 (shohizei)
+law_num: 昭和六十三年法律第百八号
+law_id: 363AC0000000108
+law_revision_id: 363AC0000000108_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 5
+title: 第五条
+deleted: false
+
+[a5:caption] （納税義務者）
+[a5:title] 第五条
+[a5-p1:sentence] 事業者は、国内において行つた課税資産の譲渡等（特定資産の譲渡等に該当するものを除く。第三十条第二項及び第三十二条を除き、以下同じ。）及び特定課税仕入れ（課税仕入れのうち特定仕入れに該当するものをいう。以下同じ。）につき、この法律により、消費税を納める義務がある。
+[a5-p2:number] ２
+[a5-p2:sentence] 外国貨物を保税地域から引き取る者は、課税貨物につき、この法律により、消費税を納める義務がある。

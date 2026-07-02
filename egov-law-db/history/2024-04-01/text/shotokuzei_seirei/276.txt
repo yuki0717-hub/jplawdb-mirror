@@ -1,0 +1,27 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 276
+title: 第二百七十六条
+deleted: false
+
+[a276:caption] （事業の主宰者の特殊関係者の範囲）
+[a276:title] 第二百七十六条
+[a276-p1:sentence] 法第百五十七条第一項第二号ロ（同族会社等の行為又は計算の否認等）及び第百五十八条（事業所の所得の帰属の推定）に規定する主宰者と政令で定める特殊の関係のある個人は、次に掲げる者及びこれらの者であつた者とする。
+[a276-p1-i1:title] 一
+[a276-p1-i1:sentence] 当該主宰者の親族
+[a276-p1-i2:title] 二
+[a276-p1-i2:sentence] 当該主宰者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+[a276-p1-i3:title] 三
+[a276-p1-i3:sentence] 当該主宰者の使用人
+[a276-p1-i4:title] 四
+[a276-p1-i4:sentence] 前三号に掲げる者以外の者で当該主宰者から受ける金銭その他の資産によつて生計を維持するもの
+[a276-p1-i5:title] 五
+[a276-p1-i5:sentence] 当該主宰者の雇主
+[a276-p1-i6:title] 六
+[a276-p1-i6:sentence] 第二号から前号までに掲げる者と生計を一にするこれらの者の親族

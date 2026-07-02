@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260701
+source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260702
 law: 法人税法施行規則 (hojinzei_kisoku)
 law_num: 昭和四十年大蔵省令第十二号
 law_id: 340M50000040012
 law_revision_id: 340M50000040012_20260522_508M60000040039
-as_of: 2026-07-01
+as_of: 2026-07-02
 article: 8
 title: 第八条
 deleted: false

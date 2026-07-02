@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 9
+title: 第九条
+deleted: false
+
+[a9:caption] （退職年金業務等を行う外国法人の退職年金等積立金の課税）
+[a9:title] 第九条
+[a9-p1:sentence] 第百四十五条の三（外国法人に係る退職年金等積立金の額の計算）に規定する退職年金業務等を行う外国法人に対しては、前条第一項の規定により課する法人税のほか、各事業年度の退職年金等積立金について、退職年金等積立金に対する法人税を課する。

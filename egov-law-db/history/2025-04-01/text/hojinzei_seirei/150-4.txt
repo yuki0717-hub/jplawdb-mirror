@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 150-4
+title: 第百五十条の四
+deleted: false
+
+[a150-4:caption] （電子情報処理組織による申告）
+[a150-4:title] 第百五十条の四
+[a150-4-p1:sentence] 法第七十五条の四第三項（電子情報処理組織による申告）に規定する政令で定める法令は、地方法人税法、租税特別措置法、租税特別措置の適用状況の透明化等に関する法律（平成二十二年法律第八号）、東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律その他の法人税の申告に関する法令（法（これに基づく命令を含む。）及び国税通則法を除く。）とする。

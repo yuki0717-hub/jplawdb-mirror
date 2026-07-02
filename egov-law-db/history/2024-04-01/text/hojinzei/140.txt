@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 140
+title: 第百四十条
+deleted: false
+
+[a140:caption] （国内源泉所得の範囲の細目）
+[a140:title] 第百四十条
+[a140-p1:sentence] 前二条に定めるもののほか、国内源泉所得の範囲に関し必要な事項は、政令で定める。

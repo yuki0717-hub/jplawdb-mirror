@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20231001
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20221231_504CO0000000147
+as_of: 2023-10-01
+article: 44
+title: 第四十四条
+deleted: false
+
+[a44:caption] （領置物件等の封印等）
+[a44:title] 第四十四条
+[a44-p1:sentence] 当該職員（法第百三十一条第一項（質問、検査又は領置等）に規定する当該職員をいう。以下同じ。）は、物件の領置、差押え又は記録命令付差押え（法第百三十二条第一項（臨検、捜索又は差押え等）に規定する記録命令付差押えをいう。以下同じ。）をしたときは、これに封印をし、又はその他の方法により、領置、差押え又は記録命令付差押えをしたことを明らかにしなければならない。

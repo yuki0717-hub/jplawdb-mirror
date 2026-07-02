@@ -1,0 +1,16 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 136-3
+title: 第百三十六条の三
+deleted: false
+
+[a136-3:title] 第百三十六条の三
+[a136-3-p1:sentence] 医療法人がその設立について贈与又は遺贈を受けた金銭の額又は金銭以外の資産の価額は、その医療法人の各事業年度の所得の金額の計算上、益金の額に算入しない。
+[a136-3-p2:number] ２
+[a136-3-p2:sentence] 社団である医療法人で持分の定めのあるものが持分の定めのない医療法人となる場合において、持分の全部又は一部の払戻しをしなかつたときは、その払戻しをしなかつたことにより生ずる利益の額は、その医療法人の各事業年度の所得の金額の計算上、益金の額に算入しない。

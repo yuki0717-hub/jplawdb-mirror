@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 12
+title: 第十二条
+deleted: false
+
+[a12:caption] （農業の範囲）
+[a12:title] 第十二条
+[a12-p1:sentence] 法第二条第一項第三十五号（特別農業所得者の意義）に規定する政令で定める事業は、次に掲げる事業とする。
+[a12-p1-i1:title] 一
+[a12-p1-i1:sentence] 米、麦その他の穀物、馬鈴しよ、甘しよ、たばこ、野菜、花、種苗その他のほ場作物、果樹、樹園の生産物又は温室その他特殊施設を用いてする園芸作物の栽培を行なう事業
+[a12-p1-i2:title] 二
+[a12-p1-i2:sentence] 繭又は蚕種の生産を行なう事業
+[a12-p1-i3:title] 三
+[a12-p1-i3:sentence] 主として前二号に規定する物の栽培又は生産をする者が兼営するわら工品その他これに類する物の生産、家畜、家きん、毛皮獣若しくは蜂はちの育成、肥育、採卵若しくはみつの採取又は酪農品の生産を行なう事業

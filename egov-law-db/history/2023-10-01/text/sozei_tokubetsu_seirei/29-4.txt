@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 29-4
+title: 第二十九条の四
+deleted: false
+
+[a29-4:caption] （輸出事業用資産の割増償却）
+[a29-4:title] 第二十九条の四
+[a29-4-p1:sentence] 法第四十六条の二第一項に規定する政令で定めるものは、機械及び装置、建物及びその附属設備並びに構築物のうち、同項に規定する農林水産物又は同項に規定する食品の生産、製造、加工又は流通の合理化、高度化その他の改善に資するものとして農林水産大臣が定める要件を満たすものとする。
+[a29-4-p2:number] ２
+[a29-4-p2:sentence] 農林水産大臣は、前項の規定により要件を定めたときは、これを告示する。

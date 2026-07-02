@@ -1,0 +1,1009 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20240401
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20240401_505CO0000000210
+as_of: 2024-04-01
+supplementary_count: 90
+---
+[supplementary:001]
+label: 附 則
+amendment_law_num: 
+extract: 
+
+[suppl001:label] 附 則
+[suppl001-p1:number] １
+[suppl001-p1:sentence] この政令は、国税通則法の施行の日から施行する。
+[suppl001-p1:sentence] ただし、第八章（不服審査）の規定は、昭和三十七年十月一日から施行する。
+[suppl001-p2:number] ２
+[suppl001-p2:sentence] 法附則第九条第一項（加算税に関する経過措置）及び第十条（国税の更正、決定等の期間制限の特例に関する経過措置）に規定する政令で定める日は、還付請求申告書の提出期限（提出期限の定めがない還付請求申告書については、当該申告書を提出することができる者についてその申告に係る還付金がなく、納付すべき税額があるものとした場合におけるその国税の法定申告期限）とする。
+
+[supplementary:002]
+label: 附 則
+amendment_law_num: 昭和三八年六月一九日政令第二〇八号
+extract: 
+
+[suppl002:label] 附 則
+[suppl002-p1:sentence] この政令は、昭和三十八年七月一日から施行する。
+
+[supplementary:003]
+label: 附 則
+amendment_law_num: 昭和三九年三月三一日政令第六九号
+extract: true
+
+[suppl003:label] 附 則
+[suppl003-p1:number] １
+[suppl003-p1:sentence] この政令は、昭和三十九年四月一日から施行する。
+
+[supplementary:004]
+label: 附 則
+amendment_law_num: 昭和三九年三月三一日政令第七二号
+extract: true
+
+[suppl004:label] 附 則
+[suppl004-p1:number] １
+[suppl004-p1:sentence] この政令は、昭和三十九年四月一日から施行する。
+
+[supplementary:005]
+label: 附 則
+amendment_law_num: 昭和四〇年三月三一日政令第九九号
+extract: true
+
+[suppl005:label] 附 則
+[suppl005-a1:caption] （施行期日）
+[suppl005-a1:title] 第一条
+[suppl005-a1-p1:sentence] この政令は、昭和四十年四月一日から施行する。
+[suppl005-a4:caption] （国税通則法等の一部改正に伴う経過規定）
+[suppl005-a4:title] 第四条
+[suppl005-a4-p1:sentence] 整備法第十条の規定による改正後の国税通則法（昭和三十七年法律第六十六号。以下この条において「国税通則法」という。）第四十六条第三項、第五十六条、第五十八条第二項、第六十三条、第六十四条第三項、第七十九条第二項第二号及び第八十四条第一項並びに第五条の規定による改正後の国税通則法施行令第十五条第二項及び第二十六条の二の規定は、施行日以後にされる納税の猶予、国税の還付金若しくは国税に係る過誤納金についての支払決定若しくは充当、延滞税若しくは利子税の免除、不服申立て又は滞納処分（その例による処分を含む。）による配当について適用し、同日前にされたこれらの処分又は行為については、なお従前の例による。
+[suppl005-a4-p2:number] ２
+[suppl005-a4-p2:sentence] 国税通則法第八十一条及び第八十二条又は第八十七条第一項第三号の規定は、施行日以後に不服申立てについて決定若しくは裁決をし、又は同号に規定する他の更正決定等の取消しを求める場合について適用し、同日前に当該決定若しくは裁決をし、又は当該他の更正決定等の取消しを求めた場合については、なお従前の例による。
+
+[supplementary:006]
+label: 附 則
+amendment_law_num: 昭和四一年一月二四日政令第五号
+extract: true
+
+[suppl006:label] 附 則
+[suppl006-p1:number] １
+[suppl006-p1:sentence] この政令は、昭和四十一年二月一日から施行する。
+
+[supplementary:007]
+label: 附 則
+amendment_law_num: 昭和四一年三月三一日政令第八四号
+extract: true
+
+[suppl007:label] 附 則
+[suppl007-a1:caption] （施行期日）
+[suppl007-a1:title] 第一条
+[suppl007-a1-p1:sentence] この政令は、昭和四十一年四月一日から施行する。
+
+[supplementary:008]
+label: 附 則
+amendment_law_num: 昭和四一年七月一日政令第二二八号
+extract: true
+
+[suppl008:label] 附 則
+[suppl008-p1:number] １
+[suppl008-p1:sentence] この政令は、関税法等の一部を改正する法律（昭和四十一年法律第三十六号）附則第一項に規定する指定日から施行する。
+
+[supplementary:009]
+label: 附 則
+amendment_law_num: 昭和四二年五月三一日政令第一〇〇号
+extract: 
+
+[suppl009:label] 附 則
+[suppl009-p1:sentence] この政令は、昭和四十二年六月一日から施行する。
+
+[supplementary:010]
+label: 附 則
+amendment_law_num: 昭和四二年五月三一日政令第一〇八号
+extract: true
+
+[suppl010:label] 附 則
+[suppl010-p1:number] １
+[suppl010-p1:sentence] この政令は、昭和四十二年六月一日から施行する。
+
+[supplementary:011]
+label: 附 則
+amendment_law_num: 昭和四二年六月三〇日政令第一六二号
+extract: true
+
+[suppl011:label] 附 則
+[suppl011-p1:number] １
+[suppl011-p1:sentence] この政令は、昭和四十二年八月一日から施行する。
+
+[supplementary:012]
+label: 附 則
+amendment_law_num: 昭和四三年四月二〇日政令第九五号
+extract: true
+
+[suppl012:label] 附 則
+[suppl012-a1:caption] （施行期日）
+[suppl012-a1:title] 第一条
+[suppl012-a1-p1:sentence] この政令は、公布の日から施行する。
+
+[supplementary:013]
+label: 附 則
+amendment_law_num: 昭和四五年四月一日政令第五一号
+extract: true
+
+[suppl013:label] 附 則
+[suppl013-p1:caption] （施行期日）
+[suppl013-p1:number] １
+[suppl013-p1:sentence] この政令は、昭和四十五年五月一日から施行する。
+
+[supplementary:014]
+label: 附 則
+amendment_law_num: 昭和四六年八月二八日政令第二七五号
+extract: true
+
+[suppl014:label] 附 則
+[suppl014-p1:number] １
+[suppl014-p1:sentence] この政令は、昭和四十六年十二月一日から施行する。
+
+[supplementary:015]
+label: 附 則
+amendment_law_num: 昭和四七年三月三一日政令第五七号
+extract: true
+
+[suppl015:label] 附 則
+[suppl015-p1:number] １
+[suppl015-p1:sentence] この政令は、昭和四十七年四月一日から施行する。
+
+[supplementary:016]
+label: 附 則
+amendment_law_num: 昭和四七年九月一日政令第三二七号
+extract: 
+
+[suppl016:label] 附 則
+[suppl016-p1:number] １
+[suppl016-p1:sentence] この政令は、公布の日から施行する。
+[suppl016-p2:number] ２
+[suppl016-p2:sentence] 改正後の国税通則法施行令第四十条第三項第三号の規定は、この政令の施行の日以後に取引所税法第十七条第一項又は第十七条ノ二第一項の規定に該当する行為があつた場合における取引税の確定金額について適用し、同日前にこれらの行為があつた場合における取引税の確定金額については、なお従前の例による。
+
+[supplementary:017]
+label: 附 則
+amendment_law_num: 昭和四九年九月二七日政令第三三九号
+extract: true
+
+[suppl017:label] 附 則
+[suppl017-p1:number] １
+[suppl017-p1:sentence] この政令は、昭和四十九年十月一日から施行する。
+
+[supplementary:018]
+label: 附 則
+amendment_law_num: 昭和五〇年三月三一日政令第五三号
+extract: 
+
+[suppl018:label] 附 則
+[suppl018-p1:sentence] この政令は、昭和五十年四月一日から施行する。
+
+[supplementary:019]
+label: 附 則
+amendment_law_num: 昭和五二年三月三一日政令第五三号
+extract: true
+
+[suppl019:label] 附 則
+[suppl019-a1:caption] （施行期日）
+[suppl019-a1:title] 第一条
+[suppl019-a1-p1:sentence] この政令は、昭和五十二年四月一日から施行する。
+
+[supplementary:020]
+label: 附 則
+amendment_law_num: 昭和五三年四月一八日政令第一三二号
+extract: true
+
+[suppl020:label] 附 則
+[suppl020-a1:caption] （施行期日）
+[suppl020-a1:title] 第一条
+[suppl020-a1-p1:sentence] この政令は、法の施行の日（昭和五十三年四月十八日）から施行する。
+
+[supplementary:021]
+label: 附 則
+amendment_law_num: 昭和五三年五月二三日政令第一七五号
+extract: 
+
+[suppl021:label] 附 則
+[suppl021-p1:sentence] この政令は、公布の日から施行する。
+
+[supplementary:022]
+label: 附 則
+amendment_law_num: 昭和五六年三月二七日政令第四六号
+extract: true
+
+[suppl022:label] 附 則
+[suppl022-a1:caption] （施行期日）
+[suppl022-a1:title] 第一条
+[suppl022-a1-p1:sentence] この政令は、昭和五十六年四月一日から施行する。
+
+[supplementary:023]
+label: 附 則
+amendment_law_num: 昭和五六年三月三一日政令第六〇号
+extract: true
+
+[suppl023:label] 附 則
+[suppl023-p1:caption] （施行期日）
+[suppl023-p1:number] １
+[suppl023-p1:sentence] この政令は、昭和五十六年四月一日から施行する。
+
+[supplementary:024]
+label: 附 則
+amendment_law_num: 昭和五六年三月三一日政令第六五号
+extract: 
+
+[suppl024:label] 附 則
+[suppl024-p1:sentence] この政令は、昭和五十六年四月一日から施行する。
+
+[supplementary:025]
+label: 附 則
+amendment_law_num: 昭和五八年七月一日政令第一四五号
+extract: 
+
+[suppl025:label] 附 則
+[suppl025-p1:sentence] この政令は、昭和五十八年八月一日から施行する。
+
+[supplementary:026]
+label: 附 則
+amendment_law_num: 昭和五九年三月三一日政令第五九号
+extract: 
+
+[suppl026:label] 附 則
+[suppl026-p1:number] １
+[suppl026-p1:sentence] この政令は、昭和五十九年四月一日から施行する。
+[suppl026-p2:number] ２
+[suppl026-p2:sentence] 法人（法人税法（昭和四十年法律第三十四号）第二条第八号に規定する人格のない社団等を含む。）のこの政令の施行の日前に終了した事業年度の延納に係る法人税にする国税通則法第五十七条第一項の規定による充当については、この政令による改正前の国税通則法施行令第二十三条第一項の規定は、なおその効力を有する。
+
+[supplementary:027]
+label: 附 則
+amendment_law_num: 昭和五九年四月一三日政令第九六号
+extract: true
+
+[suppl027:label] 附 則
+[suppl027-a1:caption] （施行期日）
+[suppl027-a1:title] 第一条
+[suppl027-a1-p1:sentence] この政令は、昭和五十九年四月二十日から施行する。
+
+[supplementary:028]
+label: 附 則
+amendment_law_num: 昭和六〇年一月二五日政令第五号
+extract: true
+
+[suppl028:label] 附 則
+[suppl028-a1:caption] （施行期日）
+[suppl028-a1:title] 第一条
+[suppl028-a1-p1:sentence] この政令は、昭和六十年四月一日から施行する。
+
+[supplementary:029]
+label: 附 則
+amendment_law_num: 昭和六〇年一二月二一日政令第三一七号
+extract: true
+
+[suppl029:label] 附 則
+[suppl029-p1:caption] （施行期日等）
+[suppl029-p1:number] １
+[suppl029-p1:sentence] この政令は、公布の日から施行する。
+[suppl029-p1:sentence] ただし、第四十二条の規定は、昭和六十一年一月一日から施行する。
+[suppl029-p2:number] ２
+[suppl029-p2:sentence] この政令（第四十二条の規定を除く。）による改正後の次に掲げる政令の規定は、昭和六十年七月一日から適用する。
+[suppl029-p2-i1:9:title] 一から九まで
+[suppl029-p2-i1:9:sentence] 略
+[suppl029-p2-i10:title] 十
+[suppl029-p2-i10:sentence] 国税通則法施行令
+
+[supplementary:030]
+label: 附 則
+amendment_law_num: 昭和六一年三月三一日政令第八六号
+extract: 
+
+[suppl030:label] 附 則
+[suppl030-p1:sentence] この政令は、昭和六十一年八月一日から施行する。
+
+[supplementary:031]
+label: 附 則
+amendment_law_num: 昭和六三年三月二九日政令第五九号
+extract: 
+
+[suppl031:label] 附 則
+[suppl031-p1:sentence] この政令は、公布の日から施行する。
+
+[supplementary:032]
+label: 附 則
+amendment_law_num: 昭和六三年一〇月二一日政令第三〇四号
+extract: 
+
+[suppl032:label] 附 則
+[suppl032-p1:sentence] この政令は、昭和六十四年二月一日から施行する。
+
+[supplementary:033]
+label: 附 則
+amendment_law_num: 昭和六三年一二月二三日政令第三五一号
+extract: true
+
+[suppl033:label] 附 則
+[suppl033-p1:number] １
+[suppl033-p1:sentence] この政令は、昭和六十四年一月一日から施行する。
+
+[supplementary:034]
+label: 附 則
+amendment_law_num: 昭和六三年一二月三〇日政令第三六一号
+extract: true
+
+[suppl034:label] 附 則
+[suppl034-a1:caption] （施行期日）
+[suppl034-a1:title] 第一条
+[suppl034-a1-p1:sentence] この政令は、昭和六十四年四月一日から施行する。
+
+[supplementary:035]
+label: 附 則
+amendment_law_num: 昭和六三年一二月三〇日政令第三六二号
+extract: true
+
+[suppl035:label] 附 則
+[suppl035-a1:caption] （施行期日）
+[suppl035-a1:title] 第一条
+[suppl035-a1-p1:sentence] この政令は、昭和六十四年一月一日から施行する。
+[suppl035-a1-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl035-a1-p1-i1:2:title] 一及び二
+[suppl035-a1-p1-i1:2:sentence] 略
+[suppl035-a1-p1-i3:title] 三
+[suppl035-a1-p1-i3:sentence] 次に掲げる規定
+[suppl035-a1-p1-i3:sentence] 昭和六十四年四月一日
+[suppl035-a1-p1-i3-s1-1:title] イからヲまで
+[suppl035-a1-p1-i3-s1-1:sentence] 略
+[suppl035-a1-p1-i3-s1-2:title] ワ
+[suppl035-a1-p1-i3-s1-2:sentence] 第十四条及び第十五条の規定
+
+[supplementary:036]
+label: 附 則
+amendment_law_num: 平成二年三月三一日政令第九二号
+extract: true
+
+[suppl036:label] 附 則
+[suppl036-a1:caption] （施行期日）
+[suppl036-a1:title] 第一条
+[suppl036-a1-p1:sentence] この政令は、平成二年四月一日から施行する。
+
+[supplementary:037]
+label: 附 則
+amendment_law_num: 平成二年五月一八日政令第一一七号
+extract: true
+
+[suppl037:label] 附 則
+[suppl037-a1:caption] （施行期日）
+[suppl037-a1:title] 第一条
+[suppl037-a1-p1:sentence] この政令は、平成二年十月一日から施行する。
+[suppl037-a10:caption] （国税通則法施行令の一部改正に伴う経過措置）
+[suppl037-a10:title] 第十条
+[suppl037-a10-p1:sentence] 前条の規定による改正後の国税通則法施行令第四十条第二項第三号（国税の確定金額の端数計算の特例）の規定は、施行日以後に法第五条第一項の規定に該当する取引があった場合における取引所税の確定金額について適用し、施行日前に法による改正前の取引所税法（大正三年法律第二十三号）第十七条第一項又は第十七条ノ二第一項の規定に該当する行為があった場合における取引税の確定金額については、なお従前の例による。
+
+[supplementary:038]
+label: 附 則
+amendment_law_num: 平成三年三月一九日政令第四一号
+extract: true
+
+[suppl038:label] 附 則
+[suppl038-a1:caption] （施行期日）
+[suppl038-a1:title] 第一条
+[suppl038-a1-p1:sentence] この政令は、平成三年四月一日から施行する。
+
+[supplementary:039]
+label: 附 則
+amendment_law_num: 平成三年六月七日政令第二〇一号
+extract: true
+
+[suppl039:label] 附 則
+[suppl039-a1:caption] （施行期日）
+[suppl039-a1:title] 第一条
+[suppl039-a1-p1:sentence] この政令は、平成三年十月一日から施行する。
+
+[supplementary:040]
+label: 附 則
+amendment_law_num: 平成六年七月二七日政令第二五一号
+extract: 
+
+[suppl040:label] 附 則
+[suppl040-p1:sentence] この政令は、一般職の職員の勤務時間、休暇等に関する法律の施行の日（平成六年九月一日）から施行する。
+
+[supplementary:041]
+label: 附 則
+amendment_law_num: 平成九年二月一九日政令第一七号
+extract: true
+
+[suppl041:label] 附 則
+[suppl041-a1:caption] （施行期日）
+[suppl041-a1:title] 第一条
+[suppl041-a1-p1:sentence] この政令は、平成九年四月一日から施行する。
+
+[supplementary:042]
+label: 附 則
+amendment_law_num: 平成九年三月三一日政令第一一〇号
+extract: true
+
+[suppl042:label] 附 則
+[suppl042-a1:caption] （施行期日）
+[suppl042-a1:title] 第一条
+[suppl042-a1-p1:sentence] この政令は、平成九年四月一日から施行する。
+[suppl042-a1-p1:sentence] ただし、次の各号に掲げる規定は、平成九年十月一日から施行する。
+[suppl042-a1-p1-i1:3:title] 一から三まで
+[suppl042-a1-p1-i1:3:sentence] 略
+[suppl042-a1-p1-i4:title] 四
+[suppl042-a1-p1-i4:sentence] 第六条及び第八条から第十一条までの規定
+
+[supplementary:043]
+label: 附 則
+amendment_law_num: 平成九年九月二五日政令第二九四号
+extract: true
+
+[suppl043:label] 附 則
+[suppl043-a1:caption] （施行期日）
+[suppl043-a1:title] 第一条
+[suppl043-a1-p1:sentence] この政令は、平成九年十一月十一日から施行する。
+
+[supplementary:044]
+label: 附 則
+amendment_law_num: 平成九年一二月二五日政令第三八五号
+extract: true
+
+[suppl044:label] 附 則
+[suppl044-a1:caption] （施行期日）
+[suppl044-a1:title] 第一条
+[suppl044-a1-p1:sentence] この政令は、法の施行の日（平成十年四月一日）から施行する。
+
+[supplementary:045]
+label: 附 則
+amendment_law_num: 平成一一年三月三一日政令第一二二号
+extract: true
+
+[suppl045:label] 附 則
+[suppl045-a1:caption] （施行期日）
+[suppl045-a1:title] 第一条
+[suppl045-a1-p1:sentence] この政令は、平成十一年四月一日から施行する。
+
+[supplementary:046]
+label: 附 則
+amendment_law_num: 平成一二年六月七日政令第三〇七号
+extract: true
+
+[suppl046:label] 附 則
+[suppl046-a1:caption] （施行期日）
+[suppl046-a1:title] 第一条
+[suppl046-a1-p1:sentence] この政令は、平成十三年一月六日から施行する。
+
+[supplementary:047]
+label: 附 則
+amendment_law_num: 平成一二年七月一二日政令第三七六号
+extract: true
+
+[suppl047:label] 附 則
+[suppl047-p1:caption] （施行期日）
+[suppl047-p1:number] １
+[suppl047-p1:sentence] この政令は、関税定率法等の一部を改正する法律の一部の施行の日（平成十三年三月一日）から施行する。
+
+[supplementary:048]
+label: 附 則
+amendment_law_num: 平成一二年一一月一七日政令第四八二号
+extract: true
+
+[suppl048:label] 附 則
+[suppl048-a1:caption] （施行期日）
+[suppl048-a1:title] 第一条
+[suppl048-a1-p1:sentence] この政令は、特定目的会社による特定資産の流動化に関する法律等の一部を改正する法律（以下「改正法」という。）の施行の日（平成十二年十一月三十日。以下「施行日」という。）から施行する。
+
+[supplementary:049]
+label: 附 則
+amendment_law_num: 平成一三年三月三〇日政令第一四〇号
+extract: 
+
+[suppl049:label] 附 則
+[suppl049-p1:sentence] この政令は、平成十三年三月三十一日から施行する。
+[suppl049-p1:sentence] ただし、第三十条の改正規定は、同年四月一日から施行する。
+
+[supplementary:050]
+label: 附 則
+amendment_law_num: 平成一四年八月一日政令第二七一号
+extract: true
+
+[suppl050:label] 附 則
+[suppl050-a1:caption] （施行期日）
+[suppl050-a1:title] 第一条
+[suppl050-a1-p1:sentence] この政令は、平成十四年八月一日から施行する。
+
+[supplementary:051]
+label: 附 則
+amendment_law_num: 平成一四年一二月六日政令第三六三号
+extract: true
+
+[suppl051:label] 附 則
+[suppl051-a1:caption] （施行期日）
+[suppl051-a1:title] 第一条
+[suppl051-a1-p1:sentence] この政令は、平成十五年一月六日から施行する。
+
+[supplementary:052]
+label: 附 則
+amendment_law_num: 平成一五年三月三一日政令第一四一号
+extract: 
+
+[suppl052:label] 附 則
+[suppl052-p1:sentence] この政令は、平成十五年四月一日から施行する。
+[suppl052-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl052-p1-i1:title] 一
+[suppl052-p1-i1:sentence] 第二十三条の改正規定（同条第一項第三号に係る部分を除く。）、第二十五条の改正規定及び第四十二条の改正規定
+[suppl052-p1-i1:sentence] 平成十五年十月一日
+[suppl052-p1-i2:title] 二
+[suppl052-p1-i2:sentence] 第五条第八号の改正規定（「、第六項又は第八項」を「又は第六項」に改める部分に限る。）及び第十四条の改正規定
+[suppl052-p1-i2:sentence] 平成十六年四月一日
+
+[supplementary:053]
+label: 附 則
+amendment_law_num: 平成一五年六月二七日政令第二八六号
+extract: 
+
+[suppl053:label] 附 則
+[suppl053-p1:sentence] この政令は、平成十五年十一月四日から施行する。
+
+[supplementary:054]
+label: 附 則
+amendment_law_num: 平成一六年三月三一日政令第一〇一号
+extract: true
+
+[suppl054:label] 附 則
+[suppl054-a1:caption] （施行期日）
+[suppl054-a1:title] 第一条
+[suppl054-a1-p1:sentence] この政令は、平成十六年四月一日から施行する。
+[suppl054-a1-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl054-a1-p1-i1:title] 一
+[suppl054-a1-p1-i1:sentence] 目次の改正規定（「還付（第百五十五条の四十七」を「申告及び還付（第百五十五条の四十七」に改める部分を除く。）、第百四十条の二第六項の改正規定、第百八十八条の改正規定、第百九十条の改正規定、第百八十九条の二の改正規定、第三編中第四章を第五章とし、第三章を第四章とし、第二章の次に一章を加える改正規定、同編第二章第二節中第百八十九条を第百九十一条とする改正規定及び同章第一節中第百八十八条の三を第百九十条とし、第百八十八条の二を第百八十九条とする改正規定並びに附則第十一条及び第十二条の規定
+[suppl054-a1-p1-i1:sentence] 信託業法（平成十六年法律第百五十四号）の施行の日
+
+[supplementary:055]
+label: 附 則
+amendment_law_num: 平成一六年五月二八日政令第一八三号
+extract: 
+
+[suppl055:label] 附 則
+[suppl055-p1:number] １
+[suppl055-p1:sentence] この政令は、平成十六年六月一日から施行する。
+[suppl055-p2:number] ２
+[suppl055-p2:sentence] 改正後の国税通則法施行令第四十二条第一項の規定は、この政令の施行の日以後にする国税通則法第百二十三条第一項の請求に係る手数料について適用し、同日前にした同項の請求に係る手数料については、なお従前の例による。
+
+[supplementary:056]
+label: 附 則
+amendment_law_num: 平成一七年三月三一日政令第九八号
+extract: true
+
+[suppl056:label] 附 則
+[suppl056-a1:caption] （施行期日）
+[suppl056-a1:title] 第一条
+[suppl056-a1-p1:sentence] この政令は、平成十七年四月一日から施行する。
+
+[supplementary:057]
+label: 附 則
+amendment_law_num: 平成一八年二月一日政令第一四号
+extract: true
+
+[suppl057:label] 附 則
+[suppl057-a1:caption] （施行期日）
+[suppl057-a1:title] 第一条
+[suppl057-a1-p1:sentence] この政令は、平成十八年四月一日から施行する。
+
+[supplementary:058]
+label: 附 則
+amendment_law_num: 平成一八年三月三一日政令第一三二号
+extract: 
+
+[suppl058:label] 附 則
+[suppl058-p1:number] １
+[suppl058-p1:sentence] この政令は、平成十八年四月一日から施行する。
+[suppl058-p1:sentence] ただし、第二十七条の改正規定、第二十七条の二の改正規定、同条を第二十七条の三とする改正規定及び第二十七条の次に一条を加える改正規定は、平成十九年一月一日から施行する。
+[suppl058-p2:number] ２
+[suppl058-p2:sentence] 改正後の国税通則法施行令第六条第一項第五号の規定は、この政令の施行の日以後に同号に規定する理由が生じた場合について適用する。
+
+[supplementary:059]
+label: 附 則
+amendment_law_num: 平成一九年三月二八日政令第六九号
+extract: true
+
+[suppl059:label] 附 則
+[suppl059-p1:caption] （施行期日）
+[suppl059-p1:number] １
+[suppl059-p1:sentence] この政令は、平成十九年四月一日から施行する。
+[suppl059-p2:caption] （助教授の在職に関する経過措置）
+[suppl059-p2:number] ２
+[suppl059-p2:sentence] この政令の規定による改正後の次に掲げる政令の規定の適用については、この政令の施行前における助教授としての在職は、准教授としての在職とみなす。
+[suppl059-p2-i1:2:title] 一及び二
+[suppl059-p2-i1:2:sentence] 略
+[suppl059-p2-i3:title] 三
+[suppl059-p2-i3:sentence] 国税通則法施行令第三十一条
+
+[supplementary:060]
+label: 附 則
+amendment_law_num: 平成一九年三月三〇日政令第八九号
+extract: 
+
+[suppl060:label] 附 則
+[suppl060-p1:sentence] この政令は、平成二十年一月四日から施行する。
+[suppl060-p1:sentence] ただし、第二条第一項第七号の改正規定及び第五条第六号ロの改正規定は平成十九年四月一日から、同号ハを削る改正規定、第十三条第二項第二号の改正規定、第十四条第二項第一号の改正規定及び第四十一条第一項第三号ロの改正規定は信託法（平成十八年法律第百八号）の施行の日から施行する。
+
+[supplementary:061]
+label: 附 則
+amendment_law_num: 平成一九年八月三日政令第二三五号
+extract: true
+
+[suppl061:label] 附 則
+[suppl061-a1:caption] （施行期日）
+[suppl061-a1:title] 第一条
+[suppl061-a1-p1:sentence] この政令は、平成十九年十月一日から施行する。
+
+[supplementary:062]
+label: 附 則
+amendment_law_num: 平成一九年九月二〇日政令第二九一号
+extract: 
+
+[suppl062:label] 附 則
+[suppl062-p1:sentence] この政令は、平成十九年十月一日から施行する。
+
+[supplementary:063]
+label: 附 則
+amendment_law_num: 平成一九年一二月一四日政令第三六九号
+extract: true
+
+[suppl063:label] 附 則
+[suppl063-a1:caption] （施行期日）
+[suppl063-a1:title] 第一条
+[suppl063-a1-p1:sentence] この政令は、平成二十年一月四日から施行する。
+[suppl063-a16:caption] （国税通則法施行令の一部改正に伴う経過措置）
+[suppl063-a16:title] 第十六条
+[suppl063-a16-p1:sentence] 既登録社債等については、第十六条の規定による改正前の国税通則法施行令第十六条第一項ただし書及び第十七条第三項の規定は、なおその効力を有する。
+
+[supplementary:064]
+label: 附 則
+amendment_law_num: 平成二〇年四月三〇日政令第一五九号
+extract: 
+
+[suppl064:label] 附 則
+[suppl064-p1:number] １
+[suppl064-p1:sentence] この政令は、公布の日から施行する。
+[suppl064-p2:number] ２
+[suppl064-p2:sentence] 改正後の第四十一条の規定は、この政令の施行の日以後にする国税通則法第百二十三条第一項の請求について適用し、同日前にした同項の請求については、なお従前の例による。
+
+[supplementary:065]
+label: 附 則
+amendment_law_num: 平成二〇年六月二七日政令第二一〇号
+extract: true
+
+[suppl065:label] 附 則
+[suppl065-a1:caption] （施行期日）
+[suppl065-a1:title] 第一条
+[suppl065-a1-p1:sentence] この政令は、平成二十年十月一日から施行する。
+
+[supplementary:066]
+label: 附 則
+amendment_law_num: 平成二〇年七月四日政令第二一九号
+extract: true
+
+[suppl066:label] 附 則
+[suppl066-a1:caption] （施行期日）
+[suppl066-a1:title] 第一条
+[suppl066-a1-p1:sentence] この政令は、株式等の取引に係る決済の合理化を図るための社債等の振替に関する法律等の一部を改正する法律（以下「改正法」という。）の施行の日から施行する。
+[suppl066-a1-p1:sentence] ただし、第四条、第六条、第九条、第十六条、第二十八条及び附則第三条から第五条までの規定は、公布の日から施行する。
+
+[supplementary:067]
+label: 附 則
+amendment_law_num: 平成二二年三月三一日政令第五一号
+extract: true
+
+[suppl067:label] 附 則
+[suppl067-a1:caption] （施行期日）
+[suppl067-a1:title] 第一条
+[suppl067-a1-p1:sentence] この政令は、次の各号に掲げる区分に応じ、当該各号に定める日から施行する。
+[suppl067-a1-p1-i1:2:title] 一及び二
+[suppl067-a1-p1-i1:2:sentence] 略
+[suppl067-a1-p1-i3:title] 三
+[suppl067-a1-p1-i3:sentence] 前二号に掲げる規定以外の規定
+[suppl067-a1-p1-i3:sentence] 平成二十二年十月一日
+[suppl067-a29:caption] （国税通則法施行令の一部改正に伴う経過措置）
+[suppl067-a29:title] 第二十九条
+[suppl067-a29-p1:sentence] 前条の規定による改正前の国税通則法施行令第四十一条第一項第三号ロ（納税証明書の交付の請求等）に規定する法人の平成二十二年九月三十日以前の解散による清算所得の金額についての証明書の交付については、なお従前の例による。
+
+[supplementary:068]
+label: 附 則
+amendment_law_num: 平成二二年三月三一日政令第五七号
+extract: true
+
+[suppl068:label] 附 則
+[suppl068-a1:caption] （施行期日）
+[suppl068-a1:title] 第一条
+[suppl068-a1-p1:sentence] この政令は、平成二十二年六月一日から施行する。
+
+[supplementary:069]
+label: 附 則
+amendment_law_num: 平成二三年一二月二日政令第三八二号
+extract: true
+
+[suppl069:label] 附 則
+[suppl069-a1:caption] （施行期日）
+[suppl069-a1:title] 第一条
+[suppl069-a1-p1:sentence] この政令は、公布の日から施行する。
+[suppl069-a1-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl069-a1-p1-i1:title] 一
+[suppl069-a1-p1-i1:sentence] 第六条第二項の改正規定及び次条の規定
+[suppl069-a1-p1-i1:sentence] 公布の日から起算して二月を経過した日
+[suppl069-a1-p1-i2:title] 二
+[suppl069-a1-p1-i2:sentence] 目次の改正規定、第二十五条第二号の改正規定及び第七章の次に一章を加える改正規定並びに附則第三条及び第四条の規定
+[suppl069-a1-p1-i2:sentence] 平成二十五年一月一日
+[suppl069-a2:caption] （更正の請求に関する経過措置）
+[suppl069-a2:title] 第二条
+[suppl069-a2-p1:sentence] 改正後の国税通則法施行令第六条第二項（更正の請求）の規定は、前条第一号に定める日以後に税務署長に提出する更正請求書（経済社会の構造の変化に対応した税制の構築を図るための所得税法等の一部を改正する法律（平成二十三年法律第百十四号）第十七条（国税通則法の一部改正）の規定による改正後の国税通則法第二十三条第三項（更正の請求）に規定する更正請求書をいう。以下この条において同じ。）について適用し、同日前に税務署長に提出された更正請求書については、なお従前の例による。
+
+[supplementary:070]
+label: 附 則
+amendment_law_num: 平成二四年七月二五日政令第二〇二号
+extract: true
+
+[suppl070:label] 附 則
+[suppl070-a1:caption] （施行期日）
+[suppl070-a1:title] 第一条
+[suppl070-a1-p1:sentence] この政令は、郵政民営化法等の一部を改正する等の法律（以下「平成二十四年改正法」という。）の施行の日（平成二十四年十月一日）から施行する。
+
+[supplementary:071]
+label: 附 則
+amendment_law_num: 平成二六年三月三一日政令第一四二号
+extract: 
+
+[suppl071:label] 附 則
+[suppl071-p1:sentence] この政令は、平成二十七年四月一日から施行する。
+[suppl071-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl071-p1-i1:title] 一
+[suppl071-p1-i1:sentence] 第三十八条の改正規定
+[suppl071-p1-i1:sentence] 平成二十六年四月一日
+[suppl071-p1-i2:title] 二
+[suppl071-p1-i2:sentence] 第五条第六号の改正規定、第十三条第二項第三号の改正規定、同号を同項第四号とし、同項第二号の次に一号を加える改正規定及び第十四条第二項の改正規定
+[suppl071-p1-i2:sentence] 平成二十六年十月一日
+[suppl071-p1-i3:title] 三
+[suppl071-p1-i3:sentence] 第二条第一項第四号の二の改正規定及び第十三条第二項第二号の改正規定
+[suppl071-p1-i3:sentence] 平成二十八年四月一日
+
+[supplementary:072]
+label: 附 則
+amendment_law_num: 平成二六年五月一四日政令第一七九号
+extract: true
+
+[suppl072:label] 附 則
+[suppl072-p1:sentence] この政令は、行政手続における特定の個人を識別するための番号の利用等に関する法律附則第一条第四号に掲げる規定の施行の日から施行する。
+
+[supplementary:073]
+label: 附 則
+amendment_law_num: 平成二七年三月三一日政令第一四六号
+extract: 
+
+[suppl073:label] 附 則
+[suppl073-p1:sentence] この政令は、平成二十七年七月一日から施行する。
+[suppl073-p1:sentence] ただし、第五条第八号、第十三条第二項第四号及び第十四条第二項第三号の改正規定は、同年十月一日から施行する。
+
+[supplementary:074]
+label: 附 則
+amendment_law_num: 平成二七年一一月二六日政令第三九二号
+extract: true
+
+[suppl074:label] 附 則
+[suppl074-a1:caption] （施行期日）
+[suppl074-a1:title] 第一条
+[suppl074-a1-p1:sentence] この政令は、行政不服審査法の施行の日（平成二十八年四月一日）から施行する。
+[suppl074-a2:caption] （経過措置の原則）
+[suppl074-a2:title] 第二条
+[suppl074-a2-p1:sentence] 行政庁の処分その他の行為又は不作為についての不服申立てであってこの政令の施行前にされた行政庁の処分その他の行為又はこの政令の施行前にされた申請に係る行政庁の不作為に係るものについては、この附則に特別の定めがある場合を除き、なお従前の例による。
+
+[supplementary:075]
+label: 附 則
+amendment_law_num: 平成二八年二月一七日政令第四三号
+extract: true
+
+[suppl075:label] 附 則
+[suppl075-a1:caption] （施行期日）
+[suppl075-a1:title] 第一条
+[suppl075-a1-p1:sentence] この政令は、改正法施行日（平成二十八年四月一日）から施行する。
+
+[supplementary:076]
+label: 附 則
+amendment_law_num: 平成二八年三月二五日政令第八四号
+extract: true
+
+[suppl076:label] 附 則
+[suppl076-a1:caption] （施行期日）
+[suppl076-a1:title] 第一条
+[suppl076-a1-p1:sentence] この政令は、我が国及び国際社会の平和及び安全の確保に資するための自衛隊法等の一部を改正する法律の施行の日（平成二十八年三月二十九日）から施行する。
+
+[supplementary:077]
+label: 附 則
+amendment_law_num: 平成二八年三月三一日政令第一五六号
+extract: true
+
+[suppl077:label] 附 則
+[suppl077-p1:caption] （施行期日）
+[suppl077-p1:number] １
+[suppl077-p1:sentence] この政令は、平成二十九年一月一日から施行する。
+[suppl077-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl077-p1-i1:title] 一
+[suppl077-p1-i1:sentence] 第七条の三の改正規定、第二十七条の二第一項第二号の改正規定及び同条第二項第二号の改正規定
+[suppl077-p1-i1:sentence] 平成二十九年一月四日
+[suppl077-p1-i2:title] 二
+[suppl077-p1-i2:sentence] 目次の改正規定、第七章の二中第三十条の四の次に一条を加える改正規定及び第三十二条の二第二項の改正規定
+[suppl077-p1-i2:sentence] 個人情報の保護に関する法律及び行政手続における特定の個人を識別するための番号の利用等に関する法律の一部を改正する法律（平成二十七年法律第六十五号）附則第一条第六号に掲げる規定の施行の日
+[suppl077-p2:caption] （相続人の代表者の指定等に関する経過措置）
+[suppl077-p2:number] ２
+[suppl077-p2:sentence] 改正後の国税通則法施行令第四条第二項の規定は、この政令の施行の日以後に行われる国税通則法第十三条第一項の規定による届出について適用し、同日前に行われた同項の規定による届出については、なお従前の例による。
+
+[supplementary:078]
+label: 附 則
+amendment_law_num: 平成二八年五月二五日政令第二二六号
+extract: true
+
+[suppl078:label] 附 則
+[suppl078-a1:caption] （施行期日）
+[suppl078-a1:title] 第一条
+[suppl078-a1-p1:sentence] この政令は、所得税法等の一部を改正する法律（平成二十八年法律第十五号。次条第二項及び附則第四条第二項において「改正法」という。）附則第一条第五号に掲げる規定の施行の日から施行する。
+
+[supplementary:079]
+label: 附 則
+amendment_law_num: 平成二九年三月三一日政令第一一二号
+extract: true
+
+[suppl079:label] 附 則
+[suppl079-a1:caption] （施行期日）
+[suppl079-a1:title] 第一条
+[suppl079-a1-p1:sentence] この政令は、平成二十九年四月一日から施行する。
+[suppl079-a1-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl079-a1-p1-i1:title] 一
+[suppl079-a1-p1-i1:sentence] 第五条第六号ハの改正規定及び第十四条第二項第二号の改正規定
+[suppl079-a1-p1-i1:sentence] 平成二十九年十月一日
+[suppl079-a1-p1-i2:title] 二
+[suppl079-a1-p1-i2:sentence] 第七条第一項の改正規定
+[suppl079-a1-p1-i2:sentence] 平成三十年一月一日
+[suppl079-a1-p1-i3:title] 三
+[suppl079-a1-p1-i3:sentence] 目次の改正規定、第一条の改正規定、第五条第六号の改正規定（同号ハに係る部分を除く。）、第十一条の改正規定及び本則に一章を加える改正規定並びに附則第三条から第十五条までの規定
+[suppl079-a1-p1-i3:sentence] 平成三十年四月一日
+[suppl079-a2:caption] （災害等による期限の延長に関する経過措置）
+[suppl079-a2:title] 第二条
+[suppl079-a2-p1:sentence] 改正後の国税通則法施行令第三条第二項の規定は、この政令の施行の日以後に災害その他やむを得ない理由が生じた場合について適用する。
+
+[supplementary:080]
+label: 附 則
+amendment_law_num: 平成三〇年三月三一日政令第一四二号
+extract: true
+
+[suppl080:label] 附 則
+[suppl080-p1:caption] （施行期日）
+[suppl080-p1:number] １
+[suppl080-p1:sentence] この政令は、平成三十年四月一日から施行する。
+[suppl080-p1:sentence] ただし、第二十六条の二の改正規定及び次項の規定は、平成三十一年一月一日から施行する。
+
+[supplementary:081]
+label: 附 則
+amendment_law_num: 平成三〇年四月一八日政令第一六一号
+extract: true
+
+[suppl081:label] 附 則
+[suppl081-a1:caption] （施行期日）
+[suppl081-a1:title] 第一条
+[suppl081-a1-p1:sentence] この政令は、平成三十一年一月七日から施行する。
+
+[supplementary:082]
+label: 附 則
+amendment_law_num: 平成三一年三月二九日政令第一〇一号
+extract: 
+
+[suppl082:label] 附 則
+[suppl082-p1:caption] （施行期日）
+[suppl082-p1:number] １
+[suppl082-p1:sentence] この政令は、令和二年四月一日から施行する。
+[suppl082-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl082-p1-i1:title] 一
+[suppl082-p1-i1:sentence] 第五条第二号の改正規定
+[suppl082-p1-i1:sentence] 平成三十一年四月一日
+[suppl082-p1-i2:title] 二
+[suppl082-p1-i2:sentence] 第三十条の六の改正規定（「の同条」を「の番号（法第七十四条の七の二第三項第四号ハ（特定事業者等への報告の求め）」に、「番号」を「番号をいう。次条及び第三十条の八第一項（振替機関の加入者情報の管理等）において同じ。）」に改める部分に限る。）及び次項の規定
+[suppl082-p1-i2:sentence] 令和二年一月一日
+[suppl082-p2:caption] （経過措置）
+[suppl082-p2:number] ２
+[suppl082-p2:sentence] 令和二年一月一日から同年三月三十一日までの間における改正後の国税通則法施行令第三十条の六の規定の適用については、同条中「をいう。次条及び第三十条の八第一項（振替機関の加入者情報の管理等）において同じ」とあるのは、「をいう」とする。
+
+[supplementary:083]
+label: 附 則
+amendment_law_num: 令和元年一二月一三日政令第一八三号
+extract: true
+
+[suppl083:label] 附 則
+[suppl083-a1:caption] （施行期日）
+[suppl083-a1:title] 第一条
+[suppl083-a1-p1:sentence] この政令は、情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るための行政手続等における情報通信の技術の利用に関する法律等の一部を改正する法律（次条において「改正法」という。）の施行の日（令和元年十二月十六日）から施行する。
+
+[supplementary:084]
+label: 附 則
+amendment_law_num: 令和二年三月三一日政令第一二〇号
+extract: 
+
+[suppl084:label] 附 則
+[suppl084-p1:caption] （施行期日）
+[suppl084-p1:number] １
+[suppl084-p1:sentence] この政令は、令和三年一月一日から施行する。
+[suppl084-p1:sentence] ただし、第二十九条第二項の改正規定は、令和二年四月一日から施行する。
+[suppl084-p2:caption] （経過措置）
+[suppl084-p2:number] ２
+[suppl084-p2:sentence] 改正後の国税通則法施行令第三十一条の三の規定は、この政令の施行の日以後にされる再調査の請求に係る事件の審理について適用する。
+[suppl084-p3:number] ３
+[suppl084-p3:sentence] 改正後の国税通則法施行令第三十三条の三の規定は、この政令の施行の日以後にされる審査請求に係る事件の審理について適用する。
+
+[supplementary:085]
+label: 附 則
+amendment_law_num: 令和二年六月二六日政令第二〇七号
+extract: true
+
+[suppl085:label] 附 則
+[suppl085-a1:caption] （施行期日）
+[suppl085-a1:title] 第一条
+[suppl085-a1-p1:sentence] この政令は、令和四年四月一日から施行する。
+[suppl085-a2:caption] （法人税法施行令等の一部改正に伴う経過措置の原則）
+[suppl085-a2:title] 第二条
+[suppl085-a2-p1:sentence] 別段の定めがあるものを除き、第一条の規定による改正後の法人税法施行令（以下「新法人税法施行令」という。）、第二条の規定による改正後の地方法人税法施行令、第三条の規定による改正後の租税特別措置法施行令（以下「新租税特別措置法施行令」という。）、第四条の規定による改正後の東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律施行令（以下「新震災特例法施行令」という。）、第九条の規定による改正後の国税通則法施行令及び第二十四条の規定による改正後の法人税法施行令等の一部を改正する政令の規定は、法人（人格のない社団等を含む。以下附則第二十二条までにおいて同じ。）のこの政令の施行の日（以下「施行日」という。）以後に開始する事業年度（所得税法等の一部を改正する法律（令和二年法律第八号。以下「改正法」という。）附則第十四条第一項に規定する旧事業年度（以下「旧事業年度」という。）を除く。）の所得に対する法人税及び施行日以後に開始する課税事業年度（旧事業年度を除く。）の基準法人税額に対する地方法人税について適用する。
+[suppl085-a2-p2:number] ２
+[suppl085-a2-p2:sentence] 別段の定めがあるものを除き、法人の施行日前に開始した事業年度（旧事業年度を含む。）の所得に対する法人税及び連結法人（改正法第三条の規定（改正法附則第一条第五号ロに掲げる改正規定に限る。附則第七条第二項において同じ。）による改正前の法人税法（昭和四十年法律第三十四号。以下「旧法人税法」という。）第二条第十二号の七の二に規定する連結法人をいう。以下附則第三十九条までにおいて同じ。）の連結親法人事業年度（旧法人税法第十五条の二第一項に規定する連結親法人事業年度をいう。）が施行日前に開始した連結事業年度（同項に規定する連結事業年度をいう。以下附則第三十八条までにおいて同じ。）の連結所得（旧法人税法第二条第十八号の四に規定する連結所得をいう。以下附則第三十八条までにおいて同じ。）に対する法人税並びに法人の施行日前に開始した課税事業年度（旧事業年度を含む。）の基準法人税額に対する地方法人税については、改正法附則第十四条第二項の規定によりなおその効力を有するものとされる旧法人税法、改正法第四条の規定（改正法附則第一条第五号ハに掲げる改正規定に限る。附則第四十四条において同じ。）による改正前の地方法人税法（平成二十六年法律第十一号。以下「旧地方法人税法」という。）、改正法第十三条の規定（改正法附則第一条第五号ヘに掲げる改正規定に限る。）による改正前の国税通則法（昭和三十七年法律第六十六号）、改正法第十六条の規定による改正前の租税特別措置法（昭和三十二年法律第二十六号。以下「旧租税特別措置法」という。）、改正法第十七条の規定（改正法附則第一条第五号ヌに掲げる改正規定に限る。）による改正前の外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律（昭和三十七年法律第百四十四号）、改正法第十八条の規定（改正法附則第一条第五号ルに掲げる改正規定に限る。）による改正前の租税条約等の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律（昭和四十四年法律第四十六号）、改正法第二十三条の規定による改正前の東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律（平成二十三年法律第二十九号。以下「旧震災特例法」という。）及び改正法第三十条の規定（改正法附則第一条第五号ネに掲げる改正規定に限る。）による改正前の所得税法等の一部を改正する法律（平成三十年法律第七号。以下「旧平成三十年改正法」という。）の規定に基づく第一条の規定による改正前の法人税法施行令（以下「旧法人税法施行令」という。）、第二条の規定による改正前の地方法人税法施行令、第三条の規定による改正前の租税特別措置法施行令（以下「旧租税特別措置法施行令」という。）、第四条の規定による改正前の東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律施行令（以下「旧震災特例法施行令」という。）、第九条の規定による改正前の国税通則法施行令、第十一条の規定による改正前の外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律施行令、第十三条の規定による改正前の租税条約等の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律施行令、第十六条の規定による改正前の法人税法施行令の一部を改正する政令及び第二十四条の規定による改正前の法人税法施行令等の一部を改正する政令の規定は、なおその効力を有する。
+
+[supplementary:086]
+label: 附 則
+amendment_law_num: 令和三年三月三一日政令第一一七号
+extract: true
+
+[suppl086:label] 附 則
+[suppl086-p1:caption] （施行期日）
+[suppl086-p1:number] １
+[suppl086-p1:sentence] この政令は、令和三年四月一日から施行する。
+[suppl086-p1:sentence] ただし、第五条第六号の改正規定及び第三十九条の次に一条を加える改正規定並びに次項の規定は、令和四年一月一日から施行する。
+
+[supplementary:087]
+label: 附 則
+amendment_law_num: 令和四年二月二日政令第三七号
+extract: true
+
+[suppl087:label] 附 則
+[suppl087-p1:caption] （施行期日）
+[suppl087-p1:number] １
+[suppl087-p1:sentence] この政令は、令和四年四月一日から施行する。
+
+[supplementary:088]
+label: 附 則
+amendment_law_num: 令和四年三月三一日政令第一四七号
+extract: true
+
+[suppl088:label] 附 則
+[suppl088-p1:caption] （施行期日）
+[suppl088-p1:number] １
+[suppl088-p1:sentence] この政令は、令和四年四月一日から施行する。
+[suppl088-p1:sentence] ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。
+[suppl088-p1-i1:title] 一
+[suppl088-p1-i1:sentence] 次に掲げる規定
+[suppl088-p1-i1:sentence] 令和四年十二月三十一日
+[suppl088-p1-i1-s1-1:title] イ
+[suppl088-p1-i1-s1-1:sentence] 第一条中国税通則法施行令第二十五条第一号の改正規定
+[suppl088-p1-i2:title] 二
+[suppl088-p1-i2:sentence] 第一条中国税通則法施行令第二十七条の改正規定、同令第二十七条の二第一項の改正規定及び同令第二十七条の三の改正規定並びに次項の規定
+[suppl088-p1-i2:sentence] 令和六年一月一日
+
+[supplementary:089]
+label: 附 則
+amendment_law_num: 令和五年三月三一日政令第一四三号
+extract: 
+
+[suppl089:label] 附 則
+[suppl089-p1:sentence] この政令は、令和六年一月一日から施行する。
+[suppl089-p1:sentence] ただし、目次の改正規定、第三章中第七条の前に一条を加える改正規定及び第二十七条の二第二項第二号の改正規定は、同年四月一日から施行する。
+
+[supplementary:090]
+label: 附 則
+amendment_law_num: 令和五年六月一六日政令第二一〇号
+extract: 
+
+[suppl090:label] 附 則
+[suppl090-p1:sentence] この政令は、令和六年四月一日から施行する。

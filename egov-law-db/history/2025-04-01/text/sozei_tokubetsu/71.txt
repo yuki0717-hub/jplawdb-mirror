@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 71
+title: 第七十一条
+deleted: false
+
+[a71:caption] （地価税の課税の停止）
+[a71:title] 第七十一条
+[a71-p1:sentence] 平成十年以後の各年の課税時期（地価税法第二条第四号に規定する課税時期をいう。以下この章において同じ。）において、個人又は法人（同条第七号に規定する人格のない社団等を含む。）が有する土地等（同条第一号に規定する土地等をいう。以下この章において同じ。）については、同法の規定にかかわらず、当分の間、地価税を課さない。

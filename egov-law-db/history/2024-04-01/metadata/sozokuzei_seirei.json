@@ -1,0 +1,16 @@
+{
+  "code": "sozokuzei_seirei",
+  "title": "相続税法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "325CO0000000071",
+  "law_num": "昭和二十五年政令第七十一号",
+  "law_revision_id": "325CO0000000071_20240401_506CO0000000143",
+  "updated": "2025-04-01T05:48:14+09:00",
+  "amendment_enforcement_date": "2024-04-01",
+  "as_of": "2024-04-01",
+  "article_count": 91,
+  "supplementary_count": 100,
+  "source_xml_size": 459712,
+  "source_xml_sha256": "ab43bbc0fe1a79b934f0b5e498b47530d66f8bb9fe2e9dbc4c294d5defdc4a20",
+  "source_url": "https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401"
+}

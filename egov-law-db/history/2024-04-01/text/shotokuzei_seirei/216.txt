@@ -1,0 +1,29 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 216
+title: 第二百十六条
+deleted: false
+
+[a216:caption] （指定寄附金の指定についての審査事項等）
+[a216:title] 第二百十六条
+[a216-p1:sentence] 法第七十八条第二項第二号（寄附金控除）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
+[a216-p1-i1:title] 一
+[a216-p1-i1:sentence] 寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+[a216-p1-i2:title] 二
+[a216-p1-i2:sentence] 寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+[a216-p1-i3:title] 三
+[a216-p1-i3:sentence] 寄附金の募集期間
+[a216-p1-i4:title] 四
+[a216-p1-i4:sentence] 募集した寄附金の管理の方法
+[a216-p1-i5:title] 五
+[a216-p1-i5:sentence] 寄附金の募集に要する経費
+[a216-p1-i6:title] 六
+[a216-p1-i6:sentence] その他当該指定のために必要な事項
+[a216-p2:number] ２
+[a216-p2:sentence] 財務大臣は、前項の指定をしたときは、これを告示する。

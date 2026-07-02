@@ -1,0 +1,25 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 121
+title: 第百二十一条
+deleted: false
+
+[a121:caption] （青色申告）
+[a121:title] 第百二十一条
+[a121-p1:sentence] 内国法人は、納税地の所轄税務署長の承認を受けた場合には、次に掲げる申告書及びこれらの申告書に係る修正申告書を青色の申告書により提出することができる。
+[a121-p1-i1:title] 一
+[a121-p1-i1:sentence] 中間申告書
+[a121-p1-i2:title] 二
+[a121-p1-i2:sentence] 確定申告書
+[a121-p2:number] ２
+[a121-p2:sentence] 前項の承認を受けている内国法人は、次に掲げる申告書及びこれらの申告書に係る修正申告書について、青色の申告書により提出することができる。
+[a121-p2-i1:title] 一
+[a121-p2-i1:sentence] 退職年金等積立金中間申告書
+[a121-p2-i2:title] 二
+[a121-p2-i2:sentence] 退職年金等積立金確定申告書

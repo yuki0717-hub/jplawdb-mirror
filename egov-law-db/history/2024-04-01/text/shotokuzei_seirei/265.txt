@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 265
+title: 第二百六十五条
+deleted: false
+
+[a265:caption] （延払条件付譲渡に係る要件）
+[a265:title] 第二百六十五条
+[a265-p1:sentence] 法第百三十二条第三項第三号（延払条件付譲渡の要件）に規定する政令で定める要件は、当該契約において定められているその譲渡の目的物の引渡しの期日までに支払の期日の到来する賦払金の額の合計額がその譲渡の対価の額の三分の二以下となつていることとする。

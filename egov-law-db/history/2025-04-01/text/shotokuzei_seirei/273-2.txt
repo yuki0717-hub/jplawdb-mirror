@@ -1,0 +1,18 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 273-2
+title: 第二百七十三条の二
+deleted: false
+
+[a273-2:title] 第二百七十三条の二
+[a273-2-p1:sentence] 法第百五十一条の六第一項第四号（遺産分割等があつた場合の修正申告の特例）に規定する政令で定める事由は、次に掲げる事由とする。
+[a273-2-p1-i1:title] 一
+[a273-2-p1-i1:sentence] 相続又は遺贈により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
+[a273-2-p1-i2:title] 二
+[a273-2-p1-i2:sentence] 条件付の遺贈について、条件が成就したこと。

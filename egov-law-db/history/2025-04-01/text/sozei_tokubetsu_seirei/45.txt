@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 45
+title: 第四十五条
+deleted: false
+
+[a45:caption] （指定物品の範囲等）
+[a45:title] 第四十五条
+[a45-p1:sentence] 法第八十五条第一項に規定する政令で定める物品は、次に掲げる物品とする。
+[a45-p1-i1:title] 一
+[a45-p1-i1:sentence] 酒類及び製造たばこ
+[a45-p1-i2:title] 二
+[a45-p1-i2:sentence] 関税法第二条第一項第九号及び第十号に規定する船用品及び機用品（前号に掲げる物品を除く。）
+[a45-p2:number] ２
+[a45-p2:sentence] 法第八十五条第一項に規定する政令で定める船舶は、漁業法（昭和二十四年法律第二百六十七号）第三十六条第一項の許可を受けた船舶であつて母船式漁業（製造設備、冷蔵設備その他の処理設備を有する母船及びこれと一体となつて漁業に従事する船舶により行う漁業をいう。）に従事するもののうち財務省令で定めるものとする。

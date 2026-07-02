@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 20
+title: 第二十条
+deleted: false
+
+[a20:caption] （納税地の異動の届出）
+[a20:title] 第二十条
+[a20-p1:sentence] 法人は、その法人税の納税地に異動があつた場合（第十八条第一項（納税地の指定）の指定によりその納税地に異動があつた場合を除く。）には、政令で定めるところにより、その異動前の納税地の所轄税務署長にその旨を届け出なければならない。

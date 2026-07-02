@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法 (shotokuzei)
+law_num: 昭和四十年法律第三十三号
+law_id: 340AC0000000033
+law_revision_id: 340AC0000000033_20231001_504AC1000000071
+as_of: 2023-10-01
+article: 220
+title: 第二百二十条
+deleted: false
+
+[a220:caption] （源泉徴収に係る所得税の納付手続）
+[a220:title] 第二百二十条
+[a220-p1:sentence] 第一章から前章まで（源泉徴収）の規定により所得税を徴収して納付する者は、その納付の際、国税通則法第三十四条第一項（納付の手続）に規定する納付書に財務省令で定める計算書を添附しなければならない。

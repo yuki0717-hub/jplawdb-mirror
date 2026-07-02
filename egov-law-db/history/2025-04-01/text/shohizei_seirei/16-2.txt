@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20250401
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20250401_507CO0000000125
+as_of: 2025-04-01
+article: 16-2
+title: 第十六条の二
+deleted: false
+
+[a16-2:caption] （住宅の貸付けから除外される場合）
+[a16-2:title] 第十六条の二
+[a16-2-p1:sentence] 法別表第二第十三号に規定する政令で定める場合は、同号に規定する住宅の貸付けに係る期間が一月に満たない場合及び当該貸付けが旅館業法（昭和二十三年法律第百三十八号）第二条第一項（定義）に規定する旅館業に係る施設の貸付けに該当する場合とする。

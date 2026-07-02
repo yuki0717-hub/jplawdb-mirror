@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 39-21
+title: 第三十九条の二十一
+deleted: false
+
+[a39-21:caption] （技術研究組合の所得の計算の特例）
+[a39-21:title] 第三十九条の二十一
+[a39-21-p1:sentence] 法第六十六条の十第一項に規定する政令で定める固定資産は、法人税法施行令第十三条第二号から第七号までに掲げる減価償却資産、特許権、実用新案権、意匠権及び電気ガス供給施設利用権とする。

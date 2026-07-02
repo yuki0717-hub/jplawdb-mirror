@@ -1,0 +1,27 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 76
+title: 第七十六条
+deleted: false
+
+[a76:caption] （指定寄附金の指定についての審査事項）
+[a76:title] 第七十六条
+[a76-p1:sentence] 法第三十七条第三項第二号（指定寄附金の損金算入）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
+[a76-p1-i1:title] 一
+[a76-p1-i1:sentence] 寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+[a76-p1-i2:title] 二
+[a76-p1-i2:sentence] 寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+[a76-p1-i3:title] 三
+[a76-p1-i3:sentence] 寄附金の募集期間
+[a76-p1-i4:title] 四
+[a76-p1-i4:sentence] 募集した寄附金の管理の方法
+[a76-p1-i5:title] 五
+[a76-p1-i5:sentence] 寄附金の募集に要する経費
+[a76-p1-i6:title] 六
+[a76-p1-i6:sentence] その他当該指定のために必要な事項

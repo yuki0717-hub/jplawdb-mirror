@@ -1,0 +1,27 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20250401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20250401_507CO0000000123
+as_of: 2025-04-01
+article: 4-11
+title: 第四条の十一
+deleted: false
+
+[a4-11:caption] （信託財産の範囲）
+[a4-11:title] 第四条の十一
+[a4-11-p1:sentence] 法第二十一条の四第二項に規定する政令で定める財産は、次に掲げるものとする。
+[a4-11-p1-i1:title] 一
+[a4-11-p1-i1:sentence] 金銭
+[a4-11-p1-i2:title] 二
+[a4-11-p1-i2:sentence] 有価証券
+[a4-11-p1-i3:title] 三
+[a4-11-p1-i3:sentence] 金銭債権
+[a4-11-p1-i4:title] 四
+[a4-11-p1-i4:sentence] 立木及び当該立木の生立する土地（当該立木とともに信託されるものに限る。）
+[a4-11-p1-i5:title] 五
+[a4-11-p1-i5:sentence] 継続的に相当の対価を得て他人に使用させる不動産
+[a4-11-p1-i6:title] 六
+[a4-11-p1-i6:sentence] 特定障害者扶養信託契約に基づく信託の受益者である特定障害者の居住の用に供する不動産（当該特定障害者扶養信託契約に基づいて前各号に掲げる財産のいずれかとともに信託されるものに限る。）

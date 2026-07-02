@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20250401
+snapshot_kind: historical
+law: 消費税法施行令 (shohizei_seirei)
+law_num: 昭和六十三年政令第三百六十号
+law_id: 363CO0000000360
+law_revision_id: 363CO0000000360_20250401_507CO0000000125
+as_of: 2025-04-01
+article: 70-2
+title: 第七十条の二
+deleted: false
+
+[a70-2:caption] （適格請求書発行事業者の登録申請書の提出期限）
+[a70-2:title] 第七十条の二
+[a70-2-p1:sentence] 法第五十七条の二第二項に規定する政令で定める日は、同項に規定する課税期間の初日から起算して十五日前の日とする。
+[a70-2-p2:number] ２
+[a70-2-p2:sentence] 法第五十七条の二第二項後段の規定により同項に規定する政令で定める日までに同項の申請書を提出した事業者について、同項に規定する課税期間の初日後に同条第三項の規定による登録（同条第一項の登録をいう。以下第七十条の十二までにおいて同じ。）がされたときは、同日に登録を受けたものとみなす。

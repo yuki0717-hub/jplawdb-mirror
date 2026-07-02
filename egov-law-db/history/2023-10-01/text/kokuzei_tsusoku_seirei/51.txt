@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20231001
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20221231_504CO0000000147
+as_of: 2023-10-01
+article: 51
+title: 第五十一条
+deleted: false
+
+[a51:caption] （夜間執行の制限を受けない国税）
+[a51:title] 第五十一条
+[a51-p1:sentence] 法第百四十八条第一項ただし書（臨検、捜索又は差押え等の夜間執行の制限）に規定する政令で定める国税は、次に掲げる国税とする。
+[a51-p1-i1:title] 一
+[a51-p1-i1:sentence] 消費税法第二条第一項第十一号（定義）に規定する課税貨物に課される消費税
+[a51-p1-i2:title] 二
+[a51-p1-i2:sentence] 酒税
+[a51-p1-i3:title] 三
+[a51-p1-i3:sentence] 石油ガス税

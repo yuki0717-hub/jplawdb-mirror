@@ -1,0 +1,16 @@
+{
+  "code": "shohizei",
+  "title": "消費税法",
+  "law_type": "Act",
+  "law_id": "363AC0000000108",
+  "law_num": "昭和六十三年法律第百八号",
+  "law_revision_id": "363AC0000000108_20250401_507AC0000000013",
+  "updated": "2026-02-04T11:21:17+09:00",
+  "amendment_enforcement_date": "2025-04-01",
+  "as_of": "2025-04-01",
+  "article_count": 85,
+  "supplementary_count": 164,
+  "source_xml_size": 1272630,
+  "source_xml_sha256": "4c48b4a0f175cb3fb7b0a78613e9119d38a11b626a5fdb62cec5e6136d27d156",
+  "source_url": "https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20250401"
+}

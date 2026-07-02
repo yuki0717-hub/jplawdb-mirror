@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 136-2
+title: 第百三十六条の二
+deleted: false
+
+[a136-2:title] 第百三十六条の二
+[a136-2-p1:sentence] 前三目（減価償却資産の償却の方法等）に定めるもののほか、減価償却資産の償却費の計算に関する細目は、財務省令で定める。

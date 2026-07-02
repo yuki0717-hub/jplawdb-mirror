@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 63-2
+title: 第六十三条の二
+deleted: false
+
+[a63-2:title] 第六十三条の二
+[a63-2-p1:sentence] 第五目から前目まで（減価償却資産の償却の方法等）に定めるもののほか、減価償却資産の償却費の計算に関する細目は、財務省令で定める。

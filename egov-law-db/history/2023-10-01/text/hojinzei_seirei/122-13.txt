@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20231001_430CO0000000132
+as_of: 2023-10-01
+article: 122-13
+title: 第百二十二条の十三
+deleted: false
+
+[a122-13:caption] （対価の交付が省略されたと認められる分割型分割）
+[a122-13:title] 第百二十二条の十三
+[a122-13-p1:sentence] 法第六十二条第一項（合併及び分割による資産等の時価による譲渡）に規定する政令で定めるものは、第四条の三第六項第二号イ（２）（適格組織再編成における株式の保有関係等）に掲げる関係がある分割型分割とする。

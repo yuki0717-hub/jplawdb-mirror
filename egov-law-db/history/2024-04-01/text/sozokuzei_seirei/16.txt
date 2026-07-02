@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20240401_506CO0000000143
+as_of: 2024-04-01
+article: 16
+title: 第十六条
+deleted: false
+
+[a16:caption] （担保提供関係書類等の訂正又は提出の請求）
+[a16:title] 第十六条
+[a16-p1:sentence] 法第三十九条第十項に規定する政令で定める事由は、次に掲げる事由とする。
+[a16-p1-i1:title] 一
+[a16-p1-i1:sentence] 法第三十九条第一項の申請書について、その記載に不備があること。
+[a16-p1-i2:title] 二
+[a16-p1-i2:sentence] 法第三十九条第一項に規定する担保提供関係書類について、その記載に不備があること又はその全部若しくは一部の提出がないこと。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 341
+title: 第三百四十一条
+deleted: false
+
+[a341:caption] （株式等の譲渡の対価に係る告知義務のない公共法人等の範囲）
+[a341:title] 第三百四十一条
+[a341-p1:sentence] 法第二百二十四条の三第一項（株式等の譲渡の対価の受領者の告知）に規定する法人税法別表第一（公共法人の表）に掲げる法人その他の政令で定めるものは、公共法人等とする。

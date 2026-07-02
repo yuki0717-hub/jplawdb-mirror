@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 227-to-257
+title: 第二百二十七条から第二百五十七条まで
+deleted: false
+
+[a227:257:title] 第二百二十七条から第二百五十七条まで
+[a227:257-p1:sentence] 削除

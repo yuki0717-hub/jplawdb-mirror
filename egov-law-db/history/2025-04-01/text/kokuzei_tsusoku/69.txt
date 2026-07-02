@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20250401
+snapshot_kind: historical
+law: 国税通則法 (kokuzei_tsusoku)
+law_num: 昭和三十七年法律第六十六号
+law_id: 337AC0000000066
+law_revision_id: 337AC0000000066_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 69
+title: 第六十九条
+deleted: false
+
+[a69:caption] （加算税の税目）
+[a69:title] 第六十九条
+[a69-p1:sentence] 過少申告加算税、無申告加算税、不納付加算税及び重加算税（以下「加算税」という。）は、その額の計算の基礎となる税額の属する税目の国税とする。

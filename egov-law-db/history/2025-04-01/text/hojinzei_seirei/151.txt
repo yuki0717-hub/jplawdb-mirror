@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 151
+title: 第百五十一条
+deleted: false
+
+[a151:caption] （所得税額等の還付の手続）
+[a151:title] 第百五十一条
+[a151-p1:sentence] 税務署長は、法第七十二条第四項第一号（仮決算をした場合の中間申告書の記載事項等）に掲げる金額の記載がある中間申告書又は法第七十四条第一項第三号（確定申告）に掲げる金額の記載がある確定申告書の提出があつた場合には、これらの金額が過大であると認められる事由がある場合を除き、遅滞なく、法第七十八条第一項（所得税額等の還付）の規定による還付又は充当の手続をしなければならない。

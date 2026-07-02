@@ -1,0 +1,21 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20250401_507CO0000000121
+as_of: 2025-04-01
+article: 122-7
+title: 第百二十二条の七
+deleted: false
+
+[a122-7:caption] （外貨建資産等の法定の期末換算方法）
+[a122-7:title] 第百二十二条の七
+[a122-7-p1:sentence] 法第六十一条の九第一項（外貨建資産等の期末換算）に規定する政令で定める方法は、次の各号に掲げる外貨建資産等（第百二十二条の四（外貨建資産等の期末換算方法の選定の方法）に規定する外貨建資産等をいう。以下この条において同じ。）の区分に応じ、当該各号に定める方法とする。
+[a122-7-p1-i1:title] 一
+[a122-7-p1-i1:sentence] 第百二十二条の四第一号及び第五号に掲げる外貨建資産等
+[a122-7-p1-i1:sentence] 法第六十一条の九第一項第一号ロに掲げる期末時換算法
+[a122-7-p1-i2:title] 二
+[a122-7-p1-i2:sentence] 外貨建資産等のうち前号に掲げるもの以外のもの
+[a122-7-p1-i2:sentence] 法第六十一条の九第一項第一号イに掲げる発生時換算法

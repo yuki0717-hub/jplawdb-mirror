@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20250401
+snapshot_kind: historical
+law: 国税通則法 (kokuzei_tsusoku)
+law_num: 昭和三十七年法律第六十六号
+law_id: 337AC0000000066
+law_revision_id: 337AC0000000066_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 7
+title: 第七条
+deleted: false
+
+[a7:caption] （人格のない社団等に係る国税の納付義務の承継）
+[a7:title] 第七条
+[a7-p1:sentence] 法人が人格のない社団等の財産に属する権利義務を包括して承継した場合には、その法人は、その人格のない社団等に課されるべき、又はその人格のない社団等が納付し、若しくは徴収されるべき国税（その承継が権利義務の一部についてされたときは、その国税の額にその承継の時における人格のない社団等の財産のうちにその法人が承継した財産の占める割合を乗じて計算した額の国税）を納める義務を承継する。

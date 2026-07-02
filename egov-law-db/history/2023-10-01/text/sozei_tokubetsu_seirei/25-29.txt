@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 25-29
+title: 第二十五条の二十九
+deleted: false
+
+[a25-29:caption] （部分適用対象金額又は金融関係法人部分適用対象金額に係る適用除外）
+[a25-29:title] 第二十五条の二十九
+[a25-29-p1:sentence] 法第四十条の七第十項第三号に規定する政令で定める金額は、同条第二項第七号に規定する部分対象外国関係法人の各事業年度の決算に基づく所得の金額（各事業年度の所得を課税標準として課される第二十五条の十九第一項第一号に規定する法人所得税（法人税法施行令第百四十一条第二項第三号に掲げる税を除く。）の額を含む。）とする。

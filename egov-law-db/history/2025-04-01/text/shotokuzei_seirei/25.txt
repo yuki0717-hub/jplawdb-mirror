@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20250401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20250401_507CO0000000120
+as_of: 2025-04-01
+article: 25
+title: 第二十五条
+deleted: false
+
+[a25:caption] （譲渡所得について非課税とされる生活用動産の範囲）
+[a25:title] 第二十五条
+[a25-p1:sentence] 法第九条第一項第九号（非課税所得）に規定する政令で定める資産は、生活に通常必要な動産のうち、次に掲げるもの（一個又は一組の価額が三十万円を超えるものに限る。）以外のものとする。
+[a25-p1-i1:title] 一
+[a25-p1-i1:sentence] 貴石、半貴石、貴金属、真珠及びこれらの製品、べつこう製品、さんご製品、こはく製品、ぞうげ製品並びに七宝製品
+[a25-p1-i2:title] 二
+[a25-p1-i2:sentence] 書画、こつとう及び美術工芸品

@@ -1,0 +1,14 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20231001_505AC0000000003
+as_of: 2023-10-01
+article: 24
+title: 第二十四条
+deleted: false
+
+[a24:title] 第二十四条
+[a24-p1:sentence] 削除

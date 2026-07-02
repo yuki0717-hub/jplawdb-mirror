@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20231001_505CO0000000145
+as_of: 2023-10-01
+article: 6-5
+title: 第六条の五
+deleted: false
+
+[a6-5:caption] （事業再編計画の認定を受けた場合の事業再編促進機械等の割増償却）
+[a6-5:title] 第六条の五
+[a6-5-p1:sentence] 個人が、その取得し、又は製作し、若しくは建設した機械及び装置、建物及びその附属設備並びに構築物（以下この条において「機械等」という。）につき法第十三条第一項の規定の適用を受ける場合には、当該機械等につき同項の規定の適用を受ける最初の年分の確定申告書に財務省令で定める書類を添付しなければならない。

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20231001
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20230401_505CO0000000136
+as_of: 2023-10-01
+article: 9
+title: 第九条
+deleted: false
+
+[a9:caption] （還付の手続）
+[a9:title] 第九条
+[a9-p1:sentence] 税務署長は、法第三十三条の二第一項に規定する控除しきれなかつた金額の記載がある法第二十七条第三項の規定による申告書の提出があつた場合には、当該金額が過大であると認められる事由がある場合を除き、遅滞なく、法第三十三条の二第一項の規定による還付又は充当の手続をしなければならない。

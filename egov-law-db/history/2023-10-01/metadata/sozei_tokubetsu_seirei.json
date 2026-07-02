@@ -1,0 +1,16 @@
+{
+  "code": "sozei_tokubetsu_seirei",
+  "title": "租税特別措置法施行令",
+  "law_type": "CabinetOrder",
+  "law_id": "332CO0000000043",
+  "law_num": "昭和三十二年政令第四十三号",
+  "law_revision_id": "332CO0000000043_20231001_505CO0000000145",
+  "updated": "2024-01-01T01:33:52+09:00",
+  "amendment_enforcement_date": "2023-10-01",
+  "as_of": "2023-10-01",
+  "article_count": 534,
+  "supplementary_count": 481,
+  "source_xml_size": 13555423,
+  "source_xml_sha256": "798b69cdb781608593e0346e8292bfcb1ef3410138a60ac6d32a7345868df9e4",
+  "source_url": "https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20231001"
+}

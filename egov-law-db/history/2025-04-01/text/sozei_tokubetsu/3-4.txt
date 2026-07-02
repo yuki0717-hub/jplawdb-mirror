@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法 (sozei_tokubetsu)
+law_num: 昭和三十二年法律第二十六号
+law_id: 332AC0000000026
+law_revision_id: 332AC0000000026_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 3-4
+title: 第三条の四
+deleted: false
+
+[a3-4:caption] （障害者等の少額預金の利子所得等の非課税に係る限度額の特例）
+[a3-4:title] 第三条の四
+[a3-4-p1:sentence] 国内に住所を有する個人で所得税法第十条第一項に規定する障害者等（次条において「障害者等」という。）であるものが、平成六年一月一日以後に同項に規定する預入等をする同項に規定する預貯金、合同運用信託、特定公募公社債等運用投資信託又は有価証券に係る同法第十条の規定の適用については、同条第七項第一号中「三百万円」とあるのは、「三百五十万円」とする。

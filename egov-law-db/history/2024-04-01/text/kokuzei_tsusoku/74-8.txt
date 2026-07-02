@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20240401
+snapshot_kind: historical
+law: 国税通則法 (kokuzei_tsusoku)
+law_num: 昭和三十七年法律第六十六号
+law_id: 337AC0000000066
+law_revision_id: 337AC0000000066_20240401_506AC0000000008
+as_of: 2024-04-01
+article: 74-8
+title: 第七十四条の八
+deleted: false
+
+[a74-8:caption] （権限の解釈）
+[a74-8:title] 第七十四条の八
+[a74-8-p1:sentence] 第七十四条の二から第七十四条の七まで（当該職員の質問検査権等）又は前条の規定による当該職員又は国税局長の権限は、犯罪捜査のために認められたものと解してはならない。

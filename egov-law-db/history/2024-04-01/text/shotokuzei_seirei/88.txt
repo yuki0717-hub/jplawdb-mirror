@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20240401
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20240401_506CO0000000141
+as_of: 2024-04-01
+article: 88
+title: 第八十八条
+deleted: false
+
+[a88:caption] （農産物の範囲）
+[a88:title] 第八十八条
+[a88-p1:sentence] 法第四十一条第一項（農産物の収穫の場合の総収入金額算入）に規定する政令で定める農産物は、米、麦その他の穀物、馬鈴しよ、甘しよ、たばこ、野菜、花、種苗その他のほ場作物、果樹、樹園の生産物又は温室その他特殊施設を用いて生産する園芸作物とする。

@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20231001
+snapshot_kind: historical
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_num: 昭和三十七年政令第百三十五号
+law_id: 337CO0000000135
+law_revision_id: 337CO0000000135_20221231_504CO0000000147
+as_of: 2023-10-01
+article: 18
+title: 第十八条
+deleted: false
+
+[a18:caption] （金銭担保による納付の手続）
+[a18:title] 第十八条
+[a18-p1:sentence] 法第五十一条第三項（担保として提供した金銭による納付）の規定により担保として提供した金銭をもつて当該担保に係る国税の納付に充てようとする者は、その旨を記載した書面を税務署長又は税関長に提出しなければならない。
+[a18-p2:number] ２
+[a18-p2:sentence] 前項の書面の提出があつたときは、その担保として提供された金銭の額（その額が納付すべき国税の額をこえるときは、その国税の額）に相当する国税の納付があつたものとみなす。

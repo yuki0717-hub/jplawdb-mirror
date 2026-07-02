@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20250401
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20250401_507AC0000000013
+as_of: 2025-04-01
+article: 70-2
+title: 第七十条の二
+deleted: false
+
+[a70-2:caption] （税額控除の順序）
+[a70-2:title] 第七十条の二
+[a70-2-p1:sentence] この款の規定による法人税の額からの控除については、まず第六十九条の二（分配時調整外国税相当額の控除）の規定による控除をし、次に前条の規定による控除をした後において、第六十八条（所得税額の控除）及び第六十九条（外国税額の控除）の規定による控除をするものとする。

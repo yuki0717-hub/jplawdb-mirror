@@ -1,0 +1,19 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20240401
+snapshot_kind: historical
+law: 相続税法施行令 (sozokuzei_seirei)
+law_num: 昭和二十五年政令第七十一号
+law_id: 325CO0000000071
+law_revision_id: 325CO0000000071_20240401_506CO0000000143
+as_of: 2024-04-01
+article: 1-13
+title: 第一条の十三
+deleted: false
+
+[a1-13:caption] （預金、貯金、積金及び寄託金）
+[a1-13:title] 第一条の十三
+[a1-13-p1:sentence] 法第十条第一項第四号に規定する金融機関に対する預金、貯金、積金又は寄託金は、次に掲げるものとする。
+[a1-13-p1-i1:title] 一
+[a1-13-p1-i1:sentence] 銀行、無尽会社又は株式会社商工組合中央金庫に対する預金、貯金又は積金
+[a1-13-p1-i2:title] 二
+[a1-13-p1-i2:sentence] 農業協同組合、農業協同組合連合会、水産業協同組合、信用協同組合、信用金庫又は労働金庫に対する預金、貯金又は積金

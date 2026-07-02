@@ -1,0 +1,17 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法 (hojinzei)
+law_num: 昭和四十年法律第三十四号
+law_id: 340AC0000000034
+law_revision_id: 340AC0000000034_20230607_505AC0000000047
+as_of: 2023-10-01
+article: 8
+title: 第八条
+deleted: false
+
+[a8:caption] （外国法人の課税所得の範囲）
+[a8:title] 第八条
+[a8-p1:sentence] 外国法人に対しては、第百四十一条各号（課税標準）に掲げる外国法人の区分に応じ当該各号に定める国内源泉所得に係る所得について、各事業年度の所得に対する法人税を課する。
+[a8-p2:number] ２
+[a8-p2:sentence] 外国法人（人格のない社団等に限る。）の前項に規定する国内源泉所得に係る所得のうち収益事業から生じた所得以外の所得については、同項の規定にかかわらず、各事業年度の所得に対する法人税を課さない。

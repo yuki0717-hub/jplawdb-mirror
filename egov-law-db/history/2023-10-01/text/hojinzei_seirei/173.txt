@@ -1,0 +1,27 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20231001
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20231001_430CO0000000132
+as_of: 2023-10-01
+article: 173
+title: 第百七十三条
+deleted: false
+
+[a173:caption] （事業の主宰者の特殊関係者の範囲）
+[a173:title] 第百七十三条
+[a173-p1:sentence] 法第百三十二条第一項第二号ロ（同族会社等の行為又は計算の否認）に規定する主宰者と政令で定める特殊の関係のある個人は、次に掲げる者及びこれらの者であつた者とする。
+[a173-p1-i1:title] 一
+[a173-p1-i1:sentence] 当該主宰者の親族
+[a173-p1-i2:title] 二
+[a173-p1-i2:sentence] 当該主宰者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+[a173-p1-i3:title] 三
+[a173-p1-i3:sentence] 当該主宰者の使用人
+[a173-p1-i4:title] 四
+[a173-p1-i4:sentence] 前三号に掲げる者以外の者で当該主宰者から受ける金銭その他の資産によつて生計を維持するもの
+[a173-p1-i5:title] 五
+[a173-p1-i5:sentence] 当該主宰者の雇主
+[a173-p1-i6:title] 六
+[a173-p1-i6:sentence] 第二号から前号までに掲げる者と生計を一にするこれらの者の親族

@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20240401
+snapshot_kind: historical
+law: 法人税法施行令 (hojinzei_seirei)
+law_num: 昭和四十年政令第九十七号
+law_id: 340CO0000000097
+law_revision_id: 340CO0000000097_20240401_506CO0000000142
+as_of: 2024-04-01
+article: 17
+title: 第十七条
+deleted: false
+
+[a17:caption] （納税地の指定）
+[a17:title] 第十七条
+[a17-p1:sentence] 法第十八条第一項（納税地の指定）に規定する政令で定める場合は、同項の規定により指定されるべき納税地が法第十六条から第十七条の二まで（納税地）の規定による納税地（既に法第十八条の規定により納税地の指定がされている場合には、その指定をされている納税地）の所轄国税局長の管轄区域以外の地域にある場合とする。

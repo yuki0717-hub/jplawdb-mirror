@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20250401
+snapshot_kind: historical
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_num: 昭和三十二年政令第四十三号
+law_id: 332CO0000000043
+law_revision_id: 332CO0000000043_20250401_507CO0000000127
+as_of: 2025-04-01
+article: 2-16
+title: 第二条の十六
+deleted: false
+
+[a2-16:caption] （住宅取得以外の金銭支払等があつたことにより所得税が徴収される利子所得等）
+[a2-16:title] 第二条の十六
+[a2-16-p1:sentence] 法第四条の二第九項に規定する政令で定めるものは、同項に規定する事実が生じた日の属する月以前五年内に支払われた同条第一項各号に掲げる利子、収益の分配又は差益（同条第二項の規定に該当するものを除く。）とする。

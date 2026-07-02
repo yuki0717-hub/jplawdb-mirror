@@ -1,0 +1,15 @@
+source: e-Gov法令検索
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20231001
+snapshot_kind: historical
+law: 所得税法施行令 (shotokuzei_seirei)
+law_num: 昭和四十年政令第九十六号
+law_id: 340CO0000000096
+law_revision_id: 340CO0000000096_20231001_504CO0000000136
+as_of: 2023-10-01
+article: 86
+title: 第八十六条
+deleted: false
+
+[a86:caption] （自家消費の場合のたな卸資産に準ずる資産の範囲）
+[a86:title] 第八十六条
+[a86-p1:sentence] 法第三十九条（たな卸資産等の自家消費の場合の総収入金額算入）に規定する政令で定めるものは、第八十一条各号（譲渡所得の基因とされないたな卸資産に準ずる資産）に掲げる資産（山林を除く。）とする。

@@ -207,6 +207,7 @@ def _check_egov_sync(
             f"extra={sorted(actual_codes - expected_codes)}"
         )
     article_total = 0
+    supplementary_total = 0
     for item in laws:
         if not isinstance(item, dict):
             errors.append("e-Gov status contains a non-object law")
@@ -222,10 +223,16 @@ def _check_egov_sync(
             errors.append(f"invalid e-Gov article count: {code}")
             continue
         article_total += article_count
+        supplementary_count = item.get("supplementary_count")
+        if not isinstance(supplementary_count, int) or supplementary_count < 0:
+            errors.append(f"invalid e-Gov supplementary count: {code}")
+            supplementary_count = 0
+        supplementary_total += supplementary_count
         xml_path = f"egov-law-db/xml/{code}.xml"
         metadata_path = f"egov-law-db/metadata/{code}.json"
         index_path = f"egov-law-db/text/{code}/index.html"
-        for path in (xml_path, metadata_path, index_path):
+        supplementary_path = f"egov-law-db/supplementary/{code}.txt"
+        for path in (xml_path, metadata_path, index_path, supplementary_path):
             if path not in actual:
                 errors.append(f"required e-Gov law file is missing: {path}")
         text_prefix = f"egov-law-db/text/{code}/"
@@ -249,12 +256,19 @@ def _check_egov_sync(
             f"e-Gov status article_count mismatch: "
             f"declared={status.get('article_count')} actual={article_total}"
         )
+    if status.get("supplementary_count") != supplementary_total:
+        errors.append(
+            f"e-Gov status supplementary_count mismatch: "
+            f"declared={status.get('supplementary_count')} actual={supplementary_total}"
+        )
     metrics = manifest.get("metrics")
     if isinstance(metrics, dict):
         if metrics.get("egov_law_codes") != len(config.egov_laws):
             errors.append("manifest e-Gov law count is inconsistent")
         if metrics.get("egov_main_articles") != article_total:
             errors.append("manifest e-Gov article count is inconsistent")
+        if metrics.get("egov_supplementary_provisions") != supplementary_total:
+            errors.append("manifest e-Gov supplementary count is inconsistent")
 
 
 def _check_nta_sync(
@@ -372,6 +386,233 @@ def _check_nta_sync(
     if isinstance(metrics, dict):
         if metrics.get("nta_official_documents") != len(config.nta_sources):
             errors.append("manifest NTA official source count is inconsistent")
+
+
+def _check_egov_history(
+    actual: dict[str, Path],
+    manifest: dict[str, Any],
+    config: Config,
+    errors: list[str],
+) -> None:
+    if not config.egov_history_dates:
+        return
+    required = {
+        "egov-law-db/history/index.html",
+        "egov-law-db/history/index.json",
+        "egov-law-db/history/quickstart.txt",
+        "egov-law-db/history/status.json",
+    }
+    errors.extend(
+        f"required e-Gov history file is missing: {path}"
+        for path in sorted(required - actual.keys())
+    )
+    status_path = actual.get("egov-law-db/history/status.json")
+    if status_path is None:
+        return
+    try:
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"cannot read e-Gov history status: {exc}")
+        return
+    if not isinstance(status, dict) or status.get("schema_version") != 1:
+        errors.append("e-Gov history status schema_version must be 1")
+        return
+    expected_dates = list(config.egov_history_dates)
+    expected_codes = set(config.egov_history_law_codes)
+    if status.get("dates") != expected_dates:
+        errors.append(
+            f"e-Gov history dates mismatch: "
+            f"expected={expected_dates} actual={status.get('dates')}"
+        )
+    actual_codes = set(status.get("law_codes") or [])
+    if actual_codes != expected_codes:
+        errors.append(
+            f"e-Gov history law codes mismatch: "
+            f"missing={sorted(expected_codes - actual_codes)} "
+            f"extra={sorted(actual_codes - expected_codes)}"
+        )
+    snapshots = status.get("snapshots")
+    if not isinstance(snapshots, list):
+        errors.append("e-Gov history snapshots must be a list")
+        return
+    article_total = 0
+    supplementary_total = 0
+    snapshot_dates: list[str] = []
+    for snapshot in snapshots:
+        if not isinstance(snapshot, dict):
+            errors.append("e-Gov history contains a non-object snapshot")
+            continue
+        as_of = snapshot.get("as_of")
+        if not isinstance(as_of, str) or as_of not in config.egov_history_dates:
+            errors.append(f"invalid e-Gov history snapshot date: {as_of!r}")
+            continue
+        if as_of in snapshot_dates:
+            errors.append(f"duplicate e-Gov history snapshot date: {as_of}")
+        snapshot_dates.append(as_of)
+        date_status_path = f"egov-law-db/history/{as_of}/status.json"
+        if date_status_path not in actual:
+            errors.append(f"required e-Gov history date status is missing: {date_status_path}")
+        else:
+            try:
+                date_status = json.loads(
+                    actual[date_status_path].read_text(encoding="utf-8")
+                )
+                if date_status != snapshot:
+                    errors.append(
+                        f"e-Gov history date status does not match index: {as_of}"
+                    )
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+                errors.append(f"cannot read e-Gov history date status: {as_of}: {exc}")
+        laws = snapshot.get("laws")
+        if not isinstance(laws, list):
+            errors.append(f"e-Gov history laws must be a list: {as_of}")
+            continue
+        snapshot_codes = {
+            str(item.get("code"))
+            for item in laws
+            if isinstance(item, dict) and isinstance(item.get("code"), str)
+        }
+        if snapshot_codes != expected_codes:
+            errors.append(f"e-Gov history snapshot law codes mismatch: {as_of}")
+        snapshot_articles = 0
+        snapshot_supplementary = 0
+        for law in laws:
+            if not isinstance(law, dict):
+                errors.append(f"e-Gov history contains a non-object law: {as_of}")
+                continue
+            code = law.get("code")
+            if not isinstance(code, str) or code not in expected_codes:
+                continue
+            if law.get("as_of") != as_of:
+                errors.append(f"e-Gov history law date mismatch: {as_of}/{code}")
+            for field in (
+                "law_id",
+                "law_num",
+                "law_revision_id",
+                "source_xml_sha256",
+                "source_url",
+            ):
+                if not isinstance(law.get(field), str) or not law[field]:
+                    errors.append(f"e-Gov history metadata is missing {field}: {as_of}/{code}")
+            article_count = law.get("article_count")
+            supplementary_count = law.get("supplementary_count")
+            if not isinstance(article_count, int) or article_count < 1:
+                errors.append(f"invalid e-Gov history article count: {as_of}/{code}")
+                article_count = 0
+            if not isinstance(supplementary_count, int) or supplementary_count < 0:
+                errors.append(f"invalid e-Gov history supplementary count: {as_of}/{code}")
+                supplementary_count = 0
+            snapshot_articles += article_count
+            snapshot_supplementary += supplementary_count
+            paths = (
+                f"egov-law-db/history/{as_of}/metadata/{code}.json",
+                f"egov-law-db/history/{as_of}/text/{code}/index.html",
+                f"egov-law-db/history/{as_of}/supplementary/{code}.txt",
+            )
+            for path in paths:
+                if path not in actual:
+                    errors.append(f"required e-Gov history law file is missing: {path}")
+            prefix = f"egov-law-db/history/{as_of}/text/{code}/"
+            text_count = sum(
+                1
+                for path in actual
+                if path.startswith(prefix) and path.endswith(".txt")
+            )
+            if text_count != article_count:
+                errors.append(
+                    f"e-Gov history article files mismatch for {as_of}/{code}: "
+                    f"expected={article_count} actual={text_count}"
+                )
+        if snapshot.get("article_count") != snapshot_articles:
+            errors.append(f"e-Gov history snapshot article_count mismatch: {as_of}")
+        if snapshot.get("supplementary_count") != snapshot_supplementary:
+            errors.append(f"e-Gov history snapshot supplementary_count mismatch: {as_of}")
+        article_total += snapshot_articles
+        supplementary_total += snapshot_supplementary
+    if snapshot_dates != expected_dates:
+        errors.append(
+            f"e-Gov history snapshot order/count mismatch: "
+            f"expected={expected_dates} actual={snapshot_dates}"
+        )
+    revisions = status.get("revisions")
+    revision_total = 0
+    if not isinstance(revisions, list):
+        errors.append("e-Gov history revisions must be a list")
+        revisions = []
+    revision_codes: set[str] = set()
+    for revision in revisions:
+        if not isinstance(revision, dict):
+            errors.append("e-Gov history contains a non-object revision status")
+            continue
+        code = revision.get("code")
+        if not isinstance(code, str) or code not in expected_codes:
+            errors.append(f"invalid e-Gov revision code: {code!r}")
+            continue
+        if code in revision_codes:
+            errors.append(f"duplicate e-Gov revision code: {code}")
+        revision_codes.add(code)
+        count = revision.get("revision_count")
+        if not isinstance(count, int) or count < 1:
+            errors.append(f"invalid e-Gov revision count: {code}")
+            count = 0
+        revision_total += count
+        json_path = f"egov-law-db/history/revisions/{code}.json"
+        text_path = f"egov-law-db/history/revisions/{code}.txt"
+        for path in (json_path, text_path):
+            if path not in actual:
+                errors.append(f"required e-Gov revision file is missing: {path}")
+        if json_path in actual and revision.get("json_sha256") != _sha256(actual[json_path]):
+            errors.append(f"e-Gov revision JSON SHA-256 mismatch: {code}")
+        if json_path in actual:
+            try:
+                payload = json.loads(actual[json_path].read_text(encoding="utf-8"))
+                law_info = payload.get("law_info") if isinstance(payload, dict) else None
+                entries = payload.get("revisions") if isinstance(payload, dict) else None
+                if (
+                    not isinstance(law_info, dict)
+                    or law_info.get("law_id") != revision.get("law_id")
+                    or not isinstance(entries, list)
+                    or len(entries) != count
+                ):
+                    errors.append(f"e-Gov revision JSON content mismatch: {code}")
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+                errors.append(f"cannot read e-Gov revision JSON: {code}: {exc}")
+        if text_path in actual and revision.get("text_sha256") != _sha256(actual[text_path]):
+            errors.append(f"e-Gov revision text SHA-256 mismatch: {code}")
+    if revision_codes != expected_codes:
+        errors.append("e-Gov history revision law codes are inconsistent")
+    if status.get("date_count") != len(expected_dates):
+        errors.append("e-Gov history date_count is inconsistent")
+    if status.get("law_count_per_date") != len(expected_codes):
+        errors.append("e-Gov history law_count_per_date is inconsistent")
+    if article_total < config.egov_history_min_articles:
+        errors.append(
+            f"e-Gov history articles below minimum: "
+            f"{article_total} < {config.egov_history_min_articles}"
+        )
+    if revision_total < config.egov_history_min_revisions:
+        errors.append(
+            f"e-Gov history revisions below minimum: "
+            f"{revision_total} < {config.egov_history_min_revisions}"
+        )
+    if status.get("article_count") != article_total:
+        errors.append("e-Gov history article_count is inconsistent")
+    if status.get("supplementary_count") != supplementary_total:
+        errors.append("e-Gov history supplementary_count is inconsistent")
+    if status.get("revision_count") != revision_total:
+        errors.append("e-Gov history revision_count is inconsistent")
+    metrics = manifest.get("metrics")
+    if isinstance(metrics, dict):
+        expected_metrics = {
+            "egov_history_dates": len(config.egov_history_dates),
+            "egov_history_laws": len(config.egov_history_law_codes),
+            "egov_history_articles": article_total,
+            "egov_history_supplementary_provisions": supplementary_total,
+            "egov_history_revisions": revision_total,
+        }
+        for name, expected in expected_metrics.items():
+            if metrics.get(name) != expected:
+                errors.append(f"manifest {name} is inconsistent")
 
 
 def _check_tax_question_tests(
@@ -499,6 +740,7 @@ def verify_output(root: Path, config: Config) -> VerificationReport:
         errors.append(str(exc))
 
     _check_egov_sync(actual, manifest, config, errors)
+    _check_egov_history(actual, manifest, config, errors)
     _check_nta_sync(actual, manifest, config, errors)
     _check_tax_question_tests(actual, manifest, errors)
     link_targets = dict(actual)

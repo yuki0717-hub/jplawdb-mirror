@@ -23,8 +23,8 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
         official = [
             source for source in sources if source.path.startswith("nta-official-db/")
         ]
-        self.assertEqual(len(SCENARIOS), 6)
-        self.assertEqual(len(sources), 24)
+        self.assertEqual(len(SCENARIOS), 9)
+        self.assertEqual(len(sources), 30)
         self.assertEqual(len(official), 11)
         self.assertFalse(
             any(

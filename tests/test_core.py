@@ -14,8 +14,10 @@ from jplawdb_mirror.core import (
     extract_item_ids,
     generate_manifest,
     local_asset_path,
+    rewrite_source_urls,
     resolve_dataset_reference,
     safe_relative_path,
+    safe_output_relative_path,
     shard_file_references,
 )
 from jplawdb_mirror.verification import VerificationError, verify_output
@@ -33,6 +35,48 @@ class DiscoveryHelpersTest(unittest.TestCase):
             '<a href="index.html">top</a>'
         )
         self.assertEqual(extract_article_ids(source), ["1", "66-7", "136:137"])
+
+    def test_range_article_paths_are_portable_and_keep_the_source_path(self) -> None:
+        plan = DiscoveryPlan()
+        source_path = "ai-law-db/enhanced/hojinzei/136:137.html"
+
+        returned = plan.add(source_path, "laws")
+
+        output_path = "ai-law-db/enhanced/hojinzei/136-to-137.html"
+        self.assertEqual(returned, source_path)
+        self.assertEqual(safe_output_relative_path(source_path), output_path)
+        self.assertIn(output_path, plan.targets)
+        self.assertEqual(plan.targets[output_path].source_path, source_path)
+
+    def test_rewrites_range_article_references_to_portable_paths(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            page = root / "index.html"
+            page.write_text(
+                (
+                    '<a href="136:137.html">range</a>'
+                    '<a href="153%3A157.html">encoded range</a>'
+                    f'<a href="{SOURCE}/ai-law-db/text/hojinzei/'
+                    '136:137.txt">text</a>'
+                ),
+                encoding="utf-8",
+            )
+            config = Config(
+                source_base=SOURCE,
+                mirror_base="https://example.test/mirror",
+            )
+
+            replacements = rewrite_source_urls(root, config)
+            rewritten = page.read_text(encoding="utf-8")
+
+            self.assertEqual(replacements, 1)
+            self.assertIn('href="136-to-137.html"', rewritten)
+            self.assertIn('href="153-to-157.html"', rewritten)
+            self.assertIn(
+                "https://example.test/mirror/ai-law-db/text/hojinzei/"
+                "136-to-137.txt",
+                rewritten,
+            )
 
     def test_extract_item_ids_supports_string_and_object_schemas(self) -> None:
         items = ["1-1", {"item_id": "2-1"}, {"id": 3}, "1-1"]

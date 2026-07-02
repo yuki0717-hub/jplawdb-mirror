@@ -93,6 +93,11 @@ class EgovParserTest(unittest.TestCase):
         self.assertIn("[a1-p1-i1-s1-1:sentence] SUBITEM-TEXT", article.text)
         self.assertGreater(len(article.text.splitlines()), 5)
 
+    def test_extracts_supplementary_provisions_separately(self) -> None:
+        law = make_law()
+        self.assertEqual(law.supplementary_count, 1)
+        self.assertIn("[suppl001-a1:title] 第一条", law.supplementary_text)
+
     def test_rejects_title_mismatch(self) -> None:
         with self.assertRaisesRegex(EgovError, "title mismatch"):
             parse_egov_xml(
@@ -158,6 +163,7 @@ class EgovOutputTest(unittest.TestCase):
                 {
                     "egov_law_codes": 1,
                     "egov_main_articles": 3,
+                    "egov_supplementary_provisions": 1,
                     "egov_xml_bytes": len(XML),
                 }
             )
@@ -166,6 +172,10 @@ class EgovOutputTest(unittest.TestCase):
             self.assertGreater(report.file_count, 8)
             status = json.loads((root / "egov-law-db/status.json").read_text("utf-8"))
             self.assertEqual(status["article_count"], 3)
+            self.assertEqual(status["supplementary_count"], 1)
+            self.assertTrue(
+                (root / "egov-law-db/supplementary/hojinzei.txt").is_file()
+            )
 
 
 if __name__ == "__main__":

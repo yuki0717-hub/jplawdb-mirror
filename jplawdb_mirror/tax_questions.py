@@ -253,6 +253,69 @@ SCENARIOS = (
             ),
         ),
     ),
+    TaxQuestionScenario(
+        id="historical-invoice-start",
+        title="インボイス制度開始日時点の仕入税額控除",
+        question=(
+            "2023年10月1日に行った国内課税仕入れについて、同日時点の消費税法を"
+            "基準に、仕入税額控除に必要な帳簿・請求書等の要件を整理してください。"
+            "現在法令で上書きせず、参照した過去基準日も回答に明記してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/history/2023-10-01/text/shohizei/30.txt",
+                "2023年10月1日時点・消費税法30条",
+                ("課税仕入れ", "帳簿", "請求書"),
+            ),
+            SourceCheck(
+                "egov-law-db/history/2023-10-01/text/shohizei_seirei/49.txt",
+                "2023年10月1日時点・消費税法施行令49条",
+                ("帳簿", "請求書"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="historical-revenue-recognition",
+        title="2024年度開始時点の収益認識",
+        question=(
+            "2024年4月1日に開始した事業年度のSaaS契約について、同日時点の"
+            "法人税法22条・22条の2を基準に益金算入額と収益計上時期を整理して"
+            "ください。現在法令との差異があれば区別してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/history/2024-04-01/text/hojinzei/22.txt",
+                "2024年4月1日時点・法人税法22条",
+                ("益金の額", "損金の額"),
+            ),
+            SourceCheck(
+                "egov-law-db/history/2024-04-01/text/hojinzei/22-2.txt",
+                "2024年4月1日時点・法人税法22条の2",
+                ("収益", "引渡し"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="historical-executive-compensation",
+        title="2025年度開始時点の役員給与",
+        question=(
+            "2025年4月1日に開始した事業年度中に役員報酬を改定する場合、同日時点の"
+            "法人税法34条と施行令69条を基準に定期同額給与の要件を整理してください。"
+            "取引日より後の改正を混在させないでください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/history/2025-04-01/text/hojinzei/34.txt",
+                "2025年4月1日時点・法人税法34条",
+                ("役員", "定期同額給与"),
+            ),
+            SourceCheck(
+                "egov-law-db/history/2025-04-01/text/hojinzei_seirei/69.txt",
+                "2025年4月1日時点・法人税法施行令69条",
+                ("定期同額給与", "改定"),
+            ),
+        ),
+    ),
 )
 
 

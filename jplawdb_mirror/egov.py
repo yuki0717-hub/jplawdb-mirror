@@ -50,6 +50,8 @@ class EgovLaw:
     as_of: str
     xml: bytes
     articles: tuple[EgovArticle, ...]
+    supplementary_count: int
+    supplementary_text: str
 
 
 def resolve_egov_as_of(value: str) -> str:
@@ -118,9 +120,11 @@ def _text_role(name: str) -> str | None:
     return None
 
 
-def _structured_article_text(element: ElementTree.Element) -> str:
-    """Render an article without discarding its paragraph/item hierarchy."""
-
+def _structured_element_text(
+    element: ElementTree.Element,
+    initial_path: tuple[str, ...] = (),
+) -> str:
+    """Render an XML subtree without discarding its hierarchy."""
     lines: list[str] = []
 
     def append(path: tuple[str, ...], role: str, text: str) -> None:
@@ -144,10 +148,36 @@ def _structured_article_text(element: ElementTree.Element) -> str:
             if child.tail and child.tail.strip():
                 append(current_path, "text", child.tail)
 
-    walk(element, ())
+    walk(element, initial_path)
     if not lines:
         return _normalized_text(element)
     return "\n".join(lines)
+
+
+def _structured_article_text(element: ElementTree.Element) -> str:
+    return _structured_element_text(element)
+
+
+def _supplementary_text(law_body: ElementTree.Element) -> tuple[int, str]:
+    provisions = [
+        element
+        for element in law_body
+        if _local_name(element.tag) == "SupplProvision"
+    ]
+    documents: list[str] = []
+    for index, provision in enumerate(provisions, start=1):
+        amendment_law_num = str(provision.attrib.get("AmendLawNum") or "").strip()
+        extract = str(provision.attrib.get("Extract") or "").strip()
+        label = _child_text(provision, "SupplProvisionLabel")
+        header = (
+            f"[supplementary:{index:03d}]\n"
+            f"label: {label}\n"
+            f"amendment_law_num: {amendment_law_num}\n"
+            f"extract: {extract}\n"
+        )
+        body = _structured_element_text(provision, (f"suppl{index:03d}",))
+        documents.append(f"{header}\n{body}".rstrip())
+    return len(provisions), "\n\n".join(documents)
 
 
 def parse_egov_xml(
@@ -218,6 +248,7 @@ def parse_egov_xml(
         )
     if not articles:
         raise EgovError(f"e-Gov law has no main articles: {code}")
+    supplementary_count, supplementary_text = _supplementary_text(law_body)
     return EgovLaw(
         code=code,
         expected_title=expected_title,
@@ -231,6 +262,8 @@ def parse_egov_xml(
         as_of=as_of,
         xml=xml,
         articles=tuple(articles),
+        supplementary_count=supplementary_count,
+        supplementary_text=supplementary_text,
     )
 
 
@@ -343,6 +376,38 @@ class EgovClient:
             as_of=as_of,
         )
 
+    async def fetch_revisions(self, code: str, law_id: str) -> dict[str, Any]:
+        url = f"{self.config.egov_api_base}/law_revisions/{quote(law_id, safe='')}"
+        body = await self._request(url)
+        try:
+            payload = json.loads(body.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            raise EgovError(f"invalid e-Gov revision JSON for {code}: {exc}") from exc
+        law_info = payload.get("law_info") if isinstance(payload, dict) else None
+        revisions = payload.get("revisions") if isinstance(payload, dict) else None
+        if not isinstance(law_info, dict) or not isinstance(revisions, list):
+            raise EgovError(f"unsupported e-Gov revision schema for {code}")
+        if law_info.get("law_id") != law_id:
+            raise EgovError(
+                f"e-Gov revision law ID mismatch for {code}: "
+                f"expected={law_id!r} actual={law_info.get('law_id')!r}"
+            )
+        if not revisions:
+            raise EgovError(f"e-Gov revision history is empty for {code}")
+        seen: set[str] = set()
+        for revision in revisions:
+            revision_id = revision.get("law_revision_id") if isinstance(revision, dict) else None
+            if (
+                not isinstance(revision_id, str)
+                or not revision_id.startswith(f"{law_id}_")
+                or revision_id in seen
+            ):
+                raise EgovError(
+                    f"invalid or duplicate e-Gov revision ID for {code}: {revision_id!r}"
+                )
+            seen.add(revision_id)
+        return payload
+
 
 async def _fetch_all_laws(
     config: Config,
@@ -383,6 +448,7 @@ def _law_status(law: EgovLaw) -> dict[str, Any]:
         "amendment_enforcement_date": law.amendment_enforcement_date,
         "as_of": law.as_of,
         "article_count": len(law.articles),
+        "supplementary_count": law.supplementary_count,
         "xml_size": len(law.xml),
         "xml_sha256": hashlib.sha256(law.xml).hexdigest(),
         "source_url": (
@@ -413,6 +479,22 @@ def _write_output(root: Path, as_of: str, laws: list[EgovLaw], mirror_base: str)
             metadata_path,
             json.dumps(status, ensure_ascii=False, indent=2) + "\n",
         )
+        supplementary_document = (
+            "source: e-Gov法令検索\n"
+            f"source_url: {status['source_url']}\n"
+            f"law: {law.law_title} ({law.code})\n"
+            f"law_num: {law.law_num}\n"
+            f"law_id: {law.law_id}\n"
+            f"law_revision_id: {law.law_revision_id}\n"
+            f"as_of: {law.as_of}\n"
+            f"supplementary_count: {law.supplementary_count}\n"
+            "---\n"
+            f"{law.supplementary_text or '附則なし'}\n"
+        )
+        _write_text(
+            base / "supplementary" / f"{law.code}.txt",
+            supplementary_document,
+        )
         article_links: list[str] = []
         for article in law.articles:
             text_path = base / "text" / law.code / f"{article.key}.txt"
@@ -442,7 +524,8 @@ def _write_output(root: Path, as_of: str, laws: list[EgovLaw], mirror_base: str)
 <h1>{html.escape(law.law_title)}</h1>
 <p>基準日: {html.escape(as_of)} / 法令ID: <code>{html.escape(law.law_id)}</code></p>
 <p><a href="../../xml/{html.escape(law.code, quote=True)}.xml">公式XML</a> /
-<a href="../../metadata/{html.escape(law.code, quote=True)}.json">同期メタデータ</a></p>
+<a href="../../metadata/{html.escape(law.code, quote=True)}.json">同期メタデータ</a> /
+<a href="../../supplementary/{html.escape(law.code, quote=True)}.txt">附則</a></p>
 <ul>{''.join(article_links)}</ul>
 </body></html>
 """
@@ -459,6 +542,7 @@ def _write_output(root: Path, as_of: str, laws: list[EgovLaw], mirror_base: str)
         "api_base": "https://laws.e-gov.go.jp/api/2",
         "law_count": len(laws),
         "article_count": sum(len(law.articles) for law in laws),
+        "supplementary_count": sum(law.supplementary_count for law in laws),
         "laws": statuses,
     }
     _write_text(
@@ -487,6 +571,8 @@ def _write_output(root: Path, as_of: str, laws: list[EgovLaw], mirror_base: str)
             "法令一覧: index.json\n"
             "同期状態: status.json\n"
             "条文: text/{law_code}/{article}.txt\n"
+            "附則: supplementary/{law_code}.txt\n"
+            "過去時点: history/index.html\n"
             "公式XML: xml/{law_code}.xml\n\n"
             "税務質問では、旧 ai-law-db よりこの egov-law-db の条文を優先してください。\n"
             "最終判断では各ファイルの source_url からe-Gov原文も確認してください。\n"
@@ -499,7 +585,10 @@ def _write_output(root: Path, as_of: str, laws: list[EgovLaw], mirror_base: str)
             f"- as_of: {as_of}\n"
             f"- laws: {len(laws)}\n"
             f"- main_articles: {sum(len(law.articles) for law in laws)}\n"
+            f"- supplementary_provisions: {sum(law.supplementary_count for law in laws)}\n"
             "- canonical article: text/{law_code}/{article}.txt\n"
+            "- supplementary provisions: supplementary/{law_code}.txt\n"
+            "- historical snapshots: history/index.html\n"
             "- official source XML: xml/{law_code}.xml\n"
             "- metadata and hashes: status.json\n"
         ),
@@ -522,6 +611,9 @@ def _metrics(laws: list[EgovLaw]) -> dict[str, int]:
     return {
         "egov_law_codes": len(laws),
         "egov_main_articles": sum(len(law.articles) for law in laws),
+        "egov_supplementary_provisions": sum(
+            law.supplementary_count for law in laws
+        ),
         "egov_xml_bytes": sum(len(law.xml) for law in laws),
     }
 

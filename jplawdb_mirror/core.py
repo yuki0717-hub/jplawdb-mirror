@@ -12,7 +12,7 @@ import re
 import shutil
 from collections import Counter
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import quote, unquote, urljoin, urlsplit
@@ -23,6 +23,15 @@ import yaml
 TEXT_EXTENSIONS = {".txt", ".json", ".jsonl", ".html", ".htm", ".tsv", ".csv", ".xml"}
 ARTICLE_LINK_RE = re.compile(
     r"href\s*=\s*['\"](?:[^'\"]*/)?(\d+(?:[-:]\d+)*)\.html(?:#[^'\"]*)?['\"]",
+    re.IGNORECASE,
+)
+ARTICLE_RANGE_FILE_RE = re.compile(
+    r"^(?P<start>\d+(?:-\d+)*):(?P<end>\d+(?:-\d+)*)(?P<suffix>\.(?:html?|txt))$",
+    re.IGNORECASE,
+)
+ARTICLE_RANGE_REFERENCE_RE = re.compile(
+    r"(?P<start>\d+(?:-\d+)*)(?::|%3A)"
+    r"(?P<end>\d+(?:-\d+)*)(?P<suffix>\.(?:html?|txt))",
     re.IGNORECASE,
 )
 HTML_REFERENCE_RE = re.compile(r"(?:href|src)\s*=\s*['\"]([^'\"]+)['\"]", re.IGNORECASE)
@@ -68,6 +77,10 @@ class Config:
     egov_concurrency: int = 4
     egov_min_articles: int = 1
     egov_laws: dict[str, dict[str, str]] = field(default_factory=dict)
+    egov_history_dates: tuple[str, ...] = ()
+    egov_history_law_codes: tuple[str, ...] = ()
+    egov_history_min_articles: int = 1
+    egov_history_min_revisions: int = 1
     nta_concurrency: int = 3
     nta_max_legal_age_days: int = 550
     nta_sources: dict[str, NtaSourceSpec] = field(default_factory=dict)
@@ -125,6 +138,46 @@ class Config:
                 raise ValueError("egov.api_base must be an absolute HTTPS URL")
             if egov_concurrency < 1 or egov_min_articles < 1:
                 raise ValueError("invalid egov concurrency or minimum_articles")
+        history = egov.get("history") or {}
+        if not isinstance(history, dict):
+            raise ValueError("egov.history must be a mapping")
+        history_dates_raw = history.get("as_of") or []
+        history_codes_raw = history.get("law_codes") or []
+        if not isinstance(history_dates_raw, list) or not isinstance(
+            history_codes_raw, list
+        ):
+            raise ValueError("egov.history as_of and law_codes must be lists")
+        history_dates: list[str] = []
+        earliest_history_date = date(2017, 4, 1)
+        today = datetime.now(timezone.utc).date()
+        for value in history_dates_raw:
+            try:
+                parsed_history_date = date.fromisoformat(str(value))
+            except ValueError as exc:
+                raise ValueError(f"invalid e-Gov history date: {value!r}") from exc
+            if (
+                parsed_history_date < earliest_history_date
+                or parsed_history_date > today
+            ):
+                raise ValueError(f"unsupported e-Gov history date: {value!r}")
+            normalized_date = parsed_history_date.isoformat()
+            if normalized_date in history_dates:
+                raise ValueError(f"duplicate e-Gov history date: {normalized_date}")
+            history_dates.append(normalized_date)
+        history_codes: list[str] = []
+        for value in history_codes_raw:
+            code = str(value)
+            if code not in egov_laws:
+                raise ValueError(f"unknown e-Gov history law code: {code}")
+            if code in history_codes:
+                raise ValueError(f"duplicate e-Gov history law code: {code}")
+            history_codes.append(code)
+        if bool(history_dates) != bool(history_codes):
+            raise ValueError("e-Gov history requires both as_of and law_codes")
+        history_min_articles = int(history.get("minimum_articles", 1))
+        history_min_revisions = int(history.get("minimum_revisions", 1))
+        if history_dates and (history_min_articles < 1 or history_min_revisions < 1):
+            raise ValueError("invalid e-Gov history minimums")
         nta = raw.get("nta_official") or {}
         if not isinstance(nta, dict):
             raise ValueError("nta_official must be a mapping")
@@ -184,6 +237,10 @@ class Config:
             egov_concurrency=egov_concurrency,
             egov_min_articles=egov_min_articles,
             egov_laws=egov_laws,
+            egov_history_dates=tuple(history_dates),
+            egov_history_law_codes=tuple(history_codes),
+            egov_history_min_articles=history_min_articles,
+            egov_history_min_revisions=history_min_revisions,
             nta_concurrency=nta_concurrency,
             nta_max_legal_age_days=nta_max_legal_age_days,
             nta_sources=nta_sources,
@@ -197,6 +254,7 @@ class Config:
 class Target:
     path: str
     dataset: str
+    source_path: str
 
 
 @dataclass(slots=True)
@@ -205,11 +263,17 @@ class DiscoveryPlan:
     metrics: Counter[str] = field(default_factory=Counter)
 
     def add(self, path: str, dataset: str) -> str:
-        clean = safe_relative_path(path)
-        existing = self.targets.get(clean)
+        source_path = safe_relative_path(path)
+        output_path = safe_output_relative_path(source_path)
+        existing = self.targets.get(output_path)
         if existing is None:
-            self.targets[clean] = Target(clean, dataset)
-        return clean
+            self.targets[output_path] = Target(output_path, dataset, source_path)
+        elif existing.source_path != source_path:
+            raise DiscoveryError(
+                f"output path collision: {existing.source_path} and {source_path} "
+                f"both map to {output_path}"
+            )
+        return source_path
 
 
 @dataclass(frozen=True, slots=True)
@@ -764,6 +828,24 @@ def safe_relative_path(path: str) -> str:
     return normalized
 
 
+def safe_output_relative_path(path: str) -> str:
+    """Map source-only range filenames to portable output filenames."""
+
+    clean = safe_relative_path(path)
+    parts = []
+    for part in clean.split("/"):
+        parts.append(
+            ARTICLE_RANGE_FILE_RE.sub(
+                lambda match: (
+                    f"{match.group('start')}-to-{match.group('end')}"
+                    f"{match.group('suffix')}"
+                ),
+                part,
+            )
+        )
+    return "/".join(parts)
+
+
 def source_url(source_base: str, path: str) -> str:
     clean = safe_relative_path(path)
     encoded = quote(clean, safe=URL_PATH_SAFE)
@@ -887,12 +969,14 @@ async def _create_discovery(config: Config, session: aiohttp.ClientSession) -> t
 
 async def discover_mirror(config: Config) -> DiscoveryPlan:
     from .egov import inspect_egov_laws
+    from .egov_history import inspect_egov_history
     from .nta import inspect_nta_sources
 
     connector = aiohttp.TCPConnector(limit=max(config.concurrency * 2, 16))
     async with aiohttp.ClientSession(connector=connector) as session:
         plan, _ = await _create_discovery(config, session)
         plan.metrics.update(await inspect_egov_laws(config, session))
+        plan.metrics.update(await inspect_egov_history(config, session))
         plan.metrics.update(await inspect_nta_sources(config, session))
         validate_metrics(plan.metrics, config.minimum_counts)
         return plan
@@ -908,11 +992,13 @@ async def download_targets(
 
     async def worker(target: Target) -> None:
         nonlocal completed
-        body = fetcher.cache.get(target.path)
+        body = fetcher.cache.get(target.source_path)
         if body is None:
-            body = await fetcher.fetch_path(target.path, store_cache=False)
+            body = await fetcher.fetch_path(target.source_path, store_cache=False)
         if body is None:
-            raise FetchError(f"required target unexpectedly missing: {target.path}")
+            raise FetchError(
+                f"required target unexpectedly missing: {target.source_path}"
+            )
         destination = staging / Path(target.path)
         destination.parent.mkdir(parents=True, exist_ok=True)
         await asyncio.to_thread(destination.write_bytes, body)
@@ -926,6 +1012,7 @@ async def download_targets(
 
 def rewrite_source_urls(root: Path, config: Config) -> int:
     replacements = 0
+    range_replacements = 0
     for path in root.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in TEXT_EXTENSIONS:
             continue
@@ -933,10 +1020,24 @@ def rewrite_source_urls(root: Path, config: Config) -> int:
             text = path.read_text(encoding="utf-8")
         except UnicodeDecodeError as exc:
             raise MirrorError(f"downloaded text file is not UTF-8: {path}") from exc
-        count = text.count(config.source_base)
-        if count:
-            path.write_text(text.replace(config.source_base, config.mirror_base), encoding="utf-8")
-            replacements += count
+        source_count = text.count(config.source_base)
+        rewritten = text.replace(config.source_base, config.mirror_base)
+        rewritten, range_count = ARTICLE_RANGE_REFERENCE_RE.subn(
+            lambda match: (
+                f"{match.group('start')}-to-{match.group('end')}"
+                f"{match.group('suffix')}"
+            ),
+            rewritten,
+        )
+        if rewritten != text:
+            path.write_text(rewritten, encoding="utf-8")
+        replacements += source_count
+        range_replacements += range_count
+    if range_replacements:
+        logging.info(
+            "Rewrote %s non-portable article-range references",
+            range_replacements,
+        )
     return replacements
 
 
@@ -947,6 +1048,7 @@ def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
         ("AI向け総合案内", "llms3.txt"),
         ("AI向け詳細案内", "llms4.txt"),
         ("e-Gov公式法令（最新同期）", "egov-law-db/index.html"),
+        ("e-Gov過去法令・改正履歴", "egov-law-db/history/index.html"),
         ("e-Gov公式法令クイックスタート", "egov-law-db/quickstart.txt"),
         ("法令クイックスタート", "ai-law-db/quickstart.txt"),
         ("法令名一覧", "ai-law-db/data/law_aliases.json"),
@@ -1067,6 +1169,7 @@ def atomic_publish(staging: Path, output: Path) -> None:
 
 async def build_mirror(config: Config) -> BuildResult:
     from .egov import sync_egov_laws
+    from .egov_history import sync_egov_history
     from .nta import sync_nta_sources
     from .tax_questions import run_tax_question_tests
     from .verification import verify_output
@@ -1085,6 +1188,9 @@ async def build_mirror(config: Config) -> BuildResult:
             egov_metrics = await sync_egov_laws(config, session, staging)
             plan.metrics.update(egov_metrics)
             logging.info("e-Gov metrics: %s", dict(sorted(egov_metrics.items())))
+            history_metrics = await sync_egov_history(config, session, staging)
+            plan.metrics.update(history_metrics)
+            logging.info("e-Gov history metrics: %s", dict(sorted(history_metrics.items())))
             nta_metrics = await sync_nta_sources(config, session, staging)
             plan.metrics.update(nta_metrics)
             logging.info("NTA metrics: %s", dict(sorted(nta_metrics.items())))

@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260702
+source_url: https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260706
 law: 所得税法施行規則 (shotokuzei_kisoku)
 law_num: 昭和四十年大蔵省令第十一号
 law_id: 340M50000040011
 law_revision_id: 340M50000040011_20260522_508M60000040017
-as_of: 2026-07-02
+as_of: 2026-07-06
 article: 76-2
 title: 第七十六条の二
 deleted: false

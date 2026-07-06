@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm
 final_url: https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm
 code: transfer_pricing_guidance
 title: 移転価格事務運営要領の制定について（事務運営指針）｜国税庁
-fetched_at: 2026-07-02T08:23:14.728576+00:00
+fetched_at: 2026-07-06T07:57:38.755083+00:00
 last_modified: Fri, 27 Mar 2026 04:27:07 GMT
 legal_as_of: 
 declared_charset: shift_jis

@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260702
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260706
 law: 所得税法 (shotokuzei)
 law_num: 昭和四十年法律第三十三号
 law_id: 340AC0000000033
 law_revision_id: 340AC0000000033_20260401_507AC0000000013
-as_of: 2026-07-02
+as_of: 2026-07-06
 article: 228-3-2
 title: 第二百二十八条の三の二
 deleted: false

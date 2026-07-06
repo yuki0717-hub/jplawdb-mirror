@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104
 final_url: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104.htm
 code: executive_compensation_filing
 title: C1-23 事前確定届出給与に関する届出｜国税庁
-fetched_at: 2026-07-02T08:23:14.375309+00:00
+fetched_at: 2026-07-06T07:57:37.978144+00:00
 last_modified: Tue, 30 Jun 2026 08:31:40 GMT
 legal_as_of: 
 declared_charset: shift_jis

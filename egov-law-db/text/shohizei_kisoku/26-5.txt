@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363M50000040053?occasion_date=20260702
+source_url: https://laws.e-gov.go.jp/law/363M50000040053?occasion_date=20260706
 law: 消費税法施行規則 (shohizei_kisoku)
 law_num: 昭和六十三年大蔵省令第五十三号
 law_id: 363M50000040053
 law_revision_id: 363M50000040053_20260401_506M60000040019
-as_of: 2026-07-02
+as_of: 2026-07-06
 article: 26-5
 title: 第二十六条の五
 deleted: false

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T08:48:27.702476+00:00",
+  "generated_at": "2026-07-06T08:22:50.258613+00:00",
   "passed": true,
   "scenario_count": 9,
   "source_check_count": 30,
@@ -20,7 +20,7 @@
             "役員",
             "定期同額給与"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 10468,
           "status": "passed"
         },
@@ -32,7 +32,7 @@
             "定期同額給与",
             "改定"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 35417,
           "status": "passed"
         },
@@ -44,7 +44,7 @@
             "定期同額給与",
             "非常勤役員"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.019793+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:37.804850+00:00",
           "size": 4434,
           "status": "passed"
         },
@@ -68,7 +68,7 @@
             "事前確定届出給与",
             "提出時期"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.375309+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:37.978144+00:00",
           "size": 5147,
           "status": "passed"
         }
@@ -94,7 +94,7 @@
             "国外関連者",
             "独立企業間価格"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 38046,
           "status": "passed"
         },
@@ -106,7 +106,7 @@
             "独立企業間価格",
             "比較対象取引"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 46501,
           "status": "passed"
         },
@@ -118,7 +118,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.728576+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:38.755083+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -131,7 +131,7 @@
             "比較対象取引",
             "独立企業間価格"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:15.092180+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:39.072175+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -176,7 +176,7 @@
             "帳簿",
             "請求書"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 20151,
           "status": "passed"
         },
@@ -188,7 +188,7 @@
             "帳簿",
             "請求書"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 11853,
           "status": "passed"
         },
@@ -212,7 +212,7 @@
             "出張旅費",
             "保存期間"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.036493+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:38.102346+00:00",
           "size": 9493,
           "status": "passed"
         }
@@ -238,7 +238,7 @@
             "収益",
             "引渡し"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 3955,
           "status": "passed"
         },
@@ -250,7 +250,7 @@
             "個々の契約",
             "履行義務"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.753926+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:38.443044+00:00",
           "size": 26325,
           "status": "passed"
         }
@@ -276,7 +276,7 @@
             "財産",
             "時価"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 698,
           "status": "passed"
         },
@@ -288,7 +288,7 @@
             "取引相場のない株式",
             "大会社"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:15.212747+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:39.214305+00:00",
           "size": 14503,
           "status": "passed"
         },
@@ -321,7 +321,7 @@
             "過少申告加算税",
             "正当な理由"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 11130,
           "status": "passed"
         },
@@ -333,7 +333,7 @@
             "無申告加算税",
             "正当な理由"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 11716,
           "status": "passed"
         },
@@ -346,7 +346,7 @@
             "隠蔽",
             "仮装"
           ],
-          "observed_date": "as_of: 2026-07-02",
+          "observed_date": "as_of: 2026-07-06",
           "size": 6189,
           "status": "passed"
         },
@@ -360,7 +360,7 @@
             "調査通知",
             "正当な理由"
           ],
-          "observed_date": "fetched_at: 2026-07-02T08:23:14.147957+00:00",
+          "observed_date": "fetched_at: 2026-07-06T07:57:38.265513+00:00",
           "size": 25670,
           "status": "passed"
         }

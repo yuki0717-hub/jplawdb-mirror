@@ -127,6 +127,368 @@ SCENARIOS = (
         ),
     ),
     TaxQuestionScenario(
+        id="tp-intragroup-financing-guarantee",
+        title="国外関連者への保証料・グループ内金融取引",
+        question=(
+            "日本親会社が海外子会社の銀行借入を保証し、保証料を受け取る。"
+            "独立企業間価格として検討すべき保証料率、比較対象取引、"
+            "信用補完の便益、移転価格文書化で残すべき分析を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-4.txt",
+                "租税特別措置法66条の4",
+                ("国外関連者", "独立企業間価格"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-12.txt",
+                "租税特別措置法施行令39条の12",
+                ("特殊の関係", "比較対象取引"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_guidance.txt",
+                "国税庁公式・移転価格事務運営要領",
+                ("独立企業間価格", "ローカルファイル"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_methods.txt",
+                "国税庁公式・独立企業間価格の算定上の留意点",
+                ("最も適切な方法", "比較対象取引"),
+            ),
+            SourceCheck(
+                "ai-paper-db/oecd-tpg-2022/data/shards_index.json",
+                "OECD移転価格ガイドライン2022の章・shard索引",
+            ),
+        ),
+        external_sources=(
+            ExternalSource(
+                "国税庁：移転価格事務運営要領",
+                "https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm",
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="tp-local-file-documentation",
+        title="移転価格ローカルファイルと比較可能性分析",
+        question=(
+            "海外販売子会社との棚卸資産取引について、ローカルファイルを作成する。"
+            "機能・リスク・資産分析、比較対象取引の選定、最も適切な方法、"
+            "検証対象法人の選定と保存すべき資料を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-4.txt",
+                "租税特別措置法66条の4",
+                ("国外関連取引", "独立企業間価格"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_guidance.txt",
+                "国税庁公式・移転価格事務運営要領",
+                ("独立企業間価格", "ローカルファイル"),
+            ),
+            SourceCheck(
+                "nta-official-db/text/transfer_pricing_methods.txt",
+                "国税庁公式・独立企業間価格の算定上の留意点",
+                ("最も適切な方法", "比較対象取引"),
+            ),
+            SourceCheck(
+                "ai-paper-db/nta-tp-audit/data/shards_index.json",
+                "国税庁移転価格事務運営要領・参考事例集の索引",
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="foreign-subsidiary-dividend-exemption",
+        title="外国子会社配当の益金不算入と外国源泉税",
+        question=(
+            "日本法人が保有割合30%の外国子会社から配当を受ける。"
+            "益金不算入の要件、保有期間、控除される費用相当額、"
+            "損金算入対応配当や外国源泉税等の扱いを整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/hojinzei/23-2.txt",
+                "法人税法23条の2",
+                ("外国子会社", "益金の額に算入しない"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/22-4.txt",
+                "法人税法施行令22条の4",
+                ("百分の二十五", "六月以上"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/39-2.txt",
+                "法人税法39条の2",
+                ("外国源泉税等", "損金の額に算入しない"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/78-3.txt",
+                "法人税法施行令78条の3",
+                ("外国子会社", "外国法人税"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="foreign-tax-credit-limitation",
+        title="外国税額控除の控除限度額と繰越",
+        question=(
+            "日本法人が海外支店所得に対して外国法人税を納付した。"
+            "控除対象外国法人税、国外所得金額、控除限度額、"
+            "控除限度超過額・控除余裕額の繰越関係を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/hojinzei/69.txt",
+                "法人税法69条",
+                ("外国税額の控除", "控除対象外国法人税"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/141.txt",
+                "法人税法施行令141条",
+                ("外国法人税", "含まれない"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/142.txt",
+                "法人税法施行令142条",
+                ("控除限度額", "調整国外所得金額"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/145.txt",
+                "法人税法施行令145条",
+                ("繰越控除対象外国法人税額", "控除限度超過額"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="cfc-taxable-income",
+        title="外国関係会社CFC税制の合算課税判定",
+        question=(
+            "日本法人が低税率国の持株会社を通じて海外事業を保有している。"
+            "外国関係会社、特定外国関係会社、対象外国関係会社、"
+            "課税対象金額、外国法人税のみなし控除、配当時の課税済金額を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-6.txt",
+                "租税特別措置法66条の6",
+                ("外国関係会社", "特定外国関係会社", "課税対象金額"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-14.txt",
+                "租税特別措置法施行令39条の14",
+                ("課税対象金額", "請求権等勘案合算割合"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-15.txt",
+                "租税特別措置法施行令39条の15",
+                ("適用対象金額", "基準により計算した金額"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-7.txt",
+                "租税特別措置法66条の7",
+                ("外国法人税", "控除対象外国法人税"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-8.txt",
+                "租税特別措置法66条の8",
+                ("特定課税対象金額", "課税済金額"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="cfc-passive-income",
+        title="CFC税制の部分合算・受動的所得",
+        question=(
+            "海外子会社は実体のある事業会社だが、利子・配当・有価証券譲渡益も多い。"
+            "部分対象外国関係会社、特定所得、部分課税対象金額、"
+            "租税負担割合と実質支配関係の確認手順を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-6.txt",
+                "租税特別措置法66条の6",
+                ("部分対象外国関係会社", "特定所得の金額", "部分課税対象金額"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-17-3.txt",
+                "租税特別措置法施行令39条の17の3",
+                ("部分適用対象金額", "剰余金の配当等"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-17-2.txt",
+                "租税特別措置法施行令39条の17の2",
+                ("租税負担割合", "外国関係会社"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-16.txt",
+                "租税特別措置法施行令39条の16",
+                ("実質支配関係", "特殊の関係"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="thin-capitalization",
+        title="国外支配株主からの借入と過少資本税制",
+        question=(
+            "外国親会社から多額の借入をしている日本法人について、"
+            "国外支配株主等、平均負債残高、資本持分、三倍基準、"
+            "保証料や第三者借入を含めた損金不算入額の考え方を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-5.txt",
+                "租税特別措置法66条の5",
+                ("国外支配株主等", "平均負債残高", "損金の額に算入しない"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-13.txt",
+                "租税特別措置法施行令39条の13",
+                ("国外支配株主等", "平均負債残高", "保証料"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-5-2.txt",
+                "租税特別措置法66条の5の2",
+                ("対象純支払利子等", "調整所得金額"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="earnings-stripping",
+        title="過大支払利子税制と関連者支払利子",
+        question=(
+            "海外グループからの借入利子と第三者借入の保証料がある日本法人について、"
+            "対象支払利子等、対象純支払利子等、調整所得金額の20%基準、"
+            "関連者経由取引と過少資本税制との関係を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-5-2.txt",
+                "租税特別措置法66条の5の2",
+                ("対象純支払利子等", "調整所得金額", "損金の額に算入しない"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu_seirei/39-13-2.txt",
+                "租税特別措置法施行令39条の13の2",
+                ("対象純支払利子等", "関連者", "支払利子等"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/sozei_tokubetsu/66-5.txt",
+                "租税特別措置法66条の5",
+                ("国外支配株主等", "負債の利子等"),
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="royalty-withholding-foreign-corporation",
+        title="外国法人へのロイヤルティ支払と源泉徴収",
+        question=(
+            "日本法人が外国法人へソフトウェア・特許技術の使用料を支払う。"
+            "国内源泉所得該当性、外国法人への源泉徴収義務、"
+            "租税条約で異なる定めがある場合の確認手順を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/shotokuzei/161.txt",
+                "所得税法161条",
+                ("使用料", "工業所有権", "著作権"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/shotokuzei/212.txt",
+                "所得税法212条",
+                ("外国法人", "源泉徴収", "翌月十日"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/138.txt",
+                "法人税法138条",
+                ("国内源泉所得", "外国法人", "恒久的施設"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/139.txt",
+                "法人税法139条",
+                ("租税条約", "国内源泉所得"),
+            ),
+            SourceCheck(
+                "ai-treaty-db/jp-tax-treaties/quickstart.txt",
+                "租税条約DBクイックスタート",
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="foreign-corporation-pe-filing",
+        title="外国法人の恒久的施設と法人税申告",
+        question=(
+            "外国法人が日本に営業担当者と契約締結権限を持つ拠点を置く。"
+            "恒久的施設の有無、国内源泉所得、外国法人の課税標準、"
+            "確定申告・届出、租税条約で免税される場合の扱いを整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/hojinzei/138.txt",
+                "法人税法138条",
+                ("恒久的施設", "国内源泉所得"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/139.txt",
+                "法人税法139条",
+                ("租税条約", "内部取引"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/141.txt",
+                "法人税法141条",
+                ("恒久的施設を有する外国法人", "課税標準"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/144-6.txt",
+                "法人税法144条の6",
+                ("確定申告", "恒久的施設"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/149.txt",
+                "法人税法149条",
+                ("届出書", "恒久的施設"),
+            ),
+            SourceCheck(
+                "ai-treaty-db/jp-tax-treaties/quickstart.txt",
+                "租税条約DBクイックスタート",
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
+        id="pe-profit-attribution-and-foreign-tax-credit",
+        title="PE帰属所得と外国法人の外国税額控除",
+        question=(
+            "外国法人の日本PEが国外でも関連する所得を得て外国法人税を負担した。"
+            "PEに帰せられる国内源泉所得、租税条約上の内部取引、"
+            "外国法人に係る外国税額控除と控除限度額を整理してください。"
+        ),
+        sources=(
+            SourceCheck(
+                "egov-law-db/text/hojinzei/138.txt",
+                "法人税法138条",
+                ("恒久的施設", "内部取引"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/139.txt",
+                "法人税法139条",
+                ("恒久的施設", "租税条約"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei/144-2.txt",
+                "法人税法144条の2",
+                ("外国法人税", "控除限度額"),
+            ),
+            SourceCheck(
+                "egov-law-db/text/hojinzei_seirei/141.txt",
+                "法人税法施行令141条",
+                ("外国法人税", "含まれない"),
+            ),
+            SourceCheck(
+                "ai-treaty-db/jp-tax-treaties/data/shards_index.json",
+                "租税条約DB shard索引",
+            ),
+        ),
+    ),
+    TaxQuestionScenario(
         id="invoice-input-tax-credit",
         title="インボイスがない取引の仕入税額控除",
         question=(

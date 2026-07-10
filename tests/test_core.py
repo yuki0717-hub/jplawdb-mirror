@@ -13,6 +13,7 @@ from jplawdb_mirror.core import (
     extract_article_ids,
     extract_item_ids,
     generate_manifest,
+    generate_portal,
     local_asset_path,
     rewrite_source_urls,
     resolve_dataset_reference,
@@ -188,6 +189,67 @@ class SplitGuideDiscoveryTest(unittest.TestCase):
         self.assertEqual(discovery.plan.metrics["nta_guide_shards"], 1)
         self.assertIn("ai-nta-guide-db/text/guide_2026/s001.txt", discovery.plan.targets)
         self.assertIn("ai-nta-guide-db/enhanced/guide_2026/s001.html", discovery.plan.targets)
+
+
+class PortalGenerationTest(unittest.TestCase):
+    def test_portal_writes_human_guides_and_ai_template(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "tax-question-tests").mkdir(parents=True)
+            (root / "tax-question-tests" / "index.html").write_text(
+                "<html></html>",
+                encoding="utf-8",
+            )
+            (root / "tax-question-tests" / "prompts.txt").write_text(
+                "prompts",
+                encoding="utf-8",
+            )
+            (root / "egov-law-db" / "history").mkdir(parents=True)
+            (root / "egov-law-db" / "history" / "index.html").write_text(
+                "<html></html>",
+                encoding="utf-8",
+            )
+            (root / "download_log.tsv").write_text(
+                "path\tdataset\tsize\tsha256\n",
+                encoding="utf-8",
+            )
+
+            plan = DiscoveryPlan()
+            plan.metrics.update(
+                {
+                    "egov_law_codes": 24,
+                    "egov_main_articles": 6070,
+                    "egov_supplementary_provisions": 4115,
+                    "egov_history_dates": 3,
+                    "egov_history_laws": 12,
+                    "egov_history_articles": 9352,
+                    "egov_history_supplementary_provisions": 8839,
+                    "egov_history_revisions": 849,
+                    "nta_official_documents": 11,
+                }
+            )
+            config = Config(
+                source_base=SOURCE,
+                mirror_base="https://example.github.io/mirror",
+                output_dir=root,
+            )
+
+            generate_portal(root, plan, config.mirror_base)
+            generate_manifest(root, config, plan)
+
+            index = (root / "index.html").read_text(encoding="utf-8")
+            how_to = (root / "how-to-use.html").read_text(encoding="utf-8")
+            scope = (root / "reference-scope.html").read_text(encoding="utf-8")
+            template = (root / "ai-tax-question-template.txt").read_text(
+                encoding="utf-8"
+            )
+
+            self.assertIn("AIに税務質問を渡す", index)
+            self.assertIn("質問文に入れるべき前提", how_to)
+            self.assertIn("e-Gov過去法令", scope)
+            self.assertIn("https://example.github.io/mirror/", template)
+            self.assertIn("根拠条文", template)
+            verify_output(root, config)
 
 
 class VerificationTest(unittest.TestCase):

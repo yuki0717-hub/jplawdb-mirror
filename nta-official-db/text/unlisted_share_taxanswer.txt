@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm
 final_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm
 code: unlisted_share_taxanswer
 title: No.4638 取引相場のない株式の評価｜国税庁
-fetched_at: 2026-07-06T07:57:38.932620+00:00
+fetched_at: 2026-07-10T14:05:11.119628+00:00
 last_modified: Wed, 22 Oct 2025 01:00:25 GMT
 legal_as_of: 2025-04-01
 declared_charset: utf-8

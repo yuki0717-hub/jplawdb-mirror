@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>参照範囲 - jplawdb mirror</title>
+<style>
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;line-height:1.75;color:#1f2933}
+h1,h2,h3{line-height:1.35}
+.lead{font-size:1.08rem}
+.nav{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.2rem 0}
+.nav a,.button{display:inline-block;border:1px solid #b9c2cf;border-radius:.6rem;padding:.45rem .75rem;text-decoration:none;background:#f8fafc;color:#123}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin:1rem 0}
+.card{border:1px solid #d7dde5;border-radius:.8rem;padding:1rem;background:#fff}
+.card h3{margin-top:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0}
+th,td{border:1px solid #cfd8e3;padding:.55rem;text-align:left;vertical-align:top}
+th{width:38%;background:#f8fafc}
+code,pre{background:#f3f6fa;border-radius:.35rem}
+code{padding:.1rem .25rem}
+pre{padding:1rem;overflow:auto;white-space:pre-wrap}
+.notice{border-left:4px solid #b45309;background:#fff7ed;padding:.85rem 1rem}
+.small{font-size:.92rem;color:#52606d}
+</style>
+</head>
+<body>
+<h1>参照範囲</h1>
+<nav class="nav">
+<a href="index.html">トップ</a>
+<a href="how-to-use.html">使い方</a>
+<a href="ai-tax-question-template.txt">AI質問テンプレート</a>
+<a href="manifest.json">manifest.json</a>
+</nav>
+<p class="lead">このページは、AIに税務質問をさせるときに「どこまで参照できるか」を確認するための一覧です。</p>
+<table><tbody><tr><th>e-Gov最新法令</th><td>24法令 / 本則条文 6,070 / 附則 4,115</td></tr>
+<tr><th>e-Gov過去法令</th><td>3基準日 / 12法令 / 条文 9,352 / 附則 8,839 / 改正履歴 849</td></tr>
+<tr><th>国税庁公式資料</th><td>11資料</td></tr>
+<tr><th>複雑な税務質問テスト</th><td>9シナリオ / 参照先 30件</td></tr>
+<tr><th>既存ミラー法令</th><td>本則・別表・通達・Q&amp;A・手引き・判決裁決・租税条約など。詳細件数は下の全メトリクスを参照。</td></tr></tbody></table>
+<h2>主な対象</h2>
+<ul>
+<li>所得税法、法人税法、消費税法、相続税法、国税通則法、租税特別措置法と主な施行令・規則</li>
+<li>e-Gov APIから取得した最新法令XML、条文テキスト、附則</li>
+<li>2023-10-01、2024-04-01、2025-04-01時点の主要税法過去スナップショット</li>
+<li>国税庁の公式資料、通達、Q&A、手引き、税務質問テスト用の参照束</li>
+<li>既存ミラーに含まれる判決・裁決・租税条約・OECD関連資料など</li>
+</ul>
+<h2>使うときの注意</h2>
+<div class="notice">
+<p>このサイトは公式サイトそのものではなく、検証済みの静的ミラーです。最終判断では e-Gov、国税庁、財務省などの公式原典を確認してください。</p>
+</div>
+<p>日付が重要な質問では、取引日・事業年度・相続開始日などを明示し、<a href="egov-law-db/history/index.html">過去法令・改正履歴</a>も確認してください。</p>
+<h2>全メトリクス</h2>
+<table><tbody><tr><th>beppyo_items</th><td>45</td></tr>
+<tr><th>egov_history_articles</th><td>9,352</td></tr>
+<tr><th>egov_history_dates</th><td>3</td></tr>
+<tr><th>egov_history_laws</th><td>12</td></tr>
+<tr><th>egov_history_revisions</th><td>849</td></tr>
+<tr><th>egov_history_supplementary_provisions</th><td>8,839</td></tr>
+<tr><th>egov_history_xml_bytes_fetched</th><td>184,088,019</td></tr>
+<tr><th>egov_law_codes</th><td>24</td></tr>
+<tr><th>egov_main_articles</th><td>6,070</td></tr>
+<tr><th>egov_supplementary_provisions</th><td>4,115</td></tr>
+<tr><th>egov_xml_bytes</th><td>82,349,501</td></tr>
+<tr><th>hanketsu_items</th><td>1,245</td></tr>
+<tr><th>hanketsu_shards</th><td>13</td></tr>
+<tr><th>law_articles</th><td>5,982</td></tr>
+<tr><th>law_codes</th><td>24</td></tr>
+<tr><th>nta_guide_documents</th><td>12</td></tr>
+<tr><th>nta_guide_items</th><td>368</td></tr>
+<tr><th>nta_guide_parts</th><td>30</td></tr>
+<tr><th>nta_guide_rows</th><td>368</td></tr>
+<tr><th>nta_guide_shards</th><td>31</td></tr>
+<tr><th>nta_official_documents</th><td>11</td></tr>
+<tr><th>nta_official_legal_dates</th><td>3</td></tr>
+<tr><th>nta_official_source_bytes</th><td>196,910</td></tr>
+<tr><th>nta_qa_documents</th><td>37</td></tr>
+<tr><th>nta_qa_items</th><td>3,080</td></tr>
+<tr><th>nta_qa_rows</th><td>3,080</td></tr>
+<tr><th>nta_qa_shards</th><td>26</td></tr>
+<tr><th>paper_packs</th><td>203</td></tr>
+<tr><th>paper_rows</th><td>2,022</td></tr>
+<tr><th>paper_shards</th><td>45</td></tr>
+<tr><th>tax_question_navigation_repairs</th><td>2</td></tr>
+<tr><th>tax_question_scenarios</th><td>9</td></tr>
+<tr><th>tax_question_source_checks</th><td>30</td></tr>
+<tr><th>treaty_packs</th><td>140</td></tr>
+<tr><th>treaty_rows</th><td>1,206</td></tr>
+<tr><th>treaty_shards</th><td>48</td></tr>
+<tr><th>tsutatsu_documents</th><td>7</td></tr>
+<tr><th>tsutatsu_items</th><td>4,402</td></tr></tbody></table>
+</body>
+</html>

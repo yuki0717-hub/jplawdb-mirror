@@ -1,0 +1,26 @@
+# AI税務質問テンプレート
+
+以下の公開データを参照して、税務上の論点を整理してください。
+結論だけでなく、根拠条文、施行令、通達、国税庁資料、必要に応じて過去時点の法令差分も確認してください。
+
+参照URL:
+https://yuki0717-hub.github.io/jplawdb-mirror/
+
+優先して確認するページ:
+- 使い方: https://yuki0717-hub.github.io/jplawdb-mirror/how-to-use.html
+- 参照範囲: https://yuki0717-hub.github.io/jplawdb-mirror/reference-scope.html
+- 最新e-Gov法令: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/index.html
+- 過去法令・改正履歴: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/index.html
+- 税務質問テスト: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/index.html
+
+回答ルール:
+1. まず結論を短く示す。
+2. 前提事実が足りない場合は、判断に必要な追加質問を列挙する。
+3. 根拠条文は、法令名・条番号・該当する文言の要旨を示す。
+4. 施行令、通達、国税庁資料が必要な場合は、条文と分けて整理する。
+5. 取引日、事業年度、相続開始日などの日付が重要な場合は、過去法令データも確認する。
+6. このミラーにない資料、または最新確認が必要な資料は、その旨を明記する。
+7. 最後に、実務上確認すべき書類・期限・届出・保存資料を箇条書きにする。
+
+質問:
+ここに質問を書く。

@@ -5,16 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>jplawdb mirror</title>
 <style>
-body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.65}
-table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:.45rem;text-align:left}th{width:65%}
-code{background:#f3f3f3;padding:.1rem .25rem}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;line-height:1.75;color:#1f2933}
+h1,h2,h3{line-height:1.35}
+.lead{font-size:1.08rem}
+.nav{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.2rem 0}
+.nav a,.button{display:inline-block;border:1px solid #b9c2cf;border-radius:.6rem;padding:.45rem .75rem;text-decoration:none;background:#f8fafc;color:#123}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin:1rem 0}
+.card{border:1px solid #d7dde5;border-radius:.8rem;padding:1rem;background:#fff}
+.card h3{margin-top:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0}
+th,td{border:1px solid #cfd8e3;padding:.55rem;text-align:left;vertical-align:top}
+th{width:38%;background:#f8fafc}
+code,pre{background:#f3f6fa;border-radius:.35rem}
+code{padding:.1rem .25rem}
+pre{padding:1rem;overflow:auto;white-space:pre-wrap}
+.notice{border-left:4px solid #b45309;background:#fff7ed;padding:.85rem 1rem}
+.small{font-size:.92rem;color:#52606d}
 </style>
 </head>
 <body>
 <h1>jplawdb mirror</h1>
-<p>日本税法AIデータベースの検証済み静的ミラーです。公式な法令・税務判断の代替ではありません。</p>
+<p class="lead">日本の税法・通達・国税庁資料を、AIやプログラムから参照しやすい静的ファイルとして公開するミラーです。</p>
+<div class="notice">
+<p>これは公式サイトではありません。税務判断の最終確認には e-Gov、国税庁、財務省などの公式原典を使ってください。</p>
+</div>
+<nav class="nav">
+<a href="how-to-use.html">使い方</a>
+<a href="reference-scope.html">参照範囲</a>
+<a href="ai-tax-question-template.txt">AI質問テンプレート</a>
+<a href="tax-question-tests/index.html">税務質問テスト</a>
+</nav>
+<h2>何ができるか</h2>
+<div class="cards">
+<section class="card"><h3>AIに税務質問を渡す</h3><p>テンプレートをコピーし、根拠条文・施行令・通達・過去法令を分けて確認させます。</p></section>
+<section class="card"><h3>参照範囲を確認する</h3><p>収録している法令、過去時点、附則、改正履歴、国税庁資料の件数を確認できます。</p></section>
+<section class="card"><h3>公開URLで使う</h3><p>GitHub Pages上の静的サイトなので、PCを起動していなくても参照できます。</p></section>
+</div>
 <h2>入口</h2>
-<ul><li><a href="tax-question-tests/index.html">複雑な税務質問の作動テスト</a></li>
+<ul><li><a href="how-to-use.html">使い方</a></li>
+<li><a href="reference-scope.html">参照範囲</a></li>
+<li><a href="ai-tax-question-template.txt">AI税務質問テンプレート</a></li>
+<li><a href="tax-question-tests/index.html">複雑な税務質問の作動テスト</a></li>
 <li><a href="nta-official-db/index.html">国税庁公式資料（直接同期）</a></li>
 <li><a href="llms3.txt">AI向け総合案内</a></li>
 <li><a href="llms4.txt">AI向け詳細案内</a></li>

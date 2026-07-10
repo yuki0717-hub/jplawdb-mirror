@@ -1041,8 +1041,206 @@ def rewrite_source_urls(root: Path, config: Config) -> int:
     return replacements
 
 
-def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
+def _metric(plan: DiscoveryPlan, name: str) -> int:
+    value = plan.metrics.get(name, 0)
+    return int(value) if isinstance(value, int) else 0
+
+
+def _metric_cell(plan: DiscoveryPlan, name: str) -> str:
+    value = _metric(plan, name)
+    return f"{value:,}" if value else "未収録または未計測"
+
+
+def _portal_css() -> str:
+    return """
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;line-height:1.75;color:#1f2933}
+h1,h2,h3{line-height:1.35}
+.lead{font-size:1.08rem}
+.nav{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.2rem 0}
+.nav a,.button{display:inline-block;border:1px solid #b9c2cf;border-radius:.6rem;padding:.45rem .75rem;text-decoration:none;background:#f8fafc;color:#123}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin:1rem 0}
+.card{border:1px solid #d7dde5;border-radius:.8rem;padding:1rem;background:#fff}
+.card h3{margin-top:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0}
+th,td{border:1px solid #cfd8e3;padding:.55rem;text-align:left;vertical-align:top}
+th{width:38%;background:#f8fafc}
+code,pre{background:#f3f6fa;border-radius:.35rem}
+code{padding:.1rem .25rem}
+pre{padding:1rem;overflow:auto;white-space:pre-wrap}
+.notice{border-left:4px solid #b45309;background:#fff7ed;padding:.85rem 1rem}
+.small{font-size:.92rem;color:#52606d}
+"""
+
+
+def _write_ai_tax_question_template(root: Path, mirror_base: str) -> None:
+    template = f"""# AI税務質問テンプレート
+
+以下の公開データを参照して、税務上の論点を整理してください。
+結論だけでなく、根拠条文、施行令、通達、国税庁資料、必要に応じて過去時点の法令差分も確認してください。
+
+参照URL:
+{mirror_base.rstrip("/")}/
+
+優先して確認するページ:
+- 使い方: {mirror_base.rstrip("/")}/how-to-use.html
+- 参照範囲: {mirror_base.rstrip("/")}/reference-scope.html
+- 最新e-Gov法令: {mirror_base.rstrip("/")}/egov-law-db/index.html
+- 過去法令・改正履歴: {mirror_base.rstrip("/")}/egov-law-db/history/index.html
+- 税務質問テスト: {mirror_base.rstrip("/")}/tax-question-tests/index.html
+
+回答ルール:
+1. まず結論を短く示す。
+2. 前提事実が足りない場合は、判断に必要な追加質問を列挙する。
+3. 根拠条文は、法令名・条番号・該当する文言の要旨を示す。
+4. 施行令、通達、国税庁資料が必要な場合は、条文と分けて整理する。
+5. 取引日、事業年度、相続開始日などの日付が重要な場合は、過去法令データも確認する。
+6. このミラーにない資料、または最新確認が必要な資料は、その旨を明記する。
+7. 最後に、実務上確認すべき書類・期限・届出・保存資料を箇条書きにする。
+
+質問:
+ここに質問を書く。
+"""
+    (root / "ai-tax-question-template.txt").write_text(template, encoding="utf-8")
+
+
+def _write_reference_scope_page(root: Path, plan: DiscoveryPlan) -> None:
+    rows = [
+        ("e-Gov最新法令", f"{_metric_cell(plan, 'egov_law_codes')}法令 / 本則条文 {_metric_cell(plan, 'egov_main_articles')} / 附則 {_metric_cell(plan, 'egov_supplementary_provisions')}"),
+        ("e-Gov過去法令", f"{_metric_cell(plan, 'egov_history_dates')}基準日 / {_metric_cell(plan, 'egov_history_laws')}法令 / 条文 {_metric_cell(plan, 'egov_history_articles')} / 附則 {_metric_cell(plan, 'egov_history_supplementary_provisions')} / 改正履歴 {_metric_cell(plan, 'egov_history_revisions')}"),
+        ("国税庁公式資料", f"{_metric_cell(plan, 'nta_official_documents')}資料"),
+        ("複雑な税務質問テスト", f"{_metric_cell(plan, 'tax_question_scenarios')}シナリオ / 参照先 {_metric_cell(plan, 'tax_question_source_checks')}件"),
+        ("既存ミラー法令", f"本則・別表・通達・Q&A・手引き・判決裁決・租税条約など。詳細件数は下の全メトリクスを参照。"),
+    ]
+    scope_rows = "\n".join(
+        f"<tr><th>{html.escape(label)}</th><td>{html.escape(value)}</td></tr>"
+        for label, value in rows
+    )
+    metric_rows = "\n".join(
+        f"<tr><th>{html.escape(name)}</th><td>{value:,}</td></tr>"
+        for name, value in sorted(plan.metrics.items())
+    )
+    document = f"""<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>参照範囲 - jplawdb mirror</title>
+<style>{_portal_css()}</style>
+</head>
+<body>
+<h1>参照範囲</h1>
+<nav class="nav">
+<a href="index.html">トップ</a>
+<a href="how-to-use.html">使い方</a>
+<a href="ai-tax-question-template.txt">AI質問テンプレート</a>
+<a href="manifest.json">manifest.json</a>
+</nav>
+<p class="lead">このページは、AIに税務質問をさせるときに「どこまで参照できるか」を確認するための一覧です。</p>
+<table><tbody>{scope_rows}</tbody></table>
+<h2>主な対象</h2>
+<ul>
+<li>所得税法、法人税法、消費税法、相続税法、国税通則法、租税特別措置法と主な施行令・規則</li>
+<li>e-Gov APIから取得した最新法令XML、条文テキスト、附則</li>
+<li>2023-10-01、2024-04-01、2025-04-01時点の主要税法過去スナップショット</li>
+<li>国税庁の公式資料、通達、Q&A、手引き、税務質問テスト用の参照束</li>
+<li>既存ミラーに含まれる判決・裁決・租税条約・OECD関連資料など</li>
+</ul>
+<h2>使うときの注意</h2>
+<div class="notice">
+<p>このサイトは公式サイトそのものではなく、検証済みの静的ミラーです。最終判断では e-Gov、国税庁、財務省などの公式原典を確認してください。</p>
+</div>
+<p>日付が重要な質問では、取引日・事業年度・相続開始日などを明示し、<a href="egov-law-db/history/index.html">過去法令・改正履歴</a>も確認してください。</p>
+<h2>全メトリクス</h2>
+<table><tbody>{metric_rows}</tbody></table>
+</body>
+</html>
+"""
+    (root / "reference-scope.html").write_text(document, encoding="utf-8")
+
+
+def _write_how_to_use_page(root: Path, mirror_base: str) -> None:
+    mirror_base = mirror_base.rstrip("/")
+    document = f"""<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>使い方 - jplawdb mirror</title>
+<style>{_portal_css()}</style>
+</head>
+<body>
+<h1>使い方</h1>
+<nav class="nav">
+<a href="index.html">トップ</a>
+<a href="reference-scope.html">参照範囲</a>
+<a href="ai-tax-question-template.txt">AI質問テンプレート</a>
+<a href="tax-question-tests/prompts.txt">テスト質問集</a>
+</nav>
+<p class="lead">このサイトは、人が読む検索サイトというより、AIやプログラムに税務資料を渡すための静的データ置き場です。</p>
+<h2>基本手順</h2>
+<ol>
+<li><a href="reference-scope.html">参照範囲</a>で、必要な法令・資料が入っているか確認する。</li>
+<li><a href="ai-tax-question-template.txt">AI質問テンプレート</a>をコピーする。</li>
+<li>質問文に、取引日・事業年度・金額・当事者・届出状況などの前提を書く。</li>
+<li>AIには「根拠条文」「施行令」「通達・国税庁資料」「過去法令差分」を分けて答えさせる。</li>
+<li>結論に使ったURLと条番号を確認し、重要案件では公式原典に戻って確認する。</li>
+</ol>
+<h2>AIに聞くときのコピペ例</h2>
+<pre>以下の公開データを参照して、税務上の論点を整理してください。
+結論だけでなく、根拠条文、施行令、通達、国税庁資料、必要に応じて過去時点の法令差分も確認してください。
+
+参照URL:
+{html.escape(mirror_base)}/
+
+回答では次を分けてください。
+1. 結論
+2. 前提事実の不足
+3. 根拠条文
+4. 施行令・通達・国税庁資料
+5. 過去法令や改正履歴の確認結果
+6. 実務上の確認事項
+
+質問:
+ここに税務質問を書く。</pre>
+<h2>質問文に入れるべき前提</h2>
+<ul>
+<li>日付: 取引日、契約日、支払日、事業年度、相続開始日など</li>
+<li>主体: 個人、法人、役員、同族会社、非居住者、国外関連者など</li>
+<li>金額・頻度: 支払額、売上規模、資本金、株式数、反復継続性など</li>
+<li>手続: 届出、申告期限、帳簿・請求書・契約書の保存状況など</li>
+<li>争点: 損金算入、仕入税額控除、時価、源泉徴収、加算税、評価方法など</li>
+</ul>
+<h2>向いている使い方</h2>
+<div class="cards">
+<section class="card"><h3>条文ベースの論点整理</h3><p>法人税法34条、消費税法30条など、条文番号が分かる質問に向いています。</p></section>
+<section class="card"><h3>日付をまたぐ確認</h3><p>インボイス開始時、令和改正前後など、過去時点の条文確認に向いています。</p></section>
+<section class="card"><h3>AI回答の根拠検査</h3><p>AIが出した結論に対して、参照URL・条番号・資料名を突き合わせる用途に向いています。</p></section>
+</div>
+<h2>向いていない使い方</h2>
+<ul>
+<li>このサイトだけで最終的な税務判断を確定すること</li>
+<li>最新の個別通達、質疑応答、裁判例を網羅済みとみなすこと</li>
+<li>事実認定が必要な案件で、前提事実を省略して結論だけ聞くこと</li>
+</ul>
+<p class="small">重要な申告・届出・争訟判断では、必ず公式原典と専門家確認を併用してください。</p>
+</body>
+</html>
+"""
+    (root / "how-to-use.html").write_text(document, encoding="utf-8")
+
+
+def generate_portal(
+    root: Path,
+    plan: DiscoveryPlan,
+    mirror_base: str = "https://yuki0717-hub.github.io/jplawdb-mirror",
+) -> None:
+    _write_ai_tax_question_template(root, mirror_base)
+    _write_reference_scope_page(root, plan)
+    _write_how_to_use_page(root, mirror_base)
     links = [
+        ("使い方", "how-to-use.html"),
+        ("参照範囲", "reference-scope.html"),
+        ("AI税務質問テンプレート", "ai-tax-question-template.txt"),
         ("複雑な税務質問の作動テスト", "tax-question-tests/index.html"),
         ("国税庁公式資料（直接同期）", "nta-official-db/index.html"),
         ("AI向け総合案内", "llms3.txt"),
@@ -1075,15 +1273,26 @@ def generate_portal(root: Path, plan: DiscoveryPlan) -> None:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>jplawdb mirror</title>
-<style>
-body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.65}}
-table{{border-collapse:collapse;width:100%}}th,td{{border:1px solid #ccc;padding:.45rem;text-align:left}}th{{width:65%}}
-code{{background:#f3f3f3;padding:.1rem .25rem}}
-</style>
+<style>{_portal_css()}</style>
 </head>
 <body>
 <h1>jplawdb mirror</h1>
-<p>日本税法AIデータベースの検証済み静的ミラーです。公式な法令・税務判断の代替ではありません。</p>
+<p class="lead">日本の税法・通達・国税庁資料を、AIやプログラムから参照しやすい静的ファイルとして公開するミラーです。</p>
+<div class="notice">
+<p>これは公式サイトではありません。税務判断の最終確認には e-Gov、国税庁、財務省などの公式原典を使ってください。</p>
+</div>
+<nav class="nav">
+<a href="how-to-use.html">使い方</a>
+<a href="reference-scope.html">参照範囲</a>
+<a href="ai-tax-question-template.txt">AI質問テンプレート</a>
+<a href="tax-question-tests/index.html">税務質問テスト</a>
+</nav>
+<h2>何ができるか</h2>
+<div class="cards">
+<section class="card"><h3>AIに税務質問を渡す</h3><p>テンプレートをコピーし、根拠条文・施行令・通達・過去法令を分けて確認させます。</p></section>
+<section class="card"><h3>参照範囲を確認する</h3><p>収録している法令、過去時点、附則、改正履歴、国税庁資料の件数を確認できます。</p></section>
+<section class="card"><h3>公開URLで使う</h3><p>GitHub Pages上の静的サイトなので、PCを起動していなくても参照できます。</p></section>
+</div>
 <h2>入口</h2>
 <ul>{link_rows}</ul>
 <h2>今回の収録件数</h2>
@@ -1205,7 +1414,7 @@ async def build_mirror(config: Config) -> BuildResult:
         )
         plan.metrics.update(question_metrics)
         logging.info("Tax-question metrics: %s", dict(sorted(question_metrics.items())))
-        generate_portal(staging, plan)
+        generate_portal(staging, plan, config.mirror_base)
         write_download_log(staging, plan)
         manifest = generate_manifest(staging, config, plan)
         report = verify_output(staging, config)

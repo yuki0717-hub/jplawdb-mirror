@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260710
+source_url: https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20260711
 law: 会社法施行規則 (kaishahou_kisoku)
 law_num: 平成十八年法務省令第十二号
 law_id: 418M60000010012
 law_revision_id: 418M60000010012_20240401_506M60000010011
-as_of: 2026-07-10
+as_of: 2026-07-11
 article: 35
 title: 第三十五条
 deleted: false

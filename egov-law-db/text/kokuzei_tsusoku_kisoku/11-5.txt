@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/337M50000040028?occasion_date=20260710
+source_url: https://laws.e-gov.go.jp/law/337M50000040028?occasion_date=20260711
 law: 国税通則法施行規則 (kokuzei_tsusoku_kisoku)
 law_num: 昭和三十七年大蔵省令第二十八号
 law_id: 337M50000040028
 law_revision_id: 337M50000040028_20260521_507M60000040025
-as_of: 2026-07-10
+as_of: 2026-07-11
 article: 11-5
 title: 第十一条の五
 deleted: false

@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm
 final_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm
 code: executive_compensation_taxanswer
 title: No.5211 役員に対する給与（平成29年4月1日以後支給決議分）｜国税庁
-fetched_at: 2026-07-10T14:05:10.481788+00:00
+fetched_at: 2026-07-10T22:38:22.566827+00:00
 last_modified: Mon, 25 May 2026 05:00:01 GMT
 legal_as_of: 2025-04-01
 declared_charset: utf-8

@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm
 final_url: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm
 code: unlisted_share_circular
 title: （気配相場等のある株式の評価）｜国税庁
-fetched_at: 2026-07-10T14:05:11.237390+00:00
+fetched_at: 2026-07-10T22:38:23.316729+00:00
 last_modified: Thu, 18 Jan 2024 09:30:04 GMT
 legal_as_of: 
 declared_charset: shift_jis

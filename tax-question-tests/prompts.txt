@@ -29,7 +29,101 @@
 公式サイトで最終確認:
 - 国税庁：移転価格事務運営要領: https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm
 
-## 3. インボイスがない取引の仕入税額控除
+## 3. 国外関連者への保証料・グループ内金融取引
+日本親会社が海外子会社の銀行借入を保証し、保証料を受け取る。独立企業間価格として検討すべき保証料率、比較対象取引、信用補完の便益、移転価格文書化で残すべき分析を整理してください。
+参照必須:
+- 租税特別措置法66条の4: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-4.txt
+- 租税特別措置法施行令39条の12: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-12.txt
+- 国税庁公式・移転価格事務運営要領: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_guidance.txt
+- 国税庁公式・独立企業間価格の算定上の留意点: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_methods.txt
+- OECD移転価格ガイドライン2022の章・shard索引: https://yuki0717-hub.github.io/jplawdb-mirror/ai-paper-db/oecd-tpg-2022/data/shards_index.json
+公式サイトで最終確認:
+- 国税庁：移転価格事務運営要領: https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm
+
+## 4. 移転価格ローカルファイルと比較可能性分析
+海外販売子会社との棚卸資産取引について、ローカルファイルを作成する。機能・リスク・資産分析、比較対象取引の選定、最も適切な方法、検証対象法人の選定と保存すべき資料を整理してください。
+参照必須:
+- 租税特別措置法66条の4: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-4.txt
+- 国税庁公式・移転価格事務運営要領: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_guidance.txt
+- 国税庁公式・独立企業間価格の算定上の留意点: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/transfer_pricing_methods.txt
+- 国税庁移転価格事務運営要領・参考事例集の索引: https://yuki0717-hub.github.io/jplawdb-mirror/ai-paper-db/nta-tp-audit/data/shards_index.json
+
+## 5. 外国子会社配当の益金不算入と外国源泉税
+日本法人が保有割合30%の外国子会社から配当を受ける。益金不算入の要件、保有期間、控除される費用相当額、損金算入対応配当や外国源泉税等の扱いを整理してください。
+参照必須:
+- 法人税法23条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/23-2.txt
+- 法人税法施行令22条の4: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/22-4.txt
+- 法人税法39条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/39-2.txt
+- 法人税法施行令78条の3: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/78-3.txt
+
+## 6. 外国税額控除の控除限度額と繰越
+日本法人が海外支店所得に対して外国法人税を納付した。控除対象外国法人税、国外所得金額、控除限度額、控除限度超過額・控除余裕額の繰越関係を整理してください。
+参照必須:
+- 法人税法69条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/69.txt
+- 法人税法施行令141条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/141.txt
+- 法人税法施行令142条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/142.txt
+- 法人税法施行令145条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/145.txt
+
+## 7. 外国関係会社CFC税制の合算課税判定
+日本法人が低税率国の持株会社を通じて海外事業を保有している。外国関係会社、特定外国関係会社、対象外国関係会社、課税対象金額、外国法人税のみなし控除、配当時の課税済金額を整理してください。
+参照必須:
+- 租税特別措置法66条の6: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-6.txt
+- 租税特別措置法施行令39条の14: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-14.txt
+- 租税特別措置法施行令39条の15: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-15.txt
+- 租税特別措置法66条の7: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-7.txt
+- 租税特別措置法66条の8: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-8.txt
+
+## 8. CFC税制の部分合算・受動的所得
+海外子会社は実体のある事業会社だが、利子・配当・有価証券譲渡益も多い。部分対象外国関係会社、特定所得、部分課税対象金額、租税負担割合と実質支配関係の確認手順を整理してください。
+参照必須:
+- 租税特別措置法66条の6: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-6.txt
+- 租税特別措置法施行令39条の17の3: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-17-3.txt
+- 租税特別措置法施行令39条の17の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-17-2.txt
+- 租税特別措置法施行令39条の16: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-16.txt
+
+## 9. 国外支配株主からの借入と過少資本税制
+外国親会社から多額の借入をしている日本法人について、国外支配株主等、平均負債残高、資本持分、三倍基準、保証料や第三者借入を含めた損金不算入額の考え方を整理してください。
+参照必須:
+- 租税特別措置法66条の5: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-5.txt
+- 租税特別措置法施行令39条の13: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-13.txt
+- 租税特別措置法66条の5の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-5-2.txt
+
+## 10. 過大支払利子税制と関連者支払利子
+海外グループからの借入利子と第三者借入の保証料がある日本法人について、対象支払利子等、対象純支払利子等、調整所得金額の20%基準、関連者経由取引と過少資本税制との関係を整理してください。
+参照必須:
+- 租税特別措置法66条の5の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-5-2.txt
+- 租税特別措置法施行令39条の13の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu_seirei/39-13-2.txt
+- 租税特別措置法66条の5: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozei_tokubetsu/66-5.txt
+
+## 11. 外国法人へのロイヤルティ支払と源泉徴収
+日本法人が外国法人へソフトウェア・特許技術の使用料を支払う。国内源泉所得該当性、外国法人への源泉徴収義務、租税条約で異なる定めがある場合の確認手順を整理してください。
+参照必須:
+- 所得税法161条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/shotokuzei/161.txt
+- 所得税法212条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/shotokuzei/212.txt
+- 法人税法138条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/138.txt
+- 法人税法139条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/139.txt
+- 租税条約DBクイックスタート: https://yuki0717-hub.github.io/jplawdb-mirror/ai-treaty-db/jp-tax-treaties/quickstart.txt
+
+## 12. 外国法人の恒久的施設と法人税申告
+外国法人が日本に営業担当者と契約締結権限を持つ拠点を置く。恒久的施設の有無、国内源泉所得、外国法人の課税標準、確定申告・届出、租税条約で免税される場合の扱いを整理してください。
+参照必須:
+- 法人税法138条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/138.txt
+- 法人税法139条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/139.txt
+- 法人税法141条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/141.txt
+- 法人税法144条の6: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/144-6.txt
+- 法人税法149条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/149.txt
+- 租税条約DBクイックスタート: https://yuki0717-hub.github.io/jplawdb-mirror/ai-treaty-db/jp-tax-treaties/quickstart.txt
+
+## 13. PE帰属所得と外国法人の外国税額控除
+外国法人の日本PEが国外でも関連する所得を得て外国法人税を負担した。PEに帰せられる国内源泉所得、租税条約上の内部取引、外国法人に係る外国税額控除と控除限度額を整理してください。
+参照必須:
+- 法人税法138条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/138.txt
+- 法人税法139条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/139.txt
+- 法人税法144条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/144-2.txt
+- 法人税法施行令141条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei_seirei/141.txt
+- 租税条約DB shard索引: https://yuki0717-hub.github.io/jplawdb-mirror/ai-treaty-db/jp-tax-treaties/data/shards_index.json
+
+## 14. インボイスがない取引の仕入税額控除
 従業員の国内出張について、公共交通機関の領収書や適格請求書がない。仕入税額控除が認められる範囲、帳簿の追加記載事項、保存期間、経過措置の確認事項を整理してください。
 参照必須:
 - 消費税法30条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/shohizei/30.txt
@@ -39,7 +133,7 @@
 公式サイトで最終確認:
 - 国税庁：インボイス制度Q&A: https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/qa_01.htm
 
-## 4. 複合契約の収益認識
+## 15. 複合契約の収益認識
 SaaSの初期設定、導入支援、月額利用料を一つの契約で受け取る。法人税上の収益計上単位と時期を、履行義務、引渡し・役務完了、会計処理との相違を区別して整理してください。
 参照必須:
 - 法人税法22条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/hojinzei/22-2.txt
@@ -47,14 +141,14 @@ SaaSの初期設定、導入支援、月額利用料を一つの契約で受け�
 公式サイトで最終確認:
 - 国税庁：収益認識に関する改正通達の趣旨説明: https://www.nta.go.jp/law/joho-zeikaishaku/hojin/180530/index.htm
 
-## 5. 取引相場のない株式の相続税評価
+## 16. 取引相場のない株式の相続税評価
 非上場会社株式を相続した。会社規模、同族株主か少数株主か、類似業種比準・純資産価額・配当還元のどの方式を使うか、判定順序と追加で必要な事実を整理してください。
 参照必須:
 - 相続税法22条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/sozokuzei/22.txt
 - 国税庁公式・財産評価基本通達178: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/unlisted_share_circular.txt
 - 国税庁公式・タックスアンサー4638: https://yuki0717-hub.github.io/jplawdb-mirror/nta-official-db/text/unlisted_share_taxanswer.txt
 
-## 6. 修正申告・期限後申告と加算税
+## 17. 修正申告・期限後申告と加算税
 税務調査の連絡後に申告漏れへ気付き修正申告する。単純な計上漏れと証憑の改ざんが混在する場合、過少申告加算税、無申告加算税、重加算税の適用関係と『正当な理由』『隠蔽・仮装』を整理してください。
 参照必須:
 - 国税通則法65条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/text/kokuzei_tsusoku/65.txt
@@ -64,19 +158,19 @@ SaaSの初期設定、導入支援、月額利用料を一つの契約で受け�
 公式サイトで最終確認:
 - 国税庁：法人税の過少申告加算税及び無申告加算税の取扱い: https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm
 
-## 7. インボイス制度開始日時点の仕入税額控除
+## 18. インボイス制度開始日時点の仕入税額控除
 2023年10月1日に行った国内課税仕入れについて、同日時点の消費税法を基準に、仕入税額控除に必要な帳簿・請求書等の要件を整理してください。現在法令で上書きせず、参照した過去基準日も回答に明記してください。
 参照必須:
 - 2023年10月1日時点・消費税法30条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2023-10-01/text/shohizei/30.txt
 - 2023年10月1日時点・消費税法施行令49条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2023-10-01/text/shohizei_seirei/49.txt
 
-## 8. 2024年度開始時点の収益認識
+## 19. 2024年度開始時点の収益認識
 2024年4月1日に開始した事業年度のSaaS契約について、同日時点の法人税法22条・22条の2を基準に益金算入額と収益計上時期を整理してください。現在法令との差異があれば区別してください。
 参照必須:
 - 2024年4月1日時点・法人税法22条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2024-04-01/text/hojinzei/22.txt
 - 2024年4月1日時点・法人税法22条の2: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2024-04-01/text/hojinzei/22-2.txt
 
-## 9. 2025年度開始時点の役員給与
+## 20. 2025年度開始時点の役員給与
 2025年4月1日に開始した事業年度中に役員報酬を改定する場合、同日時点の法人税法34条と施行令69条を基準に定期同額給与の要件を整理してください。取引日より後の改正を混在させないでください。
 参照必須:
 - 2025年4月1日時点・法人税法34条: https://yuki0717-hub.github.io/jplawdb-mirror/egov-law-db/history/2025-04-01/text/hojinzei/34.txt

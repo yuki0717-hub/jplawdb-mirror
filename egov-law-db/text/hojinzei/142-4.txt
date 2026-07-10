@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260710
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260711
 law: 法人税法 (hojinzei)
 law_num: 昭和四十年法律第三十四号
 law_id: 340AC0000000034
 law_revision_id: 340AC0000000034_20260401_507AC0000000013
-as_of: 2026-07-10
+as_of: 2026-07-11
 article: 142-4
 title: 第百四十二条の四
 deleted: false

@@ -681,6 +681,82 @@ SCENARIOS = (
 )
 
 
+ANSWER_CHECKLISTS: dict[str, tuple[str, ...]] = {
+    "transfer-pricing": (
+        "国外関連者・国外関連取引・無形資産の範囲を最初に確定しているか。",
+        "独立企業間価格の算定方法を、比較可能性・機能リスク資産分析・データ制約と結び付けて説明しているか。",
+        "ローカルファイルに残すべき契約、取引実態、比較対象、レンジ、選定理由を列挙しているか。",
+        "国内法・施行令・国税庁事務運営要領・OECD資料の位置付けを混同していないか。",
+    ),
+    "tp-intragroup-financing-guarantee": (
+        "保証提供者・被保証者・貸手の関係と、保証料が国外関連取引に当たる前提を確認しているか。",
+        "保証による信用補完効果、保証なし借入利率、保証あり借入利率、便益の有無を分けて検討しているか。",
+        "直接比較可能な保証取引がない場合の方法選択と比較可能性調整を説明しているか。",
+        "契約書、信用格付け、借入条件、第三者保証料、グループ内金融方針をローカルファイルの証拠として示しているか。",
+    ),
+    "tp-local-file-documentation": (
+        "対象取引、国外関連者、事業年度、取引金額、検証対象法人を特定しているか。",
+        "機能・リスク・資産分析と比較対象取引又は比較対象法人の選定理由を明示しているか。",
+        "最も適切な方法、利益水準指標、比較対象レンジ、差異調整、除外基準を説明しているか。",
+        "保存・提出対応、推定課税や同業者調査リスク、後日の資料更新方針に触れているか。",
+    ),
+    "foreign-subsidiary-dividend-exemption": (
+        "外国子会社該当性、保有割合、保有期間、配当の性質を確認しているか。",
+        "益金不算入割合と、費用相当額・外国源泉税の損金算入又は税額控除の可否を分けて説明しているか。",
+        "外国税額控除との重複排除、会計上の受取配当・源泉税処理との税務調整を区別しているか。",
+        "租税条約で配当源泉税率が変わる場合は、条約確認を別途必要事項として残しているか。",
+    ),
+    "foreign-tax-credit-limitation": (
+        "控除対象外国法人税か、損金算入対象か、租税条約上の軽減・免除後の税額かを区別しているか。",
+        "国外所得金額、全世界所得、法人税額、控除限度額の関係を計算順序として説明しているか。",
+        "控除限度超過額・控除余裕額の繰越、地方税側の扱い、資料保存を確認しているか。",
+        "外国税額控除だけで結論を出さず、外国子会社配当益金不算入やPE帰属所得との関係を確認しているか。",
+    ),
+    "cfc-taxable-income": (
+        "外国関係会社、特定外国関係会社、対象外国関係会社等の判定順序を示しているか。",
+        "持株・支配関係、租税負担割合、経済活動基準、事業実体を事実確認項目として列挙しているか。",
+        "会社単位の合算課税、部分合算、適用除外を混同せず、どの段階の判定かを明示しているか。",
+        "課税対象金額、外国法人税のみなし控除、二重課税調整、別表・資料保存に触れているか。",
+    ),
+    "cfc-passive-income": (
+        "部分対象外国関係会社か、特定外国関係会社等として会社単位合算に進むのかを先に確認しているか。",
+        "利子、配当、有価証券譲渡益、デリバティブ等の受動的所得を種類別に整理しているか。",
+        "特定所得から除外される事業関連所得や実体ある所得の可能性を確認しているか。",
+        "実質支配、関連者取引、租税負担割合、資料保存を結論の前提として明記しているか。",
+    ),
+    "thin-capitalization": (
+        "国外支配株主等、資金供与者等、第三者を介した借入又は保証の有無を確認しているか。",
+        "平均負債残高、自己資本持分、利子等の範囲を計算要素として分けているか。",
+        "過少資本税制による損金不算入額と、過大支払利子税制との適用関係を整理しているか。",
+        "独立企業間価格としての利率・保証料の検討と、資本構成規制の検討を混同していないか。",
+    ),
+    "earnings-stripping": (
+        "対象純支払利子等、対象支払利子等、控除対象受取利子等、調整所得金額を分けているか。",
+        "20%基準、適用除外、関連者支払利子の範囲、第三者借入の扱いを確認しているか。",
+        "損金不算入額の繰越、過少資本税制との関係、移転価格税制による利率検証を併記しているか。",
+        "連結・グループ内金融・保証料がある場合の追加資料を確認事項として残しているか。",
+    ),
+    "royalty-withholding-foreign-corporation": (
+        "ロイヤルティが国内源泉所得に当たる根拠と、使用地・権利内容・支払者を確認しているか。",
+        "外国法人への支払時の源泉徴収義務、税率、納付時期、グロスアップ条項を確認しているか。",
+        "租税条約による軽減・免除、特典制限、受益者、居住者証明書等の手続を別項目にしているか。",
+        "PEがある場合の法人税課税・源泉徴収との関係を、PEなしの場合と分けて説明しているか。",
+    ),
+    "foreign-corporation-pe-filing": (
+        "支店、建設PE、代理人PE、準備的補助的活動のいずれの論点かを特定しているか。",
+        "国内源泉所得とPE帰属所得を区別し、外国法人の課税標準と申告義務に結び付けているか。",
+        "法人税申告、帳簿保存、納税管理人、源泉徴収との関係を実務対応として示しているか。",
+        "国内法のPE判定と租税条約上のPE判定が異なる可能性を明示しているか。",
+    ),
+    "pe-profit-attribution-and-foreign-tax-credit": (
+        "PE帰属所得、内部取引、機能・リスク・資産の帰属を分けて説明しているか。",
+        "外国法人側の外国税額控除で対象になる税額と控除限度額の前提を確認しているか。",
+        "国内源泉所得、国外源泉所得、PEに帰せられる所得の区分を混同していないか。",
+        "租税条約の事業利得条項、二重課税排除条項、国内法の申告計算の順に確認しているか。",
+    ),
+}
+
+
 BROKEN_TOPIC_GUIDES = (
     "ai-paper-db/nta-tp-audit/quickstart.txt",
     "ai-paper-db/oecd-tpg-2022/quickstart.txt",
@@ -764,12 +840,16 @@ def _write_outputs(
     base.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
     source_checks = sum(len(item["sources"]) for item in scenario_results)
+    answer_checklist_count = sum(
+        len(item.get("answer_checklist", ())) for item in scenario_results
+    )
     report = {
         "schema_version": 1,
         "generated_at": generated_at,
         "passed": True,
         "scenario_count": len(scenario_results),
         "source_check_count": source_checks,
+        "answer_checklist_count": answer_checklist_count,
         "navigation_repairs": repairs,
         "scenarios": scenario_results,
     }
@@ -792,9 +872,14 @@ def _write_outputs(
             [
                 f"\n## {index}. {scenario['title']}\n",
                 f"{scenario['question']}\n",
-                "参照必須:\n",
             ]
         )
+        if scenario["answer_checklist"]:
+            prompt_blocks.append("回答チェック観点:\n")
+            prompt_blocks.extend(
+                f"- {item}\n" for item in scenario["answer_checklist"]
+            )
+        prompt_blocks.append("参照必須:\n")
         prompt_blocks.extend(
             f"- {source['label']}: {source['url']}\n" for source in scenario["sources"]
         )
@@ -828,9 +913,19 @@ def _write_outputs(
             if external_items
             else ""
         )
+        checklist_items = "".join(
+            f"<li>{html.escape(item)}</li>"
+            for item in scenario.get("answer_checklist", ())
+        )
+        checklist_block = (
+            f"<h3>AI回答チェック観点</h3><ul>{checklist_items}</ul>"
+            if checklist_items
+            else ""
+        )
         sections.append(
             f"<section><h2>{index}. {html.escape(scenario['title'])}</h2>"
             f"<p>{html.escape(scenario['question'])}</p>"
+            f"{checklist_block}"
             f"<h3>ミラー内の確認済み資料</h3><ul>{source_items}</ul>"
             f"{external_block}</section>"
         )
@@ -869,6 +964,7 @@ def run_tax_question_tests(
                 "title": scenario.title,
                 "question": scenario.question,
                 "status": "passed",
+                "answer_checklist": list(ANSWER_CHECKLISTS.get(scenario.id, ())),
                 "sources": sources,
                 "external_sources": [
                     {"label": source.label, "url": source.url}
@@ -880,5 +976,8 @@ def run_tax_question_tests(
     return {
         "tax_question_scenarios": len(results),
         "tax_question_source_checks": sum(len(item["sources"]) for item in results),
+        "tax_question_answer_check_items": sum(
+            len(item["answer_checklist"]) for item in results
+        ),
         "tax_question_navigation_repairs": repairs,
     }

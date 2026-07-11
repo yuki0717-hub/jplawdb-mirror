@@ -650,6 +650,7 @@ def _check_tax_question_tests(
         errors.append("tax-question test report scenarios must be a list")
         return
     source_count = 0
+    answer_checklist_count = 0
     ids: set[str] = set()
     for scenario in scenarios:
         if not isinstance(scenario, dict):
@@ -662,6 +663,14 @@ def _check_tax_question_tests(
             ids.add(scenario_id)
         if scenario.get("status") != "passed":
             errors.append(f"tax-question scenario did not pass: {scenario_id}")
+        answer_checklist = scenario.get("answer_checklist", [])
+        if not isinstance(answer_checklist, list) or any(
+            not isinstance(item, str) or not item.strip()
+            for item in answer_checklist
+        ):
+            errors.append(f"invalid tax-question answer checklist: {scenario_id}")
+        else:
+            answer_checklist_count += len(answer_checklist)
         sources = scenario.get("sources")
         if not isinstance(sources, list) or not sources:
             errors.append(f"tax-question scenario has no sources: {scenario_id}")
@@ -678,10 +687,20 @@ def _check_tax_question_tests(
         errors.append("tax-question report scenario_count is inconsistent")
     if report.get("source_check_count") != source_count:
         errors.append("tax-question report source_check_count is inconsistent")
+    if (
+        "answer_checklist_count" in report
+        and report.get("answer_checklist_count") != answer_checklist_count
+    ):
+        errors.append("tax-question report answer_checklist_count is inconsistent")
     if metrics.get("tax_question_scenarios") != len(scenarios):
         errors.append("manifest tax-question scenario count is inconsistent")
     if metrics.get("tax_question_source_checks") != source_count:
         errors.append("manifest tax-question source count is inconsistent")
+    if (
+        "tax_question_answer_check_items" in metrics
+        and metrics.get("tax_question_answer_check_items") != answer_checklist_count
+    ):
+        errors.append("manifest tax-question answer checklist count is inconsistent")
 
 
 def verify_output(root: Path, config: Config) -> VerificationReport:

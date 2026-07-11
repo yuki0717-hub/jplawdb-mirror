@@ -8,6 +8,7 @@ from pathlib import Path
 from jplawdb_mirror.core import Config, DiscoveryPlan, generate_manifest
 from jplawdb_mirror.tax_questions import (
     ANSWER_CHECKLISTS,
+    ANSWER_REVIEW_GUIDES,
     SCENARIOS,
     SourceCheck,
     TaxQuestionScenario,
@@ -54,6 +55,20 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             with self.subTest(scenario_id=scenario_id):
                 self.assertGreaterEqual(len(ANSWER_CHECKLISTS[scenario_id]), 4)
 
+    def test_international_tax_scenarios_have_answer_review_guides(self) -> None:
+        expected = set(ANSWER_CHECKLISTS)
+        self.assertTrue(expected <= set(ANSWER_REVIEW_GUIDES))
+        for scenario_id in expected:
+            with self.subTest(scenario_id=scenario_id):
+                guide = ANSWER_REVIEW_GUIDES[scenario_id]
+                self.assertEqual(
+                    set(guide),
+                    {"model_outline", "required_facts", "red_flags"},
+                )
+                self.assertGreaterEqual(len(guide["model_outline"]), 4)
+                self.assertGreaterEqual(len(guide["required_facts"]), 3)
+                self.assertGreaterEqual(len(guide["red_flags"]), 3)
+
     def scenario(self) -> tuple[TaxQuestionScenario, ...]:
         return (
             TaxQuestionScenario(
@@ -92,8 +107,11 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             self.assertEqual(report["source_check_count"], 1)
             self.assertEqual(metrics["tax_question_scenarios"], 1)
             self.assertEqual(metrics["tax_question_answer_check_items"], 0)
+            self.assertEqual(metrics["tax_question_answer_review_items"], 0)
             self.assertEqual(report["answer_checklist_count"], 0)
+            self.assertEqual(report["answer_review_item_count"], 0)
             self.assertEqual(report["scenarios"][0]["answer_checklist"], [])
+            self.assertEqual(report["scenarios"][0]["answer_review_guide"], {})
             self.assertEqual(
                 report["scenarios"][0]["sources"][0]["observed_date"],
                 "as_of: 2026-06-30",

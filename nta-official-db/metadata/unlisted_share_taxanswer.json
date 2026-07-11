@@ -4,7 +4,7 @@
   "expected_title": "No.4638",
   "source_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
-  "fetched_at": "2026-07-10T22:38:23.329627+00:00",
+  "fetched_at": "2026-07-11T04:22:02.041390+00:00",
   "last_modified": "Wed, 22 Oct 2025 01:00:25 GMT",
   "etag": "\"42ad-641b4d77ffd40\"",
   "declared_charset": "utf-8",
@@ -14,7 +14,7 @@
   "source_size": 17069,
   "source_sha256": "07d5c284c794d7e59376867fba242f51e30aa868f30f7ac3311b21a0d8b01625",
   "text_path": "text/unlisted_share_taxanswer.txt",
-  "text_sha256": "422a0e53787591fc611c29da99070e309404ce8fd1731c2cadb226bc1286105a",
+  "text_sha256": "4e4628a6fdf7c9cc069e43f49d44c4464ac4ef24bc7c42835882c6f37cf55341",
   "raw_path": "raw/unlisted_share_taxanswer.html.txt",
   "raw_sha256": "af0605867a1af9040c7ced38a5f9c1d3c4720d4b464b36ec1d278d15c10e4483"
 }

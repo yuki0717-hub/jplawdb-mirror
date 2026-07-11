@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm
 final_url: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm
 code: revenue_recognition_circular
 title: 第1款 資産の販売等に係る収益計上に関する通則｜国税庁
-fetched_at: 2026-07-10T22:38:23.166671+00:00
+fetched_at: 2026-07-11T04:22:01.674665+00:00
 last_modified: Fri, 05 Sep 2025 08:30:06 GMT
 legal_as_of: 
 declared_charset: shift_jis

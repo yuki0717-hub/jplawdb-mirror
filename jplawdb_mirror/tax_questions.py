@@ -757,6 +757,226 @@ ANSWER_CHECKLISTS: dict[str, tuple[str, ...]] = {
 }
 
 
+ANSWER_REVIEW_GUIDES: dict[str, dict[str, tuple[str, ...]]] = {
+    "transfer-pricing": {
+        "model_outline": (
+            "国外関連者・対象取引・無形資産の内容を確定し、移転価格税制の検討対象を特定する。",
+            "機能・リスク・資産分析を行い、比較可能性を踏まえて最も適切な独立企業間価格算定方法を選ぶ。",
+            "直接比較が難しい場合は、利益法や比較対象法人の選定、差異調整、レンジの扱いを説明する。",
+            "ローカルファイルと契約・実態資料を整備し、国税庁資料とOECD資料の位置付けを分けて確認する。",
+        ),
+        "required_facts": (
+            "ライセンス対象の権利、使用地域、契約期間、対価計算方法、独占性の有無。",
+            "開発・維持・保護・活用に関する機能と費用負担、無形資産の経済的所有者。",
+            "比較対象取引又は比較対象法人の候補、除外理由、差異調整に使えるデータ。",
+        ),
+        "red_flags": (
+            "比較対象がないことだけを理由に移転価格リスクなしと断定している。",
+            "OECDガイドラインを国内法と同じ拘束力の根拠として扱っている。",
+            "ロイヤルティ料率の相場だけで結論を出し、機能・リスク・資産分析を省略している。",
+        ),
+    },
+    "tp-intragroup-financing-guarantee": {
+        "model_outline": (
+            "保証提供者、被保証者、貸手、借入条件を特定し、保証料が国外関連取引かを確認する。",
+            "保証による信用補完効果と、保証がなかった場合の借入可能性・利率を分けて検討する。",
+            "第三者保証料、信用格付け、借入スプレッド等を使えるか確認し、比較可能性調整を検討する。",
+            "移転価格文書には契約、格付け根拠、利率差、保証の便益、グループ金融方針を残す。",
+        ),
+        "required_facts": (
+            "保証契約の有無、保証範囲、保証料率、借入金額、通貨、期間、担保条件。",
+            "保証あり・保証なしの信用格付け、第三者借入の見積り、親会社支援の実態。",
+            "借入先が第三者か関連者か、保証料以外の利子・手数料との関係。",
+        ),
+        "red_flags": (
+            "親会社保証だから無償でよいと断定している。",
+            "借入利率だけを見て、保証便益と保証料の検証を省略している。",
+            "過大支払利子税制や過少資本税制との関係を確認せず、移転価格だけで処理している。",
+        ),
+    },
+    "tp-local-file-documentation": {
+        "model_outline": (
+            "ローカルファイル対象取引、対象年度、国外関連者、取引金額を特定する。",
+            "事業概要、機能・リスク・資産分析、取引フロー、契約と実態の一致を整理する。",
+            "算定方法、比較対象、利益水準指標、レンジ、差異調整、検証対象法人を説明する。",
+            "保存・提出対応、更新頻度、税務調査時の説明資料、推定課税リスクを整理する。",
+        ),
+        "required_facts": (
+            "各国外関連取引の種類、金額、契約書、請求書、役務提供又は資産使用の実態。",
+            "検証対象法人の財務データ、比較対象候補、除外基準、損益区分の根拠。",
+            "同時文書化の要否、保存場所、作成期限、担当部門、過年度からの変更点。",
+        ),
+        "red_flags": (
+            "ローカルファイルを作れば移転価格リスクがなくなると説明している。",
+            "比較対象レンジの範囲内かだけで、取引実態や機能分析を確認していない。",
+            "日本語要約だけで足りると断定し、原資料や計算根拠の保存を省いている。",
+        ),
+    },
+    "foreign-subsidiary-dividend-exemption": {
+        "model_outline": (
+            "外国子会社該当性、保有割合、保有期間、配当の性質を確認する。",
+            "益金不算入額と控除される費用相当額を分けて計算する。",
+            "外国源泉税が外国税額控除の対象外又は損金不算入になる場面を確認する。",
+            "租税条約による源泉税率、会計処理、別表調整、証憑保存を整理する。",
+        ),
+        "required_facts": (
+            "保有割合、保有期間、配当決議日、支払日、配当の原資、現地源泉税額。",
+            "対象会社の所在地国、租税条約の有無、受益者、軽減税率適用手続。",
+            "会計上の受取配当金、源泉税、関連費用、過年度の保有状況。",
+        ),
+        "red_flags": (
+            "外国子会社からの配当は全額非課税と単純化している。",
+            "外国源泉税を当然に外国税額控除できるとしている。",
+            "保有期間や保有割合を確認せず、益金不算入を前提にしている。",
+        ),
+    },
+    "foreign-tax-credit-limitation": {
+        "model_outline": (
+            "納付した税が控除対象外国法人税か、損金算入又は対象外の税かを確認する。",
+            "国外所得金額、全世界所得、法人税額を基に控除限度額を計算する。",
+            "控除限度超過額・控除余裕額の繰越、地方税側の扱い、別表処理を整理する。",
+            "外国子会社配当、PE所得、租税条約による軽減後税額との重複を確認する。",
+        ),
+        "required_facts": (
+            "外国税の種類、課税標準、納付日、相手国、租税条約適用後の税額。",
+            "国外所得金額、全世界所得、国内法人税額、欠損金や所得区分。",
+            "過年度の控除限度超過額・控除余裕額、外国税額控除関連別表の状況。",
+        ),
+        "red_flags": (
+            "外国で税金を払ったので全額控除できると断定している。",
+            "源泉税と法人所得課税を区別していない。",
+            "控除限度額や繰越を計算せず、損金算入と税額控除を混同している。",
+        ),
+    },
+    "cfc-taxable-income": {
+        "model_outline": (
+            "外国関係会社に当たるか、直接・間接保有や実質支配を確認する。",
+            "租税負担割合と会社類型を確認し、会社単位合算か部分合算かを切り分ける。",
+            "経済活動基準、事業実体、管理支配、所在地国基準などの適用可否を整理する。",
+            "課税対象金額、外国法人税のみなし控除、二重課税調整、別表処理を確認する。",
+        ),
+        "required_facts": (
+            "株主構成、議決権、配当請求権、残余財産分配請求権、実質支配の有無。",
+            "所在地国、税負担割合、財務諸表、所得種類、事業内容、人員・事務所の実体。",
+            "日本側株主の保有期間、会計年度、配当実績、現地法人税額。",
+        ),
+        "red_flags": (
+            "軽課税国でなければCFC税制は関係ないと断定している。",
+            "経済活動基準を満たす可能性と部分合算の可能性を混同している。",
+            "合算課税だけを説明し、二重課税調整や外国法人税のみなし控除を無視している。",
+        ),
+    },
+    "cfc-passive-income": {
+        "model_outline": (
+            "会社単位合算に進む会社か、部分合算の検討対象かを先に判定する。",
+            "受動的所得を利子、配当、有価証券譲渡益、デリバティブ、無形資産所得等に分類する。",
+            "事業関連所得として除外できるか、実体や通常業務との関係を確認する。",
+            "部分合算額、租税負担、外国税額、配当時調整を整理する。",
+        ),
+        "required_facts": (
+            "所得種類別の金額、発生原因、相手先、関連者性、契約内容。",
+            "外国子会社の主たる事業、人員、資産、所在地国での管理支配状況。",
+            "有価証券・貸付金・無形資産の保有目的、事業関連性、現地税額。",
+        ),
+        "red_flags": (
+            "実体がある会社なら受動的所得も合算されないと断定している。",
+            "利子・配当・譲渡益をまとめて扱い、所得種類ごとの判定をしていない。",
+            "部分合算と会社単位合算の順序を逆にしている。",
+        ),
+    },
+    "thin-capitalization": {
+        "model_outline": (
+            "国外支配株主等又は資金供与者等からの借入かを確認する。",
+            "平均負債残高、自己資本持分、国外支配株主等の持分を基に基準超過を判定する。",
+            "損金不算入となる利子等の範囲を計算し、保証や第三者介在借入を確認する。",
+            "過大支払利子税制、移転価格税制による利率検証との関係を分けて整理する。",
+        ),
+        "required_facts": (
+            "貸手、保証者、資金の出所、借入残高、利率、期間、担保、通貨。",
+            "資本金等・利益積立金等、国外支配株主等の持分割合、平均負債残高。",
+            "関連する保証料、第三者借入、グループ内バックツーバック融資の有無。",
+        ),
+        "red_flags": (
+            "第三者銀行借入だから過少資本税制は常に無関係と断定している。",
+            "利率が妥当なら資本構成規制も問題ないと混同している。",
+            "過大支払利子税制との重複適用関係を確認していない。",
+        ),
+    },
+    "earnings-stripping": {
+        "model_outline": (
+            "対象支払利子等、控除対象受取利子等、対象純支払利子等を区分する。",
+            "調整所得金額を計算し、20%基準、適用除外、関連者支払利子の範囲を確認する。",
+            "損金不算入額と繰越、過少資本税制との適用順序や重複調整を整理する。",
+            "移転価格税制による利率・保証料検証と、利子控除制限を別論点として扱う。",
+        ),
+        "required_facts": (
+            "利子の支払先、関連者性、金額、受取利子、借入目的、通貨、期間。",
+            "調整所得金額、減価償却、受取配当、欠損金、適用除外に関係する数値。",
+            "過年度の損金不算入額、過少資本税制の検討結果、グループ内金融契約。",
+        ),
+        "red_flags": (
+            "20%以内なら移転価格や過少資本も問題ないと説明している。",
+            "支払利子総額だけを使い、対象純支払利子等を計算していない。",
+            "関連者支払利子の範囲や適用除外を確認せず結論を出している。",
+        ),
+    },
+    "royalty-withholding-foreign-corporation": {
+        "model_outline": (
+            "支払内容が使用料か、譲渡対価か、役務対価かを契約と実態で確認する。",
+            "国内源泉所得該当性、支払時の源泉徴収義務、税率、納付期限を整理する。",
+            "租税条約の軽減・免除、受益者、居住者証明書、届出手続を確認する。",
+            "PEがある場合の法人税課税、源泉徴収、条約上の事業利得との関係を分ける。",
+        ),
+        "required_facts": (
+            "権利内容、使用地、契約相手、支払者、支払日、金額、グロスアップ条項。",
+            "相手国、受益者、租税条約、居住者証明書、特典制限、PEの有無。",
+            "ソフトウェア・特許・ノウハウ・商標など対価の内訳と役務部分の有無。",
+        ),
+        "red_flags": (
+            "海外法人への支払だから源泉徴収不要と断定している。",
+            "租税条約の届出手続なしに軽減税率を当然適用できるとしている。",
+            "ロイヤルティと役務提供対価を契約名だけで判定している。",
+        ),
+    },
+    "foreign-corporation-pe-filing": {
+        "model_outline": (
+            "国内法と租税条約の両方でPEの有無を確認する。",
+            "PEがある場合はPE帰属所得、国内源泉所得、申告義務を整理する。",
+            "帳簿保存、納税管理人、法人税申告、源泉徴収との関係を実務対応に落とす。",
+            "準備的補助的活動、代理人PE、建設PEなど類型別に結論を分ける。",
+        ),
+        "required_facts": (
+            "日本国内の拠点、人員、契約締結権限、活動内容、活動期間、在庫・設備の有無。",
+            "租税条約の相手国、事業利得条項、PE条項、代理人条項、建設期間基準。",
+            "日本で得る収入、費用、内部取引、源泉徴収済み税額、納税管理人の有無。",
+        ),
+        "red_flags": (
+            "日本に子会社があることだけで外国親会社のPEありと断定している。",
+            "国内法だけでPEなしと結論し、租税条約を確認していない。",
+            "PEの有無と源泉徴収義務を同じ論点として処理している。",
+        ),
+    },
+    "pe-profit-attribution-and-foreign-tax-credit": {
+        "model_outline": (
+            "PEに帰属する機能・リスク・資産を確認し、内部取引を認識する。",
+            "PE帰属所得とその他の国内源泉所得・国外源泉所得を区分する。",
+            "外国法人の外国税額控除で対象税額と控除限度額を確認する。",
+            "租税条約の事業利得条項・二重課税排除条項と国内法の申告計算を対応させる。",
+        ),
+        "required_facts": (
+            "PEの活動、人員、資産、リスク負担、内部取引、国外本店との費用配賦。",
+            "日本国内外の所得区分、外国税額の種類、納付先国、課税標準、納付日。",
+            "租税条約、過年度繰越、源泉徴収済み税額、法人税申告上の別表情報。",
+        ),
+        "red_flags": (
+            "PEがあれば日本国内収入の全額がPE帰属所得になると断定している。",
+            "外国法人の外国税額控除を内国法人と同じ前提で説明している。",
+            "内部取引や機能・リスク・資産の帰属を見ずに利益配賦している。",
+        ),
+    },
+}
+
+
 BROKEN_TOPIC_GUIDES = (
     "ai-paper-db/nta-tp-audit/quickstart.txt",
     "ai-paper-db/oecd-tpg-2022/quickstart.txt",
@@ -843,6 +1063,11 @@ def _write_outputs(
     answer_checklist_count = sum(
         len(item.get("answer_checklist", ())) for item in scenario_results
     )
+    answer_review_item_count = sum(
+        len(items)
+        for item in scenario_results
+        for items in item.get("answer_review_guide", {}).values()
+    )
     report = {
         "schema_version": 1,
         "generated_at": generated_at,
@@ -850,6 +1075,7 @@ def _write_outputs(
         "scenario_count": len(scenario_results),
         "source_check_count": source_checks,
         "answer_checklist_count": answer_checklist_count,
+        "answer_review_item_count": answer_review_item_count,
         "navigation_repairs": repairs,
         "scenarios": scenario_results,
     }
@@ -879,6 +1105,14 @@ def _write_outputs(
             prompt_blocks.extend(
                 f"- {item}\n" for item in scenario["answer_checklist"]
             )
+        if scenario["answer_review_guide"]:
+            guide = scenario["answer_review_guide"]
+            prompt_blocks.append("模範回答の骨子:\n")
+            prompt_blocks.extend(f"- {item}\n" for item in guide["model_outline"])
+            prompt_blocks.append("追加確認すべき事実:\n")
+            prompt_blocks.extend(f"- {item}\n" for item in guide["required_facts"])
+            prompt_blocks.append("危険な断定・要注意表現:\n")
+            prompt_blocks.extend(f"- {item}\n" for item in guide["red_flags"])
         prompt_blocks.append("参照必須:\n")
         prompt_blocks.extend(
             f"- {source['label']}: {source['url']}\n" for source in scenario["sources"]
@@ -922,10 +1156,35 @@ def _write_outputs(
             if checklist_items
             else ""
         )
+        review_guide = scenario.get("answer_review_guide", {})
+        review_block = ""
+        if review_guide:
+            outline_items = "".join(
+                f"<li>{html.escape(item)}</li>"
+                for item in review_guide.get("model_outline", ())
+            )
+            fact_items = "".join(
+                f"<li>{html.escape(item)}</li>"
+                for item in review_guide.get("required_facts", ())
+            )
+            red_flag_items = "".join(
+                f"<li>{html.escape(item)}</li>"
+                for item in review_guide.get("red_flags", ())
+            )
+            review_block = (
+                "<h3>AI回答レビュー表</h3>"
+                "<h4>模範回答の骨子</h4>"
+                f"<ul>{outline_items}</ul>"
+                "<h4>追加確認すべき事実</h4>"
+                f"<ul>{fact_items}</ul>"
+                "<h4>危険な断定・要注意表現</h4>"
+                f"<ul>{red_flag_items}</ul>"
+            )
         sections.append(
             f"<section><h2>{index}. {html.escape(scenario['title'])}</h2>"
             f"<p>{html.escape(scenario['question'])}</p>"
             f"{checklist_block}"
+            f"{review_block}"
             f"<h3>ミラー内の確認済み資料</h3><ul>{source_items}</ul>"
             f"{external_block}</section>"
         )
@@ -965,6 +1224,12 @@ def run_tax_question_tests(
                 "question": scenario.question,
                 "status": "passed",
                 "answer_checklist": list(ANSWER_CHECKLISTS.get(scenario.id, ())),
+                "answer_review_guide": {
+                    key: list(value)
+                    for key, value in ANSWER_REVIEW_GUIDES.get(
+                        scenario.id, {}
+                    ).items()
+                },
                 "sources": sources,
                 "external_sources": [
                     {"label": source.label, "url": source.url}
@@ -978,6 +1243,11 @@ def run_tax_question_tests(
         "tax_question_source_checks": sum(len(item["sources"]) for item in results),
         "tax_question_answer_check_items": sum(
             len(item["answer_checklist"]) for item in results
+        ),
+        "tax_question_answer_review_items": sum(
+            len(items)
+            for item in results
+            for items in item["answer_review_guide"].values()
         ),
         "tax_question_navigation_repairs": repairs,
     }

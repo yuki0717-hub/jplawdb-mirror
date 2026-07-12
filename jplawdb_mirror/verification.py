@@ -624,6 +624,7 @@ def _check_tax_question_tests(
     if not isinstance(metrics, dict) or "tax_question_scenarios" not in metrics:
         return
     required = {
+        "tax-question-tests/ai-rules.txt",
         "tax-question-tests/index.html",
         "tax-question-tests/prompts.txt",
         "tax-question-tests/report.json",

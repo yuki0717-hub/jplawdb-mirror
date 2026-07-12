@@ -9,6 +9,7 @@ from jplawdb_mirror.core import Config, DiscoveryPlan, generate_manifest
 from jplawdb_mirror.tax_questions import (
     ANSWER_CHECKLISTS,
     ANSWER_REVIEW_GUIDES,
+    AI_RULES_TEXT,
     SCENARIOS,
     SourceCheck,
     TaxQuestionScenario,
@@ -69,6 +70,13 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
                 self.assertGreaterEqual(len(guide["required_facts"]), 3)
                 self.assertGreaterEqual(len(guide["red_flags"]), 3)
 
+    def test_fixed_ai_rules_cover_general_and_international_tax_use(self) -> None:
+        self.assertIn("AIに最初に読ませる固定税務回答ルール", AI_RULES_TEXT)
+        self.assertIn("すぐに結論を断定しない", AI_RULES_TEXT)
+        self.assertIn("CFC税制", AI_RULES_TEXT)
+        self.assertIn("租税条約", AI_RULES_TEXT)
+        self.assertIn("確認不能", AI_RULES_TEXT)
+
     def scenario(self) -> tuple[TaxQuestionScenario, ...]:
         return (
             TaxQuestionScenario(
@@ -112,6 +120,11 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             self.assertEqual(report["answer_review_item_count"], 0)
             self.assertEqual(report["scenarios"][0]["answer_checklist"], [])
             self.assertEqual(report["scenarios"][0]["answer_review_guide"], {})
+            ai_rules = root / "tax-question-tests" / "ai-rules.txt"
+            self.assertIn(
+                "AIに最初に読ませる固定税務回答ルール",
+                ai_rules.read_text(encoding="utf-8"),
+            )
             self.assertEqual(
                 report["scenarios"][0]["sources"][0]["observed_date"],
                 "as_of: 2026-06-30",

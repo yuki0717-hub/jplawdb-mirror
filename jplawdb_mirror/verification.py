@@ -625,6 +625,7 @@ def _check_tax_question_tests(
         return
     required = {
         "tax-question-tests/ai-rules.txt",
+        "tax-question-tests/ai-packs/index.txt",
         "tax-question-tests/index.html",
         "tax-question-tests/prompts.txt",
         "tax-question-tests/report.json",
@@ -653,6 +654,7 @@ def _check_tax_question_tests(
     source_count = 0
     answer_checklist_count = 0
     answer_review_item_count = 0
+    ai_reference_pack_count = 0
     ids: set[str] = set()
     for scenario in scenarios:
         if not isinstance(scenario, dict):
@@ -720,6 +722,37 @@ def _check_tax_question_tests(
         and report.get("answer_review_item_count") != answer_review_item_count
     ):
         errors.append("tax-question report answer_review_item_count is inconsistent")
+    ai_reference_packs = report.get("ai_reference_packs", [])
+    if not isinstance(ai_reference_packs, list):
+        errors.append("tax-question report ai_reference_packs must be a list")
+    else:
+        seen_pack_paths: set[str] = set()
+        for pack in ai_reference_packs:
+            if not isinstance(pack, dict):
+                errors.append("tax-question report contains a non-object AI pack")
+                continue
+            path = pack.get("path")
+            if (
+                not isinstance(path, str)
+                or not path.startswith("tax-question-tests/ai-packs/")
+                or path in seen_pack_paths
+                or path not in actual
+            ):
+                errors.append(f"invalid or missing tax-question AI pack: {path!r}")
+            else:
+                seen_pack_paths.add(path)
+            scenario_ids = pack.get("scenario_ids")
+            if not isinstance(scenario_ids, list) or any(
+                not isinstance(scenario_id, str) or scenario_id not in ids
+                for scenario_id in scenario_ids
+            ):
+                errors.append(f"invalid tax-question AI pack scenarios: {path!r}")
+        ai_reference_pack_count = len(ai_reference_packs)
+    if (
+        "ai_reference_pack_count" in report
+        and report.get("ai_reference_pack_count") != ai_reference_pack_count
+    ):
+        errors.append("tax-question report ai_reference_pack_count is inconsistent")
     if metrics.get("tax_question_scenarios") != len(scenarios):
         errors.append("manifest tax-question scenario count is inconsistent")
     if metrics.get("tax_question_source_checks") != source_count:
@@ -734,6 +767,11 @@ def _check_tax_question_tests(
         and metrics.get("tax_question_answer_review_items") != answer_review_item_count
     ):
         errors.append("manifest tax-question answer review count is inconsistent")
+    if (
+        "tax_question_ai_reference_packs" in metrics
+        and metrics.get("tax_question_ai_reference_packs") != ai_reference_pack_count
+    ):
+        errors.append("manifest tax-question AI reference pack count is inconsistent")
 
 
 def verify_output(root: Path, config: Config) -> VerificationReport:

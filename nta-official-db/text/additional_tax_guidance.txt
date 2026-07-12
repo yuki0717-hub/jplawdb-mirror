@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm
 final_url: https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm
 code: additional_tax_guidance
 title: 法人税の過少申告加算税及び無申告加算税の取扱いについて（事務運営指針）｜国税庁
-fetched_at: 2026-07-11T08:36:20.383471+00:00
+fetched_at: 2026-07-12T04:16:34.462441+00:00
 last_modified: Thu, 18 Jan 2024 09:36:45 GMT
 legal_as_of: 
 declared_charset: shift_jis

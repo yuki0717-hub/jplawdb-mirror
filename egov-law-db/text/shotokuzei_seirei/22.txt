@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260711
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260712
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-07-11
+as_of: 2026-07-12
 article: 22
 title: 第二十二条
 deleted: false

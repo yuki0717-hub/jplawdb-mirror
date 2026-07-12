@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260711
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260712
 law: 消費税法施行令 (shohizei_seirei)
 law_num: 昭和六十三年政令第三百六十号
 law_id: 363CO0000000360
 law_revision_id: 363CO0000000360_20260522_508CO0000000096
-as_of: 2026-07-11
+as_of: 2026-07-12
 article: 44
 title: 第四十四条
 deleted: false

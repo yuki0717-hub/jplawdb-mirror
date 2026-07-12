@@ -1069,6 +1069,227 @@ URLや資料を実際に確認できない場合は、「確認不能」と明�
 """
 
 
+AI_RULES_TEXT = AI_RULES_TEXT.rstrip() + """
+
+## 法人国際税務AI参照パック
+法人国際税務の質問では、論点候補が見えた時点で `tax-question-tests/ai-packs/index.txt` を確認する。
+移転価格、CFC税制、外国税額控除・外国子会社配当、PE、源泉税、過少資本税制・過大支払利子税制は、該当パックを併読してから回答する。
+パックにない論点、または必要事実が足りない論点は、結論を断定せず追加確認事項を先に示す。
+"""
+
+
+AI_REFERENCE_PACKS: dict[str, dict[str, Any]] = {
+    "transfer-pricing": {
+        "file": "transfer-pricing.txt",
+        "title": "移転価格・グループ内取引AI参照パック",
+        "scenario_ids": (
+            "transfer-pricing",
+            "tp-intragroup-financing-guarantee",
+            "tp-local-file-documentation",
+        ),
+        "use_when": (
+            "国外関連者との棚卸資産取引、役務提供、無形資産取引、金融取引、保証料、ロイヤルティがある。",
+            "独立企業間価格、比較対象取引、移転価格文書、ローカルファイル、同時文書化が問題になる。",
+            "寄附金、源泉税、過大支払利子税制など他制度との切り分けが必要になる。",
+        ),
+        "required_facts": (
+            "取引当事者、資本関係、取引内容、契約条件、価格・料率、取引時期、通貨、決済条件。",
+            "機能・リスク・資産、無形資産の所有・使用関係、保証や金融支援の有無。",
+            "比較対象、算定方法、利益水準指標、文書化状況、国外関連取引の金額規模。",
+        ),
+        "accuracy_points": (
+            "移転価格税制は価格算定の問題であり、源泉税やCFC税制と同じ結論にまとめない。",
+            "国外関連者該当性と対象取引を先に確定し、その後に算定方法と文書化義務を確認する。",
+            "保証料・グループ内金融は、役務提供、信用補完、寄附金、過大支払利子税制の横断確認を行う。",
+        ),
+        "red_flags": (
+            "国外関連者の範囲を確認せず、単に海外子会社だから移転価格税制対象と断定している。",
+            "ローカルファイルの提出・保存・同時文書化を、質問事実なしに一律必要または不要としている。",
+            "価格算定方法を述べず、税率や申告手続だけで回答している。",
+        ),
+        "answer_template": (
+            "1. 国外関連者・対象取引の候補を整理する。",
+            "2. 機能・リスク・資産と契約条件から検討すべき算定方法を列挙する。",
+            "3. 文書化、保存、提出、国外関連取引額の確認事項を示す。",
+            "4. 寄附金、源泉税、過大支払利子税制、CFC税制との切り分けを明記する。",
+        ),
+    },
+    "cfc": {
+        "file": "cfc.txt",
+        "title": "CFC税制・外国関係会社AI参照パック",
+        "scenario_ids": (
+            "cfc-taxable-income",
+            "cfc-passive-income",
+        ),
+        "use_when": (
+            "日本法人・居住者が外国法人を直接または間接に保有している。",
+            "外国子会社の所得を日本側で合算するか、受動的所得だけが問題になる。",
+            "外国子会社配当益金不算入や外国税額控除との混同が起きやすい。",
+        ),
+        "required_facts": (
+            "株主構成、直接・間接保有割合、議決権、配当請求権、所在地国、事業年度。",
+            "外国法人の税負担割合、主たる事業、実体、管理支配、所在地国での活動内容。",
+            "会社単位合算、部分対象所得、配当、譲渡、利子、ロイヤルティなど所得区分。",
+        ),
+        "accuracy_points": (
+            "CFC税制は外国法人の所得を日本側で合算する制度であり、外国税額控除そのものではない。",
+            "会社単位合算と部分対象所得を分け、適用除外・経済活動基準を事実に基づき検討する。",
+            "外国子会社配当益金不算入は配当受領時の制度であり、CFC合算の判定とは別に扱う。",
+        ),
+        "red_flags": (
+            "税負担割合だけで結論を出し、経済活動基準や所得区分を確認していない。",
+            "配当を受けていないからCFC税制は無関係と断定している。",
+            "外国法人の所在地国名だけでタックスヘイブン該当性を決めている。",
+        ),
+        "answer_template": (
+            "1. 外国関係会社・特定外国関係会社の候補を整理する。",
+            "2. 税負担割合、経済活動基準、所得区分を分けて検討する。",
+            "3. 会社単位合算・部分対象所得・適用除外のどれを検討するか示す。",
+            "4. 配当益金不算入、外国税額控除、移転価格税制とは別論点として整理する。",
+        ),
+    },
+    "foreign-tax-credit": {
+        "file": "foreign-tax-credit.txt",
+        "title": "外国税額控除・外国子会社配当AI参照パック",
+        "scenario_ids": (
+            "foreign-subsidiary-dividend-exemption",
+            "foreign-tax-credit-limitation",
+            "pe-profit-attribution-and-foreign-tax-credit",
+        ),
+        "use_when": (
+            "外国法人税を日本の法人税から控除できるかが問題になる。",
+            "外国子会社から配当を受け、益金不算入や源泉税の扱いが問題になる。",
+            "PE帰属所得と本店所得の区分、国外所得金額、控除限度額が問題になる。",
+        ),
+        "required_facts": (
+            "納税者、外国税の種類、納付国、課税標準、納付日、直接税か間接税か。",
+            "国外所得金額、全世界所得、控除限度額、繰越控除、損金算入選択の有無。",
+            "配当支払法人の所在地、保有割合、保有期間、源泉税、CFC課税済み所得との関係。",
+        ),
+        "accuracy_points": (
+            "外国税額控除は控除限度額の計算が必要であり、外国で税金を払った事実だけでは結論が出ない。",
+            "外国子会社配当益金不算入と配当に係る源泉税の扱いは、所得側と税額側を分けて説明する。",
+            "PEがある場合はPE帰属所得とその他国外所得を分け、二重課税排除の方式を確認する。",
+        ),
+        "red_flags": (
+            "外国で税金を払ったから全額控除できると書いている。",
+            "外国子会社配当益金不算入と外国税額控除を同じ制度として説明している。",
+            "CFC合算済み所得、源泉税、配当益金不算入の順序を整理していない。",
+        ),
+        "answer_template": (
+            "1. 対象が外国税額控除、配当益金不算入、CFC課税済み所得のどれかを分ける。",
+            "2. 外国税の種類と控除対象性を確認する。",
+            "3. 国外所得金額・控除限度額・繰越の確認事項を示す。",
+            "4. 配当、PE、源泉税、CFCとの二重計上を避ける。",
+        ),
+    },
+    "pe": {
+        "file": "pe.txt",
+        "title": "PE・外国法人申告AI参照パック",
+        "scenario_ids": (
+            "foreign-corporation-pe-filing",
+            "pe-profit-attribution-and-foreign-tax-credit",
+            "royalty-withholding-foreign-corporation",
+        ),
+        "use_when": (
+            "外国法人が日本で拠点、人員、代理人、建設工事、在庫、設備を持つ。",
+            "日本で法人税申告が必要か、PE帰属所得をどう計算するかが問題になる。",
+            "国内法上のPEと租税条約上のPEの両方を確認する必要がある。",
+        ),
+        "required_facts": (
+            "日本国内の場所、人員、契約締結権限、活動内容、活動期間、在庫・設備の有無。",
+            "租税条約の相手国、PE条項、代理人PE、建設PE、準備的・補助的活動の可能性。",
+            "PEに帰属する売上、費用、内部取引、機能・リスク・資産、源泉徴収済み税額。",
+        ),
+        "accuracy_points": (
+            "国内法上のPEと租税条約上のPEは別々に確認する。",
+            "PEがある場合でも、日本源泉所得の全額が自動的にPE帰属所得になるわけではない。",
+            "源泉税、法人税申告、外国税額控除、移転価格的な利益帰属を分けて整理する。",
+        ),
+        "red_flags": (
+            "日本に子会社があるだけで外国親会社のPEありと断定している。",
+            "租税条約を確認せず、国内法だけで最終結論を書いている。",
+            "PE判定と源泉徴収義務を同じ条件で処理している。",
+        ),
+        "answer_template": (
+            "1. 国内法上のPE候補を整理する。",
+            "2. 租税条約上のPE条項・例外・期間基準を確認する。",
+            "3. PEがある場合の帰属所得、帳簿、申告、源泉税調整を示す。",
+            "4. PEなしの場合でも源泉税や消費税等の別論点を残す。",
+        ),
+    },
+    "withholding": {
+        "file": "withholding.txt",
+        "title": "非居住者・外国法人源泉税AI参照パック",
+        "scenario_ids": (
+            "royalty-withholding-foreign-corporation",
+            "foreign-corporation-pe-filing",
+        ),
+        "use_when": (
+            "外国法人・非居住者へ利子、配当、使用料、役務対価、不動産関連対価を支払う。",
+            "国内源泉所得、源泉徴収税率、租税条約の軽減・免除が問題になる。",
+            "ロイヤルティ、ソフトウェア、役務提供、PE帰属所得の切り分けが必要になる。",
+        ),
+        "required_facts": (
+            "支払内容、契約書、権利の使用地、役務提供地、支払日、支払者、受益者、居住地国。",
+            "国内源泉所得該当性、租税条約、届出書、受益者証明、PEの有無。",
+            "グロスアップ条項、税込・税抜、支払額、源泉徴収済みか、納付期限。",
+        ),
+        "accuracy_points": (
+            "国内源泉所得該当性、国内法税率、租税条約の軽減・免除、届出手続を順に確認する。",
+            "租税条約は自動適用ではなく、届出や受益者確認が必要になることがある。",
+            "ロイヤルティと役務提供対価は、契約名ではなく権利使用・役務内容で判定する。",
+        ),
+        "red_flags": (
+            "海外送金だから源泉税不要と断定している。",
+            "租税条約の届出や受益者確認なしに軽減税率を適用できるとしている。",
+            "使用料、役務提供、PE帰属所得を契約名だけで分類している。",
+        ),
+        "answer_template": (
+            "1. 支払の法的性質と国内源泉所得該当性を整理する。",
+            "2. 国内法税率と租税条約の軽減・免除を分けて確認する。",
+            "3. 届出書、受益者証明、納付期限、グロスアップを示す。",
+            "4. PEがある場合の法人税申告・源泉税調整を別論点として扱う。",
+        ),
+    },
+    "interest-limitation": {
+        "file": "interest-limitation.txt",
+        "title": "過少資本税制・過大支払利子税制AI参照パック",
+        "scenario_ids": (
+            "thin-capitalization",
+            "earnings-stripping",
+            "tp-intragroup-financing-guarantee",
+        ),
+        "use_when": (
+            "国外関連者からの借入、保証、利子支払、関連者間金融取引がある。",
+            "支払利子の損金算入制限、過少資本税制、過大支払利子税制が問題になる。",
+            "移転価格税制や寄附金課税との関係を分けて検討する必要がある。",
+        ),
+        "required_facts": (
+            "借入先、資本関係、平均負債残高、自己資本、利率、保証、担保、契約条件。",
+            "対象純支払利子、調整所得金額、国外関連者等への支払、年度、繰越の有無。",
+            "同じ利子について移転価格税制、寄附金、源泉税、CFC税制の検討があるか。",
+        ),
+        "accuracy_points": (
+            "過少資本税制は資本・負債比率、過大支払利子税制は所得に対する純支払利子を中心に見る。",
+            "両制度は同じ利子に関係しても判定軸が異なるため、別々に検討する。",
+            "利率の妥当性は移転価格税制、損金算入制限は利子制限税制として切り分ける。",
+        ),
+        "red_flags": (
+            "借入が海外親会社からというだけで損金不算入額を断定している。",
+            "過少資本税制と過大支払利子税制を同じ制度として説明している。",
+            "移転価格上の利率妥当性と損金算入制限を混同している。",
+        ),
+        "answer_template": (
+            "1. 借入・保証・利子支払の相手方と資本関係を整理する。",
+            "2. 過少資本税制と過大支払利子税制を別々に判定する。",
+            "3. 移転価格、寄附金、源泉税との重複・優先関係を確認する。",
+            "4. 必要な数値が不足する場合は計算不能として追加資料を列挙する。",
+        ),
+    },
+}
+
+
 BROKEN_TOPIC_GUIDES = (
     "ai-paper-db/nta-tp-audit/quickstart.txt",
     "ai-paper-db/oecd-tpg-2022/quickstart.txt",
@@ -1142,12 +1363,143 @@ def _source_result(root: Path, source: SourceCheck, mirror_base: str) -> dict[st
     }
 
 
+def _render_bullets(title: str, items: tuple[str, ...] | list[str]) -> list[str]:
+    lines = [f"## {title}\n"]
+    lines.extend(f"- {item}\n" for item in items)
+    lines.append("\n")
+    return lines
+
+
+def _render_ai_reference_pack(
+    pack_id: str,
+    pack: dict[str, Any],
+    scenarios: list[dict[str, Any]],
+) -> str:
+    lines: list[str] = [
+        f"# {pack['title']}\n\n",
+        f"pack_id: {pack_id}\n",
+        "purpose: AIが法人国際税務の回答で制度混同と確認漏れを減らすための参照メモ\n",
+        "use_with: ../ai-rules.txt, ../prompts.txt, ../report.json\n\n",
+    ]
+    lines.extend(_render_bullets("使う場面", pack["use_when"]))
+    lines.extend(_render_bullets("最初に確認する事実", pack["required_facts"]))
+    lines.extend(_render_bullets("回答精度を上げる要点", pack["accuracy_points"]))
+    lines.extend(_render_bullets("危険な断定・混同", pack["red_flags"]))
+    lines.extend(_render_bullets("回答骨子", pack["answer_template"]))
+    lines.append("## このパックで使う検証済みシナリオ\n")
+    for scenario in scenarios:
+        lines.extend(
+            [
+                f"### {scenario['id']}: {scenario['title']}\n",
+                f"質問例: {scenario['question']}\n\n",
+            ]
+        )
+        checklist = scenario.get("answer_checklist", [])
+        if checklist:
+            lines.append("回答チェック観点:\n")
+            lines.extend(f"- {item}\n" for item in checklist)
+            lines.append("\n")
+        guide = scenario.get("answer_review_guide", {})
+        if guide:
+            lines.append("モデル回答の骨子:\n")
+            lines.extend(f"- {item}\n" for item in guide.get("model_outline", []))
+            lines.append("追加確認すべき事実:\n")
+            lines.extend(f"- {item}\n" for item in guide.get("required_facts", []))
+            lines.append("赤信号:\n")
+            lines.extend(f"- {item}\n" for item in guide.get("red_flags", []))
+            lines.append("\n")
+        lines.append("ミラー内の確認済み資料:\n")
+        lines.extend(
+            f"- {source['label']}: {source['url']}\n"
+            for source in scenario.get("sources", [])
+        )
+        external_sources = scenario.get("external_sources", [])
+        if external_sources:
+            lines.append("公式サイトで最終確認する資料:\n")
+            lines.extend(
+                f"- {source['label']}: {source['url']}\n"
+                for source in external_sources
+            )
+        lines.append("\n")
+    lines.extend(
+        [
+            "## AIへの最終指示\n",
+            "- 上記資料で確認できた根拠と、確認できなかった根拠を分けて書く。\n",
+            "- 事実が足りない場合は、結論より先に追加確認事項を列挙する。\n",
+            "- 制度名が似ていても、判定対象・計算対象・手続を混同しない。\n",
+        ]
+    )
+    return "".join(lines)
+
+
+def _write_ai_reference_packs(
+    base: Path,
+    mirror_base: str,
+    scenario_results: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    pack_dir = base / "ai-packs"
+    pack_dir.mkdir(parents=True, exist_ok=True)
+    scenarios_by_id = {scenario["id"]: scenario for scenario in scenario_results}
+    generated: list[dict[str, Any]] = []
+    for pack_id, pack in AI_REFERENCE_PACKS.items():
+        related_ids = [
+            scenario_id
+            for scenario_id in pack["scenario_ids"]
+            if scenario_id in scenarios_by_id
+        ]
+        if not related_ids:
+            continue
+        related_scenarios = [scenarios_by_id[scenario_id] for scenario_id in related_ids]
+        file_name = str(pack["file"])
+        relative_path = f"tax-question-tests/ai-packs/{file_name}"
+        (pack_dir / file_name).write_text(
+            _render_ai_reference_pack(pack_id, pack, related_scenarios),
+            encoding="utf-8",
+        )
+        generated.append(
+            {
+                "id": pack_id,
+                "title": pack["title"],
+                "path": relative_path,
+                "url": f"{mirror_base.rstrip('/')}/{quote(relative_path, safe='/')}",
+                "scenario_ids": related_ids,
+            }
+        )
+    index_lines = [
+        "# 法人国際税務AI参照パック索引\n\n",
+        "AIに税務質問をさせる前、またはAI回答を確認する前に使う論点別メモです。\n",
+        "`../ai-rules.txt` を最初に読み、論点候補に応じて以下のパックを併読します。\n\n",
+    ]
+    if generated:
+        index_lines.append("## パック一覧\n")
+        for item in generated:
+            file_name = Path(item["path"]).name
+            scenario_ids = ", ".join(item["scenario_ids"])
+            index_lines.append(
+                f"- {item['title']}: `{file_name}` / scenarios: {scenario_ids}\n"
+            )
+        index_lines.append("\n")
+    else:
+        index_lines.append("この実行では対象シナリオがないため、個別パックは生成していません。\n\n")
+    index_lines.extend(
+        [
+            "## 使い方\n",
+            "1. 質問文から論点候補を複数挙げる。\n",
+            "2. 該当するパックを読む。\n",
+            "3. パックの「最初に確認する事実」が足りない場合、断定せず追加質問を出す。\n",
+            "4. 回答末尾で、参照できた資料と確認不能だった資料を分けて示す。\n",
+        ]
+    )
+    (pack_dir / "index.txt").write_text("".join(index_lines), encoding="utf-8")
+    return generated
+
+
 def _write_outputs(
     root: Path,
     mirror_base: str,
     scenario_results: list[dict[str, Any]],
     repairs: int,
-) -> None:
+) -> int:
     base = root / "tax-question-tests"
     base.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
@@ -1160,6 +1512,11 @@ def _write_outputs(
         for item in scenario_results
         for items in item.get("answer_review_guide", {}).values()
     )
+    ai_reference_packs = _write_ai_reference_packs(
+        base,
+        mirror_base,
+        scenario_results,
+    )
     report = {
         "schema_version": 1,
         "generated_at": generated_at,
@@ -1168,6 +1525,8 @@ def _write_outputs(
         "source_check_count": source_checks,
         "answer_checklist_count": answer_checklist_count,
         "answer_review_item_count": answer_review_item_count,
+        "ai_reference_pack_count": len(ai_reference_packs),
+        "ai_reference_packs": ai_reference_packs,
         "navigation_repairs": repairs,
         "scenarios": scenario_results,
     }
@@ -1293,12 +1652,14 @@ section{{border-top:1px solid #ccc;margin-top:2rem}}code{{background:#f3f3f3;pad
 <p>全{len(scenario_results)}シナリオ、{source_checks}資料の存在と必須語をビルド時に検証済みです。</p>
 <p><a href="prompts.txt">AI用テスト質問</a> /
 <a href="ai-rules.txt">AIに最初に読ませる固定税務回答ルール</a> /
+<a href="ai-packs/index.txt">法人国際税務AI参照パック</a> /
 <a href="report.json">機械可読テスト結果</a></p>
 <p>このテストは回答の正しさ自体を保証しません。事実関係と基準日を確認し、最終判断は公式原文で行ってください。</p>
 {''.join(sections)}
 </body></html>
 """
     (base / "index.html").write_text(page, encoding="utf-8")
+    return len(ai_reference_packs)
 
 
 def run_tax_question_tests(
@@ -1331,7 +1692,7 @@ def run_tax_question_tests(
                 ],
             }
         )
-    _write_outputs(root, mirror_base, results, repairs)
+    ai_reference_pack_count = _write_outputs(root, mirror_base, results, repairs)
     return {
         "tax_question_scenarios": len(results),
         "tax_question_source_checks": sum(len(item["sources"]) for item in results),
@@ -1343,5 +1704,6 @@ def run_tax_question_tests(
             for item in results
             for items in item["answer_review_guide"].values()
         ),
+        "tax_question_ai_reference_packs": ai_reference_pack_count,
         "tax_question_navigation_repairs": repairs,
     }

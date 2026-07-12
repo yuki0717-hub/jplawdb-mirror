@@ -9,6 +9,7 @@ from jplawdb_mirror.core import Config, DiscoveryPlan, generate_manifest
 from jplawdb_mirror.tax_questions import (
     ANSWER_CHECKLISTS,
     ANSWER_REVIEW_GUIDES,
+    AI_REFERENCE_PACKS,
     AI_RULES_TEXT,
     SCENARIOS,
     SourceCheck,
@@ -76,6 +77,34 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
         self.assertIn("CFC税制", AI_RULES_TEXT)
         self.assertIn("租税条約", AI_RULES_TEXT)
         self.assertIn("確認不能", AI_RULES_TEXT)
+        self.assertIn("tax-question-tests/ai-packs/index.txt", AI_RULES_TEXT)
+
+    def test_international_ai_reference_packs_cover_reviewed_scenarios(self) -> None:
+        self.assertEqual(
+            set(AI_REFERENCE_PACKS),
+            {
+                "transfer-pricing",
+                "cfc",
+                "foreign-tax-credit",
+                "pe",
+                "withholding",
+                "interest-limitation",
+            },
+        )
+        covered = {
+            scenario_id
+            for pack in AI_REFERENCE_PACKS.values()
+            for scenario_id in pack["scenario_ids"]
+        }
+        self.assertTrue(set(ANSWER_CHECKLISTS) <= covered)
+        for pack_id, pack in AI_REFERENCE_PACKS.items():
+            with self.subTest(pack_id=pack_id):
+                self.assertTrue(pack["file"].endswith(".txt"))
+                self.assertGreaterEqual(len(pack["use_when"]), 2)
+                self.assertGreaterEqual(len(pack["required_facts"]), 3)
+                self.assertGreaterEqual(len(pack["accuracy_points"]), 3)
+                self.assertGreaterEqual(len(pack["red_flags"]), 3)
+                self.assertGreaterEqual(len(pack["answer_template"]), 4)
 
     def scenario(self) -> tuple[TaxQuestionScenario, ...]:
         return (
@@ -116,14 +145,22 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             self.assertEqual(metrics["tax_question_scenarios"], 1)
             self.assertEqual(metrics["tax_question_answer_check_items"], 0)
             self.assertEqual(metrics["tax_question_answer_review_items"], 0)
+            self.assertEqual(metrics["tax_question_ai_reference_packs"], 0)
             self.assertEqual(report["answer_checklist_count"], 0)
             self.assertEqual(report["answer_review_item_count"], 0)
+            self.assertEqual(report["ai_reference_pack_count"], 0)
+            self.assertEqual(report["ai_reference_packs"], [])
             self.assertEqual(report["scenarios"][0]["answer_checklist"], [])
             self.assertEqual(report["scenarios"][0]["answer_review_guide"], {})
             ai_rules = root / "tax-question-tests" / "ai-rules.txt"
             self.assertIn(
                 "AIに最初に読ませる固定税務回答ルール",
                 ai_rules.read_text(encoding="utf-8"),
+            )
+            ai_pack_index = root / "tax-question-tests" / "ai-packs" / "index.txt"
+            self.assertIn(
+                "法人国際税務AI参照パック索引",
+                ai_pack_index.read_text(encoding="utf-8"),
             )
             self.assertEqual(
                 report["scenarios"][0]["sources"][0]["observed_date"],

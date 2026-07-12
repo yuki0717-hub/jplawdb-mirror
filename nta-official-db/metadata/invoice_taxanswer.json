@@ -4,7 +4,7 @@
   "expected_title": "No.6496",
   "source_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm",
   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm",
-  "fetched_at": "2026-07-12T04:16:34.706407+00:00",
+  "fetched_at": "2026-07-12T12:24:49.997024+00:00",
   "last_modified": "Wed, 22 Oct 2025 01:00:07 GMT",
   "etag": "\"45e7-641b4d66b4d38\"",
   "declared_charset": "utf-8",
@@ -14,7 +14,7 @@
   "source_size": 17895,
   "source_sha256": "2f3a2e5f8b2a8c985e9445406bd1c793ab0fb456ed3ee67067618fca69926efc",
   "text_path": "text/invoice_taxanswer.txt",
-  "text_sha256": "cbb42f87961e71c9c53b7efe16e1475a143a908f2a37f0b325891135874d3374",
+  "text_sha256": "728bd5489b47f1b807d2276e62600490c4ba4518448be3d1be46ae03884b4ecc",
   "raw_path": "raw/invoice_taxanswer.html.txt",
   "raw_sha256": "f4dbc685dc1599bfb78c370748b484025048ee13427f744e8d316b0b853973c5"
 }

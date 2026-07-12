@@ -1,11 +1,78 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-12T04:41:42.967863+00:00",
+  "generated_at": "2026-07-12T12:50:06.000362+00:00",
   "passed": true,
   "scenario_count": 20,
   "source_check_count": 78,
   "answer_checklist_count": 48,
   "answer_review_item_count": 120,
+  "ai_reference_pack_count": 6,
+  "ai_reference_packs": [
+    {
+      "id": "transfer-pricing",
+      "title": "移転価格・グループ内取引AI参照パック",
+      "path": "tax-question-tests/ai-packs/transfer-pricing.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/transfer-pricing.txt",
+      "scenario_ids": [
+        "transfer-pricing",
+        "tp-intragroup-financing-guarantee",
+        "tp-local-file-documentation"
+      ]
+    },
+    {
+      "id": "cfc",
+      "title": "CFC税制・外国関係会社AI参照パック",
+      "path": "tax-question-tests/ai-packs/cfc.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/cfc.txt",
+      "scenario_ids": [
+        "cfc-taxable-income",
+        "cfc-passive-income"
+      ]
+    },
+    {
+      "id": "foreign-tax-credit",
+      "title": "外国税額控除・外国子会社配当AI参照パック",
+      "path": "tax-question-tests/ai-packs/foreign-tax-credit.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/foreign-tax-credit.txt",
+      "scenario_ids": [
+        "foreign-subsidiary-dividend-exemption",
+        "foreign-tax-credit-limitation",
+        "pe-profit-attribution-and-foreign-tax-credit"
+      ]
+    },
+    {
+      "id": "pe",
+      "title": "PE・外国法人申告AI参照パック",
+      "path": "tax-question-tests/ai-packs/pe.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/pe.txt",
+      "scenario_ids": [
+        "foreign-corporation-pe-filing",
+        "pe-profit-attribution-and-foreign-tax-credit",
+        "royalty-withholding-foreign-corporation"
+      ]
+    },
+    {
+      "id": "withholding",
+      "title": "非居住者・外国法人源泉税AI参照パック",
+      "path": "tax-question-tests/ai-packs/withholding.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/withholding.txt",
+      "scenario_ids": [
+        "royalty-withholding-foreign-corporation",
+        "foreign-corporation-pe-filing"
+      ]
+    },
+    {
+      "id": "interest-limitation",
+      "title": "過少資本税制・過大支払利子税制AI参照パック",
+      "path": "tax-question-tests/ai-packs/interest-limitation.txt",
+      "url": "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/interest-limitation.txt",
+      "scenario_ids": [
+        "thin-capitalization",
+        "earnings-stripping",
+        "tp-intragroup-financing-guarantee"
+      ]
+    }
+  ],
   "navigation_repairs": 2,
   "scenarios": [
     {
@@ -48,7 +115,7 @@
             "定期同額給与",
             "非常勤役員"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:34.340624+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:49.225545+00:00",
           "size": 4434,
           "status": "passed"
         },
@@ -72,7 +139,7 @@
             "事前確定届出給与",
             "提出時期"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:34.697727+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:49.383880+00:00",
           "size": 5147,
           "status": "passed"
         }
@@ -146,7 +213,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.062062+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.011604+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -159,7 +226,7 @@
             "比較対象取引",
             "独立企業間価格"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.291614+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.177720+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -251,7 +318,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.062062+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.011604+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -263,7 +330,7 @@
             "最も適切な方法",
             "比較対象取引"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.291614+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.177720+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -334,7 +401,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.062062+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.011604+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -346,7 +413,7 @@
             "最も適切な方法",
             "比較対象取引"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.291614+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.177720+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -1180,7 +1247,7 @@
             "出張旅費",
             "保存期間"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:34.343395+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:49.244833+00:00",
           "size": 9493,
           "status": "passed"
         }
@@ -1220,7 +1287,7 @@
             "個々の契約",
             "履行義務"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.176494+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:49.849842+00:00",
           "size": 26325,
           "status": "passed"
         }
@@ -1260,7 +1327,7 @@
             "取引相場のない株式",
             "大会社"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:35.194638+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:50.168455+00:00",
           "size": 14503,
           "status": "passed"
         },
@@ -1334,7 +1401,7 @@
             "調査通知",
             "正当な理由"
           ],
-          "observed_date": "fetched_at: 2026-07-12T04:16:34.462441+00:00",
+          "observed_date": "fetched_at: 2026-07-12T12:24:49.686409+00:00",
           "size": 25670,
           "status": "passed"
         }

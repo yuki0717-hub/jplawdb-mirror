@@ -1,0 +1,18 @@
+# 法人国際税務AI参照パック索引
+
+AIに税務質問をさせる前、またはAI回答を確認する前に使う論点別メモです。
+`../ai-rules.txt` を最初に読み、論点候補に応じて以下のパックを併読します。
+
+## パック一覧
+- 移転価格・グループ内取引AI参照パック: `transfer-pricing.txt` / scenarios: transfer-pricing, tp-intragroup-financing-guarantee, tp-local-file-documentation
+- CFC税制・外国関係会社AI参照パック: `cfc.txt` / scenarios: cfc-taxable-income, cfc-passive-income
+- 外国税額控除・外国子会社配当AI参照パック: `foreign-tax-credit.txt` / scenarios: foreign-subsidiary-dividend-exemption, foreign-tax-credit-limitation, pe-profit-attribution-and-foreign-tax-credit
+- PE・外国法人申告AI参照パック: `pe.txt` / scenarios: foreign-corporation-pe-filing, pe-profit-attribution-and-foreign-tax-credit, royalty-withholding-foreign-corporation
+- 非居住者・外国法人源泉税AI参照パック: `withholding.txt` / scenarios: royalty-withholding-foreign-corporation, foreign-corporation-pe-filing
+- 過少資本税制・過大支払利子税制AI参照パック: `interest-limitation.txt` / scenarios: thin-capitalization, earnings-stripping, tp-intragroup-financing-guarantee
+
+## 使い方
+1. 質問文から論点候補を複数挙げる。
+2. 該当するパックを読む。
+3. パックの「最初に確認する事実」が足りない場合、断定せず追加質問を出す。
+4. 回答末尾で、参照できた資料と確認不能だった資料を分けて示す。

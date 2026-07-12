@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-12T04:41:47.154244+00:00",
+  "generated_at": "2026-07-12T12:50:12.060494+00:00",
   "source_base": "https://jplawdb.github.io/html-preview",
   "mirror_base": "https://yuki0717-hub.github.io/jplawdb-mirror",
   "metrics": {
@@ -34,6 +34,7 @@
     "paper_packs": 203,
     "paper_rows": 2022,
     "paper_shards": 45,
+    "tax_question_ai_reference_packs": 6,
     "tax_question_answer_check_items": 48,
     "tax_question_answer_review_items": 120,
     "tax_question_navigation_repairs": 2,
@@ -199739,7 +199740,7 @@
     {
       "path": "egov-law-db/history/index.json",
       "size": 32237,
-      "sha256": "70c499307a80887d9ce1efb71b61740b38dbdec3adc4e57cbf133d658ee22bf0"
+      "sha256": "5e46c82cf276cbd8528eb8241f3661099087baa6d98c69ed51837b9e3a0b050b"
     },
     {
       "path": "egov-law-db/history/quickstart.txt",
@@ -199869,7 +199870,7 @@
     {
       "path": "egov-law-db/history/status.json",
       "size": 32154,
-      "sha256": "9c05816bcd3ce1623c8c1e4a20aca30b488f8a8b975cd2fd956829cb920a622a"
+      "sha256": "72b9be236892f137317e4f774999c0573240b962d73be4f12a34e85c8e52266e"
     },
     {
       "path": "egov-law-db/index.html",
@@ -200014,7 +200015,7 @@
     {
       "path": "egov-law-db/status.json",
       "size": 16391,
-      "sha256": "9ed2dea3edb660e07a4683b2faadd48e24989ab734e71575521e06e2f77b1f2c"
+      "sha256": "f62987ca346267cffdd536beb9fa4e0df22e044a3a2a3f4de4a8ad15d6712b51"
     },
     {
       "path": "egov-law-db/supplementary/hojinzei.txt",
@@ -230733,8 +230734,8 @@
     },
     {
       "path": "index.html",
-      "size": 6165,
-      "sha256": "eac5c9eafc7e1271103658218676391c0b0e59099d2838a8f13122ffee70c84c"
+      "size": 6225,
+      "sha256": "fe8cc788a0a39597d8e3e5c49e1783f7cab522123e394851bd9b11707cbf8197"
     },
     {
       "path": "llms3.txt",
@@ -230754,62 +230755,62 @@
     {
       "path": "nta-official-db/index.json",
       "size": 12256,
-      "sha256": "d7f963f1249afe438a8ace6e6b9327d14b0f01e57b29fd0777317578c3d724e0"
+      "sha256": "65e430fffffbe13ccee9d5261832ca65dec473fd9fa8e0f59639ef4ca8ae5d12"
     },
     {
       "path": "nta-official-db/metadata/additional_tax_guidance.json",
       "size": 1071,
-      "sha256": "0f841561e2647c6e5b0c04811db566989bf28668202d67eb346607563167f15f"
+      "sha256": "1f68910d8897a22fda78fecf356a009618241c65e407b223d42cac8336928be7"
     },
     {
       "path": "nta-official-db/metadata/consumption_tax_circular.json",
       "size": 1076,
-      "sha256": "f3576e8f5862c389997c68eb74e25e31b451ba857281e3a54e42c67c47f40b1e"
+      "sha256": "23bf6333b3ff6f78b50f987786e8d0af71db1d34a9bc2eb51bc3e6cf68253acb"
     },
     {
       "path": "nta-official-db/metadata/executive_compensation_circular.json",
       "size": 970,
-      "sha256": "bda1707f47c2549c3478397585499b4eac696aeaa20d666cd986ebe45c603ba6"
+      "sha256": "e5adf53ee2071dd93bc80a82c5256ec16476e7783272e4b3550b6896f0f02f6e"
     },
     {
       "path": "nta-official-db/metadata/executive_compensation_filing.json",
       "size": 1021,
-      "sha256": "4756d4a1927a24ad2807e30632d60467010c681d0a017dc68aab953835da7ee5"
+      "sha256": "270b4eab73e306ff589dff4c3d0b89a50157825b604f428f80150735d8cb8ca5"
     },
     {
       "path": "nta-official-db/metadata/executive_compensation_taxanswer.json",
       "size": 1008,
-      "sha256": "37a4e9768d38d9c5dda5005049cf4609de47d05132c94fdd4025600e0ddaab6f"
+      "sha256": "33caab2b7530f611b9a973775c912817c7a7aa3f9d7a3ba9330cb19b2e0422d6"
     },
     {
       "path": "nta-official-db/metadata/invoice_taxanswer.json",
       "size": 962,
-      "sha256": "2334d382484af9d09eb0843e3db52e390c4baa1905911b849ab1507ca6958f3b"
+      "sha256": "df224a341af2fda87e46cb17f8e606b70cb3cf0d8f647aa948dd45e4ac53da7c"
     },
     {
       "path": "nta-official-db/metadata/revenue_recognition_circular.json",
       "size": 1040,
-      "sha256": "887a4ec9f443a7c42f0542bd23a15f49348afa9967442656e69ca150443b83c0"
+      "sha256": "4f251534a8806b9dc8621c8c8ef7b993b9590926bb7efa0026800096ca36f907"
     },
     {
       "path": "nta-official-db/metadata/transfer_pricing_guidance.json",
       "size": 1011,
-      "sha256": "55d5ea4e7fe5c8d20b86ccab11e5337de214a9014ea21f40cf5ca855357136b3"
+      "sha256": "8259739037b70385bc05c9f57cbaba730b6f1cb46686b800fcf758cdc81c2a00"
     },
     {
       "path": "nta-official-db/metadata/transfer_pricing_methods.json",
       "size": 1008,
-      "sha256": "4c69f0316cc3509d53fa05671be4142f4b1be87445f5d4c57fdbfba624da3ea7"
+      "sha256": "c5d9eeb20fb5330be23301887145444d5eb272535d7644b3ffbeba373954a270"
     },
     {
       "path": "nta-official-db/metadata/unlisted_share_circular.json",
       "size": 985,
-      "sha256": "9f0938a58a4c8a954f014d8c3cbe404c58c898f436ed3ee666c66e7ef85e34e8"
+      "sha256": "4145e58903454ad1b90a545e0a194c3bcd53c4edf370e7206db0482781f3f552"
     },
     {
       "path": "nta-official-db/metadata/unlisted_share_taxanswer.json",
       "size": 950,
-      "sha256": "18286aef723ac7acb3e7ee6047d4ad645d8a66d4b8cb916e5ecbc012955a3065"
+      "sha256": "d48cf9276ec9a5af4aeccc5a8b31d0b8118a5fe9a67a2ff6e58e14aee69dd850"
     },
     {
       "path": "nta-official-db/quickstart.txt",
@@ -230874,77 +230875,112 @@
     {
       "path": "nta-official-db/status.json",
       "size": 12177,
-      "sha256": "968c800eedf90e8262886434110cf22ee7ab5881e931893234f7bd3e2e877355"
+      "sha256": "bf84aeee769501fc1bdf44f1e7755b1e9d8c76532fbad907b7d73800336b0a22"
     },
     {
       "path": "nta-official-db/text/additional_tax_guidance.txt",
       "size": 25670,
-      "sha256": "638dc8f74c849e3e418c498caa1e5a448ad6ebed1bfb5288f6eb85777c8ac41c"
+      "sha256": "fcc0a661eda1e0c3c0d49b8ee12d923f7bc6c3f015a22e668ba5b0a5081919d6"
     },
     {
       "path": "nta-official-db/text/consumption_tax_circular.txt",
       "size": 9493,
-      "sha256": "e2e3a995d6436d5eb1a67524ec893d7782ea94498a79585624221e81fcda897d"
+      "sha256": "e1cb0a3885aa6ff0e531d2e087361dbd79699601b4d3d23f4528984eddaebfb0"
     },
     {
       "path": "nta-official-db/text/executive_compensation_circular.txt",
       "size": 4434,
-      "sha256": "29522542e433492d462293e89d2770a6481f134f9eb5a53f18071a9afc3c1c01"
+      "sha256": "425603cf0d7960897f71c346c3aeaf9f64670e2c64f73780f834c5fd35d5dc7d"
     },
     {
       "path": "nta-official-db/text/executive_compensation_filing.txt",
       "size": 5147,
-      "sha256": "010af02bad76c36a85e2b845d91612b3cce1e63cfb542b4b49917bcdcd7d8afa"
+      "sha256": "df758252f2cb2d03a855cdda6d1b7a7104d68d233f8a26f5187a40d06d72cd6a"
     },
     {
       "path": "nta-official-db/text/executive_compensation_taxanswer.txt",
       "size": 19413,
-      "sha256": "864b5cf95be7e3f035638df7426adfde1cf1fc6d342c887e6920dabf98d03a4c"
+      "sha256": "02cd54af8628f9a39706d34d7e5cc5d56e68d7c037a324c1f6a6ad648a9655a7"
     },
     {
       "path": "nta-official-db/text/invoice_taxanswer.txt",
       "size": 5856,
-      "sha256": "cbb42f87961e71c9c53b7efe16e1475a143a908f2a37f0b325891135874d3374"
+      "sha256": "728bd5489b47f1b807d2276e62600490c4ba4518448be3d1be46ae03884b4ecc"
     },
     {
       "path": "nta-official-db/text/revenue_recognition_circular.txt",
       "size": 26325,
-      "sha256": "341481eeb8e585113cc928ee51511db3760dcbb2caefaa95e10118b46b0cef41"
+      "sha256": "e1e147280ce98126dddc6f9d89c510634c023c8c39a2d9d27aa44fc2c5bb81fc"
     },
     {
       "path": "nta-official-db/text/transfer_pricing_guidance.txt",
       "size": 5893,
-      "sha256": "bed4228d6a9bc33d2eb23eb393afa99628cd8034d0de4bf4f4b321ee7b05257f"
+      "sha256": "07de9e21dde1c3da517fcce39e18b3ff13988fc56672cbf5f2e2b60896e474c8"
     },
     {
       "path": "nta-official-db/text/transfer_pricing_methods.txt",
       "size": 25743,
-      "sha256": "6c2a10aa1c5ddc5f15ac877fb7ee539cf5016e9abfa20ff96a5b5978f9f25678"
+      "sha256": "e300a00c2196710fac0817b416ed47fa72e1becf09548f7593f2ab5809eae221"
     },
     {
       "path": "nta-official-db/text/unlisted_share_circular.txt",
       "size": 14503,
-      "sha256": "f731c630f6be5b8af2122306ca0004285459eef78cd318e920088bfa0d216192"
+      "sha256": "07bbc560b3f5c92b957784c6b88e55f1c45e491e10f6e26a62b3eee3746033c0"
     },
     {
       "path": "nta-official-db/text/unlisted_share_taxanswer.txt",
       "size": 5828,
-      "sha256": "d7692193b03a7f6fcd36b78351804a8c0258bed16a513bd45b39381a789d2ca6"
+      "sha256": "31d3405f82f5161e47bc4dcc03f98b4981763bf45b32248f35e33f52803541e0"
     },
     {
       "path": "reference-scope.html",
-      "size": 5289,
-      "sha256": "b530c60ae3008d048cb03338a4ef2a4b1e032f2cfc9d7636bfbf527a5f2878fb"
+      "size": 5349,
+      "sha256": "cb2af5170970cff628b85087437d0a0d9fe7a9cb7bf4239dafdaeb8fdfb9b8cb"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/cfc.txt",
+      "size": 7463,
+      "sha256": "c6fb5b4996eb6e494029eeeb7a80da36baf162b83779d1ca905a8a6b5d946635"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/foreign-tax-credit.txt",
+      "size": 9499,
+      "sha256": "28f692d981cf821ed37aa5eb56608df11bd4b8670a0e7d194a76c39d2884f3a2"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/index.txt",
+      "size": 1603,
+      "sha256": "6584c0590e1807ab96e9529bb4b4108e3aa588b721a76c2c7dcc86683cecb006"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/interest-limitation.txt",
+      "size": 9992,
+      "sha256": "1d1e8f567c8981d3d3792bbabe8607f21047228bbd25ee80af02d28177d3dfe8"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/pe.txt",
+      "size": 9674,
+      "sha256": "9663f7731d5e1e48a3d921488c8cc8927f928a071caa62b5f61550a4cc4982f4"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/transfer-pricing.txt",
+      "size": 11401,
+      "sha256": "658b903bdfd0c5fa9b21932d94707287f261c829878bd9695b7390002ed56e63"
+    },
+    {
+      "path": "tax-question-tests/ai-packs/withholding.txt",
+      "size": 7323,
+      "sha256": "f75f70d3bb90499cebf1b08fa818dd4a8dd327aff078c4ee30a2717c30c67304"
     },
     {
       "path": "tax-question-tests/ai-rules.txt",
-      "size": 3397,
-      "sha256": "5a394dff4902cfa4a65ec68685ce4862e68439b1f0c541efee63695dc096b58a"
+      "size": 3891,
+      "sha256": "ebab3e0e47e0053391b8969a4d2c85fd3deaf474728bedaf5a9d5d2a8ef7c957"
     },
     {
       "path": "tax-question-tests/index.html",
-      "size": 41744,
-      "sha256": "c6e2f1b899739c47d713ef6a84cad06aed094b6b64b14ddac1ca2212b2fd9193"
+      "size": 41815,
+      "sha256": "80bc62312be47be86fc0e455015643a0ceed4559b2f0d3966f7b00fa02d50478"
     },
     {
       "path": "tax-question-tests/prompts.txt",
@@ -230953,8 +230989,8 @@
     },
     {
       "path": "tax-question-tests/report.json",
-      "size": 69809,
-      "sha256": "7851994887fa103a2bed7f31d6cb9ba5f14df36b2165c45c68395b8b91e2f83b"
+      "size": 72400,
+      "sha256": "1ceda9f9adca850515a71eac898c574e45e154d471a879cbb64617a86c00c0e0"
     }
   ]
 }

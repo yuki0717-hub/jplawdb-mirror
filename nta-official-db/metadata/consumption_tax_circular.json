@@ -4,7 +4,7 @@
   "expected_title": "第6節　仕入税額の控除に係る帳簿及び請求書等の記載事項の特例",
   "source_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shohi/20230930/11/06.htm",
   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shohi/20230930/11/06.htm",
-  "fetched_at": "2026-07-12T04:16:34.343395+00:00",
+  "fetched_at": "2026-07-12T12:24:49.244833+00:00",
   "last_modified": "Thu, 18 Jan 2024 09:30:31 GMT",
   "etag": "\"28b4-60f3503d08b10\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 10420,
   "source_sha256": "3ad3c26c7328f0eb39e09786cd26b53f36cd812507431f30a99713bae02c777b",
   "text_path": "text/consumption_tax_circular.txt",
-  "text_sha256": "e2e3a995d6436d5eb1a67524ec893d7782ea94498a79585624221e81fcda897d",
+  "text_sha256": "e1cb0a3885aa6ff0e531d2e087361dbd79699601b4d3d23f4528984eddaebfb0",
   "raw_path": "raw/consumption_tax_circular.html.txt",
   "raw_sha256": "3f259a3ddaf3053190e01011c9b8cd29540109e4edbd2e1c5b5d5901e7fe8758"
 }

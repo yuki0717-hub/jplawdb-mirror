@@ -4,7 +4,7 @@
   "expected_title": "No.5211",
   "source_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
-  "fetched_at": "2026-07-12T04:16:34.815532+00:00",
+  "fetched_at": "2026-07-12T12:24:49.858367+00:00",
   "last_modified": "Mon, 25 May 2026 05:00:01 GMT",
   "etag": "\"7d4d-6529d40455a70\"",
   "declared_charset": "utf-8",
@@ -14,7 +14,7 @@
   "source_size": 32077,
   "source_sha256": "11ba29eb18c3acb80f77fdb836cbcba3a65a7d458abef1bab3ab3fe2a14c3a85",
   "text_path": "text/executive_compensation_taxanswer.txt",
-  "text_sha256": "864b5cf95be7e3f035638df7426adfde1cf1fc6d342c887e6920dabf98d03a4c",
+  "text_sha256": "02cd54af8628f9a39706d34d7e5cc5d56e68d7c037a324c1f6a6ad648a9655a7",
   "raw_path": "raw/executive_compensation_taxanswer.html.txt",
   "raw_sha256": "03da65d7348f799669f89c9604285e8234b2316a0ae278ab0acf1ffe9534c70d"
 }

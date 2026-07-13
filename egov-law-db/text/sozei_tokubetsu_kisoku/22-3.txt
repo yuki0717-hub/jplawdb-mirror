@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260712
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260713
 law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
 law_num: 昭和三十二年大蔵省令第十五号
 law_id: 332M50000040015
 law_revision_id: 332M50000040015_20260625_508M60000040021
-as_of: 2026-07-12
+as_of: 2026-07-13
 article: 22-3
 title: 第二十二条の三
 deleted: false

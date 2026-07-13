@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260712
+source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260713
 law: 相続税法施行規則 (sozokuzei_kisoku)
 law_num: 昭和二十五年大蔵省令第十七号
 law_id: 325M50000040017
 law_revision_id: 325M50000040017_20260401_508M60000040009
-as_of: 2026-07-12
+as_of: 2026-07-13
 article: 21-2
 title: 第二十一条の二
 deleted: false

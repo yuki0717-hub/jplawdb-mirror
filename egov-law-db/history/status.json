@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-13T06:33:41.048788+00:00",
+  "generated_at": "2026-07-20T06:28:19.310678+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -25,7 +25,7 @@
   "law_count_per_date": 12,
   "article_count": 9352,
   "supplementary_count": 8839,
-  "revision_count": 849,
+  "revision_count": 852,
   "snapshots": [
     {
       "schema_version": 1,
@@ -636,9 +636,9 @@
       "code": "hojinzei",
       "law_id": "340AC0000000034",
       "law_num": "昭和四十年法律第三十四号",
-      "revision_count": 64,
-      "json_sha256": "27cae2bc2fea2d540cbaa94e94cc4709dffb0fa250613c16c36cbd4461de4d1d",
-      "text_sha256": "3193f9b7c3569e8ea266efa03e20742bfdcef8e1432a165843f231ab0a3233a5"
+      "revision_count": 65,
+      "json_sha256": "8e4a202a7e897a9f7c04682663fdadd99f1164fe843001e2fa710455d6bc9f9a",
+      "text_sha256": "1f3805f882f337ccb7290065b19373a99d7deba36ae1a482602e3a037d5bbbcf"
     },
     {
       "code": "hojinzei_seirei",
@@ -668,9 +668,9 @@
       "code": "shohizei",
       "law_id": "363AC0000000108",
       "law_num": "昭和六十三年法律第百八号",
-      "revision_count": 64,
-      "json_sha256": "9519b3f1dce3dc6193b14f867bf6e07c1e108220d5d31797aa75650ae89ca038",
-      "text_sha256": "fca98d3f0e9a42ff0b30cc5f940ba3fa6fe2d5aea4e07d303542788b863ad583"
+      "revision_count": 65,
+      "json_sha256": "724c57befc8cc16627d3567b14ccf68ba93e4bc70195b6a59f699d02ea6d8a13",
+      "text_sha256": "239676fa294238f480f3565dbf7b8cca74cdc13db4b16fa83be0635ed5261981"
     },
     {
       "code": "shohizei_seirei",
@@ -684,9 +684,9 @@
       "code": "shotokuzei",
       "law_id": "340AC0000000033",
       "law_num": "昭和四十年法律第三十三号",
-      "revision_count": 81,
-      "json_sha256": "fc3688424944a895722b1eaa9ebb05429bd010718370cd0f6c89a665f7e73294",
-      "text_sha256": "b7fa361c98a2503e22508ee83b28c76188e16552ea54b8f685bbe038566f8080"
+      "revision_count": 82,
+      "json_sha256": "68e572efb0f11d95dca3310626903f819455d9ee7b83097f71e58b34922d9cf9",
+      "text_sha256": "a14a6ef089fedd17b6528b374c6bcde2467e82e636e8867394600026ca3e3245"
     },
     {
       "code": "shotokuzei_seirei",

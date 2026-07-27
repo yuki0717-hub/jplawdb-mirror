@@ -1,9 +1,9 @@
 # e-Gov法令API Version 2 直接同期データ
 
-- as_of: 2026-07-20
+- as_of: 2026-07-27
 - laws: 24
 - main_articles: 6070
-- supplementary_provisions: 4115
+- supplementary_provisions: 4117
 - canonical article: text/{law_code}/{article}.txt
 - supplementary provisions: supplementary/{law_code}.txt
 - historical snapshots: history/index.html

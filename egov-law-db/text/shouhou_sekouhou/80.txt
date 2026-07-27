@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260720
+source_url: https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20260727
 law: 商法施行法 (shouhou_sekouhou)
 law_num: 明治三十二年法律第四十九号
 law_id: 132AC0000000049
 law_revision_id: 132AC0000000049_20190401_430AC0000000029
-as_of: 2026-07-20
+as_of: 2026-07-27
 article: 80
 title: 第八十条
 deleted: false

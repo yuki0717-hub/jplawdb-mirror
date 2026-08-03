@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20260727
+source_url: https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20260803
 law: 会社法施行令 (kaishahou_seirei)
 law_num: 平成十七年政令第三百六十四号
 law_id: 417CO0000000364
 law_revision_id: 417CO0000000364_20210301_502CO0000000327
-as_of: 2026-07-27
+as_of: 2026-08-03
 supplementary_count: 3
 ---
 [supplementary:001]

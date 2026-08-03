@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20260727
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20260803
 law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
 law_num: 昭和三十二年政令第四十三号
 law_id: 332CO0000000043
-law_revision_id: 332CO0000000043_20260522_508CO0000000098
-as_of: 2026-07-27
+law_revision_id: 332CO0000000043_20260731_508CO0000000098
+as_of: 2026-08-03
 supplementary_count: 498
 ---
 [supplementary:001]
@@ -19908,6 +19908,9 @@ extract: true
 [suppl498-a5-p1-i2-s1-1:sentence] 特定新規雇用者基礎数のうち旧法第十条の五第三項第十号に規定する移転型特定新規雇用者数に達するまでの数
 [suppl498-a5-p1-i2-s1-2:title] ロ
 [suppl498-a5-p1-i2-s1-2:sentence] 特定非新規雇用者基礎数のうち旧法第十条の五第一項第二号ロに規定する移転型特定非新規雇用者基礎数に達するまでの数
+[suppl498-a6:caption] （特定生産性向上設備等を取得した場合の特別償却又は所得税額の特別控除に関する経過措置）
+[suppl498-a6:title] 第六条
+[suppl498-a6-p1:sentence] 附則第一条第七号に定める日から令和八年十二月三十一日までの間における新令第五条の六の六第十項及び第十一項の規定の適用については、これらの規定中「第四項」とあるのは、「第三項」とする。
 [suppl498-a7:caption] （所得税の額から控除される特別控除額の特例に関する経過措置）
 [suppl498-a7:title] 第七条
 [suppl498-a7-p1:sentence] 施行日から附則第一条第七号に定める日の前日までの間における新令第五条の七第二項の規定の適用については、同項中「、第十条の五の五第八項」とあるのは、「及び第十条の五の五第八項」とする。

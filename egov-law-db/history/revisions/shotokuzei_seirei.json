@@ -11,17 +11,17 @@
   },
   "revisions": [
     {
-      "law_revision_id": "340CO0000000096_21171231_508CO0000000093",
+      "law_revision_id": "340CO0000000096_20280101_508CO0000000093",
       "law_type": "CabinetOrder",
       "law_title": "所得税法施行令",
       "law_title_kana": "しょとくぜいほうしこうれい",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-04-21T11:34:17+09:00",
+      "updated": "2026-07-29T13:13:44+09:00",
       "amendment_promulgate_date": "2026-03-31",
-      "amendment_enforcement_date": "2117-12-31",
+      "amendment_enforcement_date": "2028-01-01",
       "amendment_enforcement_comment": "第三号に掲げる規定の施行の日の属する年の翌年の一月一日",
-      "amendment_scheduled_enforcement_date": "2117-12-31",
+      "amendment_scheduled_enforcement_date": "2028-01-01",
       "amendment_law_id": "508CO0000000093",
       "amendment_law_title": "所得税法施行令の一部を改正する政令",
       "amendment_law_title_kana": null,
@@ -34,17 +34,17 @@
       "current_revision_status": "UnEnforced"
     },
     {
-      "law_revision_id": "340CO0000000096_21171230_508CO0000000093",
+      "law_revision_id": "340CO0000000096_20270722_508CO0000000093",
       "law_type": "CabinetOrder",
       "law_title": "所得税法施行令",
       "law_title_kana": "しょとくぜいほうしこうれい",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-04-21T12:09:45+09:00",
+      "updated": "2026-07-29T13:08:41+09:00",
       "amendment_promulgate_date": "2026-03-31",
-      "amendment_enforcement_date": "2117-12-30",
-      "amendment_enforcement_comment": "金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第　　　号）の施行の日",
-      "amendment_scheduled_enforcement_date": "2117-12-30",
+      "amendment_enforcement_date": "2027-07-22",
+      "amendment_enforcement_comment": "金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日",
+      "amendment_scheduled_enforcement_date": "2027-07-22",
       "amendment_law_id": "508CO0000000093",
       "amendment_law_title": "所得税法施行令の一部を改正する政令",
       "amendment_law_title_kana": null,
@@ -123,7 +123,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "CurrentEnforced"
+      "current_revision_status": "PreviousEnforced"
     },
     {
       "law_revision_id": "340CO0000000096_20260401_508CO0000000093",

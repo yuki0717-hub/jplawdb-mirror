@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260727
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260803
 law: 租税特別措置法 (sozei_tokubetsu)
 law_num: 昭和三十二年法律第二十六号
 law_id: 332AC0000000026
 law_revision_id: 332AC0000000026_20260625_508AC0000000012
-as_of: 2026-07-27
+as_of: 2026-08-03
 article: 90-6-3
 title: 第九十条の六の三
 deleted: false

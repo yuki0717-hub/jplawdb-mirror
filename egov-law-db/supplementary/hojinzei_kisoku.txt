@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260727
+source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260803
 law: 法人税法施行規則 (hojinzei_kisoku)
 law_num: 昭和四十年大蔵省令第十二号
 law_id: 340M50000040012
-law_revision_id: 340M50000040012_20260522_508M60000040039
-as_of: 2026-07-27
+law_revision_id: 340M50000040012_20260731_508M60000040039
+as_of: 2026-08-03
 supplementary_count: 217
 ---
 [supplementary:001]
@@ -4178,6 +4178,8 @@ extract: true
 [suppl217-p3:sentence] 新規則第三十八条の六十八第二項及び第六十一条の十一第二項の規定は、法人の令和八年四月一日以後に開始する対象会計年度の国内最低課税額に対する法人税について適用する。
 [suppl217-p4:number] ４
 [suppl217-p4:sentence] 別段の定めがあるものを除き、新規則別表の書式は、法人の令和八年四月一日以後に終了する事業年度の所得に対する法人税について適用し、法人の同日前に終了した事業年度の所得に対する法人税については、なお従前の例による。
+[suppl217-p5:number] ５
+[suppl217-p5:sentence] 新規則別表六（二十七）の書式は、法人の附則第一項第三号に定める日以後に終了する事業年度の所得に対する法人税について適用する。
 [suppl217-p6:number] ６
 [suppl217-p6:sentence] 新規則別表十六（三）の書式は、法人の附則第一項第四号に定める日以後に終了する事業年度の所得に対する法人税について適用し、法人の同日前に終了した事業年度の所得に対する法人税については、なお従前の例による。
 [suppl217-p7:number] ７

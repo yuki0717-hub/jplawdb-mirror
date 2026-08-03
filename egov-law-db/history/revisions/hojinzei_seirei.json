@@ -80,17 +80,17 @@
       "current_revision_status": "UnEnforced"
     },
     {
-      "law_revision_id": "340CO0000000097_20260904_508CO0000000094",
+      "law_revision_id": "340CO0000000097_20260731_508CO0000000094",
       "law_type": "CabinetOrder",
       "law_title": "法人税法施行令",
       "law_title_kana": "ほうじんぜいほうしこうれい",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-06-17T09:32:43+09:00",
+      "updated": "2026-08-03T14:37:13+09:00",
       "amendment_promulgate_date": "2026-03-31",
-      "amendment_enforcement_date": "2026-09-04",
-      "amendment_enforcement_comment": "経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律（令和八年法律第二十九号）の施行の日",
-      "amendment_scheduled_enforcement_date": "2026-09-04",
+      "amendment_enforcement_date": "2026-07-31",
+      "amendment_enforcement_comment": null,
+      "amendment_scheduled_enforcement_date": null,
       "amendment_law_id": "508CO0000000094",
       "amendment_law_title": "法人税法施行令及び法人税法施行令及び法人税法施行令等の一部を改正する政令の一部を改正する政令の一部を改正する政令",
       "amendment_law_title_kana": null,
@@ -100,7 +100,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "UnEnforced"
+      "current_revision_status": "CurrentEnforced"
     },
     {
       "law_revision_id": "340CO0000000097_20260601_508CO0000000094",
@@ -109,7 +109,7 @@
       "law_title_kana": "ほうじんぜいほうしこうれい",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-06-01T00:51:21+09:00",
+      "updated": "2026-08-03T14:37:13+09:00",
       "amendment_promulgate_date": "2026-03-31",
       "amendment_enforcement_date": "2026-06-01",
       "amendment_enforcement_comment": null,
@@ -123,7 +123,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "CurrentEnforced"
+      "current_revision_status": "PreviousEnforced"
     },
     {
       "law_revision_id": "340CO0000000097_20260522_508CO0000000094",

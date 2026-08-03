@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260727
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260803
 law: 消費税法施行令 (shohizei_seirei)
 law_num: 昭和六十三年政令第三百六十号
 law_id: 363CO0000000360
 law_revision_id: 363CO0000000360_20260522_508CO0000000096
-as_of: 2026-07-27
+as_of: 2026-08-03
 article: 70-8
 title: 第七十条の八
 deleted: false

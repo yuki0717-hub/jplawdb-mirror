@@ -1,6 +1,6 @@
 # e-Gov公式法令クイックスタート
 
-基準日: 2026-08-03
+基準日: 2026-08-10
 法令一覧: index.json
 同期状態: status.json
 条文: text/{law_code}/{article}.txt

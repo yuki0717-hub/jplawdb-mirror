@@ -4,13 +4,13 @@
   "law_type": "Act",
   "law_id": "332AC0000000026",
   "law_num": "昭和三十二年法律第二十六号",
-  "law_revision_id": "332AC0000000026_20260625_508AC0000000012",
-  "updated": "2026-06-26T18:48:36+09:00",
-  "amendment_enforcement_date": "2026-06-25",
-  "as_of": "2026-08-03",
-  "article_count": 494,
-  "supplementary_count": 487,
-  "xml_size": 14411492,
-  "xml_sha256": "37e1dff03d67593b253a44206e0dfee96bbe5ec9a7a8e9de5c41531889a058d0",
-  "source_url": "https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260803"
+  "law_revision_id": "332AC0000000026_20260731_508AC0000000029",
+  "updated": "2026-08-06T08:39:10+09:00",
+  "amendment_enforcement_date": "2026-07-31",
+  "as_of": "2026-08-10",
+  "article_count": 496,
+  "supplementary_count": 488,
+  "xml_size": 14453096,
+  "xml_sha256": "1def3bc2849220b4ec0d86ca639c4e5be9dfffa71fbca5b7124d970db114182d",
+  "source_url": "https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260810"
 }

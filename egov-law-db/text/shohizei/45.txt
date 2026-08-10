@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20260803
+source_url: https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20260810
 law: 消費税法 (shohizei)
 law_num: 昭和六十三年法律第百八号
 law_id: 363AC0000000108
 law_revision_id: 363AC0000000108_20260401_506AC0000000008
-as_of: 2026-08-03
+as_of: 2026-08-10
 article: 45
 title: 第四十五条
 deleted: false

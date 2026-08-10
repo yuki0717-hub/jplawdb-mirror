@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260803
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260810
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
 law_revision_id: 417AC0000000086_20260723_508AC0000000064
-as_of: 2026-08-03
+as_of: 2026-08-10
 article: 2
 title: 第二条
 deleted: false

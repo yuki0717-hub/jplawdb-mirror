@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260803
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260810
 law: 法人税法 (hojinzei)
 law_num: 昭和四十年法律第三十四号
 law_id: 340AC0000000034
 law_revision_id: 340AC0000000034_20260723_508AC0000000064
-as_of: 2026-08-03
+as_of: 2026-08-10
 article: 144-8
 title: 第百四十四条の八
 deleted: false

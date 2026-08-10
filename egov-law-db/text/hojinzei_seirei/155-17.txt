@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260803
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20260810
 law: 法人税法施行令 (hojinzei_seirei)
 law_num: 昭和四十年政令第九十七号
 law_id: 340CO0000000097
 law_revision_id: 340CO0000000097_20260731_508CO0000000094
-as_of: 2026-08-03
+as_of: 2026-08-10
 article: 155-17
 title: 第百五十五条の十七
 deleted: false

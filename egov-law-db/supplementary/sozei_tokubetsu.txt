@@ -1,11 +1,11 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260803
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260810
 law: 租税特別措置法 (sozei_tokubetsu)
 law_num: 昭和三十二年法律第二十六号
 law_id: 332AC0000000026
-law_revision_id: 332AC0000000026_20260625_508AC0000000012
-as_of: 2026-08-03
-supplementary_count: 487
+law_revision_id: 332AC0000000026_20260731_508AC0000000029
+as_of: 2026-08-10
+supplementary_count: 488
 ---
 [supplementary:001]
 label: 附 則
@@ -28941,3 +28941,13 @@ extract: true
 [suppl487-a100:caption] （政令への委任）
 [suppl487-a100:title] 第百条
 [suppl487-a100-p1:sentence] この附則に規定するもののほか、この法律の施行に関し必要な経過措置は、政令で定める。
+
+[supplementary:488]
+label: 附 則
+amendment_law_num: 令和八年六月五日法律第二九号
+extract: true
+
+[suppl488:label] 附 則
+[suppl488-a1:caption] （施行期日）
+[suppl488-a1:title] 第一条
+[suppl488-a1-p1:sentence] この法律は、公布の日から起算して三月を超えない範囲内において政令で定める日から施行する。

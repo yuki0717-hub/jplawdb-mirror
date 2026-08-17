@@ -3,18 +3,18 @@ source_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm
 final_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm
 code: unlisted_share_taxanswer
 title: No.4638 取引相場のない株式の評価｜国税庁
-fetched_at: 2026-08-10T04:57:30.485758+00:00
-last_modified: Wed, 22 Oct 2025 01:00:25 GMT
-legal_as_of: 2025-04-01
+fetched_at: 2026-08-17T04:06:10.989722+00:00
+last_modified: Mon, 10 Aug 2026 05:00:02 GMT
+legal_as_of: 2026-04-01
 declared_charset: utf-8
-source_sha256: 07d5c284c794d7e59376867fba242f51e30aa868f30f7ac3311b21a0d8b01625
+source_sha256: 88900aa6eff93955da7a381a0373f1fab93fb137462132678196c9fce2b8aa3f
 ---
 ホーム
 税の情報・手続・用紙
 税について調べる
 タックスアンサー（よくある税の質問）
 No.4638 取引相場のない株式の評価
-[令和7年4月1日現在法令等]
+[令和8年4月1日現在法令等]
 対象税目
 相続税、贈与税
 概要
@@ -46,7 +46,7 @@ No.4638 取引相場のない株式の評価
 ◆関連する税務手続
 ・［手続名］取引相場のない株式（出資）の評価明細書
 お問い合わせ先
-国税に関するご相談は、国税局電話相談センター等で行っていますので、税についての相談窓口をご覧になって、電話相談をご利用ください。
+国税に関するご相談は、税についての相談窓口をご覧ください。
 このコンテンツはお役にたちましたか？
 はい
 いいえ

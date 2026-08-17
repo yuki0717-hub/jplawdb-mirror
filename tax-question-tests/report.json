@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T05:22:44.808567+00:00",
+  "generated_at": "2026-08-17T04:31:22.320106+00:00",
   "passed": true,
   "scenario_count": 20,
   "source_check_count": 78,
@@ -91,7 +91,7 @@
             "役員",
             "定期同額給与"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 10468,
           "status": "passed"
         },
@@ -103,7 +103,7 @@
             "定期同額給与",
             "改定"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 35417,
           "status": "passed"
         },
@@ -115,7 +115,7 @@
             "定期同額給与",
             "非常勤役員"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:29.490111+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.028644+00:00",
           "size": 4434,
           "status": "passed"
         },
@@ -139,7 +139,7 @@
             "事前確定届出給与",
             "提出時期"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:29.697531+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.162377+00:00",
           "size": 5147,
           "status": "passed"
         }
@@ -189,7 +189,7 @@
             "国外関連者",
             "独立企業間価格"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 38046,
           "status": "passed"
         },
@@ -201,7 +201,7 @@
             "独立企業間価格",
             "比較対象取引"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 46501,
           "status": "passed"
         },
@@ -213,7 +213,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.006435+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.870701+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -226,7 +226,7 @@
             "比較対象取引",
             "独立企業間価格"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.113299+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.771472+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -294,7 +294,7 @@
             "国外関連者",
             "独立企業間価格"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 38046,
           "status": "passed"
         },
@@ -306,7 +306,7 @@
             "特殊の関係",
             "比較対象取引"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 46501,
           "status": "passed"
         },
@@ -318,7 +318,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.006435+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.870701+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -330,7 +330,7 @@
             "最も適切な方法",
             "比較対象取引"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.113299+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.771472+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -389,7 +389,7 @@
             "国外関連取引",
             "独立企業間価格"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 38046,
           "status": "passed"
         },
@@ -401,7 +401,7 @@
             "独立企業間価格",
             "ローカルファイル"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.006435+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.870701+00:00",
           "size": 5893,
           "status": "passed"
         },
@@ -413,7 +413,7 @@
             "最も適切な方法",
             "比較対象取引"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.113299+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.771472+00:00",
           "size": 25743,
           "status": "passed"
         },
@@ -467,7 +467,7 @@
             "外国子会社",
             "益金の額に算入しない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 6061,
           "status": "passed"
         },
@@ -479,7 +479,7 @@
             "百分の二十五",
             "六月以上"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 7696,
           "status": "passed"
         },
@@ -491,7 +491,7 @@
             "外国源泉税等",
             "損金の額に算入しない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 1788,
           "status": "passed"
         },
@@ -503,7 +503,7 @@
             "外国子会社",
             "外国法人税"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 1584,
           "status": "passed"
         }
@@ -548,7 +548,7 @@
             "外国税額の控除",
             "控除対象外国法人税"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 41483,
           "status": "passed"
         },
@@ -560,7 +560,7 @@
             "外国法人税",
             "含まれない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3453,
           "status": "passed"
         },
@@ -572,7 +572,7 @@
             "控除限度額",
             "調整国外所得金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 5548,
           "status": "passed"
         },
@@ -584,7 +584,7 @@
             "繰越控除対象外国法人税額",
             "控除限度超過額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3773,
           "status": "passed"
         }
@@ -630,7 +630,7 @@
             "特定外国関係会社",
             "課税対象金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 51737,
           "status": "passed"
         },
@@ -642,7 +642,7 @@
             "課税対象金額",
             "請求権等勘案合算割合"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 15951,
           "status": "passed"
         },
@@ -654,7 +654,7 @@
             "適用対象金額",
             "基準により計算した金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 36089,
           "status": "passed"
         },
@@ -666,7 +666,7 @@
             "外国法人税",
             "控除対象外国法人税"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 16212,
           "status": "passed"
         },
@@ -678,7 +678,7 @@
             "特定課税対象金額",
             "課税済金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 18195,
           "status": "passed"
         }
@@ -724,7 +724,7 @@
             "特定所得の金額",
             "部分課税対象金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 51737,
           "status": "passed"
         },
@@ -736,7 +736,7 @@
             "部分適用対象金額",
             "剰余金の配当等"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 29044,
           "status": "passed"
         },
@@ -748,7 +748,7 @@
             "租税負担割合",
             "外国関係会社"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 10032,
           "status": "passed"
         },
@@ -760,7 +760,7 @@
             "実質支配関係",
             "特殊の関係"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 5707,
           "status": "passed"
         }
@@ -806,7 +806,7 @@
             "平均負債残高",
             "損金の額に算入しない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 10057,
           "status": "passed"
         },
@@ -819,7 +819,7 @@
             "平均負債残高",
             "保証料"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 30737,
           "status": "passed"
         },
@@ -831,7 +831,7 @@
             "対象純支払利子等",
             "調整所得金額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 15830,
           "status": "passed"
         }
@@ -877,7 +877,7 @@
             "調整所得金額",
             "損金の額に算入しない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 15830,
           "status": "passed"
         },
@@ -890,7 +890,7 @@
             "関連者",
             "支払利子等"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 42180,
           "status": "passed"
         },
@@ -902,7 +902,7 @@
             "国外支配株主等",
             "負債の利子等"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 10057,
           "status": "passed"
         }
@@ -948,7 +948,7 @@
             "工業所有権",
             "著作権"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 10568,
           "status": "passed"
         },
@@ -961,7 +961,7 @@
             "源泉徴収",
             "翌月十日"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 4301,
           "status": "passed"
         },
@@ -974,7 +974,7 @@
             "外国法人",
             "恒久的施設"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3789,
           "status": "passed"
         },
@@ -986,7 +986,7 @@
             "租税条約",
             "国内源泉所得"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 2358,
           "status": "passed"
         },
@@ -1040,7 +1040,7 @@
             "恒久的施設",
             "国内源泉所得"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3789,
           "status": "passed"
         },
@@ -1052,7 +1052,7 @@
             "租税条約",
             "内部取引"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 2358,
           "status": "passed"
         },
@@ -1064,7 +1064,7 @@
             "恒久的施設を有する外国法人",
             "課税標準"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 1367,
           "status": "passed"
         },
@@ -1076,7 +1076,7 @@
             "確定申告",
             "恒久的施設"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 6888,
           "status": "passed"
         },
@@ -1088,7 +1088,7 @@
             "届出書",
             "恒久的施設"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 5057,
           "status": "passed"
         },
@@ -1142,7 +1142,7 @@
             "恒久的施設",
             "内部取引"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3789,
           "status": "passed"
         },
@@ -1154,7 +1154,7 @@
             "恒久的施設",
             "租税条約"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 2358,
           "status": "passed"
         },
@@ -1166,7 +1166,7 @@
             "外国法人税",
             "控除限度額"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 18199,
           "status": "passed"
         },
@@ -1178,7 +1178,7 @@
             "外国法人税",
             "含まれない"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3453,
           "status": "passed"
         },
@@ -1211,7 +1211,7 @@
             "帳簿",
             "請求書"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 20151,
           "status": "passed"
         },
@@ -1223,7 +1223,7 @@
             "帳簿",
             "請求書"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 11853,
           "status": "passed"
         },
@@ -1247,7 +1247,7 @@
             "出張旅費",
             "保存期間"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:29.495787+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.032963+00:00",
           "size": 9493,
           "status": "passed"
         }
@@ -1275,7 +1275,7 @@
             "収益",
             "引渡し"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 3955,
           "status": "passed"
         },
@@ -1287,7 +1287,7 @@
             "個々の契約",
             "履行義務"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.095570+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.637327+00:00",
           "size": 26325,
           "status": "passed"
         }
@@ -1315,7 +1315,7 @@
             "財産",
             "時価"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 698,
           "status": "passed"
         },
@@ -1327,7 +1327,7 @@
             "取引相場のない株式",
             "大会社"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:30.136303+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:11.123827+00:00",
           "size": 14503,
           "status": "passed"
         },
@@ -1339,8 +1339,8 @@
             "同族株主",
             "配当還元方式"
           ],
-          "observed_date": "legal_as_of: 2025-04-01",
-          "size": 5828,
+          "observed_date": "legal_as_of: 2026-04-01",
+          "size": 5723,
           "status": "passed"
         }
       ],
@@ -1362,7 +1362,7 @@
             "過少申告加算税",
             "正当な理由"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 11130,
           "status": "passed"
         },
@@ -1374,7 +1374,7 @@
             "無申告加算税",
             "正当な理由"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 11716,
           "status": "passed"
         },
@@ -1387,7 +1387,7 @@
             "隠蔽",
             "仮装"
           ],
-          "observed_date": "as_of: 2026-08-10",
+          "observed_date": "as_of: 2026-08-17",
           "size": 6189,
           "status": "passed"
         },
@@ -1401,7 +1401,7 @@
             "調査通知",
             "正当な理由"
           ],
-          "observed_date": "fetched_at: 2026-08-10T04:57:29.588041+00:00",
+          "observed_date": "fetched_at: 2026-08-17T04:06:10.158596+00:00",
           "size": 25670,
           "status": "passed"
         }

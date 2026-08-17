@@ -4,13 +4,13 @@
   "law_type": "Act",
   "law_id": "417AC0000000086",
   "law_num": "平成十七年法律第八十六号",
-  "law_revision_id": "417AC0000000086_20260723_508AC0000000064",
-  "updated": "2026-07-23T11:28:31+09:00",
-  "amendment_enforcement_date": "2026-07-23",
-  "as_of": "2026-08-10",
+  "law_revision_id": "417AC0000000086_20260812_508AC0000000064",
+  "updated": "2026-08-12T00:26:23+09:00",
+  "amendment_enforcement_date": "2026-08-12",
+  "as_of": "2026-08-17",
   "article_count": 1078,
   "supplementary_count": 33,
-  "xml_size": 3170972,
-  "xml_sha256": "55149d9ef122c010320ee4420fc5a482ae8a99837cce22f001845797b20aea9b",
-  "source_url": "https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260810"
+  "xml_size": 3171829,
+  "xml_sha256": "f6a1aa510fb6007cad0d84d788090c4558a90dfa41b5a772e48081b7875ef261",
+  "source_url": "https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260817"
 }

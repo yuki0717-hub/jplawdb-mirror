@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20260810
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20260817
 law: 相続税法施行令 (sozokuzei_seirei)
 law_num: 昭和二十五年政令第七十一号
 law_id: 325CO0000000071
 law_revision_id: 325CO0000000071_20260401_506CO0000000143
-as_of: 2026-08-10
+as_of: 2026-08-17
 article: 1-8
 title: 第一条の八
 deleted: false

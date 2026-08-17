@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260810
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20260817
 law: 会社法 (kaishahou)
 law_num: 平成十七年法律第八十六号
 law_id: 417AC0000000086
-law_revision_id: 417AC0000000086_20260723_508AC0000000064
-as_of: 2026-08-10
+law_revision_id: 417AC0000000086_20260812_508AC0000000064
+as_of: 2026-08-17
 article: 182-2
 title: 第百八十二条の二
 deleted: false

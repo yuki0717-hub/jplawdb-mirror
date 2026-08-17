@@ -58,7 +58,7 @@
                 <div class="page-header" id="page-top">
                   <h1>No.4638 取引相場のない株式の評価</h1>
                 </div>
-                <p>[令和7年4月1日現在法令等]</p>
+                <p>[令和8年4月1日現在法令等]</p>
                 <h2>対象税目</h2>
                 <p>相続税、贈与税</p>
                 <h2>概要</h2>
@@ -90,7 +90,7 @@
                 <p>◆関連する税務手続</p>
                 <p>・<a href="/taxes/tetsuzuki/shinsei/annai/hyoka/annai/1470-01.htm">［手続名］取引相場のない株式（出資）の評価明細書</a></p>
                 <h2>お問い合わせ先</h2>
-                <p>国税に関するご相談は、国税局電話相談センター等で行っていますので、<a href="/taxes/shiraberu/shirabekata/9200.htm#a02">税についての相談窓口</a>をご覧になって、電話相談をご利用ください。</p>
+                <p>国税に関するご相談は、<a href="/taxes/shiraberu/shirabekata/9200.htm#a02">税についての相談窓口</a>をご覧ください。</p>
                 <div class="contents-feedback">
                   <div class="display-before">
                     <div class="title-feedback">このコンテンツはお役にたちましたか？</div>

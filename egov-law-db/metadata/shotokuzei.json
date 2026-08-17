@@ -4,13 +4,13 @@
   "law_type": "Act",
   "law_id": "340AC0000000033",
   "law_num": "昭和四十年法律第三十三号",
-  "law_revision_id": "340AC0000000033_20260401_507AC0000000013",
-  "updated": "2026-04-01T10:25:31+09:00",
-  "amendment_enforcement_date": "2026-04-01",
-  "as_of": "2026-08-10",
+  "law_revision_id": "340AC0000000033_20260812_508AC0000000064",
+  "updated": "2026-08-12T00:14:37+09:00",
+  "amendment_enforcement_date": "2026-08-12",
+  "as_of": "2026-08-17",
   "article_count": 302,
-  "supplementary_count": 351,
-  "xml_size": 16439766,
-  "xml_sha256": "bf33fc4160f83bf79f41cb26b1f46c7c720aeff1efd2bae09eb8f63385bec695",
-  "source_url": "https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260810"
+  "supplementary_count": 352,
+  "xml_size": 16442198,
+  "xml_sha256": "c69614182b4c889c85b849735f7b5b7f0d98dc9c61097fd6beef0e4efff4f14b",
+  "source_url": "https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260817"
 }

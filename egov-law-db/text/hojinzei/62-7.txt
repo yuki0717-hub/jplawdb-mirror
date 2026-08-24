@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260817
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260824
 law: 法人税法 (hojinzei)
 law_num: 昭和四十年法律第三十四号
 law_id: 340AC0000000034
 law_revision_id: 340AC0000000034_20260812_508AC0000000064
-as_of: 2026-08-17
+as_of: 2026-08-24
 article: 62-7
 title: 第六十二条の七
 deleted: false

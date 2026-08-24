@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/20230930/11/06.htm
 final_url: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/20230930/11/06.htm
 code: consumption_tax_circular
 title: 第6節 仕入税額の控除に係る帳簿及び請求書等の記載事項の特例｜国税庁
-fetched_at: 2026-08-17T04:06:10.032963+00:00
+fetched_at: 2026-08-24T04:08:27.276366+00:00
 last_modified: Thu, 18 Jan 2024 09:30:31 GMT
 legal_as_of: 
 declared_charset: shift_jis

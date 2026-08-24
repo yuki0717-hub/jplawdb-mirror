@@ -1,11 +1,11 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260817
+source_url: https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20260824
 law: 法人税法施行規則 (hojinzei_kisoku)
 law_num: 昭和四十年大蔵省令第十二号
 law_id: 340M50000040012
-law_revision_id: 340M50000040012_20260731_508M60000040039
-as_of: 2026-08-17
-supplementary_count: 217
+law_revision_id: 340M50000040012_20260731_508M60000040051
+as_of: 2026-08-24
+supplementary_count: 218
 ---
 [supplementary:001]
 label: 附 則
@@ -4188,3 +4188,11 @@ extract: true
 [suppl217-p8:sentence] 新規則別表二十二から別表二十二付表二までの書式は、法人の令和八年四月一日以後に開始する対象会計年度の国内最低課税額に対する法人税について適用する。
 [suppl217-p9:number] ９
 [suppl217-p9:sentence] この省令の施行の日から附則第一項第四号に定める日の前日までの間における新規則別表十六（三）の書式の適用については、同表の記載要領第一号中「若しくは生産高等比例法（同項第５号ロに規定する生産高等比例法をいう。）により」とあるのは、「により」とする。
+
+[supplementary:218]
+label: 附 則
+amendment_law_num: 令和八年七月三一日財務省令第五一号
+extract: 
+
+[suppl218:label] 附 則
+[suppl218-p1:sentence] この省令は、経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律（令和八年法律第二十九号）の施行の日から施行する。

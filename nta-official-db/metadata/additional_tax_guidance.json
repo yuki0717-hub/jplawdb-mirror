@@ -4,7 +4,7 @@
   "expected_title": "法人税の過少申告加算税及び無申告加算税の取扱いについて",
   "source_url": "https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm",
   "final_url": "https://www.nta.go.jp/law/jimu-unei/hojin/100703_01/00.htm",
-  "fetched_at": "2026-08-17T04:06:10.158596+00:00",
+  "fetched_at": "2026-08-24T04:08:27.403140+00:00",
   "last_modified": "Thu, 18 Jan 2024 09:36:45 GMT",
   "etag": "\"5f3b-60f351a1b1228\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 24379,
   "source_sha256": "825585ecf717bda86ff03598021d37dd5b566105779e5c7e8410427d202f5312",
   "text_path": "text/additional_tax_guidance.txt",
-  "text_sha256": "f54531a2da320dc0234c3a1038c01c48b63d7c2d15366ffc263c7c1ab9786d3d",
+  "text_sha256": "b3fa82515fbc9d6d9ae6295c2fdcd682aea18eb014b08822bae9652ed381b315",
   "raw_path": "raw/additional_tax_guidance.html.txt",
   "raw_sha256": "46ff1ce49b8f745857b3964232a57af77373a468933b64b931143f03086135d4"
 }

@@ -1,11 +1,11 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260817
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260824
 law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
 law_num: 昭和三十二年大蔵省令第十五号
 law_id: 332M50000040015
-law_revision_id: 332M50000040015_20260625_508M60000040021
-as_of: 2026-08-17
-supplementary_count: 402
+law_revision_id: 332M50000040015_20260731_508M60000040051
+as_of: 2026-08-24
+supplementary_count: 403
 ---
 [supplementary:001]
 label: 附 則
@@ -10160,3 +10160,11 @@ extract: true
 [suppl402-a13-p3:sentence] 新規則別表第八（一）に定める書式は、施行日以後に租税特別措置法施行令第二十六条の二第一項（租税特別措置法施行令等の一部を改正する政令（令和四年政令第百四十八号）附則第十条第二項の規定により読み替えて適用される場合を含む。以下この項において同じ。）の規定により交付する租税特別措置法施行令第二十六条の二第一項に規定する書類について適用し、施行日前に同項の規定により交付した同項に規定する書類については、なお従前の例による。
 [suppl402-a13-p4:number] ４
 [suppl402-a13-p4:sentence] 前三項に規定する書式は、当分の間、旧規則の相当の規定に定める計算書、報告書又は書類に、新規則別表第七（二）、別表第七（三）及び別表第八（一）に準じて、記載したものをもってこれに代えることができる。
+
+[supplementary:403]
+label: 附 則
+amendment_law_num: 令和八年七月三一日財務省令第五一号
+extract: 
+
+[suppl403:label] 附 則
+[suppl403-p1:sentence] この省令は、経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律（令和八年法律第二十九号）の施行の日から施行する。

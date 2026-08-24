@@ -4,13 +4,13 @@
   "law_type": "MinisterialOrdinance",
   "law_id": "332M50000040015",
   "law_num": "昭和三十二年大蔵省令第十五号",
-  "law_revision_id": "332M50000040015_20260625_508M60000040021",
-  "updated": "2026-06-26T18:52:53+09:00",
-  "amendment_enforcement_date": "2026-06-25",
-  "as_of": "2026-08-17",
-  "article_count": 403,
-  "supplementary_count": 402,
-  "xml_size": 7847878,
-  "xml_sha256": "1101d176a31b4038fa2b18ff37f0800561b168b328019d16d4027525490e042c",
-  "source_url": "https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260817"
+  "law_revision_id": "332M50000040015_20260731_508M60000040051",
+  "updated": "2026-08-17T13:40:04+09:00",
+  "amendment_enforcement_date": "2026-07-31",
+  "as_of": "2026-08-24",
+  "article_count": 406,
+  "supplementary_count": 403,
+  "xml_size": 7856956,
+  "xml_sha256": "7bf8e6ceed556b2ff2c8da328885dd69e98339fb82393639f2caba99185fbe50",
+  "source_url": "https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260824"
 }

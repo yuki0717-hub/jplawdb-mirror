@@ -4,7 +4,7 @@
   "expected_title": "第3款　定期同額給与",
   "source_url": "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_03.htm",
   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_03.htm",
-  "fetched_at": "2026-08-17T04:06:10.028644+00:00",
+  "fetched_at": "2026-08-24T04:08:27.278643+00:00",
   "last_modified": "Thu, 18 Jan 2024 09:31:45 GMT",
   "etag": "\"18c2-60f3508302440\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 6338,
   "source_sha256": "c0867c90055c47f8ffb6c31e53c82c640256403eae5cc2523166d8020a8dfbbc",
   "text_path": "text/executive_compensation_circular.txt",
-  "text_sha256": "4a971578512428854644c19cd981ed0ea389b8bc78a18916b76c49844e9b41c7",
+  "text_sha256": "9ffbc7d6315d454d129d0246f8d92c19cf1e08d4091cde1ebf6845e707257f5f",
   "raw_path": "raw/executive_compensation_circular.html.txt",
   "raw_sha256": "837bc9d3c5813916af03bf00a16295208c0124618e9d3ad88d44883af1d605ff"
 }

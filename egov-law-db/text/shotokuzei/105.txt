@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260824
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20260831
 law: 所得税法 (shotokuzei)
 law_num: 昭和四十年法律第三十三号
 law_id: 340AC0000000033
 law_revision_id: 340AC0000000033_20260812_508AC0000000064
-as_of: 2026-08-24
+as_of: 2026-08-31
 article: 105
 title: 第百五条
 deleted: false

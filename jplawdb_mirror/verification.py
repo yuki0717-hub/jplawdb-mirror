@@ -624,11 +624,18 @@ def _check_tax_question_tests(
     if not isinstance(metrics, dict) or "tax_question_scenarios" not in metrics:
         return
     required = {
+        "tax-question-tests/START_HERE.txt",
         "tax-question-tests/ai-rules.txt",
         "tax-question-tests/ai-packs/index.txt",
+        "tax-question-tests/answer-review.txt",
+        "tax-question-tests/freshness-check.txt",
+        "tax-question-tests/how-to-ask-ai.html",
         "tax-question-tests/index.html",
         "tax-question-tests/prompts.txt",
         "tax-question-tests/report.json",
+        "tax-question-tests/tax-treaty-check.txt",
+        "tax-question-tests/topic-router.json",
+        "tax-question-tests/topic-router.txt",
     }
     errors.extend(
         f"required tax-question test file is missing: {path}"
@@ -655,6 +662,7 @@ def _check_tax_question_tests(
     answer_checklist_count = 0
     answer_review_item_count = 0
     ai_reference_pack_count = 0
+    ai_guidance_file_count = 0
     ids: set[str] = set()
     for scenario in scenarios:
         if not isinstance(scenario, dict):
@@ -753,6 +761,48 @@ def _check_tax_question_tests(
         and report.get("ai_reference_pack_count") != ai_reference_pack_count
     ):
         errors.append("tax-question report ai_reference_pack_count is inconsistent")
+    ai_guidance_files = report.get("ai_guidance_files", [])
+    if not isinstance(ai_guidance_files, list):
+        errors.append("tax-question report ai_guidance_files must be a list")
+    else:
+        seen_guidance_paths: set[str] = set()
+        for guidance in ai_guidance_files:
+            if not isinstance(guidance, dict):
+                errors.append("tax-question report contains a non-object AI guidance file")
+                continue
+            path = guidance.get("path")
+            if (
+                not isinstance(path, str)
+                or not path.startswith("tax-question-tests/")
+                or path in seen_guidance_paths
+                or path not in actual
+            ):
+                errors.append(
+                    f"invalid or missing tax-question AI guidance file: {path!r}"
+                )
+            else:
+                seen_guidance_paths.add(path)
+        ai_guidance_file_count = len(ai_guidance_files)
+    if (
+        "ai_guidance_file_count" in report
+        and report.get("ai_guidance_file_count") != ai_guidance_file_count
+    ):
+        errors.append("tax-question report ai_guidance_file_count is inconsistent")
+    router_path = actual.get("tax-question-tests/topic-router.json")
+    if router_path is not None:
+        try:
+            router = json.loads(router_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+            errors.append(f"cannot read tax-question topic router json: {exc}")
+        else:
+            rules = router.get("rules") if isinstance(router, dict) else None
+            if (
+                not isinstance(router, dict)
+                or router.get("schema_version") != 1
+                or not isinstance(rules, list)
+                or not rules
+            ):
+                errors.append("tax-question topic router json is invalid")
     if metrics.get("tax_question_scenarios") != len(scenarios):
         errors.append("manifest tax-question scenario count is inconsistent")
     if metrics.get("tax_question_source_checks") != source_count:
@@ -772,6 +822,11 @@ def _check_tax_question_tests(
         and metrics.get("tax_question_ai_reference_packs") != ai_reference_pack_count
     ):
         errors.append("manifest tax-question AI reference pack count is inconsistent")
+    if (
+        "tax_question_ai_guidance_files" in metrics
+        and metrics.get("tax_question_ai_guidance_files") != ai_guidance_file_count
+    ):
+        errors.append("manifest tax-question AI guidance file count is inconsistent")
 
 
 def verify_output(root: Path, config: Config) -> VerificationReport:

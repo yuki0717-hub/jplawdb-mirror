@@ -1072,9 +1072,11 @@ URLや資料を実際に確認できない場合は、「確認不能」と明�
 AI_RULES_TEXT = AI_RULES_TEXT.rstrip() + """
 
 ## 法人国際税務AI参照パック
-法人国際税務の質問では、論点候補が見えた時点で `tax-question-tests/ai-packs/index.txt` を確認する。
-移転価格、CFC税制、外国税額控除・外国子会社配当、PE、源泉税、過少資本税制・過大支払利子税制は、該当パックを併読してから回答する。
+税務質問に回答するAIは、まず `tax-question-tests/START_HERE.txt` を読む。
+法人国際税務の質問では、論点候補が見えた時点で `tax-question-tests/topic-router.txt` と `tax-question-tests/ai-packs/index.txt` を確認する。
+移転価格、CFC税制、外国税額控除・外国子会社配当、PE、源泉税、過少資本税制・過大支払利子税制、租税条約は、該当パックまたはチェックガイドを併読してから回答する。
 パックにない論点、または必要事実が足りない論点は、結論を断定せず追加確認事項を先に示す。
+回答末尾では `tax-question-tests/answer-review.txt` の形式で自己チェックを付ける。
 """
 
 
@@ -1290,6 +1292,186 @@ AI_REFERENCE_PACKS: dict[str, dict[str, Any]] = {
 }
 
 
+AI_GUIDANCE_FILE_PATHS = (
+    "tax-question-tests/START_HERE.txt",
+    "tax-question-tests/topic-router.txt",
+    "tax-question-tests/topic-router.json",
+    "tax-question-tests/answer-review.txt",
+    "tax-question-tests/tax-treaty-check.txt",
+    "tax-question-tests/freshness-check.txt",
+    "tax-question-tests/how-to-ask-ai.html",
+)
+
+
+TOPIC_ROUTER_RULES: tuple[dict[str, Any], ...] = (
+    {
+        "id": "transfer-pricing",
+        "title": "移転価格・グループ内取引",
+        "pack_id": "transfer-pricing",
+        "trigger_terms": (
+            "移転価格",
+            "国外関連者",
+            "独立企業間価格",
+            "ローカルファイル",
+            "同時文書化",
+            "無形資産",
+            "役務提供",
+            "保証料",
+            "グループ内金融",
+        ),
+        "first_questions": (
+            "取引相手は国外関連者か。",
+            "取引内容・契約条件・価格決定方法は何か。",
+            "比較対象取引と文書化資料はあるか。",
+        ),
+    },
+    {
+        "id": "cfc",
+        "title": "CFC税制・外国関係会社",
+        "pack_id": "cfc",
+        "trigger_terms": (
+            "CFC",
+            "外国関係会社",
+            "タックスヘイブン",
+            "合算課税",
+            "部分対象所得",
+            "受動的所得",
+            "ペーパーカンパニー",
+            "経済活動基準",
+        ),
+        "first_questions": (
+            "直接・間接の保有割合と株主構成はどうなっているか。",
+            "外国法人の税負担割合、所在地国、主たる事業は何か。",
+            "会社単位合算か部分対象所得かを分ける必要があるか。",
+        ),
+    },
+    {
+        "id": "foreign-tax-credit",
+        "title": "外国税額控除・外国子会社配当",
+        "pack_id": "foreign-tax-credit",
+        "trigger_terms": (
+            "外国税額控除",
+            "外国法人税",
+            "国外所得",
+            "控除限度額",
+            "外国子会社配当",
+            "益金不算入",
+            "二重課税",
+            "配当源泉税",
+        ),
+        "first_questions": (
+            "対象は外国税額控除か、外国子会社配当益金不算入か。",
+            "外国税の種類、納付国、納付日、課税標準は何か。",
+            "控除限度額、繰越、CFC課税済み所得との関係はどうか。",
+        ),
+    },
+    {
+        "id": "pe",
+        "title": "PE・外国法人申告",
+        "pack_id": "pe",
+        "trigger_terms": (
+            "PE",
+            "恒久的施設",
+            "外国法人",
+            "代理人PE",
+            "建設PE",
+            "事業利得",
+            "国内源泉所得",
+            "日本支店",
+        ),
+        "first_questions": (
+            "日本国内の拠点、人員、契約締結権限、活動期間はどうか。",
+            "国内法上のPEと租税条約上のPEを分けて確認したか。",
+            "PE帰属所得、帳簿、申告、源泉税調整が必要か。",
+        ),
+    },
+    {
+        "id": "withholding",
+        "title": "非居住者・外国法人源泉税",
+        "pack_id": "withholding",
+        "trigger_terms": (
+            "源泉税",
+            "源泉徴収",
+            "使用料",
+            "ロイヤルティ",
+            "利子",
+            "配当",
+            "租税条約届出",
+            "居住者証明",
+            "受益者",
+        ),
+        "first_questions": (
+            "支払内容は利子、配当、使用料、役務対価のどれか。",
+            "国内源泉所得該当性と国内法税率を確認したか。",
+            "租税条約の届出、受益者、居住者証明を確認したか。",
+        ),
+    },
+    {
+        "id": "interest-limitation",
+        "title": "過少資本税制・過大支払利子税制",
+        "pack_id": "interest-limitation",
+        "trigger_terms": (
+            "過少資本",
+            "過大支払利子",
+            "支払利子",
+            "国外関連者借入",
+            "親会社借入",
+            "保証",
+            "対象純支払利子",
+            "調整所得金額",
+        ),
+        "first_questions": (
+            "借入先、資本関係、負債残高、自己資本、利率はどうか。",
+            "過少資本税制と過大支払利子税制を別々に検討したか。",
+            "移転価格、寄附金、源泉税との重複を確認したか。",
+        ),
+    },
+    {
+        "id": "tax-treaty",
+        "title": "租税条約横断チェック",
+        "guide_path": "tax-question-tests/tax-treaty-check.txt",
+        "trigger_terms": (
+            "租税条約",
+            "条約",
+            "軽減税率",
+            "免税",
+            "PE条項",
+            "事業利得条項",
+            "特典制限",
+            "LOB",
+            "PPT",
+            "相手国",
+        ),
+        "first_questions": (
+            "相手国と所得区分を確認したか。",
+            "国内法の課税関係と条約による制限を分けたか。",
+            "届出、居住者証明、受益者、特典制限を確認したか。",
+        ),
+    },
+    {
+        "id": "freshness",
+        "title": "最新性・基準日チェック",
+        "guide_path": "tax-question-tests/freshness-check.txt",
+        "trigger_terms": (
+            "最新",
+            "現在",
+            "令和",
+            "改正",
+            "適用開始",
+            "経過措置",
+            "いつ時点",
+            "事業年度",
+            "申告期限",
+        ),
+        "first_questions": (
+            "取引日、事業年度、申告期限、適用開始日を確認したか。",
+            "ミラー資料の as_of、snapshot、legal_as_of、fetched_at を確認したか。",
+            "古い可能性がある資料は公式原文で再確認するよう明記したか。",
+        ),
+    },
+)
+
+
 BROKEN_TOPIC_GUIDES = (
     "ai-paper-db/nta-tp-audit/quickstart.txt",
     "ai-paper-db/oecd-tpg-2022/quickstart.txt",
@@ -1494,12 +1676,357 @@ def _write_ai_reference_packs(
     return generated
 
 
+def _mirror_url(mirror_base: str, relative_path: str) -> str:
+    return f"{mirror_base.rstrip('/')}/{quote(relative_path, safe='/')}"
+
+
+def _local_guidance_path(base: Path, relative_path: str) -> Path:
+    prefix = "tax-question-tests/"
+    if not relative_path.startswith(prefix):
+        raise ValueError(f"guidance path must be under {prefix}: {relative_path}")
+    return base / relative_path.removeprefix(prefix)
+
+
+def _router_read_paths(
+    rule: dict[str, Any],
+    generated_pack_by_id: dict[str, dict[str, Any]],
+) -> list[str]:
+    pack_id = rule.get("pack_id")
+    if isinstance(pack_id, str) and pack_id in generated_pack_by_id:
+        return [str(generated_pack_by_id[pack_id]["path"])]
+    guide_path = rule.get("guide_path")
+    if isinstance(guide_path, str):
+        return [guide_path]
+    return []
+
+
+def _render_topic_router_text(
+    generated_pack_by_id: dict[str, dict[str, Any]],
+) -> str:
+    lines = [
+        "# 税務質問AI論点ルーター\n\n",
+        "目的: 質問文から論点候補を複数選び、AIが読むべき資料を自動的に決める。\n",
+        "使い方: 1つに絞らず、該当しそうな論点をすべて選ぶ。迷う場合は複数読む。\n\n",
+        "## 常に読むファイル\n",
+        "- tax-question-tests/START_HERE.txt\n",
+        "- tax-question-tests/ai-rules.txt\n",
+        "- tax-question-tests/answer-review.txt\n",
+        "- tax-question-tests/freshness-check.txt\n\n",
+        "## ルーティング規則\n",
+    ]
+    for rule in TOPIC_ROUTER_RULES:
+        lines.append(f"### {rule['id']}: {rule['title']}\n")
+        lines.append("反応語:\n")
+        lines.extend(f"- {term}\n" for term in rule["trigger_terms"])
+        read_paths = _router_read_paths(rule, generated_pack_by_id)
+        if read_paths:
+            lines.append("読むファイル:\n")
+            lines.extend(f"- {path}\n" for path in read_paths)
+        lines.append("最初に確認すること:\n")
+        lines.extend(f"- {item}\n" for item in rule["first_questions"])
+        lines.append("\n")
+    lines.extend(
+        [
+            "## 判断ルール\n",
+            "- 反応語が1つでも含まれる場合、その論点を候補にする。\n",
+            "- 反応語がなくても、事実関係から関連しそうなら候補にする。\n",
+            "- 法人国際税務では、国内法、租税条約、届出・証明、実務手続を分ける。\n",
+            "- 必要事実が欠ける場合は、暫定回答にとどめ、不足事実を先に示す。\n",
+        ]
+    )
+    return "".join(lines)
+
+
+def _topic_router_json(
+    mirror_base: str,
+    generated_pack_by_id: dict[str, dict[str, Any]],
+) -> str:
+    rules = []
+    for rule in TOPIC_ROUTER_RULES:
+        read_paths = _router_read_paths(rule, generated_pack_by_id)
+        rules.append(
+            {
+                "id": rule["id"],
+                "title": rule["title"],
+                "trigger_terms": list(rule["trigger_terms"]),
+                "first_questions": list(rule["first_questions"]),
+                "read_paths": read_paths,
+                "read_urls": [_mirror_url(mirror_base, path) for path in read_paths],
+            }
+        )
+    payload = {
+        "schema_version": 1,
+        "purpose": "Route Japanese tax questions to AI guidance and reference packs.",
+        "always_read": [
+            "tax-question-tests/START_HERE.txt",
+            "tax-question-tests/ai-rules.txt",
+            "tax-question-tests/answer-review.txt",
+            "tax-question-tests/freshness-check.txt",
+        ],
+        "rules": rules,
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+
+
+def _render_answer_review_text() -> str:
+    return """# 税務AI回答後レビュー
+
+AIは回答末尾に、必ずこのレビューを付ける。
+人間のチェック負担を減らすため、結論の強さ、根拠、未確認事項を機械的に分ける。
+
+## 回答後チェック項目
+- 質問文だけで結論を断定していないか。
+- 不足事実を先に列挙したか。
+- 法律、施行令、施行規則、通達、国税庁資料、租税条約、OECD資料を区別したか。
+- 参照URL、ファイル名、as_of、snapshot、legal_as_of、fetched_at を確認したか。
+- 参照できない資料を確認済みとして扱っていないか。
+- 法人国際税務では、移転価格、CFC、外国税額控除、PE、源泉税、利子制限、租税条約を混同していないか。
+- 数値計算が必要な場合、必要な金額・期間・割合・税率・為替・事業年度を確認したか。
+- 国内法だけで結論を出さず、租税条約・届出・証明の確認要否を示したか。
+
+## 回答末尾に出す固定形式
+### 自己チェック
+- 参照した資料:
+- 参照できなかった資料:
+- 不足している事実:
+- 結論を左右する条件:
+- 制度混同チェック:
+- 租税条約確認:
+- 最新性確認:
+- 断定不可部分:
+
+## 判定
+- 主要事実が不足する場合: 「暫定回答」と明記する。
+- 根拠資料の基準日が古い可能性がある場合: 「最新の公式原文確認が必要」と明記する。
+- 論点が複数ある場合: 結論を1つに潰さず、制度ごとに分ける。
+"""
+
+
+def _render_tax_treaty_check_text() -> str:
+    return """# 租税条約チェックガイド
+
+法人国際税務で、相手国、外国法人、非居住者、PE、配当、利子、使用料、事業利得が出たら読む。
+国内法だけで最終結論を出さない。
+
+## 先に確認する事実
+- 相手国または地域。
+- 所得区分: 配当、利子、使用料、事業利得、不動産所得、譲渡収益、役員報酬など。
+- 支払者、受益者、実質的受益者、居住者証明書の有無。
+- 租税条約届出書の提出有無、提出期限、支払日。
+- PEの有無、PEに帰属する所得かどうか。
+- 特典制限条項、PPT、LOB、MLIの影響を確認する必要があるか。
+
+## 確認順序
+1. 国内法で課税関係と国内源泉所得該当性を確認する。
+2. 租税条約があるかを確認する。
+3. 条約上の所得区分と税率・免税・PE条項を確認する。
+4. 届出、居住者証明、受益者、特典制限を確認する。
+5. 条約適用後の税額・申告・還付・納付手続を整理する。
+
+## このミラーで確認する入口
+- ai-treaty-db/jp-tax-treaties/quickstart.txt
+- ai-treaty-db/jp-tax-treaties/data/docs_index.tsv
+- ai-treaty-db/jp-tax-treaties/data/shards_index.json
+
+## 危険な回答
+- 租税条約があるだけで軽減税率を当然適用できると書く。
+- 契約名だけで所得区分を決める。
+- PE判定を国内法だけで終わらせる。
+- 届出書、居住者証明、受益者、特典制限を確認しない。
+- 条約上の税率と国内法上の源泉徴収税率を混同する。
+"""
+
+
+def _render_freshness_check_text() -> str:
+    return """# 税務資料の最新性チェック
+
+税務回答では、根拠資料の時点を明記する。
+このミラーは公開時に検証しているが、税制改正・通達改正・様式変更・租税条約改正は起きるため、最新性を回答に反映する。
+
+## 見るべき日付
+- report.json の generated_at。
+- 各資料の as_of。
+- e-Gov法令テキストの legal_as_of。
+- スナップショット資料の snapshot。
+- 国税庁資料の fetched_at、Last-Modified、法令等現在日。
+
+## 追加確認が必要な場合
+- 質問が「現在」「最新」「令和○年」「○年改正」「適用開始日」を含む。
+- 取引日、事業年度、申告期限、支払日が不明。
+- 資料の基準日と質問の対象年度が一致しない。
+- 租税条約、届出様式、税率、経過措置が問題になる。
+- AIが参照URLを開けない。
+
+## 回答での書き方
+- 「この回答は、参照ファイルに表示された基準日を前提とする」と明記する。
+- 最新の公式原文を確認していない場合、「最新確認未了」と書く。
+- 過年度の質問では、対象日以前で最も近い過去基準日の資料を優先する。
+- 現行法の質問では、e-Gov、国税庁、財務省の公式原文を最終確認する。
+"""
+
+
+def _render_start_here_text(
+    mirror_base: str,
+    ai_reference_packs: list[dict[str, Any]],
+) -> str:
+    lines = [
+        "# 税務AI回答 START_HERE\n\n",
+        "このファイルをAIに最初に読ませる。利用者は毎回プロンプトを作らなくてよい。\n",
+        "AIは以下の手順を必ず実行してから回答する。\n\n",
+        "## 最初に読むURL\n",
+        f"- この入口: {_mirror_url(mirror_base, 'tax-question-tests/START_HERE.txt')}\n",
+        f"- 固定回答ルール: {_mirror_url(mirror_base, 'tax-question-tests/ai-rules.txt')}\n",
+        f"- 論点ルーター: {_mirror_url(mirror_base, 'tax-question-tests/topic-router.txt')}\n",
+        f"- 回答後レビュー: {_mirror_url(mirror_base, 'tax-question-tests/answer-review.txt')}\n",
+        f"- 最新性チェック: {_mirror_url(mirror_base, 'tax-question-tests/freshness-check.txt')}\n",
+        f"- 租税条約チェック: {_mirror_url(mirror_base, 'tax-question-tests/tax-treaty-check.txt')}\n\n",
+        "## AIの処理手順\n",
+        "1. 質問文から税目・論点候補を複数挙げる。\n",
+        "2. `topic-router.txt` で読むべきパックを選ぶ。\n",
+        "3. 法人国際税務なら該当する `ai-packs/*.txt` を読む。\n",
+        "4. 租税条約、届出、受益者、居住者証明、PE、最新性の確認要否を判定する。\n",
+        "5. 事実不足がある場合、暫定回答と追加確認事項を分ける。\n",
+        "6. 回答末尾に `answer-review.txt` の自己チェックを付ける。\n\n",
+        "## 法人国際税務パック\n",
+    ]
+    if ai_reference_packs:
+        lines.extend(f"- {pack['title']}: {pack['url']}\n" for pack in ai_reference_packs)
+    else:
+        lines.append("- この実行では個別パックは生成されていない。\n")
+    lines.extend(
+        [
+            "\n## 利用者の最短指示\n",
+            "AIに次のように依頼する。\n\n",
+            "「以下の入口ファイルと関連資料を参照して、税務質問に回答してください。"
+            "事実不足、確認不能、最新性、租税条約、制度混同チェックを必ず最後に示してください。"
+            "入口URL: ",
+            _mirror_url(mirror_base, "tax-question-tests/START_HERE.txt"),
+            "」\n",
+        ]
+    )
+    return "".join(lines)
+
+
+def _render_how_to_ask_page(
+    mirror_base: str,
+    ai_reference_packs: list[dict[str, Any]],
+) -> str:
+    pack_links = "".join(
+        f'<li><a href="ai-packs/{html.escape(Path(pack["path"]).name, quote=True)}">'
+        f'{html.escape(pack["title"])}</a></li>'
+        for pack in ai_reference_packs
+    )
+    pack_block = (
+        f"<h2>法人国際税務パック</h2><ul>{pack_links}</ul>"
+        if pack_links
+        else ""
+    )
+    prompt = (
+        "以下の入口ファイルと関連資料を参照して、税務質問に回答してください。"
+        "事実不足、確認不能、最新性、租税条約、制度混同チェックを必ず最後に示してください。"
+        f"入口URL: {_mirror_url(mirror_base, 'tax-question-tests/START_HERE.txt')}"
+    )
+    return f"""<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIに税務質問をするときの使い方</title>
+<style>
+body{{font-family:system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;line-height:1.7}}
+textarea{{width:100%;min-height:9rem}}code{{background:#f3f3f3;padding:.1rem .25rem}}
+</style></head><body>
+<h1>AIに税務質問をするときの使い方</h1>
+<p>毎回プロンプトを作る必要はありません。まず下の入口URLをAIに渡してから、税務質問を書いてください。</p>
+<h2>入口URL</h2>
+<p><a href="START_HERE.txt">{html.escape(_mirror_url(mirror_base, 'tax-question-tests/START_HERE.txt'))}</a></p>
+<h2>そのまま使える依頼文</h2>
+<textarea readonly>{html.escape(prompt)}</textarea>
+<h2>AIが自動で確認するもの</h2>
+<ul>
+<li><a href="ai-rules.txt">固定回答ルール</a></li>
+<li><a href="topic-router.txt">論点ルーター</a></li>
+<li><a href="answer-review.txt">回答後レビュー</a></li>
+<li><a href="tax-treaty-check.txt">租税条約チェック</a></li>
+<li><a href="freshness-check.txt">最新性チェック</a></li>
+<li><a href="ai-packs/index.txt">法人国際税務パック索引</a></li>
+</ul>
+{pack_block}
+<p>このページは回答の正しさ自体を保証しません。最終判断は、e-Gov、国税庁、財務省などの公式原文で確認してください。</p>
+</body></html>
+"""
+
+
+def _write_ai_guidance_files(
+    base: Path,
+    mirror_base: str,
+    ai_reference_packs: list[dict[str, Any]],
+) -> list[dict[str, str]]:
+    generated_pack_by_id = {pack["id"]: pack for pack in ai_reference_packs}
+    definitions = [
+        (
+            "start-here",
+            "AI税務回答入口",
+            "tax-question-tests/START_HERE.txt",
+            _render_start_here_text(mirror_base, ai_reference_packs),
+        ),
+        (
+            "topic-router",
+            "税務質問AI論点ルーター",
+            "tax-question-tests/topic-router.txt",
+            _render_topic_router_text(generated_pack_by_id),
+        ),
+        (
+            "topic-router-json",
+            "税務質問AI論点ルーターJSON",
+            "tax-question-tests/topic-router.json",
+            _topic_router_json(mirror_base, generated_pack_by_id),
+        ),
+        (
+            "answer-review",
+            "税務AI回答後レビュー",
+            "tax-question-tests/answer-review.txt",
+            _render_answer_review_text(),
+        ),
+        (
+            "tax-treaty-check",
+            "租税条約チェックガイド",
+            "tax-question-tests/tax-treaty-check.txt",
+            _render_tax_treaty_check_text(),
+        ),
+        (
+            "freshness-check",
+            "税務資料の最新性チェック",
+            "tax-question-tests/freshness-check.txt",
+            _render_freshness_check_text(),
+        ),
+        (
+            "how-to-ask-ai",
+            "AIに税務質問をするときの使い方",
+            "tax-question-tests/how-to-ask-ai.html",
+            _render_how_to_ask_page(mirror_base, ai_reference_packs),
+        ),
+    ]
+    guidance_files: list[dict[str, str]] = []
+    for file_id, title, relative_path, content in definitions:
+        path = _local_guidance_path(base, relative_path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
+        guidance_files.append(
+            {
+                "id": file_id,
+                "title": title,
+                "path": relative_path,
+                "url": _mirror_url(mirror_base, relative_path),
+            }
+        )
+    return guidance_files
+
+
 def _write_outputs(
     root: Path,
     mirror_base: str,
     scenario_results: list[dict[str, Any]],
     repairs: int,
-) -> int:
+) -> dict[str, int]:
     base = root / "tax-question-tests"
     base.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
@@ -1517,6 +2044,11 @@ def _write_outputs(
         mirror_base,
         scenario_results,
     )
+    ai_guidance_files = _write_ai_guidance_files(
+        base,
+        mirror_base,
+        ai_reference_packs,
+    )
     report = {
         "schema_version": 1,
         "generated_at": generated_at,
@@ -1527,6 +2059,8 @@ def _write_outputs(
         "answer_review_item_count": answer_review_item_count,
         "ai_reference_pack_count": len(ai_reference_packs),
         "ai_reference_packs": ai_reference_packs,
+        "ai_guidance_file_count": len(ai_guidance_files),
+        "ai_guidance_files": ai_guidance_files,
         "navigation_repairs": repairs,
         "scenarios": scenario_results,
     }
@@ -1650,7 +2184,13 @@ section{{border-top:1px solid #ccc;margin-top:2rem}}code{{background:#f3f3f3;pad
 </style></head><body>
 <h1>複雑な税務質問 作動テスト</h1>
 <p>全{len(scenario_results)}シナリオ、{source_checks}資料の存在と必須語をビルド時に検証済みです。</p>
-<p><a href="prompts.txt">AI用テスト質問</a> /
+<p><a href="how-to-ask-ai.html">AIに税務質問をするときの使い方</a> /
+<a href="START_HERE.txt">AI税務回答入口</a> /
+<a href="topic-router.txt">論点ルーター</a> /
+<a href="answer-review.txt">回答後レビュー</a> /
+<a href="tax-treaty-check.txt">租税条約チェック</a> /
+<a href="freshness-check.txt">最新性チェック</a> /
+<a href="prompts.txt">AI用テスト質問</a> /
 <a href="ai-rules.txt">AIに最初に読ませる固定税務回答ルール</a> /
 <a href="ai-packs/index.txt">法人国際税務AI参照パック</a> /
 <a href="report.json">機械可読テスト結果</a></p>
@@ -1659,7 +2199,10 @@ section{{border-top:1px solid #ccc;margin-top:2rem}}code{{background:#f3f3f3;pad
 </body></html>
 """
     (base / "index.html").write_text(page, encoding="utf-8")
-    return len(ai_reference_packs)
+    return {
+        "ai_reference_pack_count": len(ai_reference_packs),
+        "ai_guidance_file_count": len(ai_guidance_files),
+    }
 
 
 def run_tax_question_tests(
@@ -1692,7 +2235,7 @@ def run_tax_question_tests(
                 ],
             }
         )
-    ai_reference_pack_count = _write_outputs(root, mirror_base, results, repairs)
+    output_counts = _write_outputs(root, mirror_base, results, repairs)
     return {
         "tax_question_scenarios": len(results),
         "tax_question_source_checks": sum(len(item["sources"]) for item in results),
@@ -1704,6 +2247,7 @@ def run_tax_question_tests(
             for item in results
             for items in item["answer_review_guide"].values()
         ),
-        "tax_question_ai_reference_packs": ai_reference_pack_count,
+        "tax_question_ai_reference_packs": output_counts["ai_reference_pack_count"],
+        "tax_question_ai_guidance_files": output_counts["ai_guidance_file_count"],
         "tax_question_navigation_repairs": repairs,
     }

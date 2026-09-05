@@ -9,12 +9,14 @@ from jplawdb_mirror.core import Config, DiscoveryPlan, generate_manifest
 from jplawdb_mirror.tax_questions import (
     ANSWER_CHECKLISTS,
     ANSWER_REVIEW_GUIDES,
+    AI_GUIDANCE_FILE_PATHS,
     AI_REFERENCE_PACKS,
     AI_RULES_TEXT,
     SCENARIOS,
     SourceCheck,
     TaxQuestionScenario,
     TaxQuestionTestError,
+    TOPIC_ROUTER_RULES,
     repair_broken_question_guides,
     run_tax_question_tests,
 )
@@ -77,7 +79,10 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
         self.assertIn("CFC税制", AI_RULES_TEXT)
         self.assertIn("租税条約", AI_RULES_TEXT)
         self.assertIn("確認不能", AI_RULES_TEXT)
+        self.assertIn("tax-question-tests/START_HERE.txt", AI_RULES_TEXT)
+        self.assertIn("tax-question-tests/topic-router.txt", AI_RULES_TEXT)
         self.assertIn("tax-question-tests/ai-packs/index.txt", AI_RULES_TEXT)
+        self.assertIn("tax-question-tests/answer-review.txt", AI_RULES_TEXT)
 
     def test_international_ai_reference_packs_cover_reviewed_scenarios(self) -> None:
         self.assertEqual(
@@ -105,6 +110,36 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
                 self.assertGreaterEqual(len(pack["accuracy_points"]), 3)
                 self.assertGreaterEqual(len(pack["red_flags"]), 3)
                 self.assertGreaterEqual(len(pack["answer_template"]), 4)
+
+    def test_topic_router_points_to_packs_and_guides(self) -> None:
+        self.assertEqual(len(AI_GUIDANCE_FILE_PATHS), 7)
+        self.assertIn("tax-question-tests/START_HERE.txt", AI_GUIDANCE_FILE_PATHS)
+        self.assertIn("tax-question-tests/topic-router.json", AI_GUIDANCE_FILE_PATHS)
+        pack_ids = set(AI_REFERENCE_PACKS)
+        routed_pack_ids = {
+            rule["pack_id"]
+            for rule in TOPIC_ROUTER_RULES
+            if isinstance(rule.get("pack_id"), str)
+        }
+        self.assertTrue(pack_ids <= routed_pack_ids)
+        self.assertTrue(
+            any(
+                rule["id"] == "tax-treaty"
+                and rule["guide_path"] == "tax-question-tests/tax-treaty-check.txt"
+                for rule in TOPIC_ROUTER_RULES
+            )
+        )
+        self.assertTrue(
+            any(
+                rule["id"] == "freshness"
+                and rule["guide_path"] == "tax-question-tests/freshness-check.txt"
+                for rule in TOPIC_ROUTER_RULES
+            )
+        )
+        for rule in TOPIC_ROUTER_RULES:
+            with self.subTest(rule_id=rule["id"]):
+                self.assertGreaterEqual(len(rule["trigger_terms"]), 5)
+                self.assertGreaterEqual(len(rule["first_questions"]), 3)
 
     def scenario(self) -> tuple[TaxQuestionScenario, ...]:
         return (
@@ -146,10 +181,15 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             self.assertEqual(metrics["tax_question_answer_check_items"], 0)
             self.assertEqual(metrics["tax_question_answer_review_items"], 0)
             self.assertEqual(metrics["tax_question_ai_reference_packs"], 0)
+            self.assertEqual(
+                metrics["tax_question_ai_guidance_files"],
+                len(AI_GUIDANCE_FILE_PATHS),
+            )
             self.assertEqual(report["answer_checklist_count"], 0)
             self.assertEqual(report["answer_review_item_count"], 0)
             self.assertEqual(report["ai_reference_pack_count"], 0)
             self.assertEqual(report["ai_reference_packs"], [])
+            self.assertEqual(report["ai_guidance_file_count"], len(AI_GUIDANCE_FILE_PATHS))
             self.assertEqual(report["scenarios"][0]["answer_checklist"], [])
             self.assertEqual(report["scenarios"][0]["answer_review_guide"], {})
             ai_rules = root / "tax-question-tests" / "ai-rules.txt"
@@ -161,6 +201,36 @@ class TaxQuestionTestRunnerTest(unittest.TestCase):
             self.assertIn(
                 "法人国際税務AI参照パック索引",
                 ai_pack_index.read_text(encoding="utf-8"),
+            )
+            start_here = root / "tax-question-tests" / "START_HERE.txt"
+            self.assertIn(
+                "利用者は毎回プロンプトを作らなくてよい",
+                start_here.read_text(encoding="utf-8"),
+            )
+            router = json.loads(
+                (root / "tax-question-tests" / "topic-router.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            self.assertEqual(router["schema_version"], 1)
+            self.assertGreaterEqual(len(router["rules"]), 8)
+            self.assertIn(
+                "租税条約チェックガイド",
+                (root / "tax-question-tests" / "tax-treaty-check.txt").read_text(
+                    encoding="utf-8"
+                ),
+            )
+            self.assertIn(
+                "税務資料の最新性チェック",
+                (root / "tax-question-tests" / "freshness-check.txt").read_text(
+                    encoding="utf-8"
+                ),
+            )
+            self.assertIn(
+                "そのまま使える依頼文",
+                (root / "tax-question-tests" / "how-to-ask-ai.html").read_text(
+                    encoding="utf-8"
+                ),
             )
             self.assertEqual(
                 report["scenarios"][0]["sources"][0]["observed_date"],

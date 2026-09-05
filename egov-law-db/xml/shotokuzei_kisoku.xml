@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Law Lang="ja" Era="Showa" Year="40" Num="011" PromulgateMonth="03" PromulgateDay="31" LawType="MinisterialOrdinance"><LawNum>昭和四十年大蔵省令第十一号</LawNum><LawBody><LawTitle Kana="しょとくぜいほうしこうきそく" Abbrev="" AbbrevKana="">所得税法施行規則</LawTitle>
+<Law Lang="ja" Era="Showa" Year="40" Num="011" PromulgateMonth="03" PromulgateDay="31" LawType="MinisterialOrdinance"><LawNum>昭和四十年大蔵省令第十一号</LawNum><LawBody><LawTitle Kana="しょとくぜいほうせこうきそく" Abbrev="" AbbrevKana="">所得税法施行規則</LawTitle>
     <EnactStatement>所得税法及び所得税法施行令の規定に基づき、並びに同法及び同令を実施するため、所得税法施行細則（昭和二十二年大蔵省令第二十九号）の全部を改正する省令を次のように定める。</EnactStatement>
     <TOC>
       <TOCLabel>目次</TOCLabel>
@@ -15314,12 +15314,13 @@
             </Paragraph>
           </Article>
           <Article Num="104">
-            <ArticleCaption>（計算書等の書式の特例）</ArticleCaption>
+            <ArticleCaption>（計算書等の書式等の特例）</ArticleCaption>
             <ArticleTitle>第百四条</ArticleTitle>
             <Paragraph Num="1">
               <ParagraphNum/>
               <ParagraphSentence>
-                <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第三（一）から別表第三（六）まで、別表第五（一）から別表第五（十五）まで及び別表第五（十七）から別表第九（三）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+                <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第二（一）、別表第二（三）から別表第二（五）まで、別表第三（一）から別表第三（六）まで、別表第五（一）から別表第五（十五）まで及び別表第五（十七）から別表第九（三）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+                <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを当該各表に定める大きさ以外の大きさ（産業標準化法（昭和二十四年法律第百八十五号）第二十条第一項（日本産業規格）に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
               </ParagraphSentence>
             </Paragraph>
           </Article>

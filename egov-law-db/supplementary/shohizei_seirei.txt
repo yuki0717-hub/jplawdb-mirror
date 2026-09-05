@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20260905
 law: 消費税法施行令 (shohizei_seirei)
 law_num: 昭和六十三年政令第三百六十号
 law_id: 363CO0000000360
-law_revision_id: 363CO0000000360_20260522_508CO0000000096
-as_of: 2026-08-31
+law_revision_id: 363CO0000000360_20260901_508CO0000000096
+as_of: 2026-09-05
 supplementary_count: 142
 ---
 [supplementary:001]
@@ -2649,3 +2649,6 @@ extract: true
 [suppl142-a1-p1-i5:sentence] 附則第三条第三項の規定
 [suppl142-a1-p1-i5:sentence] 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第
 [suppl142-a1-p1-i5:sentence] 号）の施行の日
+[suppl142-a4:caption] （課税仕入れ等の税額の控除に係る帳簿等の記載事項等に関する経過措置）
+[suppl142-a4:title] 第四条
+[suppl142-a4-p1:sentence] 新令第四十九条第一項の規定は、附則第一条第四号に定める日以後に国内において事業者が行う課税仕入れについて適用し、同日前に国内において事業者が行った課税仕入れについては、なお従前の例による。

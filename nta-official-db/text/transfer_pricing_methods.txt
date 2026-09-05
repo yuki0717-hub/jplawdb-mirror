@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/jimu-unei/hojin/010601/03.htm
 final_url: https://www.nta.go.jp/law/jimu-unei/hojin/010601/03.htm
 code: transfer_pricing_methods
 title: 第4章 独立企業間価格の算定等における留意点｜国税庁
-fetched_at: 2026-08-31T09:49:54.872511+00:00
+fetched_at: 2026-09-05T07:01:58.899498+00:00
 last_modified: Thu, 18 Jan 2024 09:36:48 GMT
 legal_as_of: 
 declared_charset: shift_jis

@@ -1,11 +1,11 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20260905
 law: 相続税法施行規則 (sozokuzei_kisoku)
 law_num: 昭和二十五年大蔵省令第十七号
 law_id: 325M50000040017
-law_revision_id: 325M50000040017_20260401_508M60000040009
-as_of: 2026-08-31
-supplementary_count: 59
+law_revision_id: 325M50000040017_20260901_506M60000040016
+as_of: 2026-09-05
+supplementary_count: 60
 ---
 [supplementary:001]
 label: 附 則
@@ -901,16 +901,24 @@ extract:
 
 [supplementary:058]
 label: 附 則
-amendment_law_num: 令和七年三月三一日財務省令第二一号
+amendment_law_num: 令和六年三月三〇日財務省令第一六号
 extract: 
 
 [suppl058:label] 附 則
-[suppl058-p1:sentence] この省令は、令和七年四月一日から施行する。
+[suppl058-p1:sentence] この省令は、令和八年九月一日から施行する。
 
 [supplementary:059]
+label: 附 則
+amendment_law_num: 令和七年三月三一日財務省令第二一号
+extract: 
+
+[suppl059:label] 附 則
+[suppl059-p1:sentence] この省令は、令和七年四月一日から施行する。
+
+[supplementary:060]
 label: 附 則
 amendment_law_num: 令和八年三月三一日財務省令第九号
 extract: 
 
-[suppl059:label] 附 則
-[suppl059-p1:sentence] この省令は、令和八年四月一日から施行する。
+[suppl060:label] 附 則
+[suppl060-p1:sentence] この省令は、令和八年四月一日から施行する。

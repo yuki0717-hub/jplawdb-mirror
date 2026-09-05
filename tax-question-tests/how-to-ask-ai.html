@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIに税務質問をするときの使い方</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;line-height:1.7}
+textarea{width:100%;min-height:9rem}code{background:#f3f3f3;padding:.1rem .25rem}
+</style></head><body>
+<h1>AIに税務質問をするときの使い方</h1>
+<p>毎回プロンプトを作る必要はありません。まず下の入口URLをAIに渡してから、税務質問を書いてください。</p>
+<h2>入口URL</h2>
+<p><a href="START_HERE.txt">https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/START_HERE.txt</a></p>
+<h2>そのまま使える依頼文</h2>
+<textarea readonly>以下の入口ファイルと関連資料を参照して、税務質問に回答してください。事実不足、確認不能、最新性、租税条約、制度混同チェックを必ず最後に示してください。入口URL: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/START_HERE.txt</textarea>
+<h2>AIが自動で確認するもの</h2>
+<ul>
+<li><a href="ai-rules.txt">固定回答ルール</a></li>
+<li><a href="topic-router.txt">論点ルーター</a></li>
+<li><a href="answer-review.txt">回答後レビュー</a></li>
+<li><a href="tax-treaty-check.txt">租税条約チェック</a></li>
+<li><a href="freshness-check.txt">最新性チェック</a></li>
+<li><a href="ai-packs/index.txt">法人国際税務パック索引</a></li>
+</ul>
+<h2>法人国際税務パック</h2><ul><li><a href="ai-packs/transfer-pricing.txt">移転価格・グループ内取引AI参照パック</a></li><li><a href="ai-packs/cfc.txt">CFC税制・外国関係会社AI参照パック</a></li><li><a href="ai-packs/foreign-tax-credit.txt">外国税額控除・外国子会社配当AI参照パック</a></li><li><a href="ai-packs/pe.txt">PE・外国法人申告AI参照パック</a></li><li><a href="ai-packs/withholding.txt">非居住者・外国法人源泉税AI参照パック</a></li><li><a href="ai-packs/interest-limitation.txt">過少資本税制・過大支払利子税制AI参照パック</a></li></ul>
+<p>このページは回答の正しさ自体を保証しません。最終判断は、e-Gov、国税庁、財務省などの公式原文で確認してください。</p>
+</body></html>

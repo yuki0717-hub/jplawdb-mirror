@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20260905
 law: 法人税法 (hojinzei)
 law_num: 昭和四十年法律第三十四号
 law_id: 340AC0000000034
 law_revision_id: 340AC0000000034_20260812_508AC0000000064
-as_of: 2026-08-31
+as_of: 2026-09-05
 article: 82-2
 title: 第八十二条の二
 deleted: false

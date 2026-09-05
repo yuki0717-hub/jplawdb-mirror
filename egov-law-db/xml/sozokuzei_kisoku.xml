@@ -583,7 +583,7 @@
         <Paragraph Num="1">
           <ParagraphNum/>
           <ParagraphSentence>
-            <Sentence Num="1" WritingMode="vertical">受託者の営業所等の長は、その作成した施行令第四条の二十第一項に規定する帳簿並びに障害者非課税信託申告書（当該障害者非課税信託申告書に添付された施行令第四条の十第一項に規定する財務省令で定める書類を含む。次項において同じ。）、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び施行令第四条の十六第三項に規定する障害者非課税信託に関する異動申告書（次項及び次条において「障害者非課税信託に関する異動申告書」という。）の写しを、各人別に整理し、当該帳簿及びこれらの申告書に係る特定障害者扶養信託契約に基づいて財産の信託がされた日から五年を経過する日の属する年の十二月三十一日又は当該信託が終了した日の属する年の翌年十二月三十一日のいずれか遅い日まで保存しなければならない。</Sentence>
+            <Sentence Num="1" WritingMode="vertical">受託者の営業所等の長は、その作成した施行令第四条の二十第一項に規定する帳簿並びに障害者非課税信託申告書（当該障害者非課税信託申告書に添付された施行令第四条の十第一項に規定する財務省令で定める書類を含む。次項において同じ。）、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び施行令第四条の十六第三項に規定する障害者非課税信託に関する異動申告書（次項及び次条第一項において「障害者非課税信託に関する異動申告書」という。）の写しを、各人別に整理し、当該帳簿及びこれらの申告書に係る特定障害者扶養信託契約に基づいて財産の信託がされた日から五年を経過する日の属する年の十二月三十一日又は当該信託が終了した日の属する年の翌年十二月三十一日のいずれか遅い日まで保存しなければならない。</Sentence>
           </ParagraphSentence>
         </Paragraph>
         <Paragraph Num="2">
@@ -601,6 +601,13 @@
           <ParagraphNum/>
           <ParagraphSentence>
             <Sentence Num="1" WritingMode="vertical">障害者非課税信託申告書、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び障害者非課税信託に関する異動申告書の書式は、それぞれ第一号書式から第四号書式までによる。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
+        <Paragraph Num="2">
+          <ParagraphNum>２</ParagraphNum>
+          <ParagraphSentence>
+            <Sentence Num="1" WritingMode="vertical">国税庁長官は、第一号書式から第四号書式までに定める書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+            <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを第一号書式から第四号書式までに定める大きさ以外の大きさ（産業標準化法（昭和二十四年法律第百八十五号）第二十条第一項（日本産業規格）に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
           </ParagraphSentence>
         </Paragraph>
       </Article>
@@ -4042,6 +4049,13 @@
             <Sentence Num="1" WritingMode="vertical">法第五十九条第一項第一号の調書は第五号書式又は第六号書式により、同項第二号の調書は第七号書式により、同条第二項の調書は第八号書式により、同条第三項の調書は第九号書式による。</Sentence>
           </ParagraphSentence>
         </Paragraph>
+        <Paragraph Num="2">
+          <ParagraphNum>２</ParagraphNum>
+          <ParagraphSentence>
+            <Sentence Num="1" WritingMode="vertical">国税庁長官は、第五号書式から第九号書式までに定める書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+            <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを第五号書式から第九号書式までに定める大きさ以外の大きさ（産業標準化法第二十条第一項（日本産業規格）に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
       </Article>
       <Article Num="32">
         <ArticleCaption>（特定目的会社等の範囲等）</ArticleCaption>
@@ -5838,6 +5852,15 @@
         </ParagraphSentence>
       </Paragraph>
     </SupplProvision>
+    <SupplProvision AmendLawNum="令和六年三月三〇日財務省令第一六号">
+      <SupplProvisionLabel>附　則</SupplProvisionLabel>
+      <Paragraph Num="1">
+        <ParagraphNum/>
+        <ParagraphSentence>
+          <Sentence Num="1" WritingMode="vertical">この省令は、令和八年九月一日から施行する。</Sentence>
+        </ParagraphSentence>
+      </Paragraph>
+    </SupplProvision>
     <SupplProvision AmendLawNum="令和七年三月三一日財務省令第二一号">
       <SupplProvisionLabel>附　則</SupplProvisionLabel>
       <Paragraph Num="1">
@@ -5860,7 +5883,7 @@
       <AppdxFormatTitle WritingMode="vertical">第一号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078566.pdf"/>
+          <Fig src="./pict/2FH00000078574.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5868,7 +5891,7 @@
       <AppdxFormatTitle WritingMode="vertical">第二号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078567.pdf"/>
+          <Fig src="./pict/2FH00000078575.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5876,7 +5899,7 @@
       <AppdxFormatTitle WritingMode="vertical">第三号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078568.pdf"/>
+          <Fig src="./pict/2FH00000078576.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5892,7 +5915,7 @@
       <AppdxFormatTitle WritingMode="vertical">第五号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078569.pdf"/>
+          <Fig src="./pict/2FH00000078577.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5900,7 +5923,7 @@
       <AppdxFormatTitle WritingMode="vertical">第六号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078570.pdf"/>
+          <Fig src="./pict/2FH00000078578.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5908,7 +5931,7 @@
       <AppdxFormatTitle WritingMode="vertical">第七号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078571.pdf"/>
+          <Fig src="./pict/2FH00000078579.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5916,7 +5939,7 @@
       <AppdxFormatTitle WritingMode="vertical">第八号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078572.pdf"/>
+          <Fig src="./pict/2FH00000078580.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>
@@ -5924,7 +5947,7 @@
       <AppdxFormatTitle WritingMode="vertical">第九号書式</AppdxFormatTitle>
       <FormatStruct>
         <Format>
-          <Fig src="./pict/2FH00000078573.pdf"/>
+          <Fig src="./pict/2FH00000078581.pdf"/>
         </Format>
       </FormatStruct>
     </AppdxFormat>

@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20260905
 law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
 law_num: 昭和三十二年大蔵省令第十五号
 law_id: 332M50000040015
-law_revision_id: 332M50000040015_20260731_508M60000040051
-as_of: 2026-08-31
+law_revision_id: 332M50000040015_20260901_507M60000040026
+as_of: 2026-09-05
 article: 18-23-2
 title: 第十八条の二十三の二
 deleted: false
@@ -30,3 +30,6 @@ deleted: false
 [a18-23-2-p2-i5:sentence] その他参考となるべき事項
 [a18-23-2-p3:number] ３
 [a18-23-2-p3:sentence] 法第四十一条の二の三第二項の調書の書式は、別表第八（二）による。
+[a18-23-2-p4:number] ４
+[a18-23-2-p4:sentence] 国税庁長官は、別表第八（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。
+[a18-23-2-p4:sentence] この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。

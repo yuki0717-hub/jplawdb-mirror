@@ -1,0 +1,33 @@
+# 税務AI回答 START_HERE
+
+このファイルをAIに最初に読ませる。利用者は毎回プロンプトを作らなくてよい。
+AIは以下の手順を必ず実行してから回答する。
+
+## 最初に読むURL
+- この入口: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/START_HERE.txt
+- 固定回答ルール: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-rules.txt
+- 論点ルーター: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/topic-router.txt
+- 回答後レビュー: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/answer-review.txt
+- 最新性チェック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/freshness-check.txt
+- 租税条約チェック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/tax-treaty-check.txt
+
+## AIの処理手順
+1. 質問文から税目・論点候補を複数挙げる。
+2. `topic-router.txt` で読むべきパックを選ぶ。
+3. 法人国際税務なら該当する `ai-packs/*.txt` を読む。
+4. 租税条約、届出、受益者、居住者証明、PE、最新性の確認要否を判定する。
+5. 事実不足がある場合、暫定回答と追加確認事項を分ける。
+6. 回答末尾に `answer-review.txt` の自己チェックを付ける。
+
+## 法人国際税務パック
+- 移転価格・グループ内取引AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/transfer-pricing.txt
+- CFC税制・外国関係会社AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/cfc.txt
+- 外国税額控除・外国子会社配当AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/foreign-tax-credit.txt
+- PE・外国法人申告AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/pe.txt
+- 非居住者・外国法人源泉税AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/withholding.txt
+- 過少資本税制・過大支払利子税制AI参照パック: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/interest-limitation.txt
+
+## 利用者の最短指示
+AIに次のように依頼する。
+
+「以下の入口ファイルと関連資料を参照して、税務質問に回答してください。事実不足、確認不能、最新性、租税条約、制度混同チェックを必ず最後に示してください。入口URL: https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/START_HERE.txt」

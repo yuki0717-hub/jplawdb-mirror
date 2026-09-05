@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20260905
 law: 国税通則法 (kokuzei_tsusoku)
 law_num: 昭和三十七年法律第六十六号
 law_id: 337AC0000000066
 law_revision_id: 337AC0000000066_20260521_505AC0000000003
-as_of: 2026-08-31
+as_of: 2026-09-05
 article: 77
 title: 第七十七条
 deleted: false

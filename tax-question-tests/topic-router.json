@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "purpose": "Route Japanese tax questions to AI guidance and reference packs.",
+  "always_read": [
+    "tax-question-tests/START_HERE.txt",
+    "tax-question-tests/ai-rules.txt",
+    "tax-question-tests/answer-review.txt",
+    "tax-question-tests/freshness-check.txt"
+  ],
+  "rules": [
+    {
+      "id": "transfer-pricing",
+      "title": "移転価格・グループ内取引",
+      "trigger_terms": [
+        "移転価格",
+        "国外関連者",
+        "独立企業間価格",
+        "ローカルファイル",
+        "同時文書化",
+        "無形資産",
+        "役務提供",
+        "保証料",
+        "グループ内金融"
+      ],
+      "first_questions": [
+        "取引相手は国外関連者か。",
+        "取引内容・契約条件・価格決定方法は何か。",
+        "比較対象取引と文書化資料はあるか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/transfer-pricing.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/transfer-pricing.txt"
+      ]
+    },
+    {
+      "id": "cfc",
+      "title": "CFC税制・外国関係会社",
+      "trigger_terms": [
+        "CFC",
+        "外国関係会社",
+        "タックスヘイブン",
+        "合算課税",
+        "部分対象所得",
+        "受動的所得",
+        "ペーパーカンパニー",
+        "経済活動基準"
+      ],
+      "first_questions": [
+        "直接・間接の保有割合と株主構成はどうなっているか。",
+        "外国法人の税負担割合、所在地国、主たる事業は何か。",
+        "会社単位合算か部分対象所得かを分ける必要があるか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/cfc.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/cfc.txt"
+      ]
+    },
+    {
+      "id": "foreign-tax-credit",
+      "title": "外国税額控除・外国子会社配当",
+      "trigger_terms": [
+        "外国税額控除",
+        "外国法人税",
+        "国外所得",
+        "控除限度額",
+        "外国子会社配当",
+        "益金不算入",
+        "二重課税",
+        "配当源泉税"
+      ],
+      "first_questions": [
+        "対象は外国税額控除か、外国子会社配当益金不算入か。",
+        "外国税の種類、納付国、納付日、課税標準は何か。",
+        "控除限度額、繰越、CFC課税済み所得との関係はどうか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/foreign-tax-credit.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/foreign-tax-credit.txt"
+      ]
+    },
+    {
+      "id": "pe",
+      "title": "PE・外国法人申告",
+      "trigger_terms": [
+        "PE",
+        "恒久的施設",
+        "外国法人",
+        "代理人PE",
+        "建設PE",
+        "事業利得",
+        "国内源泉所得",
+        "日本支店"
+      ],
+      "first_questions": [
+        "日本国内の拠点、人員、契約締結権限、活動期間はどうか。",
+        "国内法上のPEと租税条約上のPEを分けて確認したか。",
+        "PE帰属所得、帳簿、申告、源泉税調整が必要か。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/pe.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/pe.txt"
+      ]
+    },
+    {
+      "id": "withholding",
+      "title": "非居住者・外国法人源泉税",
+      "trigger_terms": [
+        "源泉税",
+        "源泉徴収",
+        "使用料",
+        "ロイヤルティ",
+        "利子",
+        "配当",
+        "租税条約届出",
+        "居住者証明",
+        "受益者"
+      ],
+      "first_questions": [
+        "支払内容は利子、配当、使用料、役務対価のどれか。",
+        "国内源泉所得該当性と国内法税率を確認したか。",
+        "租税条約の届出、受益者、居住者証明を確認したか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/withholding.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/withholding.txt"
+      ]
+    },
+    {
+      "id": "interest-limitation",
+      "title": "過少資本税制・過大支払利子税制",
+      "trigger_terms": [
+        "過少資本",
+        "過大支払利子",
+        "支払利子",
+        "国外関連者借入",
+        "親会社借入",
+        "保証",
+        "対象純支払利子",
+        "調整所得金額"
+      ],
+      "first_questions": [
+        "借入先、資本関係、負債残高、自己資本、利率はどうか。",
+        "過少資本税制と過大支払利子税制を別々に検討したか。",
+        "移転価格、寄附金、源泉税との重複を確認したか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/ai-packs/interest-limitation.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/ai-packs/interest-limitation.txt"
+      ]
+    },
+    {
+      "id": "tax-treaty",
+      "title": "租税条約横断チェック",
+      "trigger_terms": [
+        "租税条約",
+        "条約",
+        "軽減税率",
+        "免税",
+        "PE条項",
+        "事業利得条項",
+        "特典制限",
+        "LOB",
+        "PPT",
+        "相手国"
+      ],
+      "first_questions": [
+        "相手国と所得区分を確認したか。",
+        "国内法の課税関係と条約による制限を分けたか。",
+        "届出、居住者証明、受益者、特典制限を確認したか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/tax-treaty-check.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/tax-treaty-check.txt"
+      ]
+    },
+    {
+      "id": "freshness",
+      "title": "最新性・基準日チェック",
+      "trigger_terms": [
+        "最新",
+        "現在",
+        "令和",
+        "改正",
+        "適用開始",
+        "経過措置",
+        "いつ時点",
+        "事業年度",
+        "申告期限"
+      ],
+      "first_questions": [
+        "取引日、事業年度、申告期限、適用開始日を確認したか。",
+        "ミラー資料の as_of、snapshot、legal_as_of、fetched_at を確認したか。",
+        "古い可能性がある資料は公式原文で再確認するよう明記したか。"
+      ],
+      "read_paths": [
+        "tax-question-tests/freshness-check.txt"
+      ],
+      "read_urls": [
+        "https://yuki0717-hub.github.io/jplawdb-mirror/tax-question-tests/freshness-check.txt"
+      ]
+    }
+  ]
+}

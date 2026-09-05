@@ -475,6 +475,13 @@
               <Sentence Num="1" WritingMode="vertical">施行令第二条の四第三項において準用する所得税法施行令第四十九条に規定する特別非課税貯蓄申告書、特別非課税貯蓄申込書、特別非課税貯蓄限度額変更申告書、特別非課税貯蓄に関する異動申告書、特別非課税貯蓄廃止申告書及び特別非課税貯蓄相続申込書の書式は、それぞれ別表第二（一）から別表第二（六）までによる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
+          <Paragraph Num="3">
+            <ParagraphNum>３</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第二（一）及び別表第二（三）から別表第二（五）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを当該各表に定める大きさ以外の大きさ（産業標準化法（昭和二十四年法律第百八十五号）第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
         </Article>
         <Article Num="2_6">
           <ArticleCaption>（財産形成住宅貯蓄に係る有価証券の範囲等）</ArticleCaption>
@@ -1511,6 +1518,13 @@
               <Sentence Num="1" WritingMode="vertical">施行令第二条の二十六に規定する財産形成非課税住宅貯蓄申告書、財産形成非課税住宅貯蓄申込書、財産形成非課税住宅貯蓄限度額変更申告書、財産形成非課税住宅貯蓄に関する異動申告書、財産形成非課税住宅貯蓄の勤務先異動申告書、転職者等の財産形成非課税住宅貯蓄継続適用申告書、海外転勤者の財産形成非課税住宅貯蓄継続適用申告書、海外転勤者の国内勤務申告書、育児休業等をする者の財産形成非課税住宅貯蓄継続適用申告書、育児休業等期間変更申告書及び財産形成非課税住宅貯蓄廃止申告書の書式は、別表第三（一）から別表第三（八）までによる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
+          <Paragraph Num="2">
+            <ParagraphNum>２</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第三（一）及び別表第三（三）から別表第三（八）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを当該各表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
         </Article>
         <Article Num="3_8">
           <ArticleCaption>（財産形成年金貯蓄に係る定期預金等に含まれる預貯金の範囲等）</ArticleCaption>
@@ -2211,6 +2225,13 @@
             <ParagraphNum/>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">施行令第二条の三十三に規定する財産形成非課税年金貯蓄申告書、財産形成非課税年金貯蓄申込書、財産形成非課税年金貯蓄限度額変更申告書、財産形成非課税年金貯蓄に関する異動申告書、財産形成非課税年金貯蓄の勤務先異動申告書、転職者等の財産形成非課税年金貯蓄継続適用申告書、海外転勤者の財産形成非課税年金貯蓄継続適用申告書、海外転勤者の特別国内勤務申告書、育児休業等をする者の財産形成非課税年金貯蓄継続適用申告書、育児休業等期間変更申告書、財産形成非課税年金貯蓄廃止申告書、財産形成年金貯蓄の非課税適用確認申告書及び財産形成年金貯蓄者の退職等申告書の書式は、別表第三（一）から別表第三（十）までによる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="2">
+            <ParagraphNum>２</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第三（一）及び別表第三（三）から別表第三（十）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを当該各表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
         </Article>
@@ -5519,6 +5540,7 @@
             <ParagraphNum>３</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第四の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
         </Article>
@@ -5876,6 +5898,7 @@
             <ParagraphNum>３</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第五の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
         </Article>
@@ -7324,7 +7347,7 @@
             <Item Num="4">
               <ItemTitle>四</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">連携ソフトウエア（情報処理システム（情報処理の促進に関する法律第二条第三項に規定する情報処理システムをいう。以下この号において同じ。）から指令を受けて、当該情報処理システム以外の情報処理システムに指令を行うソフトウエアで、次に掲げる機能を有するものをいう。）のうち、イの指令を日本産業規格（産業標準化法（昭和二十四年法律第百八十五号）第二十条第一項に規定する日本産業規格をいう。イにおいて同じ。）Ｘ五七三一―八に基づき認証をする機能及びイの指令を受けた旨を記録する機能を有し、かつ、国際標準化機構及び国際電気標準会議の規格一五四〇八に基づき評価及び認証をされたもの以外のもの</Sentence>
+                <Sentence Num="1" WritingMode="vertical">連携ソフトウエア（情報処理システム（情報処理の促進に関する法律第二条第三項に規定する情報処理システムをいう。以下この号において同じ。）から指令を受けて、当該情報処理システム以外の情報処理システムに指令を行うソフトウエアで、次に掲げる機能を有するものをいう。）のうち、イの指令を日本産業規格（産業標準化法第二十条第一項に規定する日本産業規格をいう。イにおいて同じ。）Ｘ五七三一―八に基づき認証をする機能及びイの指令を受けた旨を記録する機能を有し、かつ、国際標準化機構及び国際電気標準会議の規格一五四〇八に基づき評価及び認証をされたもの以外のもの</Sentence>
               </ItemSentence>
               <Subitem1 Num="1">
                 <Subitem1Title>イ</Subitem1Title>
@@ -9436,7 +9459,8 @@
           <Paragraph Num="18">
             <ParagraphNum>１８</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical"/>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第六（一）及び別表第六（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさをこれらの表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="19">
@@ -13878,7 +13902,7 @@
               <ItemTitle>二</ItemTitle>
               <ItemSentence>
                 <Column Num="1">
-                  <Sentence Num="1" WritingMode="vertical">当該金融商品取引業者等の営業所の長が受理した特定管理口座開設届出書（電磁的方法（施行令第二十五条の九の二第八項に規定する電磁的方法をいう。第十八条の十三の四第二項、第十八条の十三の六第四項及び第十八条の十三の七第五項において同じ。）により提供された当該特定管理口座開設届出書に記載すべき事項を記録した電磁的記録を含む。）</Sentence>
+                  <Sentence Num="1" WritingMode="vertical">当該金融商品取引業者等の営業所の長が受理した特定管理口座開設届出書（電磁的方法（施行令第二十五条の九の二第八項に規定する電磁的方法をいう。第十八条の十三の四第二項、第十八条の十三の六第五項及び第十八条の十三の七第六項において同じ。）により提供された当該特定管理口座開設届出書に記載すべき事項を記録した電磁的記録を含む。）</Sentence>
                 </Column>
                 <Column Num="2">
                   <Sentence Num="1" WritingMode="vertical">当該特定管理口座開設届出書の提出があつた日</Sentence>
@@ -15045,7 +15069,7 @@
             <Item Num="5">
               <ItemTitle>五</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">第二号の特定口座（当該特定口座につき法第三十七条の十一の四第一項の規定の選択をしている場合に限る。）につき、源泉徴収選択口座内配当等受入開始届出書の提出（施行令第二十五条の十の十三第二項に規定する源泉徴収選択口座内配当等受入開始届出書の提出をいう。第十八条の十三の七において同じ。）又は源泉徴収選択口座内配当等受入終了届出書（施行令第二十五条の十の十三第四項に規定する源泉徴収選択口座内配当等受入終了届出書をいう。以下この号並びに第十八条の十三の七第二項及び第五項において同じ。）の提出（施行令第二十五条の十の十三第四項に規定する提出をいう。第十八条の十三の七第二項において同じ。）をしている場合には、その旨及び当該源泉徴収選択口座内配当等受入開始届出書の提出年月日又は源泉徴収選択口座内配当等受入終了届出書の提出年月日</Sentence>
+                <Sentence Num="1" WritingMode="vertical">第二号の特定口座（当該特定口座につき法第三十七条の十一の四第一項の規定の選択をしている場合に限る。）につき、源泉徴収選択口座内配当等受入開始届出書の提出（施行令第二十五条の十の十三第二項に規定する源泉徴収選択口座内配当等受入開始届出書の提出をいう。第十八条の十三の七において同じ。）又は源泉徴収選択口座内配当等受入終了届出書（施行令第二十五条の十の十三第四項に規定する源泉徴収選択口座内配当等受入終了届出書をいう。以下この号並びに第十八条の十三の七第二項及び第六項において同じ。）の提出（施行令第二十五条の十の十三第四項に規定する提出をいう。第十八条の十三の七第二項において同じ。）をしている場合には、その旨及び当該源泉徴収選択口座内配当等受入開始届出書の提出年月日又は源泉徴収選択口座内配当等受入終了届出書の提出年月日</Sentence>
               </ItemSentence>
             </Item>
             <Item Num="6">
@@ -15754,6 +15778,7 @@
             <ParagraphNum>５</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第七（一）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="6">
@@ -15919,7 +15944,7 @@
             <Item Num="2">
               <ItemTitle>二</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">その年（施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座（法第三十七条の十一の四第一項に規定する源泉徴収選択口座をいう。第四項及び次条において同じ。）にあつては、当該事由が生じた日までの期間に限る。以下この項及び第五項において同じ。）において法第三十七条の十一の四第一項の規定により所得税を徴収して納付すべき者の数</Sentence>
+                <Sentence Num="1" WritingMode="vertical">その年（施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座（法第三十七条の十一の四第一項に規定する源泉徴収選択口座をいう。第五項及び次条において同じ。）にあつては、当該事由が生じた日までの期間に限る。以下この項及び第六項において同じ。）において法第三十七条の十一の四第一項の規定により所得税を徴収して納付すべき者の数</Sentence>
               </ItemSentence>
             </Item>
             <Item Num="3">
@@ -15931,7 +15956,7 @@
             <Item Num="4">
               <ItemTitle>四</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">その年において生じた法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額の総額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該源泉徴収選択口座内調整所得金額の総額からその年の同項に規定する還付すべき金額に相当する金額の計算の基礎となつた金額（その年において生じた法第三十七条の十一の四第三項に規定する満たない部分の金額及び特定費用の金額をいう。第四項第四号及び第五項第三号において同じ。）の総額を控除した金額）</Sentence>
+                <Sentence Num="1" WritingMode="vertical">その年において生じた法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額の総額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該源泉徴収選択口座内調整所得金額の総額からその年の同項に規定する還付すべき金額に相当する金額の計算の基礎となつた金額（その年において生じた法第三十七条の十一の四第三項に規定する満たない部分の金額及び特定費用の金額をいう。第五項第四号及び第六項第三号において同じ。）の総額を控除した金額）</Sentence>
               </ItemSentence>
             </Item>
             <Item Num="5">
@@ -15949,6 +15974,13 @@
           </Paragraph>
           <Paragraph Num="4">
             <ParagraphNum>４</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第七（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="5">
+            <ParagraphNum>５</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">法第三十七条の十一の四第一項に規定する金融商品取引業者等は、同項又は同条第三項の規定による所得税の徴収又は還付をする場合には、これらの所得税の徴収又は還付につき、各年ごとに帳簿を備え、当該帳簿に特定口座源泉徴収選択届出書の提出をした居住者又は恒久的施設を有する非居住者の各人別に次に掲げる事項を記載し、その帳簿及び当該特定口座源泉徴収選択届出書（電磁的方法により提供された当該特定口座源泉徴収選択届出書に記載すべき事項を記録した電磁的記録を含む。以下この項において同じ。）を、その帳簿を閉鎖する日の属する年の翌年から七年間、当該金融商品取引業者等の当該特定口座源泉徴収選択届出書に係る源泉徴収選択口座が開設されていた営業所の所在地に保存しなければならない。</Sentence>
             </ParagraphSentence>
@@ -15995,8 +16027,8 @@
               </ItemSentence>
             </Item>
           </Paragraph>
-          <Paragraph Num="5">
-            <ParagraphNum>５</ParagraphNum>
+          <Paragraph Num="6">
+            <ParagraphNum>６</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">施行令第二十五条の十の十一第十四項に規定する財務省令で定める事項は、次に掲げる事項とする。</Sentence>
             </ParagraphSentence>
@@ -16109,13 +16141,13 @@
             <Item Num="1">
               <ItemTitle>一</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">法第三条の三第三項（同条第一項に規定する国外一般公社債等の利子等に係る部分を除く。以下この項及び第五項において同じ。）、第八条の三第三項（同条第二項第二号に係る部分に限る。以下この項及び第五項において同じ。）、第九条の二第二項又は第九条の三の二第一項の規定により源泉徴収選択口座内配当等（法第三十七条の十一の六第一項に規定する源泉徴収選択口座内配当等をいう。以下この条において同じ。）につき徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地</Sentence>
+                <Sentence Num="1" WritingMode="vertical">法第三条の三第三項（同条第一項に規定する国外一般公社債等の利子等に係る部分を除く。以下この項及び第六項において同じ。）、第八条の三第三項（同条第二項第二号に係る部分に限る。以下この項及び第六項において同じ。）、第九条の二第二項又は第九条の三の二第一項の規定により源泉徴収選択口座内配当等（法第三十七条の十一の六第一項に規定する源泉徴収選択口座内配当等をいう。以下この条において同じ。）につき徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地</Sentence>
               </ItemSentence>
             </Item>
             <Item Num="2">
               <ItemTitle>二</ItemTitle>
               <ItemSentence>
-                <Sentence Num="1" WritingMode="vertical">その年（施行令第二十五条の十の十三第七項において準用する施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座にあつては、当該事由が生じた日までの期間に限る。以下この項及び第六項において同じ。）において源泉徴収選択口座内配当等につき法第三条の三第三項、第八条の三第三項、第九条の二第二項又は第九条の三の二第一項の規定により所得税を徴収して納付すべき者の数</Sentence>
+                <Sentence Num="1" WritingMode="vertical">その年（施行令第二十五条の十の十三第七項において準用する施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座にあつては、当該事由が生じた日までの期間に限る。以下この項及び第七項において同じ。）において源泉徴収選択口座内配当等につき法第三条の三第三項、第八条の三第三項、第九条の二第二項又は第九条の三の二第一項の規定により所得税を徴収して納付すべき者の数</Sentence>
               </ItemSentence>
             </Item>
             <Item Num="3">
@@ -16145,6 +16177,13 @@
           </Paragraph>
           <Paragraph Num="5">
             <ParagraphNum>５</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第七（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="6">
+            <ParagraphNum>６</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">施行令第二十五条の十の十三第十六項の金融商品取引業者等は、源泉徴収選択口座内配当等につき法第三条の三第三項、第八条の三第三項、第九条の二第二項若しくは第九条の三の二第一項又は第三十七条の十一の六第七項の規定による所得税の徴収又は還付をする場合には、これらの所得税の徴収又は還付につき、各年ごとに帳簿を備え、当該帳簿に源泉徴収選択口座内配当等受入開始届出書の提出をした居住者又は恒久的施設を有する非居住者の各人別に次に掲げる事項を記載し、その帳簿、当該源泉徴収選択口座内配当等受入開始届出書（同条第二項に規定する源泉徴収選択口座内配当等受入開始届出書をいい、電磁的方法により提供された当該源泉徴収選択口座内配当等受入開始届出書に記載すべき事項を記録した電磁的記録を含む。以下この項において同じ。）及び源泉徴収選択口座内配当等受入終了届出書（電磁的方法により提供された当該源泉徴収選択口座内配当等受入終了届出書に記載すべき事項を記録した電磁的記録を含む。）を、その帳簿を閉鎖する日の属する年の翌年から七年間、当該金融商品取引業者等の当該源泉徴収選択口座内配当等受入開始届出書に係る源泉徴収選択口座が開設されていた営業所の所在地に保存しなければならない。</Sentence>
             </ParagraphSentence>
@@ -16191,8 +16230,8 @@
               </ItemSentence>
             </Item>
           </Paragraph>
-          <Paragraph Num="6">
-            <ParagraphNum>６</ParagraphNum>
+          <Paragraph Num="7">
+            <ParagraphNum>７</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">施行令第二十五条の十の十三第十七項に規定する財務省令で定める事項は、次に掲げる事項とする。</Sentence>
             </ParagraphSentence>
@@ -19340,7 +19379,8 @@
           <Paragraph Num="4">
             <ParagraphNum>４</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第七（三）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第七（三）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
         </Article>
@@ -20788,6 +20828,13 @@
           </Paragraph>
           <Paragraph Num="6">
             <ParagraphNum>６</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、前項の別表第七（三）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="7">
+            <ParagraphNum>７</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">第十八条の十三の五第十項の規定は、施行令第二十五条の十三の八第三十二項において準用する施行令第二十五条の十の十第三項の規定により法第三十七条の十四の二第二十九項の金融商品取引業者等が同項の居住者又は恒久的施設を有する非居住者の承諾を得る場合について準用する。</Sentence>
             </ParagraphSentence>
@@ -25264,6 +25311,13 @@
               <Sentence Num="1" WritingMode="vertical">法第四十一条の二の三第二項の調書の書式は、別表第八（二）による。</Sentence>
             </ParagraphSentence>
           </Paragraph>
+          <Paragraph Num="4">
+            <ParagraphNum>４</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第八（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
         </Article>
         <Article Num="18_23_3">
           <ArticleCaption>（令和六年分における所得税額の特別控除）</ArticleCaption>
@@ -26570,17 +26624,24 @@
           <Paragraph Num="2">
             <ParagraphNum>２</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical">施行令第二十六条の十一第一項に規定する財務省令で定める国債は、割引の方法により発行される国債でその発行の日から償還期限までの期間が三年であるものとする。</Sentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第九（一）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="3">
             <ParagraphNum>３</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical">施行令第二十六条の十一第一項に規定する財務省令で定める価額は、同項に規定する短期国債等（以下この項において「短期国債等」という。）の券面金額に、当該短期国債等に係る発行額に占める払込金の合計額の割合（当該短期国債等のその発行の日から償還期限までの期間が二月以内又は三月である場合において当該割合に小数点以下六位未満の端数があるときは、これを切り捨てるものとし、当該短期国債等の当該期間が六月又は一年である場合において当該割合に小数点以下五位未満の端数があるときは、これを切り捨てるものとし、当該短期国債等が前項に定める国債に該当する場合において当該割合に小数点以下四位未満の端数があるときは、これを切り捨てる。）を乗じて計算した金額とする。</Sentence>
+              <Sentence Num="1" WritingMode="vertical">施行令第二十六条の十一第一項に規定する財務省令で定める国債は、割引の方法により発行される国債でその発行の日から償還期限までの期間が三年であるものとする。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="4">
             <ParagraphNum>４</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">施行令第二十六条の十一第一項に規定する財務省令で定める価額は、同項に規定する短期国債等（以下この項において「短期国債等」という。）の券面金額に、当該短期国債等に係る発行額に占める払込金の合計額の割合（当該短期国債等のその発行の日から償還期限までの期間が二月以内又は三月である場合において当該割合に小数点以下六位未満の端数があるときは、これを切り捨てるものとし、当該短期国債等の当該期間が六月又は一年である場合において当該割合に小数点以下五位未満の端数があるときは、これを切り捨てるものとし、当該短期国債等が前項に定める国債に該当する場合において当該割合に小数点以下四位未満の端数があるときは、これを切り捨てる。）を乗じて計算した金額とする。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="5">
+            <ParagraphNum>５</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">施行令第二十六条の十一第三項第二号に規定する財務省令で定める要件は、次に掲げる要件とする。</Sentence>
             </ParagraphSentence>
@@ -26715,6 +26776,13 @@
             <ParagraphNum>７</ParagraphNum>
             <ParagraphSentence>
               <Sentence Num="1" WritingMode="vertical">前項の計算書の書式は、別表第九（二）による。</Sentence>
+            </ParagraphSentence>
+          </Paragraph>
+          <Paragraph Num="8">
+            <ParagraphNum>８</ParagraphNum>
+            <ParagraphSentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第九（二）の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてその用紙の大きさを同表に定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
         </Article>
@@ -45839,7 +45907,8 @@
           <Paragraph Num="29">
             <ParagraphNum>２９</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第十一（六）の様式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第十一（三）から別表第十一（五）までの書式及び別表第十一（六）の様式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを別表第十一（三）から別表第十一（六）までに定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="30">
@@ -46557,7 +46626,8 @@
           <Paragraph Num="22">
             <ParagraphNum>２２</ParagraphNum>
             <ParagraphSentence>
-              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第十二（六）の様式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="1" WritingMode="vertical">国税庁長官は、別表第十二（一）から別表第十二（五）までの書式及び別表第十二（六）の様式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。</Sentence>
+              <Sentence Num="2" WritingMode="vertical">この場合において、国税庁長官は、併せてこれらの用紙の大きさを別表第十二（一）から別表第十二（六）までに定める大きさ以外の大きさ（産業標準化法第二十条第一項に規定する日本産業規格に適合するものに限る。）とすることができる。</Sentence>
             </ParagraphSentence>
           </Paragraph>
           <Paragraph Num="23">

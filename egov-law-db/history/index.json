@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T09:49:52.460369+00:00",
+  "generated_at": "2026-09-05T07:01:55.418219+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -677,8 +677,8 @@
       "law_id": "363CO0000000360",
       "law_num": "昭和六十三年政令第三百六十号",
       "revision_count": 53,
-      "json_sha256": "603afaedf06a63b8ee6f17451476bb8107fe5514d6b671eed6adbf644d0bcb2b",
-      "text_sha256": "a790b9e3bbefd2d376d5806258cbbd421f76ec098cd14d36b3850629c8d7e601"
+      "json_sha256": "7b69b5d96649b16cae7ad1f6b86c27046edcf52da3857885a5340a54aeeae19f",
+      "text_sha256": "fdec80b058a27262a3656f7e9c754e1880c73c4b32560b2fedf79a9d29167d62"
     },
     {
       "code": "shotokuzei",

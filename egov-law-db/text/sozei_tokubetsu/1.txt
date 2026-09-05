@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20260905
 law: 租税特別措置法 (sozei_tokubetsu)
 law_num: 昭和三十二年法律第二十六号
 law_id: 332AC0000000026
 law_revision_id: 332AC0000000026_20260812_508AC0000000064
-as_of: 2026-08-31
+as_of: 2026-09-05
 article: 1
 title: 第一条
 deleted: false

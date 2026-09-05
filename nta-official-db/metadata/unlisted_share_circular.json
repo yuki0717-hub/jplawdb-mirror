@@ -4,7 +4,7 @@
   "expected_title": "気配相場等のある株式の評価",
   "source_url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm",
   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm",
-  "fetched_at": "2026-08-31T09:49:55.319581+00:00",
+  "fetched_at": "2026-09-05T07:01:59.294691+00:00",
   "last_modified": "Thu, 18 Jan 2024 09:30:04 GMT",
   "etag": "\"49a6-60f35022b62a8\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 18854,
   "source_sha256": "bb87c1d50af249c23004bdf88262a1a7915406f2ceabd8cad71e0a8f14a96936",
   "text_path": "text/unlisted_share_circular.txt",
-  "text_sha256": "9340eefe0c6820b05b5e3ddaa39720d6f7148f22a161d9ac831428c7a3d9d8df",
+  "text_sha256": "982b2f3227de17a03f006e888f5d810a250ebf152a36e86aa2e4453c2dd31403",
   "raw_path": "raw/unlisted_share_circular.html.txt",
   "raw_sha256": "6ec54e2422dff26544beb81ae2eb3dd049b68c7e15f0db38a644f9699edd1ba5"
 }

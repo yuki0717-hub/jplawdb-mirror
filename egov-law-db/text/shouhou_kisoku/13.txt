@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20260831
+source_url: https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20260905
 law: 商法施行規則 (shouhou_kisoku)
 law_num: 平成十四年法務省令第二十二号
 law_id: 414M60000010022
 law_revision_id: 414M60000010022_20231227_505M60000010049
-as_of: 2026-08-31
+as_of: 2026-09-05
 article: 13
 title: 第十三条
 deleted: false

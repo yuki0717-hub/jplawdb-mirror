@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260907
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20260914
 law: 所得税法施行令 (shotokuzei_seirei)
 law_num: 昭和四十年政令第九十六号
 law_id: 340CO0000000096
 law_revision_id: 340CO0000000096_20260522_508CO0000000093
-as_of: 2026-09-07
+as_of: 2026-09-14
 supplementary_count: 301
 ---
 [supplementary:001]
@@ -6094,8 +6094,7 @@ extract: true
 [suppl301-a1-p1-i2:sentence] 令和九年一月一日
 [suppl301-a1-p1-i3:title] 三
 [suppl301-a1-p1-i3:sentence] 第五条の改正規定
-[suppl301-a1-p1-i3:sentence] 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第
-[suppl301-a1-p1-i3:sentence] 号）の施行の日
+[suppl301-a1-p1-i3:sentence] 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日
 [suppl301-a1-p1-i4:title] 四
 [suppl301-a1-p1-i4:sentence] 第六条第八号ロの改正規定、第八十九条第七号の改正規定、第百二十条の二第一項第五号の改正規定、第百二十三条第三項第三号の改正規定、第百二十五条第二号の改正規定、第百三十二条第一項第一号ロ、第二号ロ及び第三号ロの改正規定、第百三十四条第一項第二号の改正規定、第二百二十五条の十六第二項第一号ハの改正規定並びに第二百九十一条の二第二項第一号ハの改正規定並びに附則第七条の規定
 [suppl301-a1-p1-i4:sentence] 二酸化炭素の貯留事業に関する法律（令和六年法律第三十八号）の施行の日

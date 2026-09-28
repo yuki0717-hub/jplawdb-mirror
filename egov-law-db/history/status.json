@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T09:02:03.995410+00:00",
+  "generated_at": "2026-09-28T09:52:34.403878+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -25,7 +25,7 @@
   "law_count_per_date": 12,
   "article_count": 9352,
   "supplementary_count": 8839,
-  "revision_count": 858,
+  "revision_count": 859,
   "snapshots": [
     {
       "schema_version": 1,
@@ -708,9 +708,9 @@
       "code": "sozei_tokubetsu_seirei",
       "law_id": "332CO0000000043",
       "law_num": "昭和三十二年政令第四十三号",
-      "revision_count": 149,
-      "json_sha256": "7280aa7f1e4d8f991315f0498fe8cabd7c7449cd2d6eeeb457cf4110cc88bec6",
-      "text_sha256": "d3cf662dc9b1e5eb8b892033f55fa247bd040d920e058e26e4277f2ea584d8a3"
+      "revision_count": 150,
+      "json_sha256": "9f9e656a781fcf5c8b15360a593bc06fabc753c8239b042474432e977bd1ac5c",
+      "text_sha256": "5a99b842a98283fa78a9cb6b8ae40f0fd418b2eb2d2507efd8dfdd53f148d67e"
     },
     {
       "code": "sozokuzei",

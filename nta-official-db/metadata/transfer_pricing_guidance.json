@@ -4,7 +4,7 @@
   "expected_title": "移転価格事務運営要領の制定について",
   "source_url": "https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm",
   "final_url": "https://www.nta.go.jp/law/jimu-unei/hojin/010601/00.htm",
-  "fetched_at": "2026-09-21T09:02:06.126339+00:00",
+  "fetched_at": "2026-09-28T09:52:36.369141+00:00",
   "last_modified": "Fri, 27 Mar 2026 04:27:07 GMT",
   "etag": "\"2ab7-64df9e9efd3a0\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 10935,
   "source_sha256": "0270515b253334db53ff8827d34b6e8ea77823111205eb880c1f71c7a70b9145",
   "text_path": "text/transfer_pricing_guidance.txt",
-  "text_sha256": "dc3766cc46706df74442ecb6e4f33350e50723375194ed0e08f15c0b0e577c4b",
+  "text_sha256": "8d87fbc21c66a8ef856c3fb89b76c22d8ba19667d9bde4ccf3022d88482531d8",
   "raw_path": "raw/transfer_pricing_guidance.html.txt",
   "raw_sha256": "856a3fbacf1b398ca21f98e381adf59e8cc59f0df30a57c402a1fd0e9c605af5"
 }

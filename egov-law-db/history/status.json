@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T09:52:34.403878+00:00",
+  "generated_at": "2026-10-12T10:56:28.534236+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -637,24 +637,24 @@
       "law_id": "340AC0000000034",
       "law_num": "昭和四十年法律第三十四号",
       "revision_count": 69,
-      "json_sha256": "b241bd693d4ec33c68d3bd107e932ff32650dc0a05bd5b11576fa35df841b8ea",
-      "text_sha256": "6023e2aa80acf3a70c539f5285417022c717f1a7a54dd053184edec777aae248"
+      "json_sha256": "8cf41b2bd19ff5fb3a3f0755c5384c7eba3ceb0944d4757e6ecda16f61a1aeee",
+      "text_sha256": "ae65e0225f1b6b3b1279d995042ea33d637958b0ce8e2c96da29f95144786201"
     },
     {
       "code": "hojinzei_seirei",
       "law_id": "340CO0000000097",
       "law_num": "昭和四十年政令第九十七号",
       "revision_count": 68,
-      "json_sha256": "22c49fa67f822bfd2932d984029d0834c953fcab550633087558aeb572a71fdd",
-      "text_sha256": "7496b6f4ae52f9c0ee7757d830b24865df350706eeb7bd2888a67ffa40d85a4f"
+      "json_sha256": "77c5ab80b87a08185c3b08bf8e5999b275da53a7d2263117195f61e4604ce24b",
+      "text_sha256": "c4488db00548743ddd2b122cec42d6d29aa8ff5989d01926fdb97ccd407960af"
     },
     {
       "code": "kokuzei_tsusoku",
       "law_id": "337AC0000000066",
       "law_num": "昭和三十七年法律第六十六号",
       "revision_count": 53,
-      "json_sha256": "830b982150223a9fb42ecf9abadba26050019285790a39b4c461e0708fabc663",
-      "text_sha256": "322a4d29c3105dac142742f9bceb80580e50db7b84242765636ed52197cd27cf"
+      "json_sha256": "4209edda53c8d01f24860e63e43b11f7a2a9c6430bd33011e45b1c5240a0d71f",
+      "text_sha256": "694bd82415478fa973716a02dfcf8da7844488fe1bd5ede27d733555c72fbc26"
     },
     {
       "code": "kokuzei_tsusoku_seirei",
@@ -669,24 +669,24 @@
       "law_id": "363AC0000000108",
       "law_num": "昭和六十三年法律第百八号",
       "revision_count": 65,
-      "json_sha256": "8ee11d2ec2e5847aff11902cc801a2c07e44c9884eba2549dff2715d2775143b",
-      "text_sha256": "239676fa294238f480f3565dbf7b8cca74cdc13db4b16fa83be0635ed5261981"
+      "json_sha256": "87fae599d4ee0bdc890a6b3802c841d94e7ee462ad5fb9349bd42f4fc9ed44b7",
+      "text_sha256": "a570bc56234f25e3e1ddd5f32aa745eb6e4f212b9b7d17d0bd5cb9ab6ed66fcb"
     },
     {
       "code": "shohizei_seirei",
       "law_id": "363CO0000000360",
       "law_num": "昭和六十三年政令第三百六十号",
       "revision_count": 53,
-      "json_sha256": "724e7a718f348d4eddae3fc57e100225ce4cf2d5a3386295764b183cc9896fe5",
-      "text_sha256": "b247dbc3d8d8c27be041528a704ccb57939774dafc376a30e5bff61e65490f16"
+      "json_sha256": "dd088f2977013936d556bf453b500fa8fc1a32579e420a9fe7998b1c149719f1",
+      "text_sha256": "8b9c4cdbacd197d59d1450f4fa0672c88159138efa0b2e09597ddb54267d68a9"
     },
     {
       "code": "shotokuzei",
       "law_id": "340AC0000000033",
       "law_num": "昭和四十年法律第三十三号",
       "revision_count": 84,
-      "json_sha256": "758047140c0e9c8aa778a41b222e715d71614b74d213caedf01c1971f2db17e5",
-      "text_sha256": "5c8477cdab2c1f9f5251cfa59ca1714e1fdb639a4ea8c74d1531c4d4a6d1e909"
+      "json_sha256": "e9df9af791041be5b8fd1524dd2b63b4f2610f9e50f1a2313e739b1d760ec769",
+      "text_sha256": "dab70597228e010284b2b55709955be2d32d45106e010cfc8dff05c0a7415959"
     },
     {
       "code": "shotokuzei_seirei",
@@ -701,15 +701,15 @@
       "law_id": "332AC0000000026",
       "law_num": "昭和三十二年法律第二十六号",
       "revision_count": 176,
-      "json_sha256": "61675352df6faaa6ce3ce7468dd269023ad40838a67e79428a2983dbf4ffc412",
-      "text_sha256": "545cd34625c53a6497f64b8cdb381b9868bf6cd8d2ad2c3bd48ee9a1d111eb0c"
+      "json_sha256": "2f9d1daf82c88da4b63579a514ba3fcefa61844fcdd9a3f24d747b3076fbcd65",
+      "text_sha256": "ec856776f3bb9e6b8574fb30dddf19f46c44a75de6c2f7e11baf79ee974a9fad"
     },
     {
       "code": "sozei_tokubetsu_seirei",
       "law_id": "332CO0000000043",
       "law_num": "昭和三十二年政令第四十三号",
       "revision_count": 150,
-      "json_sha256": "9f9e656a781fcf5c8b15360a593bc06fabc753c8239b042474432e977bd1ac5c",
+      "json_sha256": "de2dcbd98b0c4ed72abd56e203e41ca28cd9df82df1ec703ba7b2d3076ab65cf",
       "text_sha256": "5a99b842a98283fa78a9cb6b8ae40f0fd418b2eb2d2507efd8dfdd53f148d67e"
     },
     {

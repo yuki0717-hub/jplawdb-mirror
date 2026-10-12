@@ -130,9 +130,11 @@ e-Taxソフトで届出書を作成・提出してください。<br>
 <h5 class="marginBottom0">［受付時間］</h5>
 <p class="marginLeft1em marginTop0 marginBottom0">○　e-Taxの利用可能時間</p>
 <p class="marginLeft3em marginTop0 marginBottom0">e-Taxホームページの「<a href="https://www.e-tax.nta.go.jp/info_center/index.htm" target="_blank">e-Taxの利用可能時間</a>」をご確認ください。</p>
-<p class="marginLeft1em marginTop0 marginBottom0">○　税務署の開庁時間</p>
-<p class="marginLeft2em marginTop0">&emsp;8時30分から17時までです。<br>
-&emsp;ただし、税務署の閉庁日（土・日曜日・祝日等）は、受付を行っておりませんが、送付又は税務署の時間外収受箱に投函することにより、提出することができます。
+<p class="marginLeft1em marginTop0 marginBottom0 indent1">○　税務署の受付時間<br>
+　９時から15時までです。<br>
+　令和8年10月1日から、<span style="color: red;">全ての税務署で総合窓口の受付時間を原則として午前9時から午後3時まで</span>としておりますので、皆様の御理解と御協力をお願いいたします。<br>
+　なお、総合窓口の受付時間外であっても、開庁時間内（8時30分から17時まで）に来署された場合は、各種手続をご利用いただけますが、可能な限り受付時間内に来署いただきますようお願いいたします。<br>
+　※　土曜日、日曜日、祝日及び年末年始（12月29日から1月3日）は、執務を行っておりません。
 </p>
 
 <h5 class="marginBottom0">［相談窓口］</h5>

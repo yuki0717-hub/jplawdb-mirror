@@ -4,13 +4,13 @@
   "law_type": "MinisterialOrdinance",
   "law_id": "340M50000040011",
   "law_num": "昭和四十年大蔵省令第十一号",
-  "law_revision_id": "340M50000040011_20260901_506M60000040014",
-  "updated": "2026-09-01T00:21:13+09:00",
-  "amendment_enforcement_date": "2026-09-01",
-  "as_of": "2026-09-28",
+  "law_revision_id": "340M50000040011_20261001_507M60000040018",
+  "updated": "2026-10-01T03:12:58+09:00",
+  "amendment_enforcement_date": "2026-10-01",
+  "as_of": "2026-10-12",
   "article_count": 251,
   "supplementary_count": 159,
-  "xml_size": 2342624,
-  "xml_sha256": "501f7c6efd773877e3a1a3cccd9170103683f82eee610169b92852d946788103",
-  "source_url": "https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20260928"
+  "xml_size": 2342639,
+  "xml_sha256": "067257c6cbe4f299508e78eb0bda1b3dbca1d446f91b4690766a4d5d4cbdaa17",
+  "source_url": "https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20261012"
 }

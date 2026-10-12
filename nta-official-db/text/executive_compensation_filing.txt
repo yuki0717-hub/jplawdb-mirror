@@ -3,11 +3,11 @@ source_url: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104
 final_url: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/5104.htm
 code: executive_compensation_filing
 title: C1-23 事前確定届出給与に関する届出｜国税庁
-fetched_at: 2026-09-28T09:52:36.003809+00:00
-last_modified: Tue, 30 Jun 2026 08:31:40 GMT
+fetched_at: 2026-10-12T10:56:30.486950+00:00
+last_modified: Thu, 01 Oct 2026 01:01:35 GMT
 legal_as_of: 
 declared_charset: shift_jis
-source_sha256: b59197be45c013e2a1c60a2aa88a7d19beef34efea75ee490753d560c49e57bc
+source_sha256: 7e9b9511d5faab428555cdcd0850d67ffe29b941957406127138a1a97e99c53a
 ---
 ホーム
 税の情報・手続・用紙
@@ -50,9 +50,11 @@ e-Taxソフトで届出書を作成・提出してください。
 ［受付時間］
 ○　e-Taxの利用可能時間
 e-Taxホームページの「e-Taxの利用可能時間」をご確認ください。
-○　税務署の開庁時間
-8時30分から17時までです。
-ただし、税務署の閉庁日（土・日曜日・祝日等）は、受付を行っておりませんが、送付又は税務署の時間外収受箱に投函することにより、提出することができます。
+○　税務署の受付時間
+９時から15時までです。
+令和8年10月1日から、全ての税務署で総合窓口の受付時間を原則として午前9時から午後3時までとしておりますので、皆様の御理解と御協力をお願いいたします。
+なお、総合窓口の受付時間外であっても、開庁時間内（8時30分から17時まで）に来署された場合は、各種手続をご利用いただけますが、可能な限り受付時間内に来署いただきますようお願いいたします。
+※　土曜日、日曜日、祝日及び年末年始（12月29日から1月3日）は、執務を行っておりません。
 ［相談窓口］
 「国税に関するご相談について」をご確認ください。
 ［手続根拠］

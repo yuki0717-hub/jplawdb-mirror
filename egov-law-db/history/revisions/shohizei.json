@@ -201,7 +201,7 @@
       "law_title_kana": "しょうひぜいほう",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-04-03T17:00:56+09:00",
+      "updated": "2026-10-01T03:58:03+09:00",
       "amendment_promulgate_date": "2025-06-18",
       "amendment_enforcement_date": "2026-10-01",
       "amendment_enforcement_comment": null,
@@ -215,7 +215,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "UnEnforced"
+      "current_revision_status": "CurrentEnforced"
     },
     {
       "law_revision_id": "363AC0000000108_20261001_507AC0000000013",
@@ -238,7 +238,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "UnEnforced"
+      "current_revision_status": "PreviousEnforced"
     },
     {
       "law_revision_id": "363AC0000000108_20261001_428AC0000000015",
@@ -261,7 +261,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "UnEnforced"
+      "current_revision_status": "PreviousEnforced"
     },
     {
       "law_revision_id": "363AC0000000108_20260401_508AC0000000012",
@@ -270,7 +270,7 @@
       "law_title_kana": "しょうひぜいほう",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-04-03T17:08:49+09:00",
+      "updated": "2026-10-01T03:58:03+09:00",
       "amendment_promulgate_date": "2026-03-31",
       "amendment_enforcement_date": "2026-04-01",
       "amendment_enforcement_comment": null,

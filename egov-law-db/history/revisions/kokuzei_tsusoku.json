@@ -155,7 +155,7 @@
       "law_title_kana": "こくぜいつうそくほう",
       "abbrev": null,
       "category": "国税",
-      "updated": "2026-07-01T10:37:50+09:00",
+      "updated": "2026-10-06T13:10:19+09:00",
       "amendment_promulgate_date": "2026-06-24",
       "amendment_enforcement_date": "2026-06-24",
       "amendment_enforcement_comment": null,
@@ -169,7 +169,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "PreviousEnforced"
+      "current_revision_status": "CurrentEnforced"
     },
     {
       "law_revision_id": "337AC0000000066_20260525_506AC0000000052",

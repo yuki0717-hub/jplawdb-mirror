@@ -224,7 +224,7 @@
       "law_title_kana": "そぜいとくべつそちほうしこうれい",
       "abbrev": "租特法施行令",
       "category": "国税",
-      "updated": "2026-09-28T09:28:52+09:00",
+      "updated": "2026-10-16T00:12:03+09:00",
       "amendment_promulgate_date": "2026-09-04",
       "amendment_enforcement_date": "2026-10-16",
       "amendment_enforcement_comment": null,
@@ -238,7 +238,7 @@
       "repeal_date": null,
       "remain_in_force": false,
       "mission": "New",
-      "current_revision_status": "UnEnforced"
+      "current_revision_status": "CurrentEnforced"
     },
     {
       "law_revision_id": "332CO0000000043_20260731_508CO0000000098",
@@ -247,7 +247,7 @@
       "law_title_kana": "そぜいとくべつそちほうしこうれい",
       "abbrev": "租特法施行令",
       "category": "国税",
-      "updated": "2026-09-15T13:43:40+09:00",
+      "updated": "2026-10-16T00:12:03+09:00",
       "amendment_promulgate_date": "2026-03-31",
       "amendment_enforcement_date": "2026-07-31",
       "amendment_enforcement_comment": null,

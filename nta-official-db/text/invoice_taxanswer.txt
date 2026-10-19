@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm
 final_url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm
 code: invoice_taxanswer
 title: No.6496 仕入税額控除をするための帳簿及び請求書等の保存｜国税庁
-fetched_at: 2026-10-12T10:56:30.373761+00:00
+fetched_at: 2026-10-19T08:58:33.953153+00:00
 last_modified: Tue, 15 Sep 2026 08:57:57 GMT
 legal_as_of: 2026-04-01
 declared_charset: utf-8

@@ -1,11 +1,11 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261012
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261019
 law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
 law_num: 昭和三十二年政令第四十三号
 law_id: 332CO0000000043
-law_revision_id: 332CO0000000043_20260731_508CO0000000098
-as_of: 2026-10-12
-supplementary_count: 498
+law_revision_id: 332CO0000000043_20261016_508CO0000000270
+as_of: 2026-10-19
+supplementary_count: 499
 ---
 [supplementary:001]
 label: 附 則
@@ -19974,3 +19974,11 @@ extract: true
 [suppl498-a23:caption] （登録免許税の特例に関する経過措置）
 [suppl498-a23:title] 第二十三条
 [suppl498-a23-p1:sentence] 新令第四十二条の三第二項の規定は、施行日以後に新法第七十六条第一項第三号の土地に関する権利を取得する場合における同号に掲げる登記に係る登録免許税について適用し、施行日前に旧法第七十六条第一項第三号の土地に関する権利を取得した場合における同号に掲げる登記に係る登録免許税については、なお従前の例による。
+
+[supplementary:499]
+label: 附 則
+amendment_law_num: 令和八年九月四日政令第二七〇号
+extract: 
+
+[suppl499:label] 附 則
+[suppl499-p1:sentence] この政令は、地域公共交通の活性化及び再生に関する法律の一部を改正する法律の施行の日（令和八年十月十六日）から施行する。

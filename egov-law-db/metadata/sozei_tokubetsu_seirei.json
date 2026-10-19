@@ -4,13 +4,13 @@
   "law_type": "CabinetOrder",
   "law_id": "332CO0000000043",
   "law_num": "昭和三十二年政令第四十三号",
-  "law_revision_id": "332CO0000000043_20260731_508CO0000000098",
-  "updated": "2026-09-15T13:43:40+09:00",
-  "amendment_enforcement_date": "2026-07-31",
-  "as_of": "2026-10-12",
+  "law_revision_id": "332CO0000000043_20261016_508CO0000000270",
+  "updated": "2026-10-16T00:12:03+09:00",
+  "amendment_enforcement_date": "2026-10-16",
+  "as_of": "2026-10-19",
   "article_count": 526,
-  "supplementary_count": 498,
-  "xml_size": 13839852,
-  "xml_sha256": "769c7ca2170c0d6dfc36f98d29abcf89f02cd4bd9842eb3781d7859b8e8a16d2",
-  "source_url": "https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261012"
+  "supplementary_count": 499,
+  "xml_size": 13840380,
+  "xml_sha256": "a6791632291a25326f0326e6e165b3439a5e9f43af7c7b062be76ee6e5618705",
+  "source_url": "https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261019"
 }

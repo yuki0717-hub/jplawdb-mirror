@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T10:56:04.241437+00:00",
-  "as_of": "2026-10-12",
+  "generated_at": "2026-10-19T08:58:06.787312+00:00",
+  "as_of": "2026-10-19",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "law_count": 24,
   "article_count": 6077,
-  "supplementary_count": 4128,
+  "supplementary_count": 4130,
   "laws": [
     {
       "code": "hojinzei",
@@ -16,12 +16,12 @@
       "law_revision_id": "340AC0000000034_20261001_508AC0000000012",
       "updated": "2026-10-09T17:36:03+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 262,
       "supplementary_count": 344,
       "xml_size": 3216270,
       "xml_sha256": "dd38772135295531de12788d21cb6edb06db04c9cb7811ba1c499ff9e199018f",
-      "source_url": "https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340AC0000000034?occasion_date=20261019"
     },
     {
       "code": "hojinzei_kisoku",
@@ -32,12 +32,12 @@
       "law_revision_id": "340M50000040012_20261001_505M60000040013",
       "updated": "2026-10-01T03:13:52+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 295,
       "supplementary_count": 218,
       "xml_size": 2969546,
       "xml_sha256": "8e7e98aa497e276acde595044aa5ab5d541385175a5370bb7c037468ca3f2993",
-      "source_url": "https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340M50000040012?occasion_date=20261019"
     },
     {
       "code": "hojinzei_seirei",
@@ -48,12 +48,12 @@
       "law_revision_id": "340CO0000000097_20261001_507CO0000000121",
       "updated": "2026-10-01T03:10:44+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 465,
       "supplementary_count": 324,
       "xml_size": 6063990,
       "xml_sha256": "d328437869bbc9c15f5aa70b41b2e9fdcc7bda6bda2bbcb3c4f3a18501b560d7",
-      "source_url": "https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340CO0000000097?occasion_date=20261019"
     },
     {
       "code": "kaishahou",
@@ -64,12 +64,12 @@
       "law_revision_id": "417AC0000000086_20260812_508AC0000000064",
       "updated": "2026-08-12T00:26:23+09:00",
       "amendment_enforcement_date": "2026-08-12",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 1078,
       "supplementary_count": 33,
       "xml_size": 3171829,
       "xml_sha256": "f6a1aa510fb6007cad0d84d788090c4558a90dfa41b5a772e48081b7875ef261",
-      "source_url": "https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/417AC0000000086?occasion_date=20261019"
     },
     {
       "code": "kaishahou_kisoku",
@@ -80,12 +80,12 @@
       "law_revision_id": "418M60000010012_20240401_506M60000010011",
       "updated": "2024-04-09T15:24:48+09:00",
       "amendment_enforcement_date": "2024-04-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 303,
       "supplementary_count": 32,
       "xml_size": 1539662,
       "xml_sha256": "c1c1bd352707780a77a786ea6611cfe11249019518ab8612c89b9047daae6bd1",
-      "source_url": "https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/418M60000010012?occasion_date=20261019"
     },
     {
       "code": "kaishahou_seirei",
@@ -96,12 +96,12 @@
       "law_revision_id": "417CO0000000364_20210301_502CO0000000327",
       "updated": "2021-06-18T05:41:38+09:00",
       "amendment_enforcement_date": "2021-03-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 4,
       "supplementary_count": 3,
       "xml_size": 12614,
       "xml_sha256": "7255624b11398acf5f960cea890c765ae97446752f95c613556e944e7f9883b7",
-      "source_url": "https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/417CO0000000364?occasion_date=20261019"
     },
     {
       "code": "kokuzei_tsusoku",
@@ -112,12 +112,12 @@
       "law_revision_id": "337AC0000000066_20260624_508AC0000000046",
       "updated": "2026-10-06T13:10:19+09:00",
       "amendment_enforcement_date": "2026-06-24",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 194,
       "supplementary_count": 100,
       "xml_size": 934905,
       "xml_sha256": "741886f2611679a53e43f1a8570daad33772d0229267f6a429fc3a060afd84ea",
-      "source_url": "https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/337AC0000000066?occasion_date=20261019"
     },
     {
       "code": "kokuzei_tsusoku_kisoku",
@@ -128,12 +128,12 @@
       "law_revision_id": "337M50000040028_20260521_507M60000040025",
       "updated": "2026-05-21T01:27:07+09:00",
       "amendment_enforcement_date": "2026-05-21",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 30,
       "supplementary_count": 51,
       "xml_size": 131966,
       "xml_sha256": "33c4aa4f5a40383230bc1c0626c0b53e0ede5b46e74a10d1e3bcc3baddd93ef1",
-      "source_url": "https://laws.e-gov.go.jp/law/337M50000040028?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/337M50000040028?occasion_date=20261019"
     },
     {
       "code": "kokuzei_tsusoku_seirei",
@@ -144,12 +144,12 @@
       "law_revision_id": "337CO0000000135_20260401_507CO0000000126",
       "updated": "2026-04-01T04:58:35+09:00",
       "amendment_enforcement_date": "2026-04-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 82,
       "supplementary_count": 91,
       "xml_size": 360289,
       "xml_sha256": "50bd0aa2ac5b4f071851881ebefbee02c169ab5e38576bc36705675cecb869dc",
-      "source_url": "https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/337CO0000000135?occasion_date=20261019"
     },
     {
       "code": "shohizei",
@@ -160,12 +160,12 @@
       "law_revision_id": "363AC0000000108_20261001_507AC0000000070",
       "updated": "2026-10-01T03:58:03+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 85,
       "supplementary_count": 168,
       "xml_size": 1295992,
       "xml_sha256": "1440bbaf7ff2f81a117429eda64c4d0e6ae82f4e837e7984a995175060f9b9a5",
-      "source_url": "https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/363AC0000000108?occasion_date=20261019"
     },
     {
       "code": "shohizei_kisoku",
@@ -176,12 +176,12 @@
       "law_revision_id": "363M50000040053_20261001_508M60000040019",
       "updated": "2026-10-01T03:59:50+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 71,
       "supplementary_count": 62,
       "xml_size": 519201,
       "xml_sha256": "7ee39401dd0ed07d796f91d42c63d24d1c1feefbc91cbdf3d2f33591bda2ddd2",
-      "source_url": "https://laws.e-gov.go.jp/law/363M50000040053?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/363M50000040053?occasion_date=20261019"
     },
     {
       "code": "shohizei_seirei",
@@ -192,12 +192,12 @@
       "law_revision_id": "363CO0000000360_20261001_508CO0000000108",
       "updated": "2026-10-01T03:59:04+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 127,
       "supplementary_count": 143,
       "xml_size": 1288412,
       "xml_sha256": "9c3f745cff4e67b4463409f1a50a9821e882993219beeed18435c97c0399f6ed",
-      "source_url": "https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/363CO0000000360?occasion_date=20261019"
     },
     {
       "code": "shotokuzei",
@@ -208,12 +208,12 @@
       "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
       "updated": "2026-10-01T03:03:11+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 302,
       "supplementary_count": 353,
       "xml_size": 16442862,
       "xml_sha256": "95327793eada405ad0f2fed9a9e58f3d5c9db53303b0673ae456904576b1ded7",
-      "source_url": "https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340AC0000000033?occasion_date=20261019"
     },
     {
       "code": "shotokuzei_kisoku",
@@ -224,12 +224,12 @@
       "law_revision_id": "340M50000040011_20261001_507M60000040018",
       "updated": "2026-10-01T03:12:58+09:00",
       "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 251,
       "supplementary_count": 159,
       "xml_size": 2342639,
       "xml_sha256": "067257c6cbe4f299508e78eb0bda1b3dbca1d446f91b4690766a4d5d4cbdaa17",
-      "source_url": "https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340M50000040011?occasion_date=20261019"
     },
     {
       "code": "shotokuzei_seirei",
@@ -240,12 +240,12 @@
       "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
       "updated": "2026-09-08T11:57:35+09:00",
       "amendment_enforcement_date": "2026-05-22",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 462,
       "supplementary_count": 301,
       "xml_size": 3642263,
       "xml_sha256": "c4ee32b3acf6e9135c070fea3fd65f8624916555a96a3213a591e436860527bf",
-      "source_url": "https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/340CO0000000096?occasion_date=20261019"
     },
     {
       "code": "shouhou",
@@ -256,12 +256,12 @@
       "law_revision_id": "132AC0000000048_20260624_508AC0000000046",
       "updated": "2026-07-01T10:08:40+09:00",
       "amendment_enforcement_date": "2026-06-24",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 264,
       "supplementary_count": 66,
       "xml_size": 554295,
       "xml_sha256": "2afd4da758682f90d6fbefa57901f85bed91c5b6a08922a65dadb64e5c0fbeb1",
-      "source_url": "https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/132AC0000000048?occasion_date=20261019"
     },
     {
       "code": "shouhou_kisoku",
@@ -272,12 +272,12 @@
       "law_revision_id": "414M60000010022_20231227_505M60000010049",
       "updated": "2024-01-19T11:09:46+09:00",
       "amendment_enforcement_date": "2023-12-27",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 13,
       "supplementary_count": 12,
       "xml_size": 51472,
       "xml_sha256": "7d53c4c85d9ac0872be2b4322f004cee657c423876e01753770fd10a46612fb3",
-      "source_url": "https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/414M60000010022?occasion_date=20261019"
     },
     {
       "code": "shouhou_sekouhou",
@@ -288,12 +288,12 @@
       "law_revision_id": "132AC0000000049_20190401_430AC0000000029",
       "updated": "2025-08-22T15:53:44+09:00",
       "amendment_enforcement_date": "2019-04-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 113,
       "supplementary_count": 12,
       "xml_size": 71480,
       "xml_sha256": "c5ca53fee2c8e7bc625d2420157a9b3a79fa8fe3b58072587d49fdaf9d85faca",
-      "source_url": "https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/132AC0000000049?occasion_date=20261019"
     },
     {
       "code": "sozei_tokubetsu",
@@ -301,15 +301,15 @@
       "law_type": "Act",
       "law_id": "332AC0000000026",
       "law_num": "昭和三十二年法律第二十六号",
-      "law_revision_id": "332AC0000000026_20261001_508AC0000000012",
-      "updated": "2026-10-01T02:12:41+09:00",
-      "amendment_enforcement_date": "2026-10-01",
-      "as_of": "2026-10-12",
+      "law_revision_id": "332AC0000000026_20261016_508AC0000000035",
+      "updated": "2026-10-16T00:08:37+09:00",
+      "amendment_enforcement_date": "2026-10-16",
+      "as_of": "2026-10-19",
       "article_count": 496,
-      "supplementary_count": 489,
-      "xml_size": 14454070,
-      "xml_sha256": "ad866015a4c27c5307bd1826ad9559ddbd3b66978d064f7ae73069d40996f94f",
-      "source_url": "https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20261012"
+      "supplementary_count": 490,
+      "xml_size": 14454705,
+      "xml_sha256": "de2e3674ddff2d06173f5b105b0f7e1da0f9adae5f9c8266da6dbb1b2888cd42",
+      "source_url": "https://laws.e-gov.go.jp/law/332AC0000000026?occasion_date=20261019"
     },
     {
       "code": "sozei_tokubetsu_kisoku",
@@ -320,12 +320,12 @@
       "law_revision_id": "332M50000040015_20260901_508M60000040021",
       "updated": "2026-10-09T17:59:05+09:00",
       "amendment_enforcement_date": "2026-09-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 406,
       "supplementary_count": 403,
       "xml_size": 7866807,
       "xml_sha256": "ea654d5eb3faf02aca081c8d495884478f3688654c7a88718a5661e6ae1b6974",
-      "source_url": "https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/332M50000040015?occasion_date=20261019"
     },
     {
       "code": "sozei_tokubetsu_seirei",
@@ -333,15 +333,15 @@
       "law_type": "CabinetOrder",
       "law_id": "332CO0000000043",
       "law_num": "昭和三十二年政令第四十三号",
-      "law_revision_id": "332CO0000000043_20260731_508CO0000000098",
-      "updated": "2026-09-15T13:43:40+09:00",
-      "amendment_enforcement_date": "2026-07-31",
-      "as_of": "2026-10-12",
+      "law_revision_id": "332CO0000000043_20261016_508CO0000000270",
+      "updated": "2026-10-16T00:12:03+09:00",
+      "amendment_enforcement_date": "2026-10-16",
+      "as_of": "2026-10-19",
       "article_count": 526,
-      "supplementary_count": 498,
-      "xml_size": 13839852,
-      "xml_sha256": "769c7ca2170c0d6dfc36f98d29abcf89f02cd4bd9842eb3781d7859b8e8a16d2",
-      "source_url": "https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261012"
+      "supplementary_count": 499,
+      "xml_size": 13840380,
+      "xml_sha256": "a6791632291a25326f0326e6e165b3439a5e9f43af7c7b062be76ee6e5618705",
+      "source_url": "https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261019"
     },
     {
       "code": "sozokuzei",
@@ -352,12 +352,12 @@
       "law_revision_id": "325AC0000000073_20260401_506AC0000000008",
       "updated": "2026-04-01T01:14:46+09:00",
       "amendment_enforcement_date": "2026-04-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 110,
       "supplementary_count": 104,
       "xml_size": 834398,
       "xml_sha256": "a1725ede49b7f873758c995dfe5f82ef34a93b551bc2bdbe9d78fa932451fc35",
-      "source_url": "https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/325AC0000000073?occasion_date=20261019"
     },
     {
       "code": "sozokuzei_kisoku",
@@ -368,12 +368,12 @@
       "law_revision_id": "325M50000040017_20260901_506M60000040016",
       "updated": "2026-09-01T00:01:28+09:00",
       "amendment_enforcement_date": "2026-09-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 47,
       "supplementary_count": 60,
       "xml_size": 426396,
       "xml_sha256": "caa4d9d1a2173f683e9d0a0a359669066cf101f4dd6953c577ba0e0c77276751",
-      "source_url": "https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/325M50000040017?occasion_date=20261019"
     },
     {
       "code": "sozokuzei_seirei",
@@ -384,12 +384,12 @@
       "law_revision_id": "325CO0000000071_20260401_506CO0000000143",
       "updated": "2026-04-01T01:47:59+09:00",
       "amendment_enforcement_date": "2026-04-01",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-19",
       "article_count": 91,
       "supplementary_count": 102,
       "xml_size": 462828,
       "xml_sha256": "2cceefe1531b48c169643039c78c2ac1e58a81144420227a8278b7dc3076b16a",
-      "source_url": "https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20261012"
+      "source_url": "https://laws.e-gov.go.jp/law/325CO0000000071?occasion_date=20261019"
     }
   ]
 }

@@ -3,7 +3,7 @@ source_url: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_03.htm
 final_url: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_03.htm
 code: executive_compensation_circular
 title: 第3款 定期同額給与｜国税庁
-fetched_at: 2026-10-19T08:58:33.648960+00:00
+fetched_at: 2026-10-26T09:01:08.818072+00:00
 last_modified: Thu, 18 Jan 2024 09:31:45 GMT
 legal_as_of: 
 declared_charset: shift_jis

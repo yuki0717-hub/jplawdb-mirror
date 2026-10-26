@@ -4,7 +4,7 @@
   "expected_title": "第1款　資産の販売等に係る収益計上に関する通則",
   "source_url": "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm",
   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm",
-  "fetched_at": "2026-10-19T08:58:34.362787+00:00",
+  "fetched_at": "2026-10-26T09:01:09.676324+00:00",
   "last_modified": "Fri, 05 Sep 2025 08:30:06 GMT",
   "etag": "\"5b09-63e09a524c4b0\"",
   "declared_charset": "shift_jis",
@@ -14,7 +14,7 @@
   "source_size": 23305,
   "source_sha256": "0fa4fc5fc145618e57b6da4842045a2980deafcf4119fd3ec90ceeb05c9ce50a",
   "text_path": "text/revenue_recognition_circular.txt",
-  "text_sha256": "aa55ba340e5afaebb810974b2c82dfec4bddeadbf3353572bd21696a2cf78451",
+  "text_sha256": "13a1750a993a329d28c5151dd6fd72e885b258abf9a82f45c94f9a56d9628ef2",
   "raw_path": "raw/revenue_recognition_circular.html.txt",
   "raw_sha256": "a0c28834e04b44a6f148091f775aef54193984fdaccfffd741cbacc43924102f"
 }

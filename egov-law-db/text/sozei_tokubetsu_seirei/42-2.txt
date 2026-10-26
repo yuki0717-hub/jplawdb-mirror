@@ -1,10 +1,10 @@
 source: e-Gov法令検索
-source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261019
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043?occasion_date=20261026
 law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
 law_num: 昭和三十二年政令第四十三号
 law_id: 332CO0000000043
 law_revision_id: 332CO0000000043_20261016_508CO0000000270
-as_of: 2026-10-19
+as_of: 2026-10-26
 article: 42-2
 title: 第四十二条の二
 deleted: false

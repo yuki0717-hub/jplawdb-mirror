@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T09:01:07.332447+00:00",
+  "generated_at": "2026-11-02T11:15:39.196385+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -653,8 +653,8 @@
       "law_id": "337AC0000000066",
       "law_num": "昭和三十七年法律第六十六号",
       "revision_count": 53,
-      "json_sha256": "4209edda53c8d01f24860e63e43b11f7a2a9c6430bd33011e45b1c5240a0d71f",
-      "text_sha256": "694bd82415478fa973716a02dfcf8da7844488fe1bd5ede27d733555c72fbc26"
+      "json_sha256": "ac2989b2622d34b38161c5af16019db2fcdffa0b28069d429547c46ce76e0f96",
+      "text_sha256": "aa2038d6394249e0b6efda80b3bb995967ff325acbf91f8221e6df3fcc02adb8"
     },
     {
       "code": "kokuzei_tsusoku_seirei",
@@ -669,16 +669,16 @@
       "law_id": "363AC0000000108",
       "law_num": "昭和六十三年法律第百八号",
       "revision_count": 65,
-      "json_sha256": "87fae599d4ee0bdc890a6b3802c841d94e7ee462ad5fb9349bd42f4fc9ed44b7",
-      "text_sha256": "a570bc56234f25e3e1ddd5f32aa745eb6e4f212b9b7d17d0bd5cb9ab6ed66fcb"
+      "json_sha256": "41735bbf89dc4e9b0955e1da835a58795b75c6863503fc413161a0c28855e059",
+      "text_sha256": "321e1ddd4882cf4908aa530c3da7a568f34a3c78baf61d0e3f3ba86bf0f07818"
     },
     {
       "code": "shohizei_seirei",
       "law_id": "363CO0000000360",
       "law_num": "昭和六十三年政令第三百六十号",
       "revision_count": 53,
-      "json_sha256": "dd088f2977013936d556bf453b500fa8fc1a32579e420a9fe7998b1c149719f1",
-      "text_sha256": "8b9c4cdbacd197d59d1450f4fa0672c88159138efa0b2e09597ddb54267d68a9"
+      "json_sha256": "e616e24723fccec31b2063329c2cab6624ca3259b5f80cbce5c038cb3862c477",
+      "text_sha256": "b7ac007e8935300786c1fa856a430fe4cc529e1658a7c3d9685d29f8c5c08d5a"
     },
     {
       "code": "shotokuzei",
@@ -693,31 +693,31 @@
       "law_id": "340CO0000000096",
       "law_num": "昭和四十年政令第九十六号",
       "revision_count": 63,
-      "json_sha256": "ac4ed736f510f0e532cfb7745d645c5129efdff91c2c6c5655303d8359b5a1fb",
-      "text_sha256": "1bc22a621a5d011c332d257d70ddaa38fe8a403570adb611434a2244ce2dbcff"
+      "json_sha256": "9c9293ef19fa92ac047ac9dbcfcfa9364b584c84f04022ea18c64dcea6026415",
+      "text_sha256": "1ff62cd27cb82075b2ebe7651415b80276e29bb94b00406b33e5be7913caeb14"
     },
     {
       "code": "sozei_tokubetsu",
       "law_id": "332AC0000000026",
       "law_num": "昭和三十二年法律第二十六号",
       "revision_count": 176,
-      "json_sha256": "873456970da299ca44ae2b7e4bb4035053e709d4813ac82195745f8e75f2a3d8",
-      "text_sha256": "d93e115fa953b587b7f0fef865558ebee45d76771765c6fd7e3b7f8694cdce68"
+      "json_sha256": "ff113fa2feee5be733a8ba789bbd928c3dcc626adfb54781d4c4eb431309940d",
+      "text_sha256": "b15691d65ae71d292e1bc3c26b6526f21f493f5ece749cbea4c17a8045d5fefa"
     },
     {
       "code": "sozei_tokubetsu_seirei",
       "law_id": "332CO0000000043",
       "law_num": "昭和三十二年政令第四十三号",
       "revision_count": 150,
-      "json_sha256": "3124e64c0bd6a9d70892b6a211fbffb3f51d3257b454ed4980c8c35f6056f981",
-      "text_sha256": "bb9ef9af30f6c666c8322c4f8ef4592f515c0a9c980062b50f8e6fd08dbb4996"
+      "json_sha256": "26bbde1c7c8dabd2d5d4c547c94a5bc370d04c170bde8d1ee015f87261b50e30",
+      "text_sha256": "a6e1de533f99ce2addcb932e5f79fc03d32cc8b30bd2c20cb0fbbfa17062627f"
     },
     {
       "code": "sozokuzei",
       "law_id": "325AC0000000073",
       "law_num": "昭和二十五年法律第七十三号",
       "revision_count": 33,
-      "json_sha256": "624caf2b1d5a7b6f7fa1391b770be8421adf0eb5097a568bd910253d8a7514ff",
+      "json_sha256": "b88c9ad49feaa72849e6b0d26c984f267a8c8459801ec0255ae1183b492a1670",
       "text_sha256": "ae9d6f858ace5a7c7025db841c610e7fd2e4e3a113c130ab07587d86414bad49"
     },
     {

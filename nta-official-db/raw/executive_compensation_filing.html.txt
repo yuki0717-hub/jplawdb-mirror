@@ -86,7 +86,7 @@
 <h5 class="marginBottom0">［提出方法］</h5>
 <p class="marginLeft1em marginTop0 marginBottom0">
 e-Taxソフトで届出書を作成・提出してください。<br>
-詳しくは、e-Taxホームページ「<a href="https://www.e-tax.nta.go.jp/e-taxsoft/index.htm" target="_blank">e-Taxソフトについて</a>」をご確認ください。
+詳しくは、e-Taxホームページ「<a href="https://www.e-tax.nta.go.jp/e-taxsoft/index.html" target="_blank">e-Taxソフトについて</a>」をご確認ください。
 </p>
 <p style="text-indent: -2em; padding-left: 3em; margin-top: 0; margin-bottom: 0">※　e-Taxを初めてご利用になる方は、利用者識別番号を取得する必要があります。詳しくは、国税庁ホームページ「<a href="/taxes/tetsuzuki/shinsei/annai/e-tax/annai/001.htm">H3-1電子申告・納税等開始（変更等）の届出</a>」をご確認ください。</p>
 <p style="text-indent: -2em; padding-left: 3em; margin-top: 0">※　書面で作成される場合は、届出書を１部、提出先に持参又は送付してください。</p>
@@ -129,7 +129,7 @@ e-Taxソフトで届出書を作成・提出してください。<br>
 
 <h5 class="marginBottom0">［受付時間］</h5>
 <p class="marginLeft1em marginTop0 marginBottom0">○　e-Taxの利用可能時間</p>
-<p class="marginLeft3em marginTop0 marginBottom0">e-Taxホームページの「<a href="https://www.e-tax.nta.go.jp/info_center/index.htm" target="_blank">e-Taxの利用可能時間</a>」をご確認ください。</p>
+<p class="marginLeft3em marginTop0 marginBottom0">e-Taxホームページの「<a href="https://www.e-tax.nta.go.jp/info_center/index.html" target="_blank">e-Taxの利用可能時間</a>」をご確認ください。</p>
 <p class="marginLeft1em marginTop0 marginBottom0 indent1">○　税務署の受付時間<br>
 　９時から15時までです。<br>
 　令和8年10月1日から、<span style="color: red;">全ての税務署で総合窓口の受付時間を原則として午前9時から午後3時まで</span>としておりますので、皆様の御理解と御協力をお願いいたします。<br>

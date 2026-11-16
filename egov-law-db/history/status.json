@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T11:39:36.620765+00:00",
+  "generated_at": "2026-11-16T11:28:02.141632+00:00",
   "api_base": "https://laws.e-gov.go.jp/api/2",
   "dates": [
     "2025-04-01",
@@ -709,7 +709,7 @@
       "law_id": "332CO0000000043",
       "law_num": "昭和三十二年政令第四十三号",
       "revision_count": 150,
-      "json_sha256": "26bbde1c7c8dabd2d5d4c547c94a5bc370d04c170bde8d1ee015f87261b50e30",
+      "json_sha256": "92e89d8bfb2cf30f9ca3e44f90d833674f98ac314c5f2ae531ba0b50130ab9d9",
       "text_sha256": "a6e1de533f99ce2addcb932e5f79fc03d32cc8b30bd2c20cb0fbbfa17062627f"
     },
     {
